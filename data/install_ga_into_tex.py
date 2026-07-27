@@ -30,13 +30,13 @@ CRC_SPECIAL = {
 }
 
 CAPTIONS = {
-    "art01": "Graphical abstract: study workflow with real locked-test Kaplan--Meier / model outputs from this article (metrics from analysis\\_summary).",
-    "art02": "Graphical abstract: clinical--genomic workflow with real validation outputs from this article.",
-    "art03": "Graphical abstract: RFS modeling workflow with real test-set survival outputs from this article.",
-    "art04": "Graphical abstract: risk $\\times$ chemotherapy interaction workflow with real subgroup outputs from this article.",
-    "art05": "Graphical abstract: cross-platform subtype validation workflow with real cohort outputs from this article.",
-    "art06": "Graphical abstract: immune--genomic workflow with real validation outputs from this article.",
-    "art07": "Graphical abstract: stage II/III subgroup RFS workflow with real test-set outputs from this article.",
+    "art01": "Graphical abstract: schematic clinical--transcriptomic OS workflow; inset metrics/plots are from this article's locked analysis.",
+    "art02": "Graphical abstract: schematic clinical--genomic OS workflow; inset evidence is from this article's analysis outputs.",
+    "art03": "Graphical abstract: schematic RFS workflow; inset evidence is from this article's analysis outputs.",
+    "art04": "Graphical abstract: schematic risk $\\times$ chemotherapy interaction workflow; inset evidence is from this article's analysis outputs.",
+    "art05": "Graphical abstract: schematic cross-platform subtyping workflow; inset evidence is from this article's analysis outputs.",
+    "art06": "Graphical abstract: schematic immune--genomic OS workflow; inset evidence is from this article's analysis outputs.",
+    "art07": "Graphical abstract: schematic stage II/III subgroup RFS workflow; inset evidence is from this article's analysis outputs.",
 }
 
 

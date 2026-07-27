@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
-"""Compose Nature-style GAs from REAL paper figures + metrics (no fabricated plots)."""
+"""
+Nature-style graphical abstracts:
+- Main visual = schematic workflow (journal GA look)
+- Any numbers / mini-charts MUST come from this article's real outputs
+- Do not invent KM/ROC/p-values
+"""
 from __future__ import annotations
 
 import json
@@ -7,7 +12,7 @@ import math
 import shutil
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT_WEB = Path(__file__).resolve().parents[1] / "assets" / "ga"
@@ -36,47 +41,48 @@ CANCER_EN = {
     "kirc": "Clear Cell Renal Cell Carcinoma",
 }
 METHOD_TITLE = {
-    "art01": "Clinical–Transcriptomic OS Model",
-    "art02": "Clinical–Genomic OS Model",
-    "art03": "Clinical–Transcriptomic RFS Model",
+    "art01": "Clinical–Transcriptomic OS",
+    "art02": "Clinical–Genomic OS",
+    "art03": "Clinical–Transcriptomic RFS",
     "art04": "Risk × Chemotherapy Interaction",
-    "art05": "Cross-Platform Subtype Validation",
-    "art06": "Clinical–Immune–Genomic OS Model",
-    "art07": "Stage II/III Subgroup RFS Model",
+    "art05": "Cross-Platform Subtyping",
+    "art06": "Immune–Genomic OS",
+    "art07": "Stage II/III Subgroup RFS",
 }
-METHOD_STEPS = {
-    "art01": ["Cohort", "Feature lock", "Cox model", "Validation"],
-    "art02": ["Cohort", "Mut/TMB/MMR", "Cox model", "Validation"],
-    "art03": ["RFS cohort", "Feature lock", "Cox model", "Validation"],
-    "art04": ["Risk score", "Chemo status", "Interaction", "Subgroup KM"],
-    "art05": ["RNA-seq", "Microarray", "Mapping", "Agreement"],
-    "art06": ["Immune", "TMB/MMR", "Integrated", "Validation"],
-    "art07": ["Stage II/III", "Feature lock", "Cox model", "Validation"],
+# schematic panel labels (no fabricated stats)
+PANELS = {
+    "art01": [("Cohort", "Clinical + RNA"), ("Lock", "Train-only select"), ("Model", "Ridge Cox"), ("Check", "Locked test")],
+    "art02": [("Cohort", "Clinical"), ("Genome", "Mut / TMB / MMR"), ("Model", "Cox"), ("Check", "Validation")],
+    "art03": [("Cohort", "RFS endpoint"), ("Lock", "Train-only"), ("Model", "Cox"), ("Check", "Locked test")],
+    "art04": [("Score", "Transcriptomic risk"), ("Treat", "Chemo ±"), ("Test", "Interaction"), ("Readout", "Subgroups")],
+    "art05": [("RNA-seq", "Platform A"), ("Array", "Platform B"), ("Map", "Subtype call"), ("Agree", "Consistency")],
+    "art06": [("Immune", "IFN-γ / infiltrate"), ("Genome", "TMB / MMR"), ("Model", "Integrated"), ("Check", "Validation")],
+    "art07": [("Filter", "Stage II/III"), ("Lock", "Train-only"), ("Model", "Cox"), ("Check", "Locked test")],
 }
 CRC_SPECIAL = {
     "art05": "article05_cms_subtyping_validation",
     "art07": "article07_stage23_rfs_model",
 }
 
-# palette
 BG = (255, 255, 255)
 INK = (21, 32, 40)
-SOFT = (74, 91, 104)
+SOFT = (90, 105, 118)
 TEAL = (15, 110, 106)
-TEAL_SOFT = (216, 239, 237)
-LINE = (213, 222, 230)
-CORAL = (196, 92, 74)
+TEAL_SOFT = (232, 245, 243)
+TEAL_MID = (168, 214, 209)
+LINE = (210, 220, 228)
+CORAL = (184, 90, 72)
+NAVY = (30, 58, 95)
 
 W, H = 1600, 900
 
 
 def font(size: int, bold: bool = False):
-    candidates = [
+    paths = [
         r"C:\Windows\Fonts\arialbd.ttf" if bold else r"C:\Windows\Fonts\arial.ttf",
         r"C:\Windows\Fonts\calibrib.ttf" if bold else r"C:\Windows\Fonts\calibri.ttf",
-        r"C:\Windows\Fonts\segoeui.ttf",
     ]
-    for p in candidates:
+    for p in paths:
         if Path(p).exists():
             return ImageFont.truetype(p, size)
     return ImageFont.load_default()
@@ -112,41 +118,34 @@ def fmt_p(p: float) -> str:
         return ""
     if p < 1e-4:
         return f"{p:.1e}"
-    if p < 0.001:
-        return f"{p:.2e}"
     return f"{p:.3f}"
 
 
 def pick_metrics(mid: str, s: dict) -> list[tuple[str, str]]:
-    """Return real metric badges only; skip missing/empty."""
     out: list[tuple[str, str]] = []
 
-    def add(label: str, key_candidates: list[str], fmt=" {:.3f}"):
-        for k in key_candidates:
-            if k in s and s[k] is not None and not isinstance(s[k], (dict, list)):
-                try:
-                    v = float(s[k])
-                except Exception:
-                    out.append((label, str(s[k])))
-                    return
-                if "p" in label.lower() or "logrank" in k.lower() or k.endswith("_p"):
-                    out.append((label, fmt_p(v)))
-                elif abs(v) >= 100:
-                    out.append((label, f"{v:.0f}"))
-                else:
-                    out.append((label, fmt.format(v).strip()))
+    def add(label: str, keys: list[str]):
+        for k in keys:
+            if k not in s or s[k] is None or isinstance(s[k], (dict, list)):
+                continue
+            try:
+                v = float(s[k])
+            except Exception:
+                out.append((label, str(s[k])))
                 return
+            if "p" in label.lower() or k.endswith("_p") or "logrank" in k:
+                out.append((label, fmt_p(v)))
+            elif abs(v) >= 100:
+                out.append((label, f"{int(round(v))}"))
+            else:
+                out.append((label, f"{v:.3f}"))
+            return
 
-    add("n", ["n_merged", "n_total", "train_n", "tcga_n"])
-    if "n_test" in s:
-        add("n_test", ["n_test"])
+    add("n", ["n_merged", "tcga_n", "train_n"])
     if mid in {"art01", "art02", "art03", "art06", "art07"}:
+        add("C-index clin", ["c_index_test_clinical", "test_cindex_clinical", "cindex_clinical"])
         add(
-            "C-index clin",
-            ["c_index_test_clinical", "test_cindex_clinical", "cindex_clinical"],
-        )
-        add(
-            "C-index full",
+            "C-index model",
             [
                 "c_index_test_full",
                 "test_cindex_integrated",
@@ -155,18 +154,16 @@ def pick_metrics(mid: str, s: dict) -> list[tuple[str, str]]:
                 "cindex_immune_tmb",
             ],
         )
-        add("ΔC-index", ["delta_c_index_test", "delta_cindex"])
-        add("log-rank p", ["logrank_p_test", "logrank_p", "logrank_p_all"])
+        add("ΔC", ["delta_c_index_test", "delta_cindex"])
     if mid == "art04":
         add("C-index", ["prognostic_cindex_test"])
-        add("Interaction HR", ["interaction_hr_test", "interaction_hr"])
-        add("Interaction p", ["interaction_p_test", "interaction_p"])
+        add("Int. HR", ["interaction_hr_test", "interaction_hr"])
+        add("Int. p", ["interaction_p_test", "interaction_p"])
     if mid == "art05":
         add("κ", ["kappa"])
-        add("Accuracy", ["accuracy"])
-        add("TCGA n", ["tcga_n"])
+        add("Acc.", ["accuracy"])
         add("GEO n", ["gse_n", "gse_valid_n"])
-    return out[:5]
+    return out[:4]
 
 
 def pick_figure(article: Path, mid: str) -> Path | None:
@@ -174,14 +171,10 @@ def pick_figure(article: Path, mid: str) -> Path | None:
     if not fig.exists():
         return None
     preferred = {
-        "art01": ["fig_km_test.png", "fig_model_comparison.png", "fig_km_all.png"],
+        "art01": ["fig_km_test.png", "fig_model_comparison.png"],
         "art02": ["fig_km_test.png", "fig_model_comparison.png"],
         "art03": ["fig_km_rfs_test.png", "fig_model_comparison.png"],
-        "art04": [
-            "fig_km_interaction_four_groups.png",
-            "fig_km_chemo_high_risk.png",
-            "fig_km_chemo_low_risk.png",
-        ],
+        "art04": ["fig_km_interaction_four_groups.png", "fig_km_chemo_high_risk.png"],
         "art05": ["fig_km_cms_tcga.png", "fig_km_cms_gse.png"],
         "art06": ["fig_km_test.png", "fig_model_comparison.png"],
         "art07": ["fig_km_rfs_test.png", "fig_model_comparison.png"],
@@ -190,17 +183,33 @@ def pick_figure(article: Path, mid: str) -> Path | None:
         p = fig / name
         if p.exists():
             return p
-    # fallback any km / comparison except scheme/ga/bak
-    for p in sorted(fig.glob("fig_*.png")):
-        if any(x in p.name for x in ["scheme", "graphical", "bak", "nomogram"]):
-            continue
-        if "km" in p.name or "comparison" in p.name or "roc" in p.name:
-            return p
     return None
 
 
-def rounded_rect(draw, xy, radius, fill, outline=None, width=1):
-    draw.rounded_rectangle(xy, radius=radius, fill=fill, outline=outline, width=width)
+def draw_icon(draw: ImageDraw.ImageDraw, kind: str, cx: int, cy: int):
+    """Simple flat icons — schematic only."""
+    if kind in {"Cohort", "Filter"}:
+        draw.ellipse((cx - 22, cy - 28, cx + 22, cy + 10), outline=TEAL, width=3)
+        draw.ellipse((cx - 34, cy + 8, cx + 34, cy + 34), outline=TEAL, width=3)
+    elif kind in {"Lock", "Map"}:
+        draw.rounded_rectangle((cx - 20, cy - 8, cx + 20, cy + 24), 6, outline=TEAL, width=3)
+        draw.arc((cx - 14, cy - 28, cx + 14, cy), 0, 180, fill=TEAL, width=3)
+    elif kind in {"Model", "Test"}:
+        draw.polygon([(cx, cy - 28), (cx + 28, cy), (cx, cy + 28), (cx - 28, cy)], outline=TEAL, width=3)
+    elif kind in {"Check", "Readout", "Agree"}:
+        draw.ellipse((cx - 26, cy - 26, cx + 26, cy + 26), outline=TEAL, width=3)
+        draw.line((cx - 12, cy + 2, cx - 2, cy + 12), fill=CORAL, width=4)
+        draw.line((cx - 2, cy + 12, cx + 14, cy - 10), fill=CORAL, width=4)
+    elif kind in {"Genome", "RNA-seq", "Array"}:
+        draw.line((cx - 20, cy - 20, cx + 20, cy + 20), fill=TEAL, width=3)
+        draw.line((cx - 20, cy + 20, cx + 20, cy - 20), fill=CORAL, width=3)
+        draw.ellipse((cx - 8, cy - 8, cx + 8, cy + 8), outline=NAVY, width=2)
+    elif kind in {"Immune", "Score", "Treat"}:
+        draw.rounded_rectangle((cx - 24, cy - 20, cx + 24, cy + 20), 8, outline=TEAL, width=3)
+        draw.line((cx - 10, cy, cx + 10, cy), fill=CORAL, width=3)
+        draw.line((cx, cy - 10, cx, cy + 10), fill=CORAL, width=3)
+    else:
+        draw.rounded_rectangle((cx - 24, cy - 18, cx + 24, cy + 18), 8, outline=TEAL, width=3)
 
 
 def compose_one(cid: str, mid: str) -> Path | None:
@@ -210,85 +219,92 @@ def compose_one(cid: str, mid: str) -> Path | None:
     summary = load_summary(article)
     metrics = pick_metrics(mid, summary)
     real_fig = pick_figure(article, mid)
-    has_real_visual = real_fig is not None and len(metrics) > 0
 
     img = Image.new("RGB", (W, H), BG)
     draw = ImageDraw.Draw(img)
-    f_title = font(36, True)
-    f_sub = font(20, False)
-    f_step = font(18, True)
+    f_title = font(40, True)
+    f_sub = font(22, False)
+    f_panel = font(20, True)
+    f_desc = font(15, False)
     f_badge = font(16, True)
-    f_small = font(14, False)
+    f_tiny = font(13, False)
 
     # header
-    title = f"{CANCER_EN[cid]}"
-    subtitle = METHOD_TITLE[mid]
-    draw.text((48, 36), title, fill=INK, font=f_title)
-    draw.text((48, 84), subtitle, fill=TEAL, font=f_sub)
-    draw.rectangle((48, 118, 220, 124), fill=TEAL)
+    draw.text((56, 40), CANCER_EN[cid], fill=INK, font=f_title)
+    draw.text((56, 92), f"Graphical Abstract  ·  {METHOD_TITLE[mid]}", fill=TEAL, font=f_sub)
+    draw.rectangle((56, 130, 260, 136), fill=TEAL)
 
-    # left workflow steps
-    steps = METHOD_STEPS[mid]
-    x0, y0 = 48, 170
-    box_w, box_h = 200, 70
+    # main schematic strip (Nature GA style)
+    panels = PANELS[mid]
+    n = len(panels)
+    left, right = 56, 1544
+    top, bottom = 180, 520
+    total_w = right - left
     gap = 28
-    for i, step in enumerate(steps):
-        x = x0
-        y = y0 + i * (box_h + gap)
-        rounded_rect(draw, (x, y, x + box_w, y + box_h), 14, TEAL_SOFT, TEAL, 2)
-        draw.text((x + 18, y + 22), step, fill=TEAL, font=f_step)
-        if i < len(steps) - 1:
-            cx = x + box_w // 2
-            draw.line((cx, y + box_h, cx, y + box_h + gap), fill=TEAL, width=3)
-            draw.polygon(
-                [(cx - 7, y + box_h + gap - 10), (cx + 7, y + box_h + gap - 10), (cx, y + box_h + gap)],
-                fill=TEAL,
-            )
+    pw = (total_w - gap * (n - 1)) // n
+    for i, (name, desc) in enumerate(panels):
+        x1 = left + i * (pw + gap)
+        y1 = top
+        x2 = x1 + pw
+        y2 = bottom
+        draw.rounded_rectangle((x1, y1, x2, y2), 22, fill=TEAL_SOFT, outline=TEAL_MID, width=2)
+        # icon
+        draw_icon(draw, name, (x1 + x2) // 2, y1 + 110)
+        # labels
+        tw = draw.textlength(name, font=f_panel)
+        draw.text(((x1 + x2) / 2 - tw / 2, y1 + 200), name, fill=INK, font=f_panel)
+        dw = draw.textlength(desc, font=f_desc)
+        draw.text(((x1 + x2) / 2 - dw / 2, y1 + 240), desc, fill=SOFT, font=f_desc)
+        if i < n - 1:
+            ax = x2 + 4
+            ay = (y1 + y2) // 2
+            draw.line((ax, ay, ax + gap - 8, ay), fill=TEAL, width=4)
+            draw.polygon([(ax + gap - 8, ay - 8), (ax + gap - 8, ay + 8), (ax + gap + 2, ay)], fill=TEAL)
 
-    # right panel: real figure OR schematic note
-    panel = (300, 150, 1550, 820)
-    rounded_rect(draw, panel, 18, (250, 252, 253), LINE, 2)
+    # bottom area: real metrics + optional SMALL real inset
+    band_top = 560
+    draw.rounded_rectangle((56, band_top, 1544, 860), 20, fill=(250, 252, 253), outline=LINE, width=2)
 
-    if real_fig is not None:
-        fig = Image.open(real_fig).convert("RGB")
-        max_w, max_h = 1180, 560
-        fig.thumbnail((max_w, max_h), Image.Resampling.LANCZOS)
-        fx = panel[0] + (panel[2] - panel[0] - fig.width) // 2
-        fy = panel[1] + 24
-        img.paste(fig, (fx, fy))
-        caption = "Embedded from this article's locked analysis output"
-        draw.text((panel[0] + 24, panel[3] - 36), caption, fill=SOFT, font=f_small)
-    else:
-        msg = "Schematic overview only — result figure not available yet."
-        draw.text((panel[0] + 40, panel[1] + 280), msg, fill=SOFT, font=f_sub)
+    # left text block
+    draw.text((80, band_top + 24), "Evidence from this article (not fabricated)", fill=TEAL, font=f_panel)
 
-    # metric badges from REAL summary only
-    bx, by = 300, 830
-    if metrics and has_real_visual:
-        for i, (lab, val) in enumerate(metrics):
-            text = f"{lab}: {val}"
+    bx, by = 80, band_top + 70
+    if metrics:
+        for lab, val in metrics:
+            text = f"{lab}  {val}"
             tw = draw.textlength(text, font=f_badge)
-            pad = 14
-            x1 = bx
-            y1 = by
-            # wrap to next line if needed
-            if x1 + tw + 2 * pad > 1540:
-                bx = 300
-                by += 44
-                x1, y1 = bx, by
-            rounded_rect(draw, (x1, y1, x1 + tw + 2 * pad, y1 + 34), 10, (255, 255, 255), TEAL, 2)
-            draw.text((x1 + pad, y1 + 7), text, fill=INK, font=f_badge)
-            bx = x1 + tw + 2 * pad + 12
-    elif not metrics:
-        note = "No numeric badges shown (metrics unavailable)."
-        draw.text((300, 840), note, fill=SOFT, font=f_small)
+            draw.rounded_rectangle((bx, by, bx + tw + 28, by + 36), 18, fill=BG, outline=TEAL, width=2)
+            draw.text((bx + 14, by + 8), text, fill=INK, font=f_badge)
+            bx += tw + 40
+            if bx > 980:
+                bx = 80
+                by += 48
+    else:
+        draw.text((80, by), "Numeric badges omitted — metrics unavailable in analysis_summary.", fill=SOFT, font=f_desc)
 
-    # footer honesty note
-    foot = "Metrics and plots are taken from this article's analysis outputs; no fabricated statistics."
-    draw.text((48, 870), foot, fill=SOFT, font=f_small)
+    # small real figure inset (secondary, not the whole GA)
+    if real_fig is not None:
+        inset = Image.open(real_fig).convert("RGB")
+        inset.thumbnail((480, 250), Image.Resampling.LANCZOS)
+        # white frame
+        ix, iy = 1020, band_top + 40
+        frame = Image.new("RGB", (inset.width + 16, inset.height + 16), BG)
+        frame.paste(inset, (8, 8))
+        img.paste(frame, (ix, iy))
+        draw.rectangle((ix, iy, ix + frame.width, iy + frame.height), outline=LINE, width=2)
+        draw.text((ix, iy + frame.height + 6), "Inset: real result panel from this paper", fill=SOFT, font=f_tiny)
+    else:
+        draw.text((1020, band_top + 120), "Schematic only — no result inset yet.", fill=SOFT, font=f_desc)
+
+    draw.text(
+        (56, 872),
+        "Nature-style schematic workflow; any numbers/inset plots are taken from this article’s analysis outputs.",
+        fill=SOFT,
+        font=f_tiny,
+    )
 
     out = OUT_WEB / f"{cid}_{mid}.jpg"
-    img.save(out, format="JPEG", quality=90, optimize=True)
+    img.save(out, quality=92, optimize=True)
     return out
 
 
@@ -299,11 +315,9 @@ def install_into_article(cid: str, mid: str, jpg: Path) -> None:
     fig_dir = article / "figures" / "main"
     fig_dir.mkdir(parents=True, exist_ok=True)
     png = fig_dir / "fig_model_scheme.png"
-    # backup once
     if png.exists() and not (fig_dir / "fig_model_scheme.bak.png").exists():
         shutil.copy2(png, fig_dir / "fig_model_scheme.bak.png")
-    im = Image.open(jpg).convert("RGB")
-    im.save(png, format="PNG", optimize=True)
+    Image.open(jpg).convert("RGB").save(png, format="PNG", optimize=True)
     shutil.copy2(jpg, fig_dir / "fig_graphical_abstract.jpg")
 
 
