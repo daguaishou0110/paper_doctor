@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Build Nature-style GA prompts (English-only labels for image models)."""
+"""Build Nature-style GA prompts — formal journal figures, no art0x codes."""
 from __future__ import annotations
 
 import json
@@ -7,16 +7,16 @@ from pathlib import Path
 
 DATA = Path(__file__).resolve().parent
 papers = json.loads((DATA / "papers.json").read_text(encoding="utf-8"))
-methods = {m["id"]: m for m in json.loads((DATA / "methods.json").read_text(encoding="utf-8"))}
-cancers = {c["id"]: c for c in json.loads((DATA / "cancers.json").read_text(encoding="utf-8"))}
 
 STYLE = (
-    "Nature journal graphical abstract style, wide cinematic 16:9 composition, "
-    "pristine white background, flat vector scientific illustration, "
-    "soft navy teal and muted coral accents, crisp medical icons, "
-    "elegant minimal English labels only, left-to-right narrative flow, "
-    "generous whitespace, premium oncology bioinformatics figure, "
-    "no photorealism, no 3D gloss, no cartoon characters, no watermark, no phone UI"
+    "Formal Nature journal graphical abstract for a peer-reviewed oncology paper, "
+    "wide cinematic 16:9 composition, pristine white background, "
+    "flat vector scientific illustration, soft navy teal and muted coral accents, "
+    "crisp medical icons, elegant minimal English scientific labels only "
+    "(words like Cohort, Model, Validation, Survival, Immune, Subtype are OK), "
+    "left-to-right narrative flow, generous whitespace, publication-ready figure, "
+    "no photorealism, no 3D gloss, no cartoon characters, no watermark, no UI chrome, "
+    "absolutely no project codes, no art01 art02 art03 labels, no internal IDs, no slug text"
 )
 
 CANCER_VISUAL = {
@@ -33,33 +33,33 @@ CANCER_VISUAL = {
 
 METHOD_SCENE = {
     "art01": (
-        "Clinical-Transcriptomic OS",
-        "clipboard of clinical covariates and a transcriptomic heatmap flow into a Cox model hexagon, "
-        "then Kaplan-Meier curves and a time-dependent ROC badge",
+        "Clinical–Transcriptomic Overall Survival Model",
+        "clipboard of clinical covariates and a transcriptomic heatmap flow into a Cox model node, "
+        "then Kaplan–Meier curves and a time-dependent ROC badge for external validation",
     ),
     "art02": (
-        "Clinical-Genomic OS",
+        "Clinical–Genomic Overall Survival Model",
         "mutation lollipop plot, DNA helix, TMB meter and MMR badge merge with clinical stage into a survival model",
     ),
     "art03": (
-        "Clinical-Transcriptomic RFS",
-        "recurrence clock icon with clinical factors and transcriptomic signature leading to RFS Kaplan-Meier curves",
+        "Clinical–Transcriptomic Recurrence-Free Survival Model",
+        "recurrence timeline with clinical factors and a transcriptomic signature leading to RFS Kaplan–Meier curves",
     ),
     "art04": (
-        "Chemo Benefit Interaction",
-        "2x2 matrix of high/low risk versus chemo yes/no with a central interaction arrow and four tiny KM sketches",
+        "Transcriptomic Risk × Adjuvant Chemotherapy Interaction",
+        "2×2 matrix of high/low risk versus chemotherapy yes/no with a central interaction arrow and four small KM sketches",
     ),
     "art05": (
-        "Cross-Platform Subtyping",
-        "RNA-seq sequencer versus microarray chip arrows into consensus subtype chips, kappa dial, subtype KM curves",
+        "Cross-Platform Molecular Subtype Validation",
+        "RNA-seq sequencer versus microarray chip arrows into consensus subtype badges, agreement meter, subtype KM curves",
     ),
     "art06": (
-        "Immune-TMB Prognosis",
-        "immune cells and IFN-gamma spark with TMB and MMR badges enter an integrated model then OS stratification",
+        "Clinical–Immune–Genomic Prognostic Model",
+        "immune cells and IFN-γ signal with TMB and MMR badges enter an integrated model then overall survival stratification",
     ),
     "art07": (
-        "Stage II/III Subgroup RFS",
-        "stage II/III funnel filter, clinical plus transcriptomic inputs, subgroup RFS survival curves",
+        "Stage II/III Subgroup Recurrence-Free Survival Model",
+        "stage II/III selection funnel, clinical plus transcriptomic inputs, subgroup RFS survival curves",
     ),
 }
 
@@ -68,9 +68,9 @@ def prompt_for(paper: dict) -> str:
     cancer_en, organ = CANCER_VISUAL[paper["cancer_id"]]
     short, scene = METHOD_SCENE[paper["method_id"]]
     return (
-        f"{STYLE}. Cancer focus: {cancer_en}. Study type: {short}. "
-        f"Place a small {organ} at top-left. Main visual: {scene}. "
-        f"Tiny caption labels: '{cancer_en.split()[0]}' and '{paper['method_id']}'."
+        f"{STYLE}. Disease: {cancer_en}. Theme: {short}. "
+        f"Place a small {organ} at the top-left corner. Main visual narrative: {scene}. "
+        f"Optional tiny disease name only: '{cancer_en}'. Do not print any art codes."
     )
 
 
@@ -79,7 +79,7 @@ for p in papers:
     out.append(
         {
             "id": p["id"],
-            "filename": f"{p['id']}.png",
+            "filename": f"{p['id']}.jpg",
             "prompt": prompt_for(p),
             "cancer_id": p["cancer_id"],
             "method_id": p["method_id"],
