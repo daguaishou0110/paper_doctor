@@ -41,5 +41,5 @@ website/
 - [x] Step 1：字段字典 + 结构化数据
 - [x] Step 2：可点击静态原型
 - [x] Step 3：补期刊 2025–2026 范文与「怎么做的」拆解
-- [x] Step 4：Nature 风格图形摘要（63 篇文生图 → `assets/ga/*.jpg`）
+- [x] Step 4：Nature 风格图形摘要（63 篇文生图 → `assets/ga/*.jpg`；已同步进各论文 `figures/main/fig_model_scheme.png` 与正文 TeX）
 - [ ] Step 5：约束反查（非OA+几区 → 反推写法/癌种）

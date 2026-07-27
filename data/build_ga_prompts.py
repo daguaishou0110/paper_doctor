@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Build Nature-style GA prompts — formal journal figures, no art0x codes."""
+"""GA prompts: schematic only — no fake experimental data in the figure."""
 from __future__ import annotations
 
 import json
@@ -9,57 +9,64 @@ DATA = Path(__file__).resolve().parent
 papers = json.loads((DATA / "papers.json").read_text(encoding="utf-8"))
 
 STYLE = (
-    "Formal Nature journal graphical abstract for a peer-reviewed oncology paper, "
-    "wide cinematic 16:9 composition, pristine white background, "
-    "flat vector scientific illustration, soft navy teal and muted coral accents, "
-    "crisp medical icons, elegant minimal English scientific labels only "
-    "(words like Cohort, Model, Validation, Survival, Immune, Subtype are OK), "
-    "left-to-right narrative flow, generous whitespace, publication-ready figure, "
-    "no photorealism, no 3D gloss, no cartoon characters, no watermark, no UI chrome, "
-    "absolutely no project codes, no art01 art02 art03 labels, no internal IDs, no slug text"
+    "Formal Nature journal graphical abstract, wide 16:9, pristine white background, "
+    "flat vector scientific SCHEMATIC illustration only, soft navy teal and muted coral accents, "
+    "minimal English labels for process steps only (Cohort, Features, Model, Validation), "
+    "left-to-right conceptual workflow, generous whitespace, publication-ready schematic, "
+    "no photorealism, no cartoon characters, no watermark, no UI chrome, no art codes, "
+    "CRITICAL: do NOT draw any fake experimental results — "
+    "no Kaplan-Meier curves with plotted lines, no ROC curves with AUC numbers, "
+    "no forest plots with hazard ratios, no heatmaps with expression values, "
+    "no number-at-risk tables, no p-values, no C-index, no percentages, no sample-size numerals, "
+    "no scatter plots with points, no calibration plots with dots, no bar charts with data, "
+    "use empty icon placeholders instead (blank axes box icon, blank grid icon, checkmark badge) "
+    "to represent analysis outputs conceptually without inventing data"
 )
 
 CANCER_VISUAL = {
-    "crc": ("Colorectal Cancer", "subtle colon silhouette"),
-    "brca": ("Breast Cancer", "subtle breast tissue icon"),
-    "stad": ("Gastric Adenocarcinoma", "subtle stomach silhouette"),
-    "luad": ("Lung Adenocarcinoma", "subtle lung silhouette"),
-    "lusc": ("Lung Squamous Cell Carcinoma", "subtle lung silhouette"),
-    "lihc": ("Hepatocellular Carcinoma", "subtle liver silhouette"),
-    "paad": ("Pancreatic Adenocarcinoma", "subtle pancreas silhouette"),
-    "hnsc": ("Head and Neck Squamous Cell Carcinoma", "subtle head-neck anatomy icon"),
-    "kirc": ("Clear Cell Renal Cell Carcinoma", "subtle kidney silhouette"),
+    "crc": ("Colorectal Cancer", "subtle abstract colon icon"),
+    "brca": ("Breast Cancer", "subtle abstract breast tissue icon"),
+    "stad": ("Gastric Adenocarcinoma", "subtle abstract stomach icon"),
+    "luad": ("Lung Adenocarcinoma", "subtle abstract lung icon"),
+    "lusc": ("Lung Squamous Cell Carcinoma", "subtle abstract lung icon"),
+    "lihc": ("Hepatocellular Carcinoma", "subtle abstract liver icon"),
+    "paad": ("Pancreatic Adenocarcinoma", "subtle abstract pancreas icon"),
+    "hnsc": ("Head and Neck Squamous Cell Carcinoma", "subtle abstract head-neck icon"),
+    "kirc": ("Clear Cell Renal Cell Carcinoma", "subtle abstract kidney icon"),
 }
 
 METHOD_SCENE = {
     "art01": (
-        "Clinical–Transcriptomic Overall Survival Model",
-        "clipboard of clinical covariates and a transcriptomic heatmap flow into a Cox model node, "
-        "then Kaplan–Meier curves and a time-dependent ROC badge for external validation",
+        "Clinical–Transcriptomic OS Schematic",
+        "three icon panels only: (1) clinical clipboard icon + abstract transcriptomic grid icon without numbers, "
+        "(2) Cox model node icon, (3) blank survival-analysis badge and blank validation badge — no plotted curves",
     ),
     "art02": (
-        "Clinical–Genomic Overall Survival Model",
-        "mutation lollipop plot, DNA helix, TMB meter and MMR badge merge with clinical stage into a survival model",
+        "Clinical–Genomic OS Schematic",
+        "three icon panels: DNA helix icon, TMB/MMR badge icons, clinical stage icon merging into a model node, "
+        "then a blank outcome badge — no mutation lollipop with fake gene names or fake counts",
     ),
     "art03": (
-        "Clinical–Transcriptomic Recurrence-Free Survival Model",
-        "recurrence timeline with clinical factors and a transcriptomic signature leading to RFS Kaplan–Meier curves",
+        "Clinical–Transcriptomic RFS Schematic",
+        "icons for clinical factors, transcriptomic signature card, and a blank recurrence-free survival badge — no KM lines",
     ),
     "art04": (
-        "Transcriptomic Risk × Adjuvant Chemotherapy Interaction",
-        "2×2 matrix of high/low risk versus chemotherapy yes/no with a central interaction arrow and four small KM sketches",
+        "Risk × Chemotherapy Interaction Schematic",
+        "empty 2×2 conceptual matrix labeled High/Low risk and Chemo yes/no with a center interaction arrow — "
+        "no survival curves inside the quadrants",
     ),
     "art05": (
-        "Cross-Platform Molecular Subtype Validation",
-        "RNA-seq sequencer versus microarray chip arrows into consensus subtype badges, agreement meter, subtype KM curves",
+        "Cross-Platform Subtyping Schematic",
+        "RNA-seq platform icon versus microarray platform icon arrows into subtype badge icons A/B/C and an agreement badge — "
+        "no real heatmaps or survival curves",
     ),
     "art06": (
-        "Clinical–Immune–Genomic Prognostic Model",
-        "immune cells and IFN-γ signal with TMB and MMR badges enter an integrated model then overall survival stratification",
+        "Immune–Genomic Prognosis Schematic",
+        "immune cell icons, IFN-γ badge, TMB/MMR badges flowing into an integrated model node and blank OS badge — no data plots",
     ),
     "art07": (
-        "Stage II/III Subgroup Recurrence-Free Survival Model",
-        "stage II/III selection funnel, clinical plus transcriptomic inputs, subgroup RFS survival curves",
+        "Stage II/III Subgroup RFS Schematic",
+        "stage II/III funnel icon, clinical+transcriptomic icons, blank subgroup RFS badge — no plotted survival curves",
     ),
 }
 
@@ -69,22 +76,21 @@ def prompt_for(paper: dict) -> str:
     short, scene = METHOD_SCENE[paper["method_id"]]
     return (
         f"{STYLE}. Disease: {cancer_en}. Theme: {short}. "
-        f"Place a small {organ} at the top-left corner. Main visual narrative: {scene}. "
-        f"Optional tiny disease name only: '{cancer_en}'. Do not print any art codes."
+        f"Small {organ} at top-left. Visual: {scene}. "
+        f"Optional tiny disease title '{cancer_en}'. "
+        f"Remember: schematic icons only; zero fabricated statistics or result plots."
     )
 
 
-out = []
-for p in papers:
-    out.append(
-        {
-            "id": p["id"],
-            "filename": f"{p['id']}.jpg",
-            "prompt": prompt_for(p),
-            "cancer_id": p["cancer_id"],
-            "method_id": p["method_id"],
-        }
-    )
-
+out = [
+    {
+        "id": p["id"],
+        "filename": f"{p['id']}.jpg",
+        "prompt": prompt_for(p),
+        "cancer_id": p["cancer_id"],
+        "method_id": p["method_id"],
+    }
+    for p in papers
+]
 (DATA / "ga_prompts.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
 print(len(out))
