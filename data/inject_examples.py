@@ -1,0 +1,176 @@
+# -*- coding: utf-8 -*-
+"""Inject 2025–2026 style example papers into journals.json."""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+DATA = Path(__file__).resolve().parent
+journals_path = DATA / "journals.json"
+journals = json.loads(journals_path.read_text(encoding="utf-8"))
+
+EXAMPLES = {
+    "frontiers_oncology": [
+        {
+            "title": "Construction of a prognostic model for colorectal cancer liver metastasis based on single-cell transcriptomics and regulation of the MIF pathway",
+            "year": 2025,
+            "doi": "10.3389/fonc.2025.1588514",
+            "method_id": "art01",
+            "how_done": {
+                "summary": "结直肠癌肝转移相关基因 → 批量转录组预后模型 → GEO 外部验证。",
+                "data": "TCGA 结直肠癌 bulk RNA-seq 作训练（约 515 例）；GSE12945、GSE29623 作验证。",
+                "pipeline": "单细胞找转移相关上皮基因 → 差异/关键选 → Cox 风险模型 → 1/3/5 年生存预测；并结合临床变量。",
+                "figures": "风险分层 KM、时间依赖预测、临床协变量校正。",
+                "factory_match": "对应工厂 art01：公开队列 + 预后建模 + 外部验证；工厂更强调临床基线对照与 TRIPOD 报告，通常不做单细胞主叙事。",
+            },
+        },
+        {
+            "title": "Construction and validation of immune prognosis model for lung adenocarcinoma based on machine learning",
+            "year": 2025,
+            "doi": "10.3389/fonc.2025.1630663",
+            "method_id": "art06",
+            "how_done": {
+                "summary": "免疫相关基因 + 机器学习筛枢纽基因 → 多因素 Cox 免疫预后模型。",
+                "data": "TCGA-LUAD 转录组/临床（文中训练+内部验证拆分）；另有医院配对样本作外部辅助验证。",
+                "pipeline": "差异表达 ∩ ImmPort 免疫基因 → WGCNA → RF/LASSO/SVM-RFE 取枢纽基因 → 多因素 Cox + nomogram；辅以 TIMER/ssGSEA 免疫微环境。",
+                "figures": "时间依赖 ROC、校准曲线、nomogram、免疫浸润对比。",
+                "factory_match": "对应工厂 art06：免疫签名进预后模型；工厂版本固定 IFN-γ/TMB/MMR 组合并强调相对临床基线增量，避免把预后写成疗效预测。",
+            },
+        },
+    ],
+    "bmc_cancer": [
+        {
+            "title": "Novel Gene expression-based Risk Stratification tool predicts recurrence in Non-muscle invasive Bladder cancer",
+            "year": 2025,
+            "doi": "10.1186/s12885-025-14273-y",
+            "method_id": "art03",
+            "how_done": {
+                "summary": "转录组风险评分预测非肌层浸润性膀胱癌早期复发（RFS 路线）。",
+                "data": "自建发现队列（GEO: GSE295809）；外部用 GSE13507、GSE154261 及 EGA 公开队列验证。",
+                "pipeline": "复发相关差异基因 → mRNA 风险评分 → 与传统 EORTC 风险分层对比 → KM 比较高低危 RFS。",
+                "figures": "复发预测准确率重采样、高低危 KM、公开队列相关验证。",
+                "factory_match": "对应工厂 art03：复发终点 + 转录组风险分层 + 外部队列；工厂写法需补临床联合模型、校准/DCA，并写清终点定义与删失。",
+            },
+        },
+        {
+            "title": "Interaction analysis of high-risk pathological features on adjuvant chemotherapy survival benefit in stage II colon cancer patients: a multi-center, retrospective study",
+            "year": 2023,
+            "doi": "10.1186/s12885-023-11196-4",
+            "method_id": "art04",
+            "how_done": {
+                "summary": "II 期结肠癌高危病理特征 × 辅助化疗获益的交互分析（写法模板参考；年份略早于 2025）。",
+                "data": "中国 8 中心 2016–2017 年 931 例 II 期结肠癌手术队列（非纯公开组学）。",
+                "pipeline": "Cox 评估 DFS/OS 危险因素 → 检验病理因素与 ACT 的乘性交互 → RERI 报告加性交互 → STEPP 看连续变量对获益的修饰。",
+                "figures": "交互效应、亚组获益差异、STEPP。",
+                "factory_match": "对应工厂 art04：核心是「分层×治疗」交互而非只做亚组 KM；工厂用转录组风险评分替代病理高危因子，公开组学实现时务必报告交互 p，阴性结果要透明降档。",
+            },
+        },
+    ],
+    "scientific_reports": [
+        {
+            "title": "Development of a reliable risk prognostic model for lung adenocarcinoma based on the genes related to endotheliocyte senescence",
+            "year": 2025,
+            "doi": "10.1038/s41598-025-95551-4",
+            "method_id": "art01",
+            "how_done": {
+                "summary": "内皮衰老相关基因 → LASSO/Cox 风险模型 → GEO 外部验证（典型 SciRep 预后套路）。",
+                "data": "训练：TCGA-LUAD（约 500 例）；验证：GSE31210（约 226 例）。",
+                "pipeline": "预定义基因集 → 生存相关筛选 → 风险评分 → KM + timeROC；常附免疫浸润/药敏等扩展分析。",
+                "figures": "KM、ROC、高低危分层；扩展模块可含免疫/药敏。",
+                "factory_match": "对应工厂 art01 的「纯转录组签名」近亲；工厂主推版本应额外做临床-only vs 临床+转录组对照，并按 TRIPOD 写清泄漏防控。",
+            },
+        },
+        {
+            "title": "Development and validation of a risk model for effective immune and stromal related signature predicting prognosis of patients with ovarian cancer",
+            "year": 2025,
+            "doi": "10.1038/s41598-025-01212-x",
+            "method_id": "art06",
+            "how_done": {
+                "summary": "免疫/基质评分相关差异基因 → 6 基因风险模型 → 多 GEO/ICGC 外部验证。",
+                "data": "TCGA 卵巢癌训练；GSE17260、GSE14764、ICGC 等外部验证。",
+                "pipeline": "ESTIMATE 免疫/基质评分 → DEG → uni/multi Cox → 6-gene risk model → OS/PFS 分层与 AUC。",
+                "figures": "高低危 KM、多队列 AUC、体外实验辅助。",
+                "factory_match": "对应工厂 art06 的免疫微环境签名路线；工厂版本把 IFN-γ + TMB + MMR 与临床整合，冲高时看增量 C-index。",
+            },
+        },
+    ],
+    "jtm": [
+        {
+            "title": "BRCAGenie: A machine learning-driven 43-gene polygenic risk score model for precision prediction of breast cancer survival",
+            "year": 2025,
+            "doi": "10.1186/s12967-025-07100-2",
+            "method_id": "art01",
+            "how_done": {
+                "summary": "全转录组无偏筛选 → 43 基因 PRS → 多外部队列验证；可冲 2 区的强结果范例。",
+                "data": "开发：TCGA-BRCA；外部：METABRIC、GSE96058。",
+                "pipeline": "单因素 Cox → LASSO Cox → 逐步选择 → 风险评分；评估 AUC(t)、KM、C-index、校准；并尝试加入诊断年龄提升判别。",
+                "figures": "时间依赖 AUC、KM、校准、在线计算器。",
+                "factory_match": "对应工厂 art01 冲高路径（JTM）：外部验证扎实 + 指标好看才建议冲；工厂还需报告相对纯临床模型增量，避免「只有基因、没有临床基线」。",
+            },
+        }
+    ],
+    "cancers": [
+        {
+            "title": "（写法占位）MDPI Cancers 常见同类：TCGA 训练 + GEO 验证的基因签名预后文",
+            "year": 2025,
+            "doi": "",
+            "method_id": "art01",
+            "how_done": {
+                "summary": "Cancers 大量接收公开组学签名文；审稿快、APC 全 OA。",
+                "data": "典型：TCGA 开发 + 1–2 个 GEO 验证。",
+                "pipeline": "DEG/候选集 → LASSO-Cox → 风险分层 → KM/ROC；常叠加免疫浸润与药敏。",
+                "figures": "标准预后图套 + 免疫扩展。",
+                "factory_match": "适合作备投；投稿前确认单位是否认可 MDPI。具体 DOI 可在运营时按癌种替换为最新命中文。",
+            },
+        }
+    ],
+    "peerj": [
+        {
+            "title": "（写法占位）PeerJ 适合弱结果/方法学透明度优先的保底路线",
+            "year": 2025,
+            "doi": "",
+            "method_id": "art05",
+            "how_done": {
+                "summary": "跨平台一致性一般、或阴性/边界结果时，PeerJ 常作保底。",
+                "data": "公开 RNA-seq + 芯片队列。",
+                "pipeline": "分型迁移 → kappa/一致率 → 亚型预后；一致性弱时如实降调结论。",
+                "figures": "混淆矩阵/桑基、kappa、亚型 KM。",
+                "factory_match": "对应工厂 art05/art07 弱结果降档；不要把 PeerJ 包装成冲高刊。",
+            },
+        }
+    ],
+}
+
+# Cross-platform reference stored on scientific_reports as related note example
+EXAMPLES["scientific_reports"].append(
+    {
+        "title": "Cross-platform comparison of gene expression-based cancer molecular subtyping reveals discrepancies with exome capture methods",
+        "year": 2025,
+        "doi": "10.1038/s41698-025-01228-6",
+        "method_id": "art05",
+        "how_done": {
+            "summary": "写法参考：分子分型跨平台一致性比较（原刊为 npj Precision Oncology，同属 Nature 系）。",
+            "data": "胰腺癌 PurIST 分型；全转录组 RNA-seq vs 外显子捕获 RNA-seq；另比 NanoString。",
+            "pipeline": "同一样本跨平台调用分型 → 报告一致率（约 81% vs 95%）→ 比较分型预后显著性是否保留。",
+            "figures": "一致率、亚型比例偏移、跨平台 KM 差异。",
+            "factory_match": "对应工厂 art05：重点不是「证明一定一致」，而是量化平台迁移损失；一致性弱必须降调「验证成功」。SciRep 主投同类方法学/验证叙事亦可。",
+        },
+    }
+)
+
+by_id = {j["id"]: j for j in journals}
+for jid, exs in EXAMPLES.items():
+    if jid in by_id:
+        by_id[jid]["examples_2025_2026"] = exs
+
+journals_path.write_text(json.dumps(journals, ensure_ascii=False, indent=2), encoding="utf-8")
+
+# Also write a flat examples index for methods browse
+flat = []
+for jid, exs in EXAMPLES.items():
+    jname = by_id[jid]["name"] if jid in by_id else jid
+    for e in exs:
+        flat.append({**e, "journal_id": jid, "journal_name": jname})
+(DATA / "examples.json").write_text(json.dumps(flat, ensure_ascii=False, indent=2), encoding="utf-8")
+print(f"Updated journals: {sum(len(v) for v in EXAMPLES.values())} examples")
+print(f"Wrote examples.json: {len(flat)}")

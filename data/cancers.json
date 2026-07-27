@@ -1,0 +1,83 @@
+[
+  {
+    "id": "crc",
+    "name_zh": "结直肠癌",
+    "name_en": "Colorectal Cancer",
+    "tcga": "TCGA-COAD/READ",
+    "paper_count": 7,
+    "specialty_journals": ["bmc_gastro"],
+    "notes": "模板癌种，写法最完整"
+  },
+  {
+    "id": "brca",
+    "name_zh": "乳腺癌",
+    "name_en": "Breast Invasive Carcinoma",
+    "tcga": "TCGA-BRCA",
+    "paper_count": 7,
+    "specialty_journals": ["breast_cancer_tokyo"],
+    "notes": ""
+  },
+  {
+    "id": "stad",
+    "name_zh": "胃腺癌",
+    "name_en": "Stomach Adenocarcinoma",
+    "tcga": "TCGA-STAD",
+    "paper_count": 7,
+    "specialty_journals": ["bmc_gastro"],
+    "notes": ""
+  },
+  {
+    "id": "luad",
+    "name_zh": "肺腺癌",
+    "name_en": "Lung Adenocarcinoma",
+    "tcga": "TCGA-LUAD",
+    "paper_count": 7,
+    "specialty_journals": ["thoracic_cancer"],
+    "notes": ""
+  },
+  {
+    "id": "lusc",
+    "name_zh": "肺鳞癌",
+    "name_en": "Lung Squamous Cell Carcinoma",
+    "tcga": "TCGA-LUSC",
+    "paper_count": 7,
+    "specialty_journals": ["thoracic_cancer"],
+    "notes": ""
+  },
+  {
+    "id": "lihc",
+    "name_zh": "肝细胞癌",
+    "name_en": "Hepatocellular Carcinoma",
+    "tcga": "TCGA-LIHC",
+    "paper_count": 7,
+    "specialty_journals": ["hepatology_research"],
+    "notes": ""
+  },
+  {
+    "id": "paad",
+    "name_zh": "胰腺腺癌",
+    "name_en": "Pancreatic Adenocarcinoma",
+    "tcga": "TCGA-PAAD",
+    "paper_count": 7,
+    "specialty_journals": ["bmc_gastro"],
+    "notes": ""
+  },
+  {
+    "id": "hnsc",
+    "name_zh": "头颈鳞癌",
+    "name_en": "Head and Neck Squamous Cell Carcinoma",
+    "tcga": "TCGA-HNSC",
+    "paper_count": 7,
+    "specialty_journals": ["head_neck"],
+    "notes": ""
+  },
+  {
+    "id": "kirc",
+    "name_zh": "肾透明细胞癌",
+    "name_en": "Clear Cell Renal Cell Carcinoma",
+    "tcga": "TCGA-KIRC",
+    "paper_count": 7,
+    "specialty_journals": ["bmc_urology"],
+    "notes": "art07 题目曾误写胰腺，投稿前须核对"
+  }
+]

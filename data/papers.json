@@ -1,0 +1,1956 @@
+[
+  {
+    "id": "crc_art01",
+    "serial": 1,
+    "cancer_id": "crc",
+    "cancer_zh": "结直肠癌",
+    "method_id": "art01",
+    "art_no": "art01",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Transcriptomic Prognostic Model for Colorectal Cancer: A TRIPOD-Aligned Analysis of TCGA-COAD/READ",
+    "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；在训练集内筛选预后相关基因，避免信息泄漏；分别拟合仅临床Cox模型与临床+转录组整合模型（如ridge/LASSO/随机生存森林等）；报告C-index、时间依赖ROC、校准曲线、决策曲线（DCA）、Kaplan–Meier风险分层；使用GEO或独立队列做外部/交叉验证；按TRIPOD/+AI思路报告样本量、缺失与模型规格",
+    "datasets": [
+      "TCGA-COAD/READ"
+    ],
+    "disease": "结直肠癌",
+    "analysis_style": "临床+转录组 OS 建模与外部验证",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/crc_art01.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "crc_art02",
+    "serial": 2,
+    "cancer_id": "crc",
+    "cancer_zh": "结直肠癌",
+    "method_id": "art02",
+    "art_no": "art02",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Genomic Prognostic Model for Colorectal Cancer: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
+    "direction": "临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型",
+    "methods_detail": "自TCGA提取临床与突变相关特征（驱动突变、TMB、MMR/MSI相关指标等）；训练集内构建临床模型与临床+基因组整合模型；评估C-index、时间依赖ROC、校准、DCA与KM分层；进行跨队列或留出验证；讨论基因组特征相对分期/临床基线的增量预后价值",
+    "datasets": [],
+    "disease": "结直肠癌",
+    "analysis_style": "临床+突变/TMB/MMR OS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/crc_art02.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "crc_art03",
+    "serial": 3,
+    "cancer_id": "crc",
+    "cancer_zh": "结直肠癌",
+    "method_id": "art03",
+    "art_no": "art03",
+    "title": "A Clinical–Transcriptomic Model for Recurrence-Free Survival in Colorectal Cancer: A TRIPOD-Aligned GSE39582 Cohort Study",
+    "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
+    "methods_detail": "以含复发终点的GEO（或同类）队列为主；训练集内基因筛选与临床+转录组RFS建模；内部验证C-index、时间依赖ROC、校准、DCA、KM；如实报告复发终点定义、随访与删失；若无强外部队列则明确局限性",
+    "datasets": [
+      "GSE39582"
+    ],
+    "disease": "结直肠癌",
+    "analysis_style": "临床+转录组 RFS/DFS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "cancers",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/crc_art03.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "crc_art04",
+    "serial": 4,
+    "cancer_id": "crc",
+    "cancer_zh": "结直肠癌",
+    "method_id": "art04",
+    "art_no": "art04",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Colorectal Cancer: A Treatment-Interaction Analysis in GSE39582",
+    "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
+    "methods_detail": "在含化疗信息的队列中构建转录组风险评分；用Cox或交互项模型检验“风险分层×是否接受辅助化疗”交互效应；比较高低危±化疗四组KM与HR；报告交互p值与临床可解释性；阴性结果按有限获益/透明阴性表述，避免过度因果推断",
+    "datasets": [
+      "GSE39582"
+    ],
+    "disease": "结直肠癌",
+    "analysis_style": "风险评分×辅助化疗交互分析",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性",
+      "可能阴性结果需降档"
+    ],
+    "intro": "本研究针对结直肠癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/crc_art04.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "crc_art05",
+    "serial": 5,
+    "cancer_id": "crc",
+    "cancer_zh": "结直肠癌",
+    "method_id": "art05",
+    "art_no": "art05",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Colorectal Cancer: TCGA RNA-Seq versus GSE39582 Microarray",
+    "direction": "分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层",
+    "methods_detail": "在TCGA RNA-seq与GEO芯片队列分别调用/映射分子亚型；计算跨平台一致率、Cohen kappa等；比较各亚型OS/RFS差异；讨论平台差异、批次与分型迁移失败原因；一致性弱时降调“验证成功”表述",
+    "datasets": [
+      "GSE39582"
+    ],
+    "disease": "结直肠癌",
+    "analysis_style": "分子分型跨平台一致性验证",
+    "writing_style": "公开组学跨平台分子分型验证",
+    "quality_target": "JCR Q1（综合）/ 中科院约 3 区",
+    "journal_primary": "scientific_reports",
+    "journals_backup": [
+      "cancers",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对结直肠癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
+    "graphical_abstract": "assets/ga/crc_art05.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "crc_art06",
+    "serial": 6,
+    "cancer_id": "crc",
+    "cancer_zh": "结直肠癌",
+    "method_id": "art06",
+    "art_no": "art06",
+    "title": "A Clinical–Immune–Genomic Prognostic Model for Colorectal Cancer Overall Survival: Integrating IFN-γ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
+    "direction": "临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型",
+    "methods_detail": "在TCGA构建免疫评分/IFN-γ相关签名、计算TMB与MMR状态；训练临床+免疫+基因组整合模型；评估C-index增量、时间依赖ROC、校准、DCA与KM；讨论免疫-基因组联合对预后分层的意义；指标突出者可冲更高档转化医学刊",
+    "datasets": [],
+    "disease": "结直肠癌",
+    "analysis_style": "临床+免疫+TMB/MMR 整合 OS",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/crc_art06.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "crc_art07",
+    "serial": 7,
+    "cancer_id": "crc",
+    "cancer_zh": "结直肠癌",
+    "method_id": "art07",
+    "art_no": "art07",
+    "title": "Clinical–Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Colorectal Cancer: A TRIPOD-Aligned GSE39582 Cohort Study",
+    "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
+    "methods_detail": "限定II/III期人群；构建临床与临床+转录组RFS模型；在分期/化疗亚组做KM与判别评估；若整合模型C-index不升反降则如实报告并强调临床基线已捕获大部分信息；目标期刊相应降档",
+    "datasets": [
+      "GSE39582"
+    ],
+    "disease": "结直肠癌",
+    "analysis_style": "II/III 期亚组 RFS 建模",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对结直肠癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/crc_art07.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "brca_art01",
+    "serial": 8,
+    "cancer_id": "brca",
+    "cancer_zh": "乳腺癌",
+    "method_id": "art01",
+    "art_no": "art01",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Transcriptomic Prognostic Model for Breast Invasive Carcinoma: A TRIPOD-Aligned Analysis of TCGA-BRCA",
+    "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；在训练集内筛选预后相关基因，避免信息泄漏；分别拟合仅临床Cox模型与临床+转录组整合模型（如ridge/LASSO/随机生存森林等）；报告C-index、时间依赖ROC、校准曲线、决策曲线（DCA）、Kaplan–Meier风险分层；使用GEO或独立队列做外部/交叉验证；按TRIPOD/+AI思路报告样本量、缺失与模型规格",
+    "datasets": [
+      "TCGA-BRCA"
+    ],
+    "disease": "乳腺癌",
+    "analysis_style": "临床+转录组 OS 建模与外部验证",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "breast_cancer_tokyo"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/brca_art01.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "brca_art02",
+    "serial": 9,
+    "cancer_id": "brca",
+    "cancer_zh": "乳腺癌",
+    "method_id": "art02",
+    "art_no": "art02",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Genomic Prognostic Model for Breast Invasive Carcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
+    "direction": "临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型",
+    "methods_detail": "自TCGA提取临床与突变相关特征（驱动突变、TMB、MMR/MSI相关指标等）；训练集内构建临床模型与临床+基因组整合模型；评估C-index、时间依赖ROC、校准、DCA与KM分层；进行跨队列或留出验证；讨论基因组特征相对分期/临床基线的增量预后价值",
+    "datasets": [],
+    "disease": "乳腺癌",
+    "analysis_style": "临床+突变/TMB/MMR OS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "breast_cancer_tokyo"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/brca_art02.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "brca_art03",
+    "serial": 10,
+    "cancer_id": "brca",
+    "cancer_zh": "乳腺癌",
+    "method_id": "art03",
+    "art_no": "art03",
+    "title": "A Clinical–Transcriptomic Model for Recurrence-Free Survival in Breast Invasive Carcinoma: A TRIPOD-Aligned GSE20685 Cohort Study",
+    "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
+    "methods_detail": "以含复发终点的GEO（或同类）队列为主；训练集内基因筛选与临床+转录组RFS建模；内部验证C-index、时间依赖ROC、校准、DCA、KM；如实报告复发终点定义、随访与删失；若无强外部队列则明确局限性",
+    "datasets": [
+      "GSE20685"
+    ],
+    "disease": "乳腺癌",
+    "analysis_style": "临床+转录组 RFS/DFS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "cancers",
+      "scientific_reports",
+      "breast_cancer_tokyo"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/brca_art03.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "brca_art04",
+    "serial": 11,
+    "cancer_id": "brca",
+    "cancer_zh": "乳腺癌",
+    "method_id": "art04",
+    "art_no": "art04",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Breast Invasive Carcinoma: A Treatment-Interaction Analysis in GSE20685",
+    "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
+    "methods_detail": "在含化疗信息的队列中构建转录组风险评分；用Cox或交互项模型检验“风险分层×是否接受辅助化疗”交互效应；比较高低危±化疗四组KM与HR；报告交互p值与临床可解释性；阴性结果按有限获益/透明阴性表述，避免过度因果推断",
+    "datasets": [
+      "GSE20685"
+    ],
+    "disease": "乳腺癌",
+    "analysis_style": "风险评分×辅助化疗交互分析",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "scientific_reports",
+      "peerj",
+      "breast_cancer_tokyo"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性",
+      "可能阴性结果需降档"
+    ],
+    "intro": "本研究针对乳腺癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/brca_art04.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "brca_art05",
+    "serial": 12,
+    "cancer_id": "brca",
+    "cancer_zh": "乳腺癌",
+    "method_id": "art05",
+    "art_no": "art05",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Breast Invasive Carcinoma: TCGA RNA-Seq versus GSE25066 Microarray",
+    "direction": "分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层",
+    "methods_detail": "在TCGA RNA-seq与GEO芯片队列分别调用/映射分子亚型；计算跨平台一致率、Cohen kappa等；比较各亚型OS/RFS差异；讨论平台差异、批次与分型迁移失败原因；一致性弱时降调“验证成功”表述",
+    "datasets": [
+      "GSE25066"
+    ],
+    "disease": "乳腺癌",
+    "analysis_style": "分子分型跨平台一致性验证",
+    "writing_style": "公开组学跨平台分子分型验证",
+    "quality_target": "JCR Q1（综合）/ 中科院约 3 区",
+    "journal_primary": "scientific_reports",
+    "journals_backup": [
+      "cancers",
+      "peerj",
+      "breast_cancer_tokyo"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对乳腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
+    "graphical_abstract": "assets/ga/brca_art05.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "brca_art06",
+    "serial": 13,
+    "cancer_id": "brca",
+    "cancer_zh": "乳腺癌",
+    "method_id": "art06",
+    "art_no": "art06",
+    "title": "A Clinical–Immune–Genomic Prognostic Model for Breast Invasive Carcinoma Overall Survival: Integrating IFN-γ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
+    "direction": "临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型",
+    "methods_detail": "在TCGA构建免疫评分/IFN-γ相关签名、计算TMB与MMR状态；训练临床+免疫+基因组整合模型；评估C-index增量、时间依赖ROC、校准、DCA与KM；讨论免疫-基因组联合对预后分层的意义；指标突出者可冲更高档转化医学刊",
+    "datasets": [],
+    "disease": "乳腺癌",
+    "analysis_style": "临床+免疫+TMB/MMR 整合 OS",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "scientific_reports",
+      "breast_cancer_tokyo"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/brca_art06.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "brca_art07",
+    "serial": 14,
+    "cancer_id": "brca",
+    "cancer_zh": "乳腺癌",
+    "method_id": "art07",
+    "art_no": "art07",
+    "title": "Clinical–Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Breast Invasive Carcinoma: A TRIPOD-Aligned GSE20685 Cohort Study",
+    "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
+    "methods_detail": "限定II/III期人群；构建临床与临床+转录组RFS模型；在分期/化疗亚组做KM与判别评估；若整合模型C-index不升反降则如实报告并强调临床基线已捕获大部分信息；目标期刊相应降档",
+    "datasets": [
+      "GSE20685"
+    ],
+    "disease": "乳腺癌",
+    "analysis_style": "II/III 期亚组 RFS 建模",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "scientific_reports",
+      "peerj",
+      "breast_cancer_tokyo"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对乳腺癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/brca_art07.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "stad_art01",
+    "serial": 15,
+    "cancer_id": "stad",
+    "cancer_zh": "胃腺癌",
+    "method_id": "art01",
+    "art_no": "art01",
+    "title": "Development and External Validation of a Clinical–Transcriptomic Prognostic Model for Stomach Adenocarcinoma: A TRIPOD-Aligned Analysis of TCGA-STAD",
+    "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；在训练集内筛选预后相关基因，避免信息泄漏；分别拟合仅临床Cox模型与临床+转录组整合模型（如ridge/LASSO/随机生存森林等）；报告C-index、时间依赖ROC、校准曲线、决策曲线（DCA）、Kaplan–Meier风险分层；使用GEO或独立队列做外部/交叉验证；按TRIPOD/+AI思路报告样本量、缺失与模型规格",
+    "datasets": [
+      "TCGA-STAD"
+    ],
+    "disease": "胃腺癌",
+    "analysis_style": "临床+转录组 OS 建模与外部验证",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/stad_art01.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "stad_art02",
+    "serial": 16,
+    "cancer_id": "stad",
+    "cancer_zh": "胃腺癌",
+    "method_id": "art02",
+    "art_no": "art02",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Genomic Prognostic Model for Stomach Adenocarcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
+    "direction": "临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型",
+    "methods_detail": "自TCGA提取临床与突变相关特征（驱动突变、TMB、MMR/MSI相关指标等）；训练集内构建临床模型与临床+基因组整合模型；评估C-index、时间依赖ROC、校准、DCA与KM分层；进行跨队列或留出验证；讨论基因组特征相对分期/临床基线的增量预后价值",
+    "datasets": [],
+    "disease": "胃腺癌",
+    "analysis_style": "临床+突变/TMB/MMR OS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/stad_art02.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "stad_art03",
+    "serial": 17,
+    "cancer_id": "stad",
+    "cancer_zh": "胃腺癌",
+    "method_id": "art03",
+    "art_no": "art03",
+    "title": "A Clinical–Transcriptomic Model for Recurrence-Free Survival in Stomach Adenocarcinoma: A TRIPOD-Aligned GSE26253 Cohort Study",
+    "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
+    "methods_detail": "以含复发终点的GEO（或同类）队列为主；训练集内基因筛选与临床+转录组RFS建模；内部验证C-index、时间依赖ROC、校准、DCA、KM；如实报告复发终点定义、随访与删失；若无强外部队列则明确局限性",
+    "datasets": [
+      "GSE26253"
+    ],
+    "disease": "胃腺癌",
+    "analysis_style": "临床+转录组 RFS/DFS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "cancers",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/stad_art03.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "stad_art04",
+    "serial": 18,
+    "cancer_id": "stad",
+    "cancer_zh": "胃腺癌",
+    "method_id": "art04",
+    "art_no": "art04",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Stomach Adenocarcinoma: A Treatment-Interaction Analysis in GSE62254",
+    "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
+    "methods_detail": "在含化疗信息的队列中构建转录组风险评分；用Cox或交互项模型检验“风险分层×是否接受辅助化疗”交互效应；比较高低危±化疗四组KM与HR；报告交互p值与临床可解释性；阴性结果按有限获益/透明阴性表述，避免过度因果推断",
+    "datasets": [
+      "GSE62254"
+    ],
+    "disease": "胃腺癌",
+    "analysis_style": "风险评分×辅助化疗交互分析",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性",
+      "可能阴性结果需降档"
+    ],
+    "intro": "本研究针对胃腺癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/stad_art04.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "stad_art05",
+    "serial": 19,
+    "cancer_id": "stad",
+    "cancer_zh": "胃腺癌",
+    "method_id": "art05",
+    "art_no": "art05",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Stomach Adenocarcinoma: TCGA RNA-Seq versus GSE62254 Microarray",
+    "direction": "分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层",
+    "methods_detail": "在TCGA RNA-seq与GEO芯片队列分别调用/映射分子亚型；计算跨平台一致率、Cohen kappa等；比较各亚型OS/RFS差异；讨论平台差异、批次与分型迁移失败原因；一致性弱时降调“验证成功”表述",
+    "datasets": [
+      "GSE62254"
+    ],
+    "disease": "胃腺癌",
+    "analysis_style": "分子分型跨平台一致性验证",
+    "writing_style": "公开组学跨平台分子分型验证",
+    "quality_target": "JCR Q1（综合）/ 中科院约 3 区",
+    "journal_primary": "scientific_reports",
+    "journals_backup": [
+      "cancers",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对胃腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
+    "graphical_abstract": "assets/ga/stad_art05.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "stad_art06",
+    "serial": 20,
+    "cancer_id": "stad",
+    "cancer_zh": "胃腺癌",
+    "method_id": "art06",
+    "art_no": "art06",
+    "title": "A Clinical–Immune–Genomic Prognostic Model for Stomach Adenocarcinoma Overall Survival: Integrating IFN-γ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
+    "direction": "临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型",
+    "methods_detail": "在TCGA构建免疫评分/IFN-γ相关签名、计算TMB与MMR状态；训练临床+免疫+基因组整合模型；评估C-index增量、时间依赖ROC、校准、DCA与KM；讨论免疫-基因组联合对预后分层的意义；指标突出者可冲更高档转化医学刊",
+    "datasets": [],
+    "disease": "胃腺癌",
+    "analysis_style": "临床+免疫+TMB/MMR 整合 OS",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/stad_art06.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "stad_art07",
+    "serial": 21,
+    "cancer_id": "stad",
+    "cancer_zh": "胃腺癌",
+    "method_id": "art07",
+    "art_no": "art07",
+    "title": "Clinical–Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Stomach Adenocarcinoma: A TRIPOD-Aligned GSE26253 Cohort Study",
+    "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
+    "methods_detail": "限定II/III期人群；构建临床与临床+转录组RFS模型；在分期/化疗亚组做KM与判别评估；若整合模型C-index不升反降则如实报告并强调临床基线已捕获大部分信息；目标期刊相应降档",
+    "datasets": [
+      "GSE26253"
+    ],
+    "disease": "胃腺癌",
+    "analysis_style": "II/III 期亚组 RFS 建模",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对胃腺癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/stad_art07.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "luad_art01",
+    "serial": 22,
+    "cancer_id": "luad",
+    "cancer_zh": "肺腺癌",
+    "method_id": "art01",
+    "art_no": "art01",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Transcriptomic Prognostic Model for Lung Adenocarcinoma: A TRIPOD-Aligned Analysis of TCGA-LUAD",
+    "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；在训练集内筛选预后相关基因，避免信息泄漏；分别拟合仅临床Cox模型与临床+转录组整合模型（如ridge/LASSO/随机生存森林等）；报告C-index、时间依赖ROC、校准曲线、决策曲线（DCA）、Kaplan–Meier风险分层；使用GEO或独立队列做外部/交叉验证；按TRIPOD/+AI思路报告样本量、缺失与模型规格",
+    "datasets": [
+      "TCGA-LUAD"
+    ],
+    "disease": "肺腺癌",
+    "analysis_style": "临床+转录组 OS 建模与外部验证",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/luad_art01.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "luad_art02",
+    "serial": 23,
+    "cancer_id": "luad",
+    "cancer_zh": "肺腺癌",
+    "method_id": "art02",
+    "art_no": "art02",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Genomic Prognostic Model for Lung Adenocarcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
+    "direction": "临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型",
+    "methods_detail": "自TCGA提取临床与突变相关特征（驱动突变、TMB、MMR/MSI相关指标等）；训练集内构建临床模型与临床+基因组整合模型；评估C-index、时间依赖ROC、校准、DCA与KM分层；进行跨队列或留出验证；讨论基因组特征相对分期/临床基线的增量预后价值",
+    "datasets": [],
+    "disease": "肺腺癌",
+    "analysis_style": "临床+突变/TMB/MMR OS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/luad_art02.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "luad_art03",
+    "serial": 24,
+    "cancer_id": "luad",
+    "cancer_zh": "肺腺癌",
+    "method_id": "art03",
+    "art_no": "art03",
+    "title": "A Clinical–Transcriptomic Model for Recurrence-Free Survival in Lung Adenocarcinoma: A TRIPOD-Aligned GSE31210 Cohort Study",
+    "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
+    "methods_detail": "以含复发终点的GEO（或同类）队列为主；训练集内基因筛选与临床+转录组RFS建模；内部验证C-index、时间依赖ROC、校准、DCA、KM；如实报告复发终点定义、随访与删失；若无强外部队列则明确局限性",
+    "datasets": [
+      "GSE31210"
+    ],
+    "disease": "肺腺癌",
+    "analysis_style": "临床+转录组 RFS/DFS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "cancers",
+      "scientific_reports",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/luad_art03.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "luad_art04",
+    "serial": 25,
+    "cancer_id": "luad",
+    "cancer_zh": "肺腺癌",
+    "method_id": "art04",
+    "art_no": "art04",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Lung Adenocarcinoma: A Treatment-Interaction Analysis in GSE14814",
+    "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
+    "methods_detail": "在含化疗信息的队列中构建转录组风险评分；用Cox或交互项模型检验“风险分层×是否接受辅助化疗”交互效应；比较高低危±化疗四组KM与HR；报告交互p值与临床可解释性；阴性结果按有限获益/透明阴性表述，避免过度因果推断",
+    "datasets": [
+      "GSE14814"
+    ],
+    "disease": "肺腺癌",
+    "analysis_style": "风险评分×辅助化疗交互分析",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "scientific_reports",
+      "peerj",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性",
+      "可能阴性结果需降档"
+    ],
+    "intro": "本研究针对肺腺癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/luad_art04.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "luad_art05",
+    "serial": 26,
+    "cancer_id": "luad",
+    "cancer_zh": "肺腺癌",
+    "method_id": "art05",
+    "art_no": "art05",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Lung Adenocarcinoma: TCGA RNA-Seq versus GSE31210 Microarray",
+    "direction": "分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层",
+    "methods_detail": "在TCGA RNA-seq与GEO芯片队列分别调用/映射分子亚型；计算跨平台一致率、Cohen kappa等；比较各亚型OS/RFS差异；讨论平台差异、批次与分型迁移失败原因；一致性弱时降调“验证成功”表述",
+    "datasets": [
+      "GSE31210"
+    ],
+    "disease": "肺腺癌",
+    "analysis_style": "分子分型跨平台一致性验证",
+    "writing_style": "公开组学跨平台分子分型验证",
+    "quality_target": "JCR Q1（综合）/ 中科院约 3 区",
+    "journal_primary": "scientific_reports",
+    "journals_backup": [
+      "cancers",
+      "peerj",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肺腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
+    "graphical_abstract": "assets/ga/luad_art05.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "luad_art06",
+    "serial": 27,
+    "cancer_id": "luad",
+    "cancer_zh": "肺腺癌",
+    "method_id": "art06",
+    "art_no": "art06",
+    "title": "A Clinical–Immune–Genomic Prognostic Model for Lung Adenocarcinoma Overall Survival: Integrating IFN-γ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
+    "direction": "临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型",
+    "methods_detail": "在TCGA构建免疫评分/IFN-γ相关签名、计算TMB与MMR状态；训练临床+免疫+基因组整合模型；评估C-index增量、时间依赖ROC、校准、DCA与KM；讨论免疫-基因组联合对预后分层的意义；指标突出者可冲更高档转化医学刊",
+    "datasets": [],
+    "disease": "肺腺癌",
+    "analysis_style": "临床+免疫+TMB/MMR 整合 OS",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "scientific_reports",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/luad_art06.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "luad_art07",
+    "serial": 28,
+    "cancer_id": "luad",
+    "cancer_zh": "肺腺癌",
+    "method_id": "art07",
+    "art_no": "art07",
+    "title": "Clinical–Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Lung Adenocarcinoma: A TRIPOD-Aligned GSE31210 Cohort Study",
+    "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
+    "methods_detail": "限定II/III期人群；构建临床与临床+转录组RFS模型；在分期/化疗亚组做KM与判别评估；若整合模型C-index不升反降则如实报告并强调临床基线已捕获大部分信息；目标期刊相应降档",
+    "datasets": [
+      "GSE31210"
+    ],
+    "disease": "肺腺癌",
+    "analysis_style": "II/III 期亚组 RFS 建模",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "scientific_reports",
+      "peerj",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对肺腺癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/luad_art07.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lusc_art01",
+    "serial": 29,
+    "cancer_id": "lusc",
+    "cancer_zh": "肺鳞癌",
+    "method_id": "art01",
+    "art_no": "art01",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Transcriptomic Prognostic Model for Lung Squamous Cell Carcinoma: A TRIPOD-Aligned Analysis of TCGA-LUSC",
+    "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；在训练集内筛选预后相关基因，避免信息泄漏；分别拟合仅临床Cox模型与临床+转录组整合模型（如ridge/LASSO/随机生存森林等）；报告C-index、时间依赖ROC、校准曲线、决策曲线（DCA）、Kaplan–Meier风险分层；使用GEO或独立队列做外部/交叉验证；按TRIPOD/+AI思路报告样本量、缺失与模型规格",
+    "datasets": [
+      "TCGA-LUSC"
+    ],
+    "disease": "肺鳞癌",
+    "analysis_style": "临床+转录组 OS 建模与外部验证",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/lusc_art01.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lusc_art02",
+    "serial": 30,
+    "cancer_id": "lusc",
+    "cancer_zh": "肺鳞癌",
+    "method_id": "art02",
+    "art_no": "art02",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Genomic Prognostic Model for Lung Squamous Cell Carcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
+    "direction": "临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型",
+    "methods_detail": "自TCGA提取临床与突变相关特征（驱动突变、TMB、MMR/MSI相关指标等）；训练集内构建临床模型与临床+基因组整合模型；评估C-index、时间依赖ROC、校准、DCA与KM分层；进行跨队列或留出验证；讨论基因组特征相对分期/临床基线的增量预后价值",
+    "datasets": [],
+    "disease": "肺鳞癌",
+    "analysis_style": "临床+突变/TMB/MMR OS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/lusc_art02.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lusc_art03",
+    "serial": 31,
+    "cancer_id": "lusc",
+    "cancer_zh": "肺鳞癌",
+    "method_id": "art03",
+    "art_no": "art03",
+    "title": "A Clinical–Transcriptomic Model for Recurrence-Free Survival in Lung Squamous Cell Carcinoma: A TRIPOD-Aligned GSE4573 Cohort Study",
+    "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
+    "methods_detail": "以含复发终点的GEO（或同类）队列为主；训练集内基因筛选与临床+转录组RFS建模；内部验证C-index、时间依赖ROC、校准、DCA、KM；如实报告复发终点定义、随访与删失；若无强外部队列则明确局限性",
+    "datasets": [
+      "GSE4573"
+    ],
+    "disease": "肺鳞癌",
+    "analysis_style": "临床+转录组 RFS/DFS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "cancers",
+      "scientific_reports",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/lusc_art03.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lusc_art04",
+    "serial": 32,
+    "cancer_id": "lusc",
+    "cancer_zh": "肺鳞癌",
+    "method_id": "art04",
+    "art_no": "art04",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Lung Squamous Cell Carcinoma: A Treatment-Interaction Analysis in GSE4573",
+    "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
+    "methods_detail": "在含化疗信息的队列中构建转录组风险评分；用Cox或交互项模型检验“风险分层×是否接受辅助化疗”交互效应；比较高低危±化疗四组KM与HR；报告交互p值与临床可解释性；阴性结果按有限获益/透明阴性表述，避免过度因果推断",
+    "datasets": [
+      "GSE4573"
+    ],
+    "disease": "肺鳞癌",
+    "analysis_style": "风险评分×辅助化疗交互分析",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "scientific_reports",
+      "peerj",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性",
+      "可能阴性结果需降档"
+    ],
+    "intro": "本研究针对肺鳞癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/lusc_art04.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lusc_art05",
+    "serial": 33,
+    "cancer_id": "lusc",
+    "cancer_zh": "肺鳞癌",
+    "method_id": "art05",
+    "art_no": "art05",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Lung Squamous Cell Carcinoma: TCGA RNA-Seq versus GSE4573 Microarray",
+    "direction": "分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层",
+    "methods_detail": "在TCGA RNA-seq与GEO芯片队列分别调用/映射分子亚型；计算跨平台一致率、Cohen kappa等；比较各亚型OS/RFS差异；讨论平台差异、批次与分型迁移失败原因；一致性弱时降调“验证成功”表述",
+    "datasets": [
+      "GSE4573"
+    ],
+    "disease": "肺鳞癌",
+    "analysis_style": "分子分型跨平台一致性验证",
+    "writing_style": "公开组学跨平台分子分型验证",
+    "quality_target": "JCR Q1（综合）/ 中科院约 3 区",
+    "journal_primary": "scientific_reports",
+    "journals_backup": [
+      "cancers",
+      "peerj",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肺鳞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
+    "graphical_abstract": "assets/ga/lusc_art05.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lusc_art06",
+    "serial": 34,
+    "cancer_id": "lusc",
+    "cancer_zh": "肺鳞癌",
+    "method_id": "art06",
+    "art_no": "art06",
+    "title": "A Clinical–Immune–Genomic Prognostic Model for Lung Squamous Cell Carcinoma Overall Survival: Integrating IFN-γ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
+    "direction": "临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型",
+    "methods_detail": "在TCGA构建免疫评分/IFN-γ相关签名、计算TMB与MMR状态；训练临床+免疫+基因组整合模型；评估C-index增量、时间依赖ROC、校准、DCA与KM；讨论免疫-基因组联合对预后分层的意义；指标突出者可冲更高档转化医学刊",
+    "datasets": [],
+    "disease": "肺鳞癌",
+    "analysis_style": "临床+免疫+TMB/MMR 整合 OS",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "scientific_reports",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/lusc_art06.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lusc_art07",
+    "serial": 35,
+    "cancer_id": "lusc",
+    "cancer_zh": "肺鳞癌",
+    "method_id": "art07",
+    "art_no": "art07",
+    "title": "Clinical–Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Lung Squamous Cell Carcinoma: A TRIPOD-Aligned GSE4573 Cohort Study",
+    "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
+    "methods_detail": "限定II/III期人群；构建临床与临床+转录组RFS模型；在分期/化疗亚组做KM与判别评估；若整合模型C-index不升反降则如实报告并强调临床基线已捕获大部分信息；目标期刊相应降档",
+    "datasets": [
+      "GSE4573"
+    ],
+    "disease": "肺鳞癌",
+    "analysis_style": "II/III 期亚组 RFS 建模",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "scientific_reports",
+      "peerj",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对肺鳞癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/lusc_art07.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lihc_art01",
+    "serial": 36,
+    "cancer_id": "lihc",
+    "cancer_zh": "肝细胞癌",
+    "method_id": "art01",
+    "art_no": "art01",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Transcriptomic Prognostic Model for Hepatocellular Carcinoma: A TRIPOD-Aligned Analysis of TCGA-LIHC",
+    "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；在训练集内筛选预后相关基因，避免信息泄漏；分别拟合仅临床Cox模型与临床+转录组整合模型（如ridge/LASSO/随机生存森林等）；报告C-index、时间依赖ROC、校准曲线、决策曲线（DCA）、Kaplan–Meier风险分层；使用GEO或独立队列做外部/交叉验证；按TRIPOD/+AI思路报告样本量、缺失与模型规格",
+    "datasets": [
+      "TCGA-LIHC"
+    ],
+    "disease": "肝细胞癌",
+    "analysis_style": "临床+转录组 OS 建模与外部验证",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "hepatology_research"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/lihc_art01.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lihc_art02",
+    "serial": 37,
+    "cancer_id": "lihc",
+    "cancer_zh": "肝细胞癌",
+    "method_id": "art02",
+    "art_no": "art02",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Genomic Prognostic Model for Hepatocellular Carcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
+    "direction": "临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型",
+    "methods_detail": "自TCGA提取临床与突变相关特征（驱动突变、TMB、MMR/MSI相关指标等）；训练集内构建临床模型与临床+基因组整合模型；评估C-index、时间依赖ROC、校准、DCA与KM分层；进行跨队列或留出验证；讨论基因组特征相对分期/临床基线的增量预后价值",
+    "datasets": [],
+    "disease": "肝细胞癌",
+    "analysis_style": "临床+突变/TMB/MMR OS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "hepatology_research"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/lihc_art02.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lihc_art03",
+    "serial": 38,
+    "cancer_id": "lihc",
+    "cancer_zh": "肝细胞癌",
+    "method_id": "art03",
+    "art_no": "art03",
+    "title": "A Clinical–Transcriptomic Model for Recurrence-Free Survival in Hepatocellular Carcinoma: A TRIPOD-Aligned GSE76427 Cohort Study",
+    "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
+    "methods_detail": "以含复发终点的GEO（或同类）队列为主；训练集内基因筛选与临床+转录组RFS建模；内部验证C-index、时间依赖ROC、校准、DCA、KM；如实报告复发终点定义、随访与删失；若无强外部队列则明确局限性",
+    "datasets": [
+      "GSE76427"
+    ],
+    "disease": "肝细胞癌",
+    "analysis_style": "临床+转录组 RFS/DFS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "cancers",
+      "scientific_reports",
+      "hepatology_research"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/lihc_art03.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lihc_art04",
+    "serial": 39,
+    "cancer_id": "lihc",
+    "cancer_zh": "肝细胞癌",
+    "method_id": "art04",
+    "art_no": "art04",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Hepatocellular Carcinoma: A Treatment-Interaction Analysis in TCGA-LIHC",
+    "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
+    "methods_detail": "在含化疗信息的队列中构建转录组风险评分；用Cox或交互项模型检验“风险分层×是否接受辅助化疗”交互效应；比较高低危±化疗四组KM与HR；报告交互p值与临床可解释性；阴性结果按有限获益/透明阴性表述，避免过度因果推断",
+    "datasets": [
+      "TCGA-LIHC"
+    ],
+    "disease": "肝细胞癌",
+    "analysis_style": "风险评分×辅助化疗交互分析",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "scientific_reports",
+      "peerj",
+      "hepatology_research"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性",
+      "可能阴性结果需降档"
+    ],
+    "intro": "本研究针对肝细胞癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/lihc_art04.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lihc_art05",
+    "serial": 40,
+    "cancer_id": "lihc",
+    "cancer_zh": "肝细胞癌",
+    "method_id": "art05",
+    "art_no": "art05",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Hepatocellular Carcinoma: TCGA RNA-Seq versus GSE76427 Microarray",
+    "direction": "分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层",
+    "methods_detail": "在TCGA RNA-seq与GEO芯片队列分别调用/映射分子亚型；计算跨平台一致率、Cohen kappa等；比较各亚型OS/RFS差异；讨论平台差异、批次与分型迁移失败原因；一致性弱时降调“验证成功”表述",
+    "datasets": [
+      "GSE76427"
+    ],
+    "disease": "肝细胞癌",
+    "analysis_style": "分子分型跨平台一致性验证",
+    "writing_style": "公开组学跨平台分子分型验证",
+    "quality_target": "JCR Q1（综合）/ 中科院约 3 区",
+    "journal_primary": "scientific_reports",
+    "journals_backup": [
+      "cancers",
+      "peerj",
+      "hepatology_research"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肝细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
+    "graphical_abstract": "assets/ga/lihc_art05.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lihc_art06",
+    "serial": 41,
+    "cancer_id": "lihc",
+    "cancer_zh": "肝细胞癌",
+    "method_id": "art06",
+    "art_no": "art06",
+    "title": "A Clinical–Immune–Genomic Prognostic Model for Hepatocellular Carcinoma Overall Survival: Integrating IFN-γ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
+    "direction": "临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型",
+    "methods_detail": "在TCGA构建免疫评分/IFN-γ相关签名、计算TMB与MMR状态；训练临床+免疫+基因组整合模型；评估C-index增量、时间依赖ROC、校准、DCA与KM；讨论免疫-基因组联合对预后分层的意义；指标突出者可冲更高档转化医学刊",
+    "datasets": [],
+    "disease": "肝细胞癌",
+    "analysis_style": "临床+免疫+TMB/MMR 整合 OS",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "scientific_reports",
+      "hepatology_research"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/lihc_art06.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "lihc_art07",
+    "serial": 42,
+    "cancer_id": "lihc",
+    "cancer_zh": "肝细胞癌",
+    "method_id": "art07",
+    "art_no": "art07",
+    "title": "Clinical–Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Hepatocellular Carcinoma: A TRIPOD-Aligned GSE14520 Cohort Study",
+    "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
+    "methods_detail": "限定II/III期人群；构建临床与临床+转录组RFS模型；在分期/化疗亚组做KM与判别评估；若整合模型C-index不升反降则如实报告并强调临床基线已捕获大部分信息；目标期刊相应降档",
+    "datasets": [
+      "GSE14520"
+    ],
+    "disease": "肝细胞癌",
+    "analysis_style": "II/III 期亚组 RFS 建模",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "scientific_reports",
+      "peerj",
+      "hepatology_research"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对肝细胞癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/lihc_art07.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "paad_art01",
+    "serial": 43,
+    "cancer_id": "paad",
+    "cancer_zh": "胰腺腺癌",
+    "method_id": "art01",
+    "art_no": "art01",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Transcriptomic Prognostic Model for Pancreatic Adenocarcinoma: A TRIPOD-Aligned Analysis of TCGA-PAAD",
+    "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；在训练集内筛选预后相关基因，避免信息泄漏；分别拟合仅临床Cox模型与临床+转录组整合模型（如ridge/LASSO/随机生存森林等）；报告C-index、时间依赖ROC、校准曲线、决策曲线（DCA）、Kaplan–Meier风险分层；使用GEO或独立队列做外部/交叉验证；按TRIPOD/+AI思路报告样本量、缺失与模型规格",
+    "datasets": [
+      "TCGA-PAAD"
+    ],
+    "disease": "胰腺腺癌",
+    "analysis_style": "临床+转录组 OS 建模与外部验证",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/paad_art01.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "paad_art02",
+    "serial": 44,
+    "cancer_id": "paad",
+    "cancer_zh": "胰腺腺癌",
+    "method_id": "art02",
+    "art_no": "art02",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Genomic Prognostic Model for Pancreatic Adenocarcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
+    "direction": "临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型",
+    "methods_detail": "自TCGA提取临床与突变相关特征（驱动突变、TMB、MMR/MSI相关指标等）；训练集内构建临床模型与临床+基因组整合模型；评估C-index、时间依赖ROC、校准、DCA与KM分层；进行跨队列或留出验证；讨论基因组特征相对分期/临床基线的增量预后价值",
+    "datasets": [],
+    "disease": "胰腺腺癌",
+    "analysis_style": "临床+突变/TMB/MMR OS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/paad_art02.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "paad_art03",
+    "serial": 45,
+    "cancer_id": "paad",
+    "cancer_zh": "胰腺腺癌",
+    "method_id": "art03",
+    "art_no": "art03",
+    "title": "A Clinical–Transcriptomic Model for Recurrence-Free Survival in Pancreatic Adenocarcinoma: A TRIPOD-Aligned GSE28735 Cohort Study",
+    "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
+    "methods_detail": "以含复发终点的GEO（或同类）队列为主；训练集内基因筛选与临床+转录组RFS建模；内部验证C-index、时间依赖ROC、校准、DCA、KM；如实报告复发终点定义、随访与删失；若无强外部队列则明确局限性",
+    "datasets": [
+      "GSE28735"
+    ],
+    "disease": "胰腺腺癌",
+    "analysis_style": "临床+转录组 RFS/DFS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "cancers",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/paad_art03.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "paad_art04",
+    "serial": 46,
+    "cancer_id": "paad",
+    "cancer_zh": "胰腺腺癌",
+    "method_id": "art04",
+    "art_no": "art04",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Pancreatic Adenocarcinoma: A Treatment-Interaction Analysis in TCGA-PAAD",
+    "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
+    "methods_detail": "在含化疗信息的队列中构建转录组风险评分；用Cox或交互项模型检验“风险分层×是否接受辅助化疗”交互效应；比较高低危±化疗四组KM与HR；报告交互p值与临床可解释性；阴性结果按有限获益/透明阴性表述，避免过度因果推断",
+    "datasets": [
+      "TCGA-PAAD"
+    ],
+    "disease": "胰腺腺癌",
+    "analysis_style": "风险评分×辅助化疗交互分析",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性",
+      "可能阴性结果需降档"
+    ],
+    "intro": "本研究针对胰腺腺癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/paad_art04.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "paad_art05",
+    "serial": 47,
+    "cancer_id": "paad",
+    "cancer_zh": "胰腺腺癌",
+    "method_id": "art05",
+    "art_no": "art05",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Pancreatic Adenocarcinoma: TCGA RNA-Seq versus GSE57495 Microarray",
+    "direction": "分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层",
+    "methods_detail": "在TCGA RNA-seq与GEO芯片队列分别调用/映射分子亚型；计算跨平台一致率、Cohen kappa等；比较各亚型OS/RFS差异；讨论平台差异、批次与分型迁移失败原因；一致性弱时降调“验证成功”表述",
+    "datasets": [
+      "GSE57495"
+    ],
+    "disease": "胰腺腺癌",
+    "analysis_style": "分子分型跨平台一致性验证",
+    "writing_style": "公开组学跨平台分子分型验证",
+    "quality_target": "JCR Q1（综合）/ 中科院约 3 区",
+    "journal_primary": "scientific_reports",
+    "journals_backup": [
+      "cancers",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对胰腺腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
+    "graphical_abstract": "assets/ga/paad_art05.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "paad_art06",
+    "serial": 48,
+    "cancer_id": "paad",
+    "cancer_zh": "胰腺腺癌",
+    "method_id": "art06",
+    "art_no": "art06",
+    "title": "A Clinical–Immune–Genomic Prognostic Model for Pancreatic Adenocarcinoma Overall Survival: Integrating IFN-γ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
+    "direction": "临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型",
+    "methods_detail": "在TCGA构建免疫评分/IFN-γ相关签名、计算TMB与MMR状态；训练临床+免疫+基因组整合模型；评估C-index增量、时间依赖ROC、校准、DCA与KM；讨论免疫-基因组联合对预后分层的意义；指标突出者可冲更高档转化医学刊",
+    "datasets": [],
+    "disease": "胰腺腺癌",
+    "analysis_style": "临床+免疫+TMB/MMR 整合 OS",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "scientific_reports",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/paad_art06.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "paad_art07",
+    "serial": 49,
+    "cancer_id": "paad",
+    "cancer_zh": "胰腺腺癌",
+    "method_id": "art07",
+    "art_no": "art07",
+    "title": "Clinical–Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Pancreatic Adenocarcinoma: A TRIPOD-Aligned GSE57495 Cohort Study",
+    "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
+    "methods_detail": "限定II/III期人群；构建临床与临床+转录组RFS模型；在分期/化疗亚组做KM与判别评估；若整合模型C-index不升反降则如实报告并强调临床基线已捕获大部分信息；目标期刊相应降档",
+    "datasets": [
+      "GSE57495"
+    ],
+    "disease": "胰腺腺癌",
+    "analysis_style": "II/III 期亚组 RFS 建模",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对胰腺腺癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/paad_art07.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "hnsc_art01",
+    "serial": 50,
+    "cancer_id": "hnsc",
+    "cancer_zh": "头颈鳞癌",
+    "method_id": "art01",
+    "art_no": "art01",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Transcriptomic Prognostic Model for Head and Neck Squamous Cell Carcinoma: A TRIPOD-Aligned Analysis of TCGA-HNSC",
+    "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；在训练集内筛选预后相关基因，避免信息泄漏；分别拟合仅临床Cox模型与临床+转录组整合模型（如ridge/LASSO/随机生存森林等）；报告C-index、时间依赖ROC、校准曲线、决策曲线（DCA）、Kaplan–Meier风险分层；使用GEO或独立队列做外部/交叉验证；按TRIPOD/+AI思路报告样本量、缺失与模型规格",
+    "datasets": [
+      "TCGA-HNSC"
+    ],
+    "disease": "头颈鳞癌",
+    "analysis_style": "临床+转录组 OS 建模与外部验证",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "head_neck"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/hnsc_art01.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "hnsc_art02",
+    "serial": 51,
+    "cancer_id": "hnsc",
+    "cancer_zh": "头颈鳞癌",
+    "method_id": "art02",
+    "art_no": "art02",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Genomic Prognostic Model for Head and Neck Squamous Cell Carcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
+    "direction": "临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型",
+    "methods_detail": "自TCGA提取临床与突变相关特征（驱动突变、TMB、MMR/MSI相关指标等）；训练集内构建临床模型与临床+基因组整合模型；评估C-index、时间依赖ROC、校准、DCA与KM分层；进行跨队列或留出验证；讨论基因组特征相对分期/临床基线的增量预后价值",
+    "datasets": [],
+    "disease": "头颈鳞癌",
+    "analysis_style": "临床+突变/TMB/MMR OS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "head_neck"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/hnsc_art02.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "hnsc_art03",
+    "serial": 52,
+    "cancer_id": "hnsc",
+    "cancer_zh": "头颈鳞癌",
+    "method_id": "art03",
+    "art_no": "art03",
+    "title": "A Clinical–Transcriptomic Model for Recurrence-Free Survival in Head and Neck Squamous Cell Carcinoma: A TRIPOD-Aligned GSE42743 Cohort Study",
+    "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
+    "methods_detail": "以含复发终点的GEO（或同类）队列为主；训练集内基因筛选与临床+转录组RFS建模；内部验证C-index、时间依赖ROC、校准、DCA、KM；如实报告复发终点定义、随访与删失；若无强外部队列则明确局限性",
+    "datasets": [
+      "GSE42743"
+    ],
+    "disease": "头颈鳞癌",
+    "analysis_style": "临床+转录组 RFS/DFS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "cancers",
+      "scientific_reports",
+      "head_neck"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/hnsc_art03.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "hnsc_art04",
+    "serial": 53,
+    "cancer_id": "hnsc",
+    "cancer_zh": "头颈鳞癌",
+    "method_id": "art04",
+    "art_no": "art04",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Head and Neck Squamous Cell Carcinoma: A Treatment-Interaction Analysis in GSE41613",
+    "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
+    "methods_detail": "在含化疗信息的队列中构建转录组风险评分；用Cox或交互项模型检验“风险分层×是否接受辅助化疗”交互效应；比较高低危±化疗四组KM与HR；报告交互p值与临床可解释性；阴性结果按有限获益/透明阴性表述，避免过度因果推断",
+    "datasets": [
+      "GSE41613"
+    ],
+    "disease": "头颈鳞癌",
+    "analysis_style": "风险评分×辅助化疗交互分析",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "scientific_reports",
+      "peerj",
+      "head_neck"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性",
+      "可能阴性结果需降档"
+    ],
+    "intro": "本研究针对头颈鳞癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/hnsc_art04.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "hnsc_art05",
+    "serial": 54,
+    "cancer_id": "hnsc",
+    "cancer_zh": "头颈鳞癌",
+    "method_id": "art05",
+    "art_no": "art05",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Head and Neck Squamous Cell Carcinoma: TCGA RNA-Seq versus GSE65858 Microarray",
+    "direction": "分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层",
+    "methods_detail": "在TCGA RNA-seq与GEO芯片队列分别调用/映射分子亚型；计算跨平台一致率、Cohen kappa等；比较各亚型OS/RFS差异；讨论平台差异、批次与分型迁移失败原因；一致性弱时降调“验证成功”表述",
+    "datasets": [
+      "GSE65858"
+    ],
+    "disease": "头颈鳞癌",
+    "analysis_style": "分子分型跨平台一致性验证",
+    "writing_style": "公开组学跨平台分子分型验证",
+    "quality_target": "JCR Q1（综合）/ 中科院约 3 区",
+    "journal_primary": "scientific_reports",
+    "journals_backup": [
+      "cancers",
+      "peerj",
+      "head_neck"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对头颈鳞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
+    "graphical_abstract": "assets/ga/hnsc_art05.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "hnsc_art06",
+    "serial": 55,
+    "cancer_id": "hnsc",
+    "cancer_zh": "头颈鳞癌",
+    "method_id": "art06",
+    "art_no": "art06",
+    "title": "A Clinical–Immune–Genomic Prognostic Model for Head and Neck Squamous Cell Carcinoma Overall Survival: Integrating IFN-γ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
+    "direction": "临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型",
+    "methods_detail": "在TCGA构建免疫评分/IFN-γ相关签名、计算TMB与MMR状态；训练临床+免疫+基因组整合模型；评估C-index增量、时间依赖ROC、校准、DCA与KM；讨论免疫-基因组联合对预后分层的意义；指标突出者可冲更高档转化医学刊",
+    "datasets": [],
+    "disease": "头颈鳞癌",
+    "analysis_style": "临床+免疫+TMB/MMR 整合 OS",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "scientific_reports",
+      "head_neck"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/hnsc_art06.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "hnsc_art07",
+    "serial": 56,
+    "cancer_id": "hnsc",
+    "cancer_zh": "头颈鳞癌",
+    "method_id": "art07",
+    "art_no": "art07",
+    "title": "Clinical–Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Head and Neck Squamous Cell Carcinoma: A TRIPOD-Aligned GSE41613 Cohort Study",
+    "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
+    "methods_detail": "限定II/III期人群；构建临床与临床+转录组RFS模型；在分期/化疗亚组做KM与判别评估；若整合模型C-index不升反降则如实报告并强调临床基线已捕获大部分信息；目标期刊相应降档",
+    "datasets": [
+      "GSE41613"
+    ],
+    "disease": "头颈鳞癌",
+    "analysis_style": "II/III 期亚组 RFS 建模",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "scientific_reports",
+      "peerj",
+      "head_neck"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对头颈鳞癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/hnsc_art07.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "kirc_art01",
+    "serial": 57,
+    "cancer_id": "kirc",
+    "cancer_zh": "肾透明细胞癌",
+    "method_id": "art01",
+    "art_no": "art01",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Transcriptomic Prognostic Model for Clear Cell Renal Cell Carcinoma: A TRIPOD-Aligned Analysis of TCGA-KIRC",
+    "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；在训练集内筛选预后相关基因，避免信息泄漏；分别拟合仅临床Cox模型与临床+转录组整合模型（如ridge/LASSO/随机生存森林等）；报告C-index、时间依赖ROC、校准曲线、决策曲线（DCA）、Kaplan–Meier风险分层；使用GEO或独立队列做外部/交叉验证；按TRIPOD/+AI思路报告样本量、缺失与模型规格",
+    "datasets": [
+      "TCGA-KIRC"
+    ],
+    "disease": "肾透明细胞癌",
+    "analysis_style": "临床+转录组 OS 建模与外部验证",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "bmc_urology"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/kirc_art01.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "kirc_art02",
+    "serial": 58,
+    "cancer_id": "kirc",
+    "cancer_zh": "肾透明细胞癌",
+    "method_id": "art02",
+    "art_no": "art02",
+    "title": "Development and Cross-Cohort Validation of a Clinical–Genomic Prognostic Model for Clear Cell Renal Cell Carcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
+    "direction": "临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型",
+    "methods_detail": "自TCGA提取临床与突变相关特征（驱动突变、TMB、MMR/MSI相关指标等）；训练集内构建临床模型与临床+基因组整合模型；评估C-index、时间依赖ROC、校准、DCA与KM分层；进行跨队列或留出验证；讨论基因组特征相对分期/临床基线的增量预后价值",
+    "datasets": [],
+    "disease": "肾透明细胞癌",
+    "analysis_style": "临床+突变/TMB/MMR OS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "bmc_urology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/kirc_art02.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "kirc_art03",
+    "serial": 59,
+    "cancer_id": "kirc",
+    "cancer_zh": "肾透明细胞癌",
+    "method_id": "art03",
+    "art_no": "art03",
+    "title": "A Clinical–Transcriptomic Model for Recurrence-Free Survival in Clear Cell Renal Cell Carcinoma: A TRIPOD-Aligned GSE22541 Cohort Study",
+    "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
+    "methods_detail": "以含复发终点的GEO（或同类）队列为主；训练集内基因筛选与临床+转录组RFS建模；内部验证C-index、时间依赖ROC、校准、DCA、KM；如实报告复发终点定义、随访与删失；若无强外部队列则明确局限性",
+    "datasets": [
+      "GSE22541"
+    ],
+    "disease": "肾透明细胞癌",
+    "analysis_style": "临床+转录组 RFS/DFS 建模",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "cancers",
+      "scientific_reports",
+      "bmc_urology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/kirc_art03.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "kirc_art04",
+    "serial": 60,
+    "cancer_id": "kirc",
+    "cancer_zh": "肾透明细胞癌",
+    "method_id": "art04",
+    "art_no": "art04",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Clear Cell Renal Cell Carcinoma: A Treatment-Interaction Analysis in TCGA-KIRC",
+    "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
+    "methods_detail": "在含化疗信息的队列中构建转录组风险评分；用Cox或交互项模型检验“风险分层×是否接受辅助化疗”交互效应；比较高低危±化疗四组KM与HR；报告交互p值与临床可解释性；阴性结果按有限获益/透明阴性表述，避免过度因果推断",
+    "datasets": [
+      "TCGA-KIRC"
+    ],
+    "disease": "肾透明细胞癌",
+    "analysis_style": "风险评分×辅助化疗交互分析",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "frontiers_oncology",
+      "scientific_reports",
+      "peerj",
+      "bmc_urology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "依赖复发/化疗信息完整性",
+      "可能阴性结果需降档"
+    ],
+    "intro": "本研究针对肾透明细胞癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/kirc_art04.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "kirc_art05",
+    "serial": 61,
+    "cancer_id": "kirc",
+    "cancer_zh": "肾透明细胞癌",
+    "method_id": "art05",
+    "art_no": "art05",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Clear Cell Renal Cell Carcinoma: TCGA RNA-Seq versus GSE40435 Microarray",
+    "direction": "分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层",
+    "methods_detail": "在TCGA RNA-seq与GEO芯片队列分别调用/映射分子亚型；计算跨平台一致率、Cohen kappa等；比较各亚型OS/RFS差异；讨论平台差异、批次与分型迁移失败原因；一致性弱时降调“验证成功”表述",
+    "datasets": [
+      "GSE40435"
+    ],
+    "disease": "肾透明细胞癌",
+    "analysis_style": "分子分型跨平台一致性验证",
+    "writing_style": "公开组学跨平台分子分型验证",
+    "quality_target": "JCR Q1（综合）/ 中科院约 3 区",
+    "journal_primary": "scientific_reports",
+    "journals_backup": [
+      "cancers",
+      "peerj",
+      "bmc_urology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肾透明细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
+    "graphical_abstract": "assets/ga/kirc_art05.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "kirc_art06",
+    "serial": 62,
+    "cancer_id": "kirc",
+    "cancer_zh": "肾透明细胞癌",
+    "method_id": "art06",
+    "art_no": "art06",
+    "title": "A Clinical–Immune–Genomic Prognostic Model for Clear Cell Renal Cell Carcinoma Overall Survival: Integrating IFN-γ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
+    "direction": "临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型",
+    "methods_detail": "在TCGA构建免疫评分/IFN-γ相关签名、计算TMB与MMR状态；训练临床+免疫+基因组整合模型；评估C-index增量、时间依赖ROC、校准、DCA与KM；讨论免疫-基因组联合对预后分层的意义；指标突出者可冲更高档转化医学刊",
+    "datasets": [],
+    "disease": "肾透明细胞癌",
+    "analysis_style": "临床+免疫+TMB/MMR 整合 OS",
+    "writing_style": "公开组学标志物挖掘与预后生存建模",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "scientific_reports",
+      "bmc_urology"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [],
+    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
+    "graphical_abstract": "assets/ga/kirc_art06.svg",
+    "status": "data_ready"
+  },
+  {
+    "id": "kirc_art07",
+    "serial": 63,
+    "cancer_id": "kirc",
+    "cancer_zh": "肾透明细胞癌",
+    "method_id": "art07",
+    "art_no": "art07",
+    "title": "Clinical–Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Pancreatic Adenocarcinoma: A TRIPOD-Aligned GSE57495 Cohort Study",
+    "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
+    "methods_detail": "限定II/III期人群；构建临床与临床+转录组RFS模型；在分期/化疗亚组做KM与判别评估；若整合模型C-index不升反降则如实报告并强调临床基线已捕获大部分信息；目标期刊相应降档",
+    "datasets": [
+      "GSE57495"
+    ],
+    "disease": "肾透明细胞癌",
+    "analysis_style": "II/III 期亚组 RFS 建模",
+    "writing_style": "预后生存建模",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_cancer",
+    "journals_backup": [
+      "scientific_reports",
+      "peerj",
+      "bmc_urology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "red",
+    "risk_tags": [
+      "题目待修",
+      "依赖复发/化疗信息完整性"
+    ],
+    "intro": "本研究针对肾透明细胞癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
+    "graphical_abstract": "assets/ga/kirc_art07.svg",
+    "status": "data_ready"
+  }
+]

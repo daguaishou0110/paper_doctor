@@ -1,0 +1,275 @@
+[
+  {
+    "id": "art01",
+    "slug": "clinical-transcriptomic-os",
+    "name_zh": "临床+转录组 OS 预后建模",
+    "name_en": "Clinical–Transcriptomic Prognostic Model (OS)",
+    "summary": "用临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
+    "endpoint": "OS",
+    "data_types": ["clinical", "transcriptomic"],
+    "analysis_pipeline": [
+      "TCGA 临床+RNA 作开发队列",
+      "训练集内筛选预后基因，避免信息泄漏",
+      "仅临床 vs 临床+转录组整合模型（ridge/LASSO/RSF 等）",
+      "C-index、时间依赖 ROC、校准、DCA、KM 风险分层",
+      "GEO/独立队列外部或交叉验证",
+      "按 TRIPOD/+AI 报告样本量、缺失与模型规格"
+    ],
+    "reporting_standard": "TRIPOD / TRIPOD+AI",
+    "quality_band": {
+      "jcr": "Q2（冲高可达 Q1）",
+      "cas": "中科院医学大类约 3 区（结果强可冲 2 区）",
+      "note": "有扎实外部验证且增量预后价值明确时可冲 Journal of Translational Medicine；否则主推 Frontiers in Oncology / BMC Cancer。"
+    },
+    "hard_requirements": [
+      "训练集内特征筛选，禁止全队列泄漏",
+      "至少报告 C-index + 时间依赖 ROC + 校准 + KM",
+      "明确开发/验证队列划分",
+      "讨论相对临床基线的增量价值"
+    ],
+    "reject_risks": [
+      "无外部验证且内部验证过拟合",
+      "仅临床模型已足够、转录组无增量",
+      "终点定义不清或随访过短"
+    ],
+    "journal_roles": {
+      "primary": ["frontiers_oncology"],
+      "backup": ["bmc_cancer", "cancers", "scientific_reports"],
+      "stretch": ["jtm"]
+    },
+    "sample_figure_set": ["队列流程图", "KM 高低危", "时间依赖 ROC", "校准曲线", "DCA", "森林图/系数图"],
+    "graphical_abstract_prompt": "Scientific graphical abstract, clean flat vector, clinical covariates plus transcriptomic heatmap feeding into a Cox survival model, Kaplan-Meier curves and ROC badge, white background, journal style, no photorealism, labels: Cohort → Feature selection → Model → Validation"
+  },
+  {
+    "id": "art02",
+    "slug": "clinical-genomic-os",
+    "name_zh": "临床+基因组 OS 预后建模",
+    "name_en": "Clinical–Genomic Prognostic Model (OS)",
+    "summary": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
+    "endpoint": "OS",
+    "data_types": ["clinical", "genomic"],
+    "analysis_pipeline": [
+      "提取驱动突变、TMB、MMR/MSI 等基因组特征",
+      "临床模型 vs 临床+基因组整合模型",
+      "C-index、时间依赖 ROC、校准、DCA、KM",
+      "跨队列或留出验证",
+      "讨论基因组相对分期/临床基线的增量价值"
+    ],
+    "reporting_standard": "TRIPOD",
+    "quality_band": {
+      "jcr": "Q2",
+      "cas": "中科院医学大类约 3 区",
+      "note": "TMB/MMR 信号弱或突变稀疏癌种需降档表述，不宜强冲 2 区。"
+    },
+    "hard_requirements": [
+      "清晰定义 TMB/MMR 计算口径",
+      "报告相对临床基线的增量判别",
+      "避免过度因果解读突变-预后关系"
+    ],
+    "reject_risks": [
+      "突变事件过少导致不稳定",
+      "与已知分期信息高度共线无增量",
+      "MMR/MSI 标注不完整"
+    ],
+    "journal_roles": {
+      "primary": ["frontiers_oncology"],
+      "backup": ["bmc_cancer", "cancers", "scientific_reports"],
+      "stretch": []
+    },
+    "sample_figure_set": ["突变概览", "TMB 分布", "KM", "ROC", "校准", "DCA"],
+    "graphical_abstract_prompt": "Scientific graphical abstract, flat vector, somatic mutations TMB MMR icons merging with clinical stage into survival model, clean white background, journal graphical abstract style"
+  },
+  {
+    "id": "art03",
+    "slug": "clinical-transcriptomic-rfs",
+    "name_zh": "临床+转录组 RFS/DFS 建模",
+    "name_en": "Clinical–Transcriptomic Model (RFS/DFS)",
+    "summary": "临床特征联合转录组预测无复发生存/无病生存。",
+    "endpoint": "RFS/DFS",
+    "data_types": ["clinical", "transcriptomic"],
+    "analysis_pipeline": [
+      "以含复发终点的 GEO 队列为主",
+      "训练集内基因筛选与临床+转录组 RFS 建模",
+      "内部验证 C-index、时间依赖 ROC、校准、DCA、KM",
+      "如实报告复发终点定义、随访与删失",
+      "无强外部队列时明确局限性"
+    ],
+    "reporting_standard": "TRIPOD",
+    "quality_band": {
+      "jcr": "Q2",
+      "cas": "中科院医学大类约 3 区",
+      "note": "复发终点清晰且随访充分时稳 3 区；外部验证弱则偏保底 Scientific Reports。"
+    },
+    "hard_requirements": [
+      "明确 RFS/DFS 事件定义",
+      "报告删失与中位随访",
+      "局限性质疑外部可推广性时需写明"
+    ],
+    "reject_risks": [
+      "复发标注混乱",
+      "随访时间过短",
+      "把内部验证写成外部验证"
+    ],
+    "journal_roles": {
+      "primary": ["bmc_cancer"],
+      "backup": ["frontiers_oncology", "cancers", "scientific_reports"],
+      "stretch": []
+    },
+    "sample_figure_set": ["研究流程图", "KM", "时间依赖 ROC", "校准", "DCA"],
+    "graphical_abstract_prompt": "Scientific graphical abstract, recurrence-free survival focus, clinical plus transcriptomic inputs, RFS Kaplan-Meier, clean vector journal style"
+  },
+  {
+    "id": "art04",
+    "slug": "adjuvant-chemo-interaction",
+    "name_zh": "风险评分×辅助化疗交互分析",
+    "name_en": "Transcriptomic Risk Score × Adjuvant Chemotherapy Interaction",
+    "summary": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III 期）。",
+    "endpoint": "OS/RFS × treatment interaction",
+    "data_types": ["clinical", "transcriptomic", "treatment"],
+    "analysis_pipeline": [
+      "在含化疗信息的队列构建转录组风险评分",
+      "Cox/交互项检验「风险分层×是否化疗」",
+      "高低危±化疗四组 KM 与 HR",
+      "报告交互 p 值与临床可解释性",
+      "阴性结果按有限获益/透明阴性表述"
+    ],
+    "reporting_standard": "透明阴性结果报告",
+    "quality_band": {
+      "jcr": "Q2–Q3",
+      "cas": "中科院医学大类约 3–4 区",
+      "note": "交互显著可稳 BMC Cancer；阴性结果需降调，备投 Scientific Reports / PeerJ。"
+    },
+    "hard_requirements": [
+      "化疗信息来源与定义清楚",
+      "报告交互项而非只做亚组分割",
+      "避免因果措辞（获益≠随机试验结论）"
+    ],
+    "reject_risks": [
+      "化疗记录缺失率高",
+      "混淆适应证偏倚",
+      "阴性结果过度包装"
+    ],
+    "journal_roles": {
+      "primary": ["bmc_cancer"],
+      "backup": ["frontiers_oncology", "scientific_reports", "peerj"],
+      "stretch": []
+    },
+    "sample_figure_set": ["四组 KM", "交互森林图", "风险评分分布", "亚组 HR"],
+    "graphical_abstract_prompt": "Scientific graphical abstract, 2x2 grid high/low risk with or without chemotherapy, interaction arrow, Kaplan-Meier panels, clean vector style"
+  },
+  {
+    "id": "art05",
+    "slug": "cross-platform-subtyping",
+    "name_zh": "分子分型跨平台验证",
+    "name_en": "Cross-Platform Molecular Subtype Validation",
+    "summary": "分子共识分型在 RNA-seq 与芯片平台间的一致性验证及预后分层。",
+    "endpoint": "分型一致性 + 预后分层",
+    "data_types": ["transcriptomic"],
+    "analysis_pipeline": [
+      "TCGA RNA-seq 与 GEO 芯片分别调用/映射亚型",
+      "一致率、Cohen kappa 等",
+      "比较各亚型 OS/RFS",
+      "讨论平台差异、批次与迁移失败原因",
+      "一致性弱时降调「验证成功」"
+    ],
+    "reporting_standard": "方法学透明报告",
+    "quality_band": {
+      "jcr": "Q1–Q2（综合刊 Q1 常见）",
+      "cas": "中科院综合性/医学约 3 区",
+      "note": "主推 Scientific Reports；一致性差则转 PeerJ 或降调结论。"
+    },
+    "hard_requirements": [
+      "报告跨平台映射规则",
+      "给出 kappa/一致率数值",
+      "预后差异与一致性分开讨论"
+    ],
+    "reject_risks": [
+      "批次效应未处理",
+      "分型标签硬套失败仍宣称验证成功",
+      "样本量不足以支撑亚型比较"
+    ],
+    "journal_roles": {
+      "primary": ["scientific_reports"],
+      "backup": ["peerj", "cancers"],
+      "stretch": []
+    },
+    "sample_figure_set": ["分型桑基/混淆矩阵", "kappa", "亚型 KM", "PCA/批次图"],
+    "graphical_abstract_prompt": "Scientific graphical abstract, RNA-seq versus microarray platforms, subtype consensus arrows, kappa badge, survival curves by subtype, clean vector"
+  },
+  {
+    "id": "art06",
+    "slug": "immune-tmb-os",
+    "name_zh": "临床+免疫+基因组 OS 整合",
+    "name_en": "Clinical–Immune–Genomic Prognostic Model (OS)",
+    "summary": "临床联合免疫签名（如 IFN-γ）、TMB 与 MMR 的整合 OS 预后模型。",
+    "endpoint": "OS",
+    "data_types": ["clinical", "immune", "genomic"],
+    "analysis_pipeline": [
+      "构建免疫评分/IFN-γ 签名，计算 TMB 与 MMR",
+      "临床+免疫+基因组整合模型",
+      "C-index 增量、时间依赖 ROC、校准、DCA、KM",
+      "讨论免疫-基因组联合对分层的意义"
+    ],
+    "reporting_standard": "TRIPOD",
+    "quality_band": {
+      "jcr": "Q2（指标突出可冲 Q1）",
+      "cas": "中科院医学大类约 3 区（强结果可冲 2 区）",
+      "note": "增量显著时可冲 JTM；否则 Frontiers in Oncology。"
+    },
+    "hard_requirements": [
+      "免疫签名基因列表与计算方法可复现",
+      "报告相对临床及单组学模型的增量",
+      "避免免疫治疗疗效的过度外推"
+    ],
+    "reject_risks": [
+      "免疫评分与预后无增量",
+      "把预后模型写成疗效预测模型",
+      "签名基因选择任意且不可复现"
+    ],
+    "journal_roles": {
+      "primary": ["frontiers_oncology"],
+      "backup": ["bmc_cancer", "scientific_reports"],
+      "stretch": ["jtm"]
+    },
+    "sample_figure_set": ["免疫热图", "TMB", "整合模型 ROC", "KM", "DCA"],
+    "graphical_abstract_prompt": "Scientific graphical abstract, IFN-gamma immune signature plus TMB MMR icons into integrated survival model, clean journal vector style"
+  },
+  {
+    "id": "art07",
+    "slug": "stage-subgroup-rfs",
+    "name_zh": "II/III 期亚组 RFS 建模",
+    "name_en": "Stage II/III Subgroup RFS Modeling",
+    "summary": "限定 II/III 期人群的临床+转录组无复发生存建模与亚组分层。",
+    "endpoint": "RFS（分期亚组）",
+    "data_types": ["clinical", "transcriptomic"],
+    "analysis_pipeline": [
+      "限定 II/III 期人群",
+      "临床 vs 临床+转录组 RFS 模型",
+      "分期/化疗亚组 KM 与判别评估",
+      "整合模型无增量时如实报告并降档目标刊"
+    ],
+    "reporting_standard": "TRIPOD",
+    "quality_band": {
+      "jcr": "Q2–Q3",
+      "cas": "中科院医学大类约 3–4 区",
+      "note": "亚组样本量小或无增量时主推 BMC Cancer 偏保底，备投 Scientific Reports / PeerJ。"
+    },
+    "hard_requirements": [
+      "明确分期定义与纳入排除",
+      "亚组样本量足够再做分层结论",
+      "无增量时诚实报告"
+    ],
+    "reject_risks": [
+      "亚组过碎、功效不足",
+      "与全队列文章高度同质化",
+      "阴性结果硬冲高区"
+    ],
+    "journal_roles": {
+      "primary": ["bmc_cancer"],
+      "backup": ["scientific_reports", "peerj"],
+      "stretch": []
+    },
+    "sample_figure_set": ["亚组流程图", "KM", "ROC", "分期分层图"],
+    "graphical_abstract_prompt": "Scientific graphical abstract, stage II III subgroup filter, clinical transcriptomic RFS model, clean vector journal style"
+  }
+]
