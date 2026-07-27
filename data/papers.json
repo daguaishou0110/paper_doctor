@@ -27,7 +27,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/crc_art01.svg",
+    "graphical_abstract": "assets/ga/crc_art01.jpg",
     "status": "data_ready"
   },
   {
@@ -56,7 +56,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/crc_art02.svg",
+    "graphical_abstract": "assets/ga/crc_art02.jpg",
     "status": "data_ready"
   },
   {
@@ -89,7 +89,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/crc_art03.svg",
+    "graphical_abstract": "assets/ga/crc_art03.jpg",
     "status": "data_ready"
   },
   {
@@ -123,7 +123,7 @@
       "可能阴性结果需降档"
     ],
     "intro": "本研究针对结直肠癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/crc_art04.svg",
+    "graphical_abstract": "assets/ga/crc_art04.jpg",
     "status": "data_ready"
   },
   {
@@ -153,7 +153,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对结直肠癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
-    "graphical_abstract": "assets/ga/crc_art05.svg",
+    "graphical_abstract": "assets/ga/crc_art05.jpg",
     "status": "data_ready"
   },
   {
@@ -181,7 +181,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/crc_art06.svg",
+    "graphical_abstract": "assets/ga/crc_art06.jpg",
     "status": "data_ready"
   },
   {
@@ -213,7 +213,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对结直肠癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/crc_art07.svg",
+    "graphical_abstract": "assets/ga/crc_art07.jpg",
     "status": "data_ready"
   },
   {
@@ -244,7 +244,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/brca_art01.svg",
+    "graphical_abstract": "assets/ga/brca_art01.jpg",
     "status": "data_ready"
   },
   {
@@ -273,7 +273,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/brca_art02.svg",
+    "graphical_abstract": "assets/ga/brca_art02.jpg",
     "status": "data_ready"
   },
   {
@@ -306,7 +306,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/brca_art03.svg",
+    "graphical_abstract": "assets/ga/brca_art03.jpg",
     "status": "data_ready"
   },
   {
@@ -340,7 +340,7 @@
       "可能阴性结果需降档"
     ],
     "intro": "本研究针对乳腺癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/brca_art04.svg",
+    "graphical_abstract": "assets/ga/brca_art04.jpg",
     "status": "data_ready"
   },
   {
@@ -370,7 +370,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对乳腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
-    "graphical_abstract": "assets/ga/brca_art05.svg",
+    "graphical_abstract": "assets/ga/brca_art05.jpg",
     "status": "data_ready"
   },
   {
@@ -398,7 +398,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/brca_art06.svg",
+    "graphical_abstract": "assets/ga/brca_art06.jpg",
     "status": "data_ready"
   },
   {
@@ -430,7 +430,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对乳腺癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/brca_art07.svg",
+    "graphical_abstract": "assets/ga/brca_art07.jpg",
     "status": "data_ready"
   },
   {
@@ -461,7 +461,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/stad_art01.svg",
+    "graphical_abstract": "assets/ga/stad_art01.jpg",
     "status": "data_ready"
   },
   {
@@ -490,7 +490,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/stad_art02.svg",
+    "graphical_abstract": "assets/ga/stad_art02.jpg",
     "status": "data_ready"
   },
   {
@@ -523,7 +523,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/stad_art03.svg",
+    "graphical_abstract": "assets/ga/stad_art03.jpg",
     "status": "data_ready"
   },
   {
@@ -557,7 +557,7 @@
       "可能阴性结果需降档"
     ],
     "intro": "本研究针对胃腺癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/stad_art04.svg",
+    "graphical_abstract": "assets/ga/stad_art04.jpg",
     "status": "data_ready"
   },
   {
@@ -587,7 +587,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对胃腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
-    "graphical_abstract": "assets/ga/stad_art05.svg",
+    "graphical_abstract": "assets/ga/stad_art05.jpg",
     "status": "data_ready"
   },
   {
@@ -615,7 +615,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/stad_art06.svg",
+    "graphical_abstract": "assets/ga/stad_art06.jpg",
     "status": "data_ready"
   },
   {
@@ -647,7 +647,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对胃腺癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/stad_art07.svg",
+    "graphical_abstract": "assets/ga/stad_art07.jpg",
     "status": "data_ready"
   },
   {
@@ -678,7 +678,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/luad_art01.svg",
+    "graphical_abstract": "assets/ga/luad_art01.jpg",
     "status": "data_ready"
   },
   {
@@ -707,7 +707,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/luad_art02.svg",
+    "graphical_abstract": "assets/ga/luad_art02.jpg",
     "status": "data_ready"
   },
   {
@@ -740,7 +740,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/luad_art03.svg",
+    "graphical_abstract": "assets/ga/luad_art03.jpg",
     "status": "data_ready"
   },
   {
@@ -774,7 +774,7 @@
       "可能阴性结果需降档"
     ],
     "intro": "本研究针对肺腺癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/luad_art04.svg",
+    "graphical_abstract": "assets/ga/luad_art04.jpg",
     "status": "data_ready"
   },
   {
@@ -804,7 +804,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肺腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
-    "graphical_abstract": "assets/ga/luad_art05.svg",
+    "graphical_abstract": "assets/ga/luad_art05.jpg",
     "status": "data_ready"
   },
   {
@@ -832,7 +832,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/luad_art06.svg",
+    "graphical_abstract": "assets/ga/luad_art06.jpg",
     "status": "data_ready"
   },
   {
@@ -864,7 +864,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对肺腺癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/luad_art07.svg",
+    "graphical_abstract": "assets/ga/luad_art07.jpg",
     "status": "data_ready"
   },
   {
@@ -895,7 +895,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/lusc_art01.svg",
+    "graphical_abstract": "assets/ga/lusc_art01.jpg",
     "status": "data_ready"
   },
   {
@@ -924,7 +924,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/lusc_art02.svg",
+    "graphical_abstract": "assets/ga/lusc_art02.jpg",
     "status": "data_ready"
   },
   {
@@ -957,7 +957,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/lusc_art03.svg",
+    "graphical_abstract": "assets/ga/lusc_art03.jpg",
     "status": "data_ready"
   },
   {
@@ -991,7 +991,7 @@
       "可能阴性结果需降档"
     ],
     "intro": "本研究针对肺鳞癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/lusc_art04.svg",
+    "graphical_abstract": "assets/ga/lusc_art04.jpg",
     "status": "data_ready"
   },
   {
@@ -1021,7 +1021,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肺鳞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
-    "graphical_abstract": "assets/ga/lusc_art05.svg",
+    "graphical_abstract": "assets/ga/lusc_art05.jpg",
     "status": "data_ready"
   },
   {
@@ -1049,7 +1049,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/lusc_art06.svg",
+    "graphical_abstract": "assets/ga/lusc_art06.jpg",
     "status": "data_ready"
   },
   {
@@ -1081,7 +1081,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对肺鳞癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/lusc_art07.svg",
+    "graphical_abstract": "assets/ga/lusc_art07.jpg",
     "status": "data_ready"
   },
   {
@@ -1112,7 +1112,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/lihc_art01.svg",
+    "graphical_abstract": "assets/ga/lihc_art01.jpg",
     "status": "data_ready"
   },
   {
@@ -1141,7 +1141,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/lihc_art02.svg",
+    "graphical_abstract": "assets/ga/lihc_art02.jpg",
     "status": "data_ready"
   },
   {
@@ -1174,7 +1174,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/lihc_art03.svg",
+    "graphical_abstract": "assets/ga/lihc_art03.jpg",
     "status": "data_ready"
   },
   {
@@ -1208,7 +1208,7 @@
       "可能阴性结果需降档"
     ],
     "intro": "本研究针对肝细胞癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/lihc_art04.svg",
+    "graphical_abstract": "assets/ga/lihc_art04.jpg",
     "status": "data_ready"
   },
   {
@@ -1238,7 +1238,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肝细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
-    "graphical_abstract": "assets/ga/lihc_art05.svg",
+    "graphical_abstract": "assets/ga/lihc_art05.jpg",
     "status": "data_ready"
   },
   {
@@ -1266,7 +1266,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/lihc_art06.svg",
+    "graphical_abstract": "assets/ga/lihc_art06.jpg",
     "status": "data_ready"
   },
   {
@@ -1298,7 +1298,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对肝细胞癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/lihc_art07.svg",
+    "graphical_abstract": "assets/ga/lihc_art07.jpg",
     "status": "data_ready"
   },
   {
@@ -1329,7 +1329,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/paad_art01.svg",
+    "graphical_abstract": "assets/ga/paad_art01.jpg",
     "status": "data_ready"
   },
   {
@@ -1358,7 +1358,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/paad_art02.svg",
+    "graphical_abstract": "assets/ga/paad_art02.jpg",
     "status": "data_ready"
   },
   {
@@ -1391,7 +1391,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/paad_art03.svg",
+    "graphical_abstract": "assets/ga/paad_art03.jpg",
     "status": "data_ready"
   },
   {
@@ -1425,7 +1425,7 @@
       "可能阴性结果需降档"
     ],
     "intro": "本研究针对胰腺腺癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/paad_art04.svg",
+    "graphical_abstract": "assets/ga/paad_art04.jpg",
     "status": "data_ready"
   },
   {
@@ -1455,7 +1455,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对胰腺腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
-    "graphical_abstract": "assets/ga/paad_art05.svg",
+    "graphical_abstract": "assets/ga/paad_art05.jpg",
     "status": "data_ready"
   },
   {
@@ -1483,7 +1483,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/paad_art06.svg",
+    "graphical_abstract": "assets/ga/paad_art06.jpg",
     "status": "data_ready"
   },
   {
@@ -1515,7 +1515,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对胰腺腺癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/paad_art07.svg",
+    "graphical_abstract": "assets/ga/paad_art07.jpg",
     "status": "data_ready"
   },
   {
@@ -1546,7 +1546,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/hnsc_art01.svg",
+    "graphical_abstract": "assets/ga/hnsc_art01.jpg",
     "status": "data_ready"
   },
   {
@@ -1575,7 +1575,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/hnsc_art02.svg",
+    "graphical_abstract": "assets/ga/hnsc_art02.jpg",
     "status": "data_ready"
   },
   {
@@ -1608,7 +1608,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/hnsc_art03.svg",
+    "graphical_abstract": "assets/ga/hnsc_art03.jpg",
     "status": "data_ready"
   },
   {
@@ -1642,7 +1642,7 @@
       "可能阴性结果需降档"
     ],
     "intro": "本研究针对头颈鳞癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/hnsc_art04.svg",
+    "graphical_abstract": "assets/ga/hnsc_art04.jpg",
     "status": "data_ready"
   },
   {
@@ -1672,7 +1672,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对头颈鳞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
-    "graphical_abstract": "assets/ga/hnsc_art05.svg",
+    "graphical_abstract": "assets/ga/hnsc_art05.jpg",
     "status": "data_ready"
   },
   {
@@ -1700,7 +1700,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/hnsc_art06.svg",
+    "graphical_abstract": "assets/ga/hnsc_art06.jpg",
     "status": "data_ready"
   },
   {
@@ -1732,7 +1732,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对头颈鳞癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/hnsc_art07.svg",
+    "graphical_abstract": "assets/ga/hnsc_art07.jpg",
     "status": "data_ready"
   },
   {
@@ -1763,7 +1763,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/kirc_art01.svg",
+    "graphical_abstract": "assets/ga/kirc_art01.jpg",
     "status": "data_ready"
   },
   {
@@ -1792,7 +1792,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/kirc_art02.svg",
+    "graphical_abstract": "assets/ga/kirc_art02.jpg",
     "status": "data_ready"
   },
   {
@@ -1825,7 +1825,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
-    "graphical_abstract": "assets/ga/kirc_art03.svg",
+    "graphical_abstract": "assets/ga/kirc_art03.jpg",
     "status": "data_ready"
   },
   {
@@ -1859,7 +1859,7 @@
       "可能阴性结果需降档"
     ],
     "intro": "本研究针对肾透明细胞癌，采用「预后生存建模」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/kirc_art04.svg",
+    "graphical_abstract": "assets/ga/kirc_art04.jpg",
     "status": "data_ready"
   },
   {
@@ -1889,7 +1889,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肾透明细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。目标投稿质量：JCR Q1（综合）/ 中科院约 3 区。",
-    "graphical_abstract": "assets/ga/kirc_art05.svg",
+    "graphical_abstract": "assets/ga/kirc_art05.jpg",
     "status": "data_ready"
   },
   {
@@ -1917,7 +1917,7 @@
     "feasibility": "green",
     "risk_tags": [],
     "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。目标投稿质量：JCR Q2 / 中科院医学约 3 区（强结果可冲 2 区）。",
-    "graphical_abstract": "assets/ga/kirc_art06.svg",
+    "graphical_abstract": "assets/ga/kirc_art06.jpg",
     "status": "data_ready"
   },
   {
@@ -1950,7 +1950,7 @@
       "依赖复发/化疗信息完整性"
     ],
     "intro": "本研究针对肾透明细胞癌，采用「预后生存建模」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。目标投稿质量：JCR Q2–Q3 / 中科院医学约 3–4 区。",
-    "graphical_abstract": "assets/ga/kirc_art07.svg",
+    "graphical_abstract": "assets/ga/kirc_art07.jpg",
     "status": "data_ready"
   }
 ]

@@ -52,11 +52,20 @@ function feasibilityTag(f) {
   return `<span class="tag danger">风险</span>`;
 }
 
+function gaImagePath(paper) {
+  return `./assets/ga/${paper.id}.jpg`;
+}
+
 function gaSvg(paper) {
   const m = methodById(paper.method_id);
   const label = m ? m.name_zh : paper.method_id;
   const ds = (paper.datasets || []).slice(0, 2).join(" · ") || "公开组学";
+  // Prefer Nature-style generated PNG; fall back to SVG placeholder
   return `
+  <img class="ga-img" src="${gaImagePath(paper)}" alt="${escapeAttr(paper.cancer_zh)} graphical abstract"
+    loading="lazy"
+    onerror="this.style.display='none';this.nextElementSibling.style.display='grid';" />
+  <div class="ga-fallback" style="display:none;width:100%;height:100%;place-items:center">
   <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="图形摘要占位">
     <rect width="640" height="360" fill="#f7fbfb"/>
     <rect x="24" y="24" width="592" height="312" rx="16" fill="#ffffff" stroke="#cfe0de"/>
@@ -64,7 +73,7 @@ function gaSvg(paper) {
     <text x="48" y="94" font-family="sans-serif" font-size="14" fill="#0f6e6a">${escapeXml(label)}</text>
     <rect x="48" y="120" width="140" height="64" rx="10" fill="#d8efed"/>
     <text x="68" y="157" font-size="13" fill="#0f6e6a">队列 / 数据</text>
-    <path d="M200 152 H250" stroke="#0f6e6a" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M200 152 H250" stroke="#0f6e6a" stroke-width="2"/>
     <rect x="260" y="120" width="140" height="64" rx="10" fill="#e8eef4"/>
     <text x="285" y="157" font-size="13" fill="#4a5b68">建模分析</text>
     <path d="M412 152 H462" stroke="#0f6e6a" stroke-width="2"/>
@@ -72,8 +81,8 @@ function gaSvg(paper) {
     <text x="500" y="157" font-size="13" fill="#047857">验证评估</text>
     <text x="48" y="230" font-size="12" fill="#4a5b68">${escapeXml(ds)}</text>
     <text x="48" y="260" font-size="12" fill="#4a5b68">${escapeXml(paper.quality_target)}</text>
-    <text x="48" y="300" font-size="11" fill="#94a3b8">图形摘要占位 · 后续可替换为文生图 / 模板图</text>
-  </svg>`;
+  </svg>
+  </div>`;
 }
 
 function escapeXml(s) {

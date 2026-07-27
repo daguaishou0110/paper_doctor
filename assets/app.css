@@ -205,11 +205,16 @@ a:hover { text-decoration: underline; }
   aspect-ratio: 16 / 9;
   border-radius: 10px;
   border: 1px solid var(--line);
-  background: linear-gradient(135deg, #e8f4f3, #f5f7fa);
+  background: #fff;
   margin-bottom: 10px;
-  display: grid;
-  place-items: center;
   overflow: hidden;
+  position: relative;
+}
+.ga-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .ga svg { width: 100%; height: 100%; }
 
