@@ -43,7 +43,7 @@
 | cas_minor | string | 中科院小类分区描述（可空） |
 | warning | boolean | 是否在预警名单（口径见 meta） |
 | warning_note | string | 预警说明或空串 |
-| role_in_factory | string | 在本工厂中的角色：主推/备投/冲高/保底/专科 |
+| role_in_factory | string | 在选题库中的角色：主推/备投/冲高/保底/专科 |
 | specialty_cancers | string[] | 专科适用癌种（可空） |
 | partition_year | string | 分区口径年份，如 `2025` |
 | official_url | string | 期刊主页 |
@@ -57,7 +57,7 @@
 | examples_2025_2026[].how_done.data | string | 数据队列 |
 | examples_2025_2026[].how_done.pipeline | string | 分析流水线 |
 | examples_2025_2026[].how_done.figures | string | 关键图/表 |
-| examples_2025_2026[].how_done.factory_match | string | 与本工厂写法的对应与差异 |
+| examples_2025_2026[].how_done.factory_match | string | 与本站写法模板的对应与差异 |
 
 ## 6. 范文索引 `examples.json`
 
