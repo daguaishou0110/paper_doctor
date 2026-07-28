@@ -4845,7 +4845,7 @@
     "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
     "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
     "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
-    "journal_primary": "frontiers_oncology",
+    "journal_primary": "bmc_cancer",
     "journals_backup": [
       "bmc_cancer",
       "cancers",
@@ -4854,14 +4854,15 @@
       "thoracic_cancer"
     ],
     "journal_stretch": "jtm",
-    "feasibility": "green",
+    "feasibility": "yellow",
     "risk_tags": [
       "与临床+转录组OS写法需突出多模型差异",
-      "树模型需防过拟合"
+      "树模型需防过拟合",
+      "小样本/不稳队列需降档表述"
     ],
     "intro": "本研究针对间皮瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/meso_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "read_art08",
@@ -4983,7 +4984,7 @@
     "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
     "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
     "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
-    "journal_primary": "frontiers_oncology",
+    "journal_primary": "bmc_cancer",
     "journals_backup": [
       "bmc_cancer",
       "cancers",
@@ -4991,14 +4992,15 @@
       "peerj"
     ],
     "journal_stretch": "jtm",
-    "feasibility": "green",
+    "feasibility": "yellow",
     "risk_tags": [
       "与临床+转录组OS写法需突出多模型差异",
-      "树模型需防过拟合"
+      "树模型需防过拟合",
+      "小样本/不稳队列需降档表述"
     ],
     "intro": "本研究针对子宫癌肉瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/ucs_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "chol_art08",
@@ -5017,7 +5019,7 @@
     "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
     "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
     "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
-    "journal_primary": "frontiers_oncology",
+    "journal_primary": "bmc_cancer",
     "journals_backup": [
       "bmc_cancer",
       "cancers",
@@ -5026,14 +5028,15 @@
       "bmc_gastro"
     ],
     "journal_stretch": "jtm",
-    "feasibility": "green",
+    "feasibility": "yellow",
     "risk_tags": [
       "与临床+转录组OS写法需突出多模型差异",
-      "树模型需防过拟合"
+      "树模型需防过拟合",
+      "小样本/不稳队列需降档表述"
     ],
     "intro": "本研究针对胆管癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/chol_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "kich_art08",
@@ -5052,7 +5055,7 @@
     "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
     "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
     "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
-    "journal_primary": "frontiers_oncology",
+    "journal_primary": "bmc_cancer",
     "journals_backup": [
       "bmc_cancer",
       "cancers",
@@ -5061,14 +5064,15 @@
       "bmc_urology"
     ],
     "journal_stretch": "jtm",
-    "feasibility": "green",
+    "feasibility": "yellow",
     "risk_tags": [
       "与临床+转录组OS写法需突出多模型差异",
-      "树模型需防过拟合"
+      "树模型需防过拟合",
+      "小样本/不稳队列需降档表述"
     ],
     "intro": "本研究针对肾嫌色细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/kich_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "lgg_art08",
@@ -5156,7 +5160,7 @@
     "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
     "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
     "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
-    "journal_primary": "frontiers_oncology",
+    "journal_primary": "bmc_cancer",
     "journals_backup": [
       "bmc_cancer",
       "cancers",
@@ -5164,14 +5168,15 @@
       "peerj"
     ],
     "journal_stretch": "jtm",
-    "feasibility": "green",
+    "feasibility": "yellow",
     "risk_tags": [
       "与临床+转录组OS写法需突出多模型差异",
-      "树模型需防过拟合"
+      "树模型需防过拟合",
+      "小样本/不稳队列需降档表述"
     ],
     "intro": "本研究针对皮肤黑色素瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/skcm_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "tgct_art08",
@@ -5259,7 +5264,7 @@
     "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
     "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
     "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
-    "journal_primary": "frontiers_oncology",
+    "journal_primary": "bmc_cancer",
     "journals_backup": [
       "bmc_cancer",
       "cancers",
@@ -5267,13 +5272,14 @@
       "peerj"
     ],
     "journal_stretch": "jtm",
-    "feasibility": "green",
+    "feasibility": "yellow",
     "risk_tags": [
       "与临床+转录组OS写法需突出多模型差异",
-      "树模型需防过拟合"
+      "树模型需防过拟合",
+      "小样本/不稳队列需降档表述"
     ],
     "intro": "本研究针对胶质母细胞瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/gbm_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   }
 ]
