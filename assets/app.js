@@ -55,6 +55,7 @@ function feasibilityTag(f) {
 function statusTag(s) {
   if (s === "manuscript") return `<span class="tag ok">成稿</span>`;
   if (s === "usable") return `<span class="tag yellow">可用</span>`;
+  if (s === "code_ready") return `<span class="tag muted">框架就绪</span>`;
   if (s === "data_ready") return `<span class="tag muted">数据就绪</span>`;
   return s ? `<span class="tag muted">${escapeXml(s)}</span>` : "";
 }

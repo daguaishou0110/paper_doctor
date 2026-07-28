@@ -116,6 +116,16 @@ METHOD_META = {
         "writing_style": "预后生存建模（分期亚组RFS）",
         "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
     },
+    "art08": {
+        "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+        "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+        "journal_primary": "frontiers_oncology",
+        "journals_backup": ["bmc_cancer", "cancers", "scientific_reports", "peerj"],
+        "journal_stretch": "jtm",
+        "feasibility": "green",
+        "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+        "direction": "临床联合转录组，比较多种机器学习生存模型并报告可解释性与外部验证",
+    },
 }
 
 STATUS_MAP = {

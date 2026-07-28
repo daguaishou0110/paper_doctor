@@ -6,7 +6,6 @@ import json
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parent
-papers = json.loads((DATA / "papers.json").read_text(encoding="utf-8"))
 
 STYLE = (
     "Formal Nature journal graphical abstract, wide 16:9, pristine white background, "
@@ -25,6 +24,8 @@ STYLE = (
 
 CANCER_VISUAL = {
     "crc": ("Colorectal Cancer", "subtle abstract colon icon"),
+    "coad": ("Colon Adenocarcinoma", "subtle abstract colon icon"),
+    "read": ("Rectum Adenocarcinoma", "subtle abstract rectum icon"),
     "brca": ("Breast Cancer", "subtle abstract breast tissue icon"),
     "stad": ("Gastric Adenocarcinoma", "subtle abstract stomach icon"),
     "luad": ("Lung Adenocarcinoma", "subtle abstract lung icon"),
@@ -33,6 +34,23 @@ CANCER_VISUAL = {
     "paad": ("Pancreatic Adenocarcinoma", "subtle abstract pancreas icon"),
     "hnsc": ("Head and Neck Squamous Cell Carcinoma", "subtle abstract head-neck icon"),
     "kirc": ("Clear Cell Renal Cell Carcinoma", "subtle abstract kidney icon"),
+    "blca": ("Bladder Urothelial Carcinoma", "subtle abstract bladder icon"),
+    "esca": ("Esophageal Carcinoma", "subtle abstract esophagus icon"),
+    "ov": ("Ovarian Serous Cystadenocarcinoma", "subtle abstract ovary icon"),
+    "cesc": ("Cervical Squamous Cell Carcinoma", "subtle abstract cervix icon"),
+    "ucec": ("Uterine Corpus Endometrial Carcinoma", "subtle abstract uterus icon"),
+    "ucs": ("Uterine Carcinosarcoma", "subtle abstract uterus icon"),
+    "prad": ("Prostate Adenocarcinoma", "subtle abstract prostate icon"),
+    "skcm": ("Skin Cutaneous Melanoma", "subtle abstract skin lesion icon"),
+    "gbm": ("Glioblastoma Multiforme", "subtle abstract brain icon"),
+    "thca": ("Thyroid Carcinoma", "subtle abstract thyroid icon"),
+    "kirp": ("Kidney Renal Papillary Cell Carcinoma", "subtle abstract kidney icon"),
+    "kich": ("Kidney Chromophobe", "subtle abstract kidney icon"),
+    "chol": ("Cholangiocarcinoma", "subtle abstract bile duct icon"),
+    "meso": ("Mesothelioma", "subtle abstract pleural lining icon"),
+    "lgg": ("Brain Lower Grade Glioma", "subtle abstract brain icon"),
+    "tgct": ("Testicular Germ Cell Tumors", "subtle abstract testis icon"),
+    "uvm": ("Uveal Melanoma", "subtle abstract eye icon"),
 }
 
 METHOD_SCENE = {
@@ -64,6 +82,10 @@ METHOD_SCENE = {
         "Immune–Genomic Prognosis Schematic",
         "immune cell icons, IFN-γ badge, TMB/MMR badges flowing into an integrated model node and blank OS badge — no data plots",
     ),
+    "art08": (
+        "Multi-Model ML Prognostic Schematic",
+        "icons for clinical+transcriptomic inputs feeding three competing model cards (Penalized Cox, RSF, Gradient Boosting) then a locked-best badge and blank SHAP bars — no fake AUC",
+    ),
     "art07": (
         "Stage II/III Subgroup RFS Schematic",
         "stage II/III funnel icon, clinical+transcriptomic icons, blank subgroup RFS badge — no plotted survival curves",
@@ -82,15 +104,22 @@ def prompt_for(paper: dict) -> str:
     )
 
 
-out = [
-    {
-        "id": p["id"],
-        "filename": f"{p['id']}.jpg",
-        "prompt": prompt_for(p),
-        "cancer_id": p["cancer_id"],
-        "method_id": p["method_id"],
-    }
-    for p in papers
-]
-(DATA / "ga_prompts.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-print(len(out))
+def main() -> None:
+    papers = json.loads((DATA / "papers.json").read_text(encoding="utf-8"))
+    out = [
+        {
+            "id": p["id"],
+            "filename": f"{p['id']}.jpg",
+            "prompt": prompt_for(p),
+            "cancer_id": p["cancer_id"],
+            "method_id": p["method_id"],
+        }
+        for p in papers
+        if p.get("cancer_id") in CANCER_VISUAL
+    ]
+    (DATA / "ga_prompts.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(len(out))
+
+
+if __name__ == "__main__":
+    main()

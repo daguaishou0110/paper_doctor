@@ -56,6 +56,7 @@ CAPTIONS = {
     "art05": "Graphical abstract: Nature-style schematic of the cross-platform molecular subtyping validation workflow.",
     "art06": "Graphical abstract: Nature-style schematic of the immune--genomic OS modelling workflow.",
     "art07": "Graphical abstract: Nature-style schematic of the stage II/III subgroup RFS modelling workflow.",
+    "art08": "Graphical abstract: Nature-style schematic of the multi-model machine-learning OS prognostic workflow.",
 }
 
 

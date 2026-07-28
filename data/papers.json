@@ -4304,5 +4304,976 @@
     "intro": "本研究针对食管癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/esca_art07.jpg",
     "status": "manuscript"
+  },
+  {
+    "id": "crc_art08",
+    "serial": 139,
+    "cancer_id": "crc",
+    "cancer_zh": "结直肠癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Colorectal Cancer Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-COAD/READ"
+    ],
+    "disease": "结直肠癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对结直肠癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/crc_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "brca_art08",
+    "serial": 140,
+    "cancer_id": "brca",
+    "cancer_zh": "乳腺癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Breast Invasive Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-BRCA"
+    ],
+    "disease": "乳腺癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "breast_cancer_tokyo"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对乳腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/brca_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "stad_art08",
+    "serial": 141,
+    "cancer_id": "stad",
+    "cancer_zh": "胃腺癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Stomach Adenocarcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-STAD"
+    ],
+    "disease": "胃腺癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对胃腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/stad_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "luad_art08",
+    "serial": 142,
+    "cancer_id": "luad",
+    "cancer_zh": "肺腺癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Lung Adenocarcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-LUAD"
+    ],
+    "disease": "肺腺癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对肺腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/luad_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "lusc_art08",
+    "serial": 143,
+    "cancer_id": "lusc",
+    "cancer_zh": "肺鳞癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Lung Squamous Cell Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-LUSC"
+    ],
+    "disease": "肺鳞癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对肺鳞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/lusc_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "lihc_art08",
+    "serial": 144,
+    "cancer_id": "lihc",
+    "cancer_zh": "肝细胞癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Hepatocellular Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-LIHC"
+    ],
+    "disease": "肝细胞癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "hepatology_research"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对肝细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/lihc_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "paad_art08",
+    "serial": 145,
+    "cancer_id": "paad",
+    "cancer_zh": "胰腺腺癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Pancreatic Adenocarcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-PAAD"
+    ],
+    "disease": "胰腺腺癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对胰腺腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/paad_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "hnsc_art08",
+    "serial": 146,
+    "cancer_id": "hnsc",
+    "cancer_zh": "头颈鳞癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Head and Neck Squamous Cell Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-HNSC"
+    ],
+    "disease": "头颈鳞癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "head_neck"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对头颈鳞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/hnsc_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "kirc_art08",
+    "serial": 147,
+    "cancer_id": "kirc",
+    "cancer_zh": "肾透明细胞癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Clear Cell Renal Cell Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-KIRC"
+    ],
+    "disease": "肾透明细胞癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_urology"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对肾透明细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/kirc_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "blca_art08",
+    "serial": 148,
+    "cancer_id": "blca",
+    "cancer_zh": "膀胱尿路上皮癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Bladder Urothelial Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-BLCA"
+    ],
+    "disease": "膀胱尿路上皮癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_urology"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对膀胱尿路上皮癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/blca_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "esca_art08",
+    "serial": 149,
+    "cancer_id": "esca",
+    "cancer_zh": "食管癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Esophageal Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-ESCA"
+    ],
+    "disease": "食管癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对食管癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/esca_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "ov_art08",
+    "serial": 150,
+    "cancer_id": "ov",
+    "cancer_zh": "卵巢浆液性癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Ovarian Serous Cystadenocarcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-OV"
+    ],
+    "disease": "卵巢浆液性癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对卵巢浆液性癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/ov_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "coad_art08",
+    "serial": 151,
+    "cancer_id": "coad",
+    "cancer_zh": "结肠腺癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Colon Adenocarcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-COAD"
+    ],
+    "disease": "结肠腺癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对结肠腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/coad_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "cesc_art08",
+    "serial": 152,
+    "cancer_id": "cesc",
+    "cancer_zh": "宫颈癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Cervical Squamous Cell Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-CESC"
+    ],
+    "disease": "宫颈癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对宫颈癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/cesc_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "kirp_art08",
+    "serial": 153,
+    "cancer_id": "kirp",
+    "cancer_zh": "肾乳头状细胞癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Kidney Renal Papillary Cell Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-KIRP"
+    ],
+    "disease": "肾乳头状细胞癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_urology"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对肾乳头状细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/kirp_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "meso_art08",
+    "serial": 154,
+    "cancer_id": "meso",
+    "cancer_zh": "间皮瘤",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Mesothelioma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-MESO"
+    ],
+    "disease": "间皮瘤",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "thoracic_cancer"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对间皮瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/meso_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "read_art08",
+    "serial": 155,
+    "cancer_id": "read",
+    "cancer_zh": "直肠腺癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Rectum Adenocarcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-READ"
+    ],
+    "disease": "直肠腺癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对直肠腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/read_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "thca_art08",
+    "serial": 156,
+    "cancer_id": "thca",
+    "cancer_zh": "甲状腺癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Thyroid Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-THCA"
+    ],
+    "disease": "甲状腺癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对甲状腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/thca_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "ucec_art08",
+    "serial": 157,
+    "cancer_id": "ucec",
+    "cancer_zh": "子宫内膜癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Uterine Corpus Endometrial Carcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-UCEC"
+    ],
+    "disease": "子宫内膜癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对子宫内膜癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/ucec_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "ucs_art08",
+    "serial": 158,
+    "cancer_id": "ucs",
+    "cancer_zh": "子宫癌肉瘤",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Uterine Carcinosarcoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-UCS"
+    ],
+    "disease": "子宫癌肉瘤",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对子宫癌肉瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/ucs_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "chol_art08",
+    "serial": 159,
+    "cancer_id": "chol",
+    "cancer_zh": "胆管癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Cholangiocarcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-CHOL"
+    ],
+    "disease": "胆管癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_gastro"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对胆管癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/chol_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "kich_art08",
+    "serial": 160,
+    "cancer_id": "kich",
+    "cancer_zh": "肾嫌色细胞癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Kidney Chromophobe Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-KICH"
+    ],
+    "disease": "肾嫌色细胞癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_urology"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对肾嫌色细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/kich_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "lgg_art08",
+    "serial": 161,
+    "cancer_id": "lgg",
+    "cancer_zh": "低级别胶质瘤",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Brain Lower Grade Glioma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-LGG"
+    ],
+    "disease": "低级别胶质瘤",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对低级别胶质瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/lgg_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "prad_art08",
+    "serial": 162,
+    "cancer_id": "prad",
+    "cancer_zh": "前列腺癌",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Prostate Adenocarcinoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-PRAD"
+    ],
+    "disease": "前列腺癌",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_urology"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对前列腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/prad_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "skcm_art08",
+    "serial": 163,
+    "cancer_id": "skcm",
+    "cancer_zh": "皮肤黑色素瘤",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Skin Cutaneous Melanoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-SKCM"
+    ],
+    "disease": "皮肤黑色素瘤",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对皮肤黑色素瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/skcm_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "tgct_art08",
+    "serial": 164,
+    "cancer_id": "tgct",
+    "cancer_zh": "睾丸生殖细胞瘤",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Testicular Germ Cell Tumors Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-TGCT"
+    ],
+    "disease": "睾丸生殖细胞瘤",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj",
+      "bmc_urology"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对睾丸生殖细胞瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/tgct_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "uvm_art08",
+    "serial": 165,
+    "cancer_id": "uvm",
+    "cancer_zh": "葡萄膜黑色素瘤",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Uveal Melanoma Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-UVM"
+    ],
+    "disease": "葡萄膜黑色素瘤",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对葡萄膜黑色素瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/uvm_art08.jpg",
+    "status": "code_ready"
+  },
+  {
+    "id": "gbm_art08",
+    "serial": 166,
+    "cancer_id": "gbm",
+    "cancer_zh": "胶质母细胞瘤",
+    "method_id": "art08",
+    "art_no": "art08",
+    "title": "A Multi-Model Machine Learning Framework for Glioblastoma Multiforme Overall Survival Prediction: Comparing Penalized Cox, Random Survival Forest, and Gradient Boosting with Explainable Feature Attribution",
+    "direction": "临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证",
+    "methods_detail": "以TCGA临床与RNA表达为开发队列；训练集内方差过滤与惩罚Cox筛选特征，避免信息泄漏；公平划分下比较临床基线、Elastic Net/LASSO-Cox、Random Survival Forest、Gradient Boosting Survival（可选浅层DeepSurv）；报告C-index、时间依赖ROC、校准、DCA、KM风险分层与SHAP/置换重要性；GEO或独立队列外部验证；按TRIPOD+AI报告模型规格与超参数。",
+    "datasets": [
+      "TCGA-GBM"
+    ],
+    "disease": "胶质母细胞瘤",
+    "analysis_style": "多模型机器学习生存建模（Cox/RSF/GBSA）与可解释性",
+    "writing_style": "多模型机器学习预后建模（临床+转录组OS）",
+    "quality_target": "JCR Q2 / 中科院医学约 3 区（强外部验证可冲 2 区）",
+    "journal_primary": "frontiers_oncology",
+    "journals_backup": [
+      "bmc_cancer",
+      "cancers",
+      "scientific_reports",
+      "peerj"
+    ],
+    "journal_stretch": "jtm",
+    "feasibility": "green",
+    "risk_tags": [
+      "与临床+转录组OS写法需突出多模型差异",
+      "树模型需防过拟合"
+    ],
+    "intro": "本研究针对胶质母细胞瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
+    "graphical_abstract": "assets/ga/gbm_art08.jpg",
+    "status": "code_ready"
   }
 ]

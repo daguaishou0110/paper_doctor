@@ -377,5 +377,67 @@
       "分期分层图"
     ],
     "graphical_abstract_prompt": "Scientific graphical abstract, stage II III subgroup filter, clinical transcriptomic RFS model, clean vector journal style"
+  },
+  {
+    "id": "art08",
+    "slug": "multi-model-ml-prognostic-os",
+    "name_zh": "多模型机器学习 OS 预后",
+    "name_en": "Multi-Model Machine-Learning Prognostic Framework (OS)",
+    "summary": "临床+转录组下比较惩罚Cox、随机生存森林、梯度提升等机器学习生存模型，并报告可解释性与外部验证。",
+    "endpoint": "OS",
+    "data_types": [
+      "clinical",
+      "transcriptomic",
+      "machine_learning"
+    ],
+    "analysis_pipeline": [
+      "TCGA 临床+RNA 开发队列，训练/测试锁定",
+      "训练集内特征筛选（方差过滤 + 惩罚Cox），禁止全队列泄漏",
+      "多模型比较：临床Cox / LASSO·Elastic Net-Cox / RSF / GBSA（可选 DeepSurv）",
+      "C-index、时间依赖ROC、校准、DCA、KM；SHAP或置换重要性",
+      "GEO/独立队列外部验证",
+      "按 TRIPOD+AI 报告超参数、划分与模型规格"
+    ],
+    "reporting_standard": "TRIPOD+AI",
+    "quality_band": {
+      "jcr": "Q2（外部验证扎实+增量明确可冲 Q1）",
+      "cas": "中科院医学大类约 3 区（强结果可冲 2 区）",
+      "note": "卖点是多模型比较与可解释性；若仅重复 LASSO-Cox 无增量，应降档表述。"
+    },
+    "hard_requirements": [
+      "至少比较 ≥3 类生存学习器，并报告相对临床基线增量",
+      "特征筛选与超参数仅在训练集锁定",
+      "提供可解释性分析（重要性/SHAP）",
+      "有外部或严格内部验证"
+    ],
+    "reject_risks": [
+      "与 art01 同质化：未突出多模型/可解释差异",
+      "树模型过拟合、外部验证崩塌",
+      "把可解释性写成因果机制",
+      "样本过小却强上深度网络"
+    ],
+    "journal_roles": {
+      "primary": [
+        "frontiers_oncology",
+        "bmc_cancer"
+      ],
+      "backup": [
+        "cancers",
+        "scientific_reports",
+        "peerj"
+      ],
+      "stretch": [
+        "jtm"
+      ]
+    },
+    "sample_figure_set": [
+      "模型比较柱状/森林图",
+      "KM 高低危",
+      "时间依赖 ROC",
+      "校准曲线",
+      "DCA",
+      "SHAP/特征重要性"
+    ],
+    "graphical_abstract_prompt": "Formal Nature journal graphical abstract, multi-model ML survival: Cox RSF boosting icons competing then locked best model with SHAP bars, clinical+transcriptomic inputs, white schematic, no fake AUC numbers"
   }
 ]

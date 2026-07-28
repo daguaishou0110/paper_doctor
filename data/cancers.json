@@ -4,11 +4,11 @@
     "name_zh": "结直肠癌",
     "name_en": "Colorectal Cancer",
     "tcga": "TCGA-COAD/READ",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "bmc_gastro"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -17,11 +17,11 @@
     "name_zh": "乳腺癌",
     "name_en": "Breast Invasive Carcinoma",
     "tcga": "TCGA-BRCA",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "breast_cancer_tokyo"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -30,11 +30,11 @@
     "name_zh": "胃腺癌",
     "name_en": "Stomach Adenocarcinoma",
     "tcga": "TCGA-STAD",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "bmc_gastro"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -43,11 +43,11 @@
     "name_zh": "肺腺癌",
     "name_en": "Lung Adenocarcinoma",
     "tcga": "TCGA-LUAD",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "thoracic_cancer"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -56,11 +56,11 @@
     "name_zh": "肺鳞癌",
     "name_en": "Lung Squamous Cell Carcinoma",
     "tcga": "TCGA-LUSC",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "thoracic_cancer"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -69,11 +69,11 @@
     "name_zh": "肝细胞癌",
     "name_en": "Hepatocellular Carcinoma",
     "tcga": "TCGA-LIHC",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "hepatology_research"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -82,11 +82,11 @@
     "name_zh": "胰腺腺癌",
     "name_en": "Pancreatic Adenocarcinoma",
     "tcga": "TCGA-PAAD",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "bmc_gastro"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -95,11 +95,11 @@
     "name_zh": "头颈鳞癌",
     "name_en": "Head and Neck Squamous Cell Carcinoma",
     "tcga": "TCGA-HNSC",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "head_neck"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -108,11 +108,11 @@
     "name_zh": "肾透明细胞癌",
     "name_en": "Clear Cell Renal Cell Carcinoma",
     "tcga": "TCGA-KIRC",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -121,11 +121,11 @@
     "name_zh": "膀胱尿路上皮癌",
     "name_en": "Bladder Urothelial Carcinoma",
     "tcga": "TCGA-BLCA",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -134,11 +134,11 @@
     "name_zh": "食管癌",
     "name_en": "Esophageal Carcinoma",
     "tcga": "TCGA-ESCA",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "bmc_gastro"
     ],
-    "notes": "成稿 6 / 收录 7",
+    "notes": "成稿 6 / 收录 8",
     "done_count": 6,
     "usable_count": 1
   },
@@ -147,9 +147,9 @@
     "name_zh": "卵巢浆液性癌",
     "name_en": "Ovarian Serous Cystadenocarcinoma",
     "tcga": "TCGA-OV",
-    "paper_count": 4,
+    "paper_count": 5,
     "specialty_journals": [],
-    "notes": "成稿 3 / 收录 4",
+    "notes": "成稿 3 / 收录 5",
     "done_count": 3,
     "usable_count": 1
   },
@@ -158,11 +158,11 @@
     "name_zh": "结肠腺癌",
     "name_en": "Colon Adenocarcinoma",
     "tcga": "TCGA-COAD",
-    "paper_count": 7,
+    "paper_count": 8,
     "specialty_journals": [
       "bmc_gastro"
     ],
-    "notes": "成稿 7 / 收录 7",
+    "notes": "成稿 7 / 收录 8",
     "done_count": 7,
     "usable_count": 0
   },
@@ -171,9 +171,9 @@
     "name_zh": "宫颈癌",
     "name_en": "Cervical Squamous Cell Carcinoma",
     "tcga": "TCGA-CESC",
-    "paper_count": 4,
+    "paper_count": 5,
     "specialty_journals": [],
-    "notes": "成稿 3 / 收录 4",
+    "notes": "成稿 3 / 收录 5",
     "done_count": 3,
     "usable_count": 1
   },
@@ -182,11 +182,11 @@
     "name_zh": "肾乳头状细胞癌",
     "name_en": "Kidney Renal Papillary Cell Carcinoma",
     "tcga": "TCGA-KIRP",
-    "paper_count": 4,
+    "paper_count": 5,
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 3 / 收录 4",
+    "notes": "成稿 3 / 收录 5",
     "done_count": 3,
     "usable_count": 1
   },
@@ -195,11 +195,11 @@
     "name_zh": "间皮瘤",
     "name_en": "Mesothelioma",
     "tcga": "TCGA-MESO",
-    "paper_count": 4,
+    "paper_count": 5,
     "specialty_journals": [
       "thoracic_cancer"
     ],
-    "notes": "成稿 3 / 收录 4",
+    "notes": "成稿 3 / 收录 5",
     "done_count": 3,
     "usable_count": 1
   },
@@ -208,11 +208,11 @@
     "name_zh": "直肠腺癌",
     "name_en": "Rectum Adenocarcinoma",
     "tcga": "TCGA-READ",
-    "paper_count": 4,
+    "paper_count": 5,
     "specialty_journals": [
       "bmc_gastro"
     ],
-    "notes": "成稿 3 / 收录 4",
+    "notes": "成稿 3 / 收录 5",
     "done_count": 3,
     "usable_count": 1
   },
@@ -221,9 +221,9 @@
     "name_zh": "甲状腺癌",
     "name_en": "Thyroid Carcinoma",
     "tcga": "TCGA-THCA",
-    "paper_count": 4,
+    "paper_count": 5,
     "specialty_journals": [],
-    "notes": "成稿 3 / 收录 4",
+    "notes": "成稿 3 / 收录 5",
     "done_count": 3,
     "usable_count": 1
   },
@@ -232,9 +232,9 @@
     "name_zh": "子宫内膜癌",
     "name_en": "Uterine Corpus Endometrial Carcinoma",
     "tcga": "TCGA-UCEC",
-    "paper_count": 4,
+    "paper_count": 5,
     "specialty_journals": [],
-    "notes": "成稿 3 / 收录 4",
+    "notes": "成稿 3 / 收录 5",
     "done_count": 3,
     "usable_count": 1
   },
@@ -243,9 +243,9 @@
     "name_zh": "子宫癌肉瘤",
     "name_en": "Uterine Carcinosarcoma",
     "tcga": "TCGA-UCS",
-    "paper_count": 4,
+    "paper_count": 5,
     "specialty_journals": [],
-    "notes": "成稿 3 / 收录 4",
+    "notes": "成稿 3 / 收录 5",
     "done_count": 3,
     "usable_count": 1
   },
@@ -254,11 +254,11 @@
     "name_zh": "胆管癌",
     "name_en": "Cholangiocarcinoma",
     "tcga": "TCGA-CHOL",
-    "paper_count": 3,
+    "paper_count": 4,
     "specialty_journals": [
       "bmc_gastro"
     ],
-    "notes": "成稿 2 / 收录 3",
+    "notes": "成稿 2 / 收录 4",
     "done_count": 2,
     "usable_count": 1
   },
@@ -267,11 +267,11 @@
     "name_zh": "肾嫌色细胞癌",
     "name_en": "Kidney Chromophobe",
     "tcga": "TCGA-KICH",
-    "paper_count": 3,
+    "paper_count": 4,
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 2 / 收录 3",
+    "notes": "成稿 2 / 收录 4",
     "done_count": 2,
     "usable_count": 1
   },
@@ -280,9 +280,9 @@
     "name_zh": "低级别胶质瘤",
     "name_en": "Brain Lower Grade Glioma",
     "tcga": "TCGA-LGG",
-    "paper_count": 3,
+    "paper_count": 4,
     "specialty_journals": [],
-    "notes": "成稿 2 / 收录 3",
+    "notes": "成稿 2 / 收录 4",
     "done_count": 2,
     "usable_count": 1
   },
@@ -291,11 +291,11 @@
     "name_zh": "前列腺癌",
     "name_en": "Prostate Adenocarcinoma",
     "tcga": "TCGA-PRAD",
-    "paper_count": 3,
+    "paper_count": 4,
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 2 / 收录 3",
+    "notes": "成稿 2 / 收录 4",
     "done_count": 2,
     "usable_count": 1
   },
@@ -304,9 +304,9 @@
     "name_zh": "皮肤黑色素瘤",
     "name_en": "Skin Cutaneous Melanoma",
     "tcga": "TCGA-SKCM",
-    "paper_count": 3,
+    "paper_count": 4,
     "specialty_journals": [],
-    "notes": "成稿 2 / 收录 3",
+    "notes": "成稿 2 / 收录 4",
     "done_count": 2,
     "usable_count": 1
   },
@@ -315,11 +315,11 @@
     "name_zh": "睾丸生殖细胞瘤",
     "name_en": "Testicular Germ Cell Tumors",
     "tcga": "TCGA-TGCT",
-    "paper_count": 3,
+    "paper_count": 4,
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 2 / 收录 3",
+    "notes": "成稿 2 / 收录 4",
     "done_count": 2,
     "usable_count": 1
   },
@@ -328,9 +328,9 @@
     "name_zh": "葡萄膜黑色素瘤",
     "name_en": "Uveal Melanoma",
     "tcga": "TCGA-UVM",
-    "paper_count": 3,
+    "paper_count": 4,
     "specialty_journals": [],
-    "notes": "成稿 2 / 收录 3",
+    "notes": "成稿 2 / 收录 4",
     "done_count": 2,
     "usable_count": 1
   },
@@ -339,9 +339,9 @@
     "name_zh": "胶质母细胞瘤",
     "name_en": "Glioblastoma Multiforme",
     "tcga": "TCGA-GBM",
-    "paper_count": 1,
+    "paper_count": 2,
     "specialty_journals": [],
-    "notes": "成稿 0 / 收录 1",
+    "notes": "成稿 0 / 收录 2",
     "done_count": 0,
     "usable_count": 1
   }
