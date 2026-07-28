@@ -9,7 +9,7 @@
       "data": "TCGA 结直肠癌 bulk RNA-seq 作训练（约 515 例）；GSE12945、GSE29623 作验证。",
       "pipeline": "单细胞找转移相关上皮基因 → 差异/关键选 → Cox 风险模型 → 1/3/5 年生存预测；并结合临床变量。",
       "figures": "风险分层 KM、时间依赖预测、临床协变量校正。",
-      "factory_match": "对应工厂 art01：公开队列 + 预后建模 + 外部验证；工厂更强调临床基线对照与 TRIPOD 报告，通常不做单细胞主叙事。"
+      "factory_match": "对应模板 art01：公开队列 + 预后建模 + 外部验证；本站更强调临床基线对照与 TRIPOD 报告，通常不做单细胞主叙事。"
     },
     "journal_id": "frontiers_oncology",
     "journal_name": "Frontiers in Oncology"
@@ -24,7 +24,7 @@
       "data": "TCGA-LUAD 转录组/临床（文中训练+内部验证拆分）；另有医院配对样本作外部辅助验证。",
       "pipeline": "差异表达 ∩ ImmPort 免疫基因 → WGCNA → RF/LASSO/SVM-RFE 取枢纽基因 → 多因素 Cox + nomogram；辅以 TIMER/ssGSEA 免疫微环境。",
       "figures": "时间依赖 ROC、校准曲线、nomogram、免疫浸润对比。",
-      "factory_match": "对应工厂 art06：免疫签名进预后模型；工厂版本固定 IFN-γ/TMB/MMR 组合并强调相对临床基线增量，避免把预后写成疗效预测。"
+      "factory_match": "对应模板 art06：免疫签名进预后模型；本站版本固定 IFN-γ/TMB/MMR 组合并强调相对临床基线增量，避免把预后写成疗效预测。"
     },
     "journal_id": "frontiers_oncology",
     "journal_name": "Frontiers in Oncology"
@@ -39,7 +39,7 @@
       "data": "自建发现队列（GEO: GSE295809）；外部用 GSE13507、GSE154261 及 EGA 公开队列验证。",
       "pipeline": "复发相关差异基因 → mRNA 风险评分 → 与传统 EORTC 风险分层对比 → KM 比较高低危 RFS。",
       "figures": "复发预测准确率重采样、高低危 KM、公开队列相关验证。",
-      "factory_match": "对应工厂 art03：复发终点 + 转录组风险分层 + 外部队列；工厂写法需补临床联合模型、校准/DCA，并写清终点定义与删失。"
+      "factory_match": "对应模板 art03：复发终点 + 转录组风险分层 + 外部队列；本站写法需补临床联合模型、校准/DCA，并写清终点定义与删失。"
     },
     "journal_id": "bmc_cancer",
     "journal_name": "BMC Cancer"
@@ -54,7 +54,7 @@
       "data": "中国 8 中心 2016–2017 年 931 例 II 期结肠癌手术队列（非纯公开组学）。",
       "pipeline": "Cox 评估 DFS/OS 危险因素 → 检验病理因素与 ACT 的乘性交互 → RERI 报告加性交互 → STEPP 看连续变量对获益的修饰。",
       "figures": "交互效应、亚组获益差异、STEPP。",
-      "factory_match": "对应工厂 art04：核心是「分层×治疗」交互而非只做亚组 KM；工厂用转录组风险评分替代病理高危因子，公开组学实现时务必报告交互 p，阴性结果要透明降档。"
+      "factory_match": "对应模板 art04：核心是「分层×治疗」交互而非只做亚组 KM；本站用转录组风险评分替代病理高危因子，公开组学实现时务必报告交互 p，阴性结果要透明降档。"
     },
     "journal_id": "bmc_cancer",
     "journal_name": "BMC Cancer"
@@ -69,7 +69,7 @@
       "data": "训练：TCGA-LUAD（约 500 例）；验证：GSE31210（约 226 例）。",
       "pipeline": "预定义基因集 → 生存相关筛选 → 风险评分 → KM + timeROC；常附免疫浸润/药敏等扩展分析。",
       "figures": "KM、ROC、高低危分层；扩展模块可含免疫/药敏。",
-      "factory_match": "对应工厂 art01 的「纯转录组签名」近亲；工厂主推版本应额外做临床-only vs 临床+转录组对照，并按 TRIPOD 写清泄漏防控。"
+      "factory_match": "对应模板 art01 的「纯转录组签名」近亲；本站主推版本应额外做临床-only vs 临床+转录组对照，并按 TRIPOD 写清泄漏防控。"
     },
     "journal_id": "scientific_reports",
     "journal_name": "Scientific Reports"
@@ -84,7 +84,7 @@
       "data": "TCGA 卵巢癌训练；GSE17260、GSE14764、ICGC 等外部验证。",
       "pipeline": "ESTIMATE 免疫/基质评分 → DEG → uni/multi Cox → 6-gene risk model → OS/PFS 分层与 AUC。",
       "figures": "高低危 KM、多队列 AUC、体外实验辅助。",
-      "factory_match": "对应工厂 art06 的免疫微环境签名路线；工厂版本把 IFN-γ + TMB + MMR 与临床整合，冲高时看增量 C-index。"
+      "factory_match": "对应模板 art06 的免疫微环境签名路线；本站版本把 IFN-γ + TMB + MMR 与临床整合，冲高时看增量 C-index。"
     },
     "journal_id": "scientific_reports",
     "journal_name": "Scientific Reports"
@@ -99,7 +99,7 @@
       "data": "胰腺癌 PurIST 分型；全转录组 RNA-seq vs 外显子捕获 RNA-seq；另比 NanoString。",
       "pipeline": "同一样本跨平台调用分型 → 报告一致率（约 81% vs 95%）→ 比较分型预后显著性是否保留。",
       "figures": "一致率、亚型比例偏移、跨平台 KM 差异。",
-      "factory_match": "对应工厂 art05：重点不是「证明一定一致」，而是量化平台迁移损失；一致性弱必须降调「验证成功」。SciRep 主投同类方法学/验证叙事亦可。"
+      "factory_match": "对应模板 art05：重点不是「证明一定一致」，而是量化平台迁移损失；一致性弱必须降调「验证成功」。SciRep 主投同类方法学/验证叙事亦可。"
     },
     "journal_id": "scientific_reports",
     "journal_name": "Scientific Reports"
@@ -114,7 +114,7 @@
       "data": "开发：TCGA-BRCA；外部：METABRIC、GSE96058。",
       "pipeline": "单因素 Cox → LASSO Cox → 逐步选择 → 风险评分；评估 AUC(t)、KM、C-index、校准；并尝试加入诊断年龄提升判别。",
       "figures": "时间依赖 AUC、KM、校准、在线计算器。",
-      "factory_match": "对应工厂 art01 冲高路径（JTM）：外部验证扎实 + 指标好看才建议冲；工厂还需报告相对纯临床模型增量，避免「只有基因、没有临床基线」。"
+      "factory_match": "对应模板 art01 冲高路径（JTM）：外部验证扎实 + 指标好看才建议冲；还需报告相对纯临床模型增量，避免「只有基因、没有临床基线」。"
     },
     "journal_id": "jtm",
     "journal_name": "Journal of Translational Medicine"
@@ -144,7 +144,7 @@
       "data": "公开 RNA-seq + 芯片队列。",
       "pipeline": "分型迁移 → kappa/一致率 → 亚型预后；一致性弱时如实降调结论。",
       "figures": "混淆矩阵/桑基、kappa、亚型 KM。",
-      "factory_match": "对应工厂 art05/art07 弱结果降档；不要把 PeerJ 包装成冲高刊。"
+      "factory_match": "对应模板 art05/art07 弱结果降档；不要把 PeerJ 包装成冲高刊。"
     },
     "journal_id": "peerj",
     "journal_name": "PeerJ"

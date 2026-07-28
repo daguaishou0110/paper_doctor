@@ -1,6 +1,6 @@
-# 多癌种论文工厂 · 选刊选题决策台（网站）
+# 公开组学 · 选刊选题助手（网站）
 
-静态原型：写法百科 → 期刊情报 → 病症货架。
+静态站点：写法百科 → 期刊情报 → 癌种选题。
 
 ## 在线访问（Render）
 
@@ -27,19 +27,11 @@ website/
 ├── assets/app.css
 ├── assets/app.js
 └── data/
-    ├── FIELD_DICTIONARY.md   # 字段字典
+    ├── FIELD_DICTIONARY.md
     ├── meta.json
-    ├── methods.json          # 7 种写法
-    ├── journals.json         # 期刊情报
-    ├── cancers.json          # 9 个癌种
-    ├── papers.json           # 63 篇选题
-    └── build_papers.py       # 从总表重新生成 papers.json
+    ├── methods.json
+    ├── journals.json
+    ├── cancers.json
+    ├── papers.json
+    └── expand_website_from_progress.py
 ```
-
-## 当前进度
-
-- [x] Step 1：字段字典 + 结构化数据
-- [x] Step 2：可点击静态原型
-- [x] Step 3：补期刊 2025–2026 范文与「怎么做的」拆解
-- [x] Step 4：Nature 风格图形摘要（63 篇文生图 → `assets/ga/*.jpg`；已同步进各论文 `figures/main/fig_model_scheme.png` 与正文 TeX）
-- [ ] Step 5：约束反查（非OA+几区 → 反推写法/癌种）

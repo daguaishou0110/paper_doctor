@@ -17,7 +17,7 @@ Render 的 Static Site **必须连 Git 仓库**（GitHub / GitLab / Bitbucket）
 在 PowerShell 里：
 
 ```powershell
-cd "d:\hyf\freelance-work\niumayuan\2026\多癌种论文工厂\website"
+cd "d:\hyf\freelance-work\niumayuan\2026\公开组学选题助手\website"
 
 git init
 git add index.html assets data render.yaml README.md serve.py
@@ -62,7 +62,7 @@ Render 会自动重新部署。
 
 ---
 
-## 若整仓推送「多癌种论文工厂」根目录
+## 若整仓推送「公开组学选题助手」根目录
 
 Publish Directory 改成：`website`  
 （不要写成 `website/` 以外的路径；Build Command 仍留空。）

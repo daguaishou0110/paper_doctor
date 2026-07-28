@@ -6,7 +6,10 @@
     "name_en": "Clinical–Transcriptomic Prognostic Model (OS)",
     "summary": "用临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "endpoint": "OS",
-    "data_types": ["clinical", "transcriptomic"],
+    "data_types": [
+      "clinical",
+      "transcriptomic"
+    ],
     "analysis_pipeline": [
       "TCGA 临床+RNA 作开发队列",
       "训练集内筛选预后基因，避免信息泄漏",
@@ -33,11 +36,26 @@
       "终点定义不清或随访过短"
     ],
     "journal_roles": {
-      "primary": ["frontiers_oncology"],
-      "backup": ["bmc_cancer", "cancers", "scientific_reports"],
-      "stretch": ["jtm"]
+      "primary": [
+        "frontiers_oncology"
+      ],
+      "backup": [
+        "bmc_cancer",
+        "cancers",
+        "scientific_reports"
+      ],
+      "stretch": [
+        "jtm"
+      ]
     },
-    "sample_figure_set": ["队列流程图", "KM 高低危", "时间依赖 ROC", "校准曲线", "DCA", "森林图/系数图"],
+    "sample_figure_set": [
+      "队列流程图",
+      "KM 高低危",
+      "时间依赖 ROC",
+      "校准曲线",
+      "DCA",
+      "森林图/系数图"
+    ],
     "graphical_abstract_prompt": "Scientific graphical abstract, clean flat vector, clinical covariates plus transcriptomic heatmap feeding into a Cox survival model, Kaplan-Meier curves and ROC badge, white background, journal style, no photorealism, labels: Cohort → Feature selection → Model → Validation"
   },
   {
@@ -47,7 +65,10 @@
     "name_en": "Clinical–Genomic Prognostic Model (OS)",
     "summary": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "endpoint": "OS",
-    "data_types": ["clinical", "genomic"],
+    "data_types": [
+      "clinical",
+      "genomic"
+    ],
     "analysis_pipeline": [
       "提取驱动突变、TMB、MMR/MSI 等基因组特征",
       "临床模型 vs 临床+基因组整合模型",
@@ -72,11 +93,24 @@
       "MMR/MSI 标注不完整"
     ],
     "journal_roles": {
-      "primary": ["frontiers_oncology"],
-      "backup": ["bmc_cancer", "cancers", "scientific_reports"],
+      "primary": [
+        "frontiers_oncology"
+      ],
+      "backup": [
+        "bmc_cancer",
+        "cancers",
+        "scientific_reports"
+      ],
       "stretch": []
     },
-    "sample_figure_set": ["突变概览", "TMB 分布", "KM", "ROC", "校准", "DCA"],
+    "sample_figure_set": [
+      "突变概览",
+      "TMB 分布",
+      "KM",
+      "ROC",
+      "校准",
+      "DCA"
+    ],
     "graphical_abstract_prompt": "Scientific graphical abstract, flat vector, somatic mutations TMB MMR icons merging with clinical stage into survival model, clean white background, journal graphical abstract style"
   },
   {
@@ -86,7 +120,10 @@
     "name_en": "Clinical–Transcriptomic Model (RFS/DFS)",
     "summary": "临床特征联合转录组预测无复发生存/无病生存。",
     "endpoint": "RFS/DFS",
-    "data_types": ["clinical", "transcriptomic"],
+    "data_types": [
+      "clinical",
+      "transcriptomic"
+    ],
     "analysis_pipeline": [
       "以含复发终点的 GEO 队列为主",
       "训练集内基因筛选与临床+转录组 RFS 建模",
@@ -111,11 +148,23 @@
       "把内部验证写成外部验证"
     ],
     "journal_roles": {
-      "primary": ["bmc_cancer"],
-      "backup": ["frontiers_oncology", "cancers", "scientific_reports"],
+      "primary": [
+        "bmc_cancer"
+      ],
+      "backup": [
+        "frontiers_oncology",
+        "cancers",
+        "scientific_reports"
+      ],
       "stretch": []
     },
-    "sample_figure_set": ["研究流程图", "KM", "时间依赖 ROC", "校准", "DCA"],
+    "sample_figure_set": [
+      "研究流程图",
+      "KM",
+      "时间依赖 ROC",
+      "校准",
+      "DCA"
+    ],
     "graphical_abstract_prompt": "Scientific graphical abstract, recurrence-free survival focus, clinical plus transcriptomic inputs, RFS Kaplan-Meier, clean vector journal style"
   },
   {
@@ -125,7 +174,11 @@
     "name_en": "Transcriptomic Risk Score × Adjuvant Chemotherapy Interaction",
     "summary": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III 期）。",
     "endpoint": "OS/RFS × treatment interaction",
-    "data_types": ["clinical", "transcriptomic", "treatment"],
+    "data_types": [
+      "clinical",
+      "transcriptomic",
+      "treatment"
+    ],
     "analysis_pipeline": [
       "在含化疗信息的队列构建转录组风险评分",
       "Cox/交互项检验「风险分层×是否化疗」",
@@ -150,11 +203,22 @@
       "阴性结果过度包装"
     ],
     "journal_roles": {
-      "primary": ["bmc_cancer"],
-      "backup": ["frontiers_oncology", "scientific_reports", "peerj"],
+      "primary": [
+        "bmc_cancer"
+      ],
+      "backup": [
+        "frontiers_oncology",
+        "scientific_reports",
+        "peerj"
+      ],
       "stretch": []
     },
-    "sample_figure_set": ["四组 KM", "交互森林图", "风险评分分布", "亚组 HR"],
+    "sample_figure_set": [
+      "四组 KM",
+      "交互森林图",
+      "风险评分分布",
+      "亚组 HR"
+    ],
     "graphical_abstract_prompt": "Scientific graphical abstract, 2x2 grid high/low risk with or without chemotherapy, interaction arrow, Kaplan-Meier panels, clean vector style"
   },
   {
@@ -164,7 +228,9 @@
     "name_en": "Cross-Platform Molecular Subtype Validation",
     "summary": "分子共识分型在 RNA-seq 与芯片平台间的一致性验证及预后分层。",
     "endpoint": "分型一致性 + 预后分层",
-    "data_types": ["transcriptomic"],
+    "data_types": [
+      "transcriptomic"
+    ],
     "analysis_pipeline": [
       "TCGA RNA-seq 与 GEO 芯片分别调用/映射亚型",
       "一致率、Cohen kappa 等",
@@ -189,11 +255,21 @@
       "样本量不足以支撑亚型比较"
     ],
     "journal_roles": {
-      "primary": ["scientific_reports"],
-      "backup": ["peerj", "cancers"],
+      "primary": [
+        "scientific_reports"
+      ],
+      "backup": [
+        "peerj",
+        "cancers"
+      ],
       "stretch": []
     },
-    "sample_figure_set": ["分型桑基/混淆矩阵", "kappa", "亚型 KM", "PCA/批次图"],
+    "sample_figure_set": [
+      "分型桑基/混淆矩阵",
+      "kappa",
+      "亚型 KM",
+      "PCA/批次图"
+    ],
     "graphical_abstract_prompt": "Scientific graphical abstract, RNA-seq versus microarray platforms, subtype consensus arrows, kappa badge, survival curves by subtype, clean vector"
   },
   {
@@ -203,7 +279,11 @@
     "name_en": "Clinical–Immune–Genomic Prognostic Model (OS)",
     "summary": "临床联合免疫签名（如 IFN-γ）、TMB 与 MMR 的整合 OS 预后模型。",
     "endpoint": "OS",
-    "data_types": ["clinical", "immune", "genomic"],
+    "data_types": [
+      "clinical",
+      "immune",
+      "genomic"
+    ],
     "analysis_pipeline": [
       "构建免疫评分/IFN-γ 签名，计算 TMB 与 MMR",
       "临床+免疫+基因组整合模型",
@@ -227,11 +307,24 @@
       "签名基因选择任意且不可复现"
     ],
     "journal_roles": {
-      "primary": ["frontiers_oncology"],
-      "backup": ["bmc_cancer", "scientific_reports"],
-      "stretch": ["jtm"]
+      "primary": [
+        "frontiers_oncology"
+      ],
+      "backup": [
+        "bmc_cancer",
+        "scientific_reports"
+      ],
+      "stretch": [
+        "jtm"
+      ]
     },
-    "sample_figure_set": ["免疫热图", "TMB", "整合模型 ROC", "KM", "DCA"],
+    "sample_figure_set": [
+      "免疫热图",
+      "TMB",
+      "整合模型 ROC",
+      "KM",
+      "DCA"
+    ],
     "graphical_abstract_prompt": "Scientific graphical abstract, IFN-gamma immune signature plus TMB MMR icons into integrated survival model, clean journal vector style"
   },
   {
@@ -241,7 +334,10 @@
     "name_en": "Stage II/III Subgroup RFS Modeling",
     "summary": "限定 II/III 期人群的临床+转录组无复发生存建模与亚组分层。",
     "endpoint": "RFS（分期亚组）",
-    "data_types": ["clinical", "transcriptomic"],
+    "data_types": [
+      "clinical",
+      "transcriptomic"
+    ],
     "analysis_pipeline": [
       "限定 II/III 期人群",
       "临床 vs 临床+转录组 RFS 模型",
@@ -265,11 +361,21 @@
       "阴性结果硬冲高区"
     ],
     "journal_roles": {
-      "primary": ["bmc_cancer"],
-      "backup": ["scientific_reports", "peerj"],
+      "primary": [
+        "bmc_cancer"
+      ],
+      "backup": [
+        "scientific_reports",
+        "peerj"
+      ],
       "stretch": []
     },
-    "sample_figure_set": ["亚组流程图", "KM", "ROC", "分期分层图"],
+    "sample_figure_set": [
+      "亚组流程图",
+      "KM",
+      "ROC",
+      "分期分层图"
+    ],
     "graphical_abstract_prompt": "Scientific graphical abstract, stage II III subgroup filter, clinical transcriptomic RFS model, clean vector journal style"
   }
 ]

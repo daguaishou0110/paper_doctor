@@ -26,7 +26,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/brca_art01.jpg",
     "status": "manuscript"
   },
@@ -57,7 +57,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/brca_art02.jpg",
     "status": "manuscript"
   },
@@ -90,7 +90,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/brca_art03.jpg",
     "status": "manuscript"
   },
@@ -124,7 +124,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对乳腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对乳腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/brca_art04.jpg",
     "status": "manuscript"
   },
@@ -154,7 +154,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对乳腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对乳腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/brca_art05.jpg",
     "status": "manuscript"
   },
@@ -184,7 +184,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/brca_art06.jpg",
     "status": "manuscript"
   },
@@ -216,7 +216,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对乳腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对乳腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/brca_art07.jpg",
     "status": "manuscript"
   },
@@ -229,7 +229,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Brain Lower Grade Glioma: A TRIPOD-Aligned Analysis of TCGA-LGG",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 低级别胶质瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 低级别胶质瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-LGG"
     ],
@@ -246,7 +246,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对低级别胶质瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对低级别胶质瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/lgg_art01.jpg",
     "status": "manuscript"
   },
@@ -259,7 +259,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Brain Lower Grade Glioma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 低级别胶质瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 低级别胶质瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-LGG"
     ],
@@ -276,7 +276,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对低级别胶质瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对低级别胶质瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/lgg_art02.jpg",
     "status": "manuscript"
   },
@@ -289,7 +289,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Brain Lower Grade Glioma: TCGA RNA-Seq versus GSE43289 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 低级别胶质瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 低级别胶质瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE43289"
     ],
@@ -307,7 +307,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对低级别胶质瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对低级别胶质瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/lgg_art05.jpg",
     "status": "usable"
   },
@@ -320,7 +320,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Prostate Adenocarcinoma: A TRIPOD-Aligned Analysis of TCGA-PRAD",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 前列腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 前列腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-PRAD"
     ],
@@ -338,7 +338,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/prad_art01.jpg",
     "status": "manuscript"
   },
@@ -351,7 +351,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Prostate Adenocarcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 前列腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 前列腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-PRAD"
     ],
@@ -369,7 +369,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/prad_art02.jpg",
     "status": "manuscript"
   },
@@ -382,7 +382,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Prostate Adenocarcinoma: TCGA RNA-Seq versus GSE21034 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 前列腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 前列腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE21034"
     ],
@@ -401,7 +401,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对前列腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对前列腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/prad_art05.jpg",
     "status": "usable"
   },
@@ -414,7 +414,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Ovarian Serous Cystadenocarcinoma: A TRIPOD-Aligned Analysis of TCGA-OV",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 卵巢浆液性癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 卵巢浆液性癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-OV"
     ],
@@ -431,7 +431,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对卵巢浆液性癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对卵巢浆液性癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/ov_art01.jpg",
     "status": "manuscript"
   },
@@ -444,7 +444,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Ovarian Serous Cystadenocarcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 卵巢浆液性癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 卵巢浆液性癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-OV"
     ],
@@ -461,7 +461,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对卵巢浆液性癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对卵巢浆液性癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/ov_art02.jpg",
     "status": "manuscript"
   },
@@ -474,7 +474,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Ovarian Serous Cystadenocarcinoma: TCGA RNA-Seq versus GSE9891 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 卵巢浆液性癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 卵巢浆液性癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE9891"
     ],
@@ -492,7 +492,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对卵巢浆液性癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对卵巢浆液性癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/ov_art05.jpg",
     "status": "usable"
   },
@@ -505,7 +505,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Ovarian Serous Cystadenocarcinoma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 卵巢浆液性癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 卵巢浆液性癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-OV"
     ],
@@ -521,7 +521,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对卵巢浆液性癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对卵巢浆液性癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/ov_art06.jpg",
     "status": "manuscript"
   },
@@ -552,7 +552,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/hnsc_art01.jpg",
     "status": "manuscript"
   },
@@ -583,7 +583,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/hnsc_art02.jpg",
     "status": "manuscript"
   },
@@ -616,7 +616,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/hnsc_art03.jpg",
     "status": "manuscript"
   },
@@ -650,7 +650,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对头颈鳞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对头颈鳞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/hnsc_art04.jpg",
     "status": "manuscript"
   },
@@ -680,7 +680,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对头颈鳞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对头颈鳞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/hnsc_art05.jpg",
     "status": "manuscript"
   },
@@ -710,7 +710,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/hnsc_art06.jpg",
     "status": "manuscript"
   },
@@ -742,7 +742,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对头颈鳞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对头颈鳞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/hnsc_art07.jpg",
     "status": "manuscript"
   },
@@ -755,7 +755,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Uterine Corpus Endometrial Carcinoma: A TRIPOD-Aligned Analysis of TCGA-UCEC",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 子宫内膜癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 子宫内膜癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-UCEC"
     ],
@@ -772,7 +772,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对子宫内膜癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对子宫内膜癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/ucec_art01.jpg",
     "status": "manuscript"
   },
@@ -785,7 +785,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Uterine Corpus Endometrial Carcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 子宫内膜癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 子宫内膜癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-UCEC"
     ],
@@ -802,7 +802,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对子宫内膜癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对子宫内膜癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/ucec_art02.jpg",
     "status": "manuscript"
   },
@@ -815,7 +815,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Uterine Corpus Endometrial Carcinoma: TCGA RNA-Seq versus GSE17025 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 子宫内膜癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 子宫内膜癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE17025"
     ],
@@ -833,7 +833,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对子宫内膜癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对子宫内膜癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/ucec_art05.jpg",
     "status": "usable"
   },
@@ -846,7 +846,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Uterine Corpus Endometrial Carcinoma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 子宫内膜癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 子宫内膜癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-UCEC"
     ],
@@ -862,7 +862,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对子宫内膜癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对子宫内膜癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/ucec_art06.jpg",
     "status": "manuscript"
   },
@@ -875,7 +875,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Uterine Carcinosarcoma: A TRIPOD-Aligned Analysis of TCGA-UCS",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 子宫癌肉瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 子宫癌肉瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-UCS"
     ],
@@ -892,7 +892,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对子宫癌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对子宫癌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/ucs_art01.jpg",
     "status": "manuscript"
   },
@@ -905,7 +905,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Uterine Carcinosarcoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 子宫癌肉瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 子宫癌肉瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-UCS"
     ],
@@ -922,7 +922,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对子宫癌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对子宫癌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/ucs_art02.jpg",
     "status": "manuscript"
   },
@@ -935,7 +935,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Uterine Carcinosarcoma: TCGA RNA-Seq versus GSE68661 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 子宫癌肉瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 子宫癌肉瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE68661"
     ],
@@ -953,7 +953,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对子宫癌肉瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对子宫癌肉瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/ucs_art05.jpg",
     "status": "usable"
   },
@@ -966,7 +966,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Uterine Carcinosarcoma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 子宫癌肉瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 子宫癌肉瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-UCS"
     ],
@@ -982,7 +982,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对子宫癌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对子宫癌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/ucs_art06.jpg",
     "status": "manuscript"
   },
@@ -995,7 +995,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma: A TRIPOD-Aligned Analysis of TCGA-CESC",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 宫颈癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 宫颈癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-CESC"
     ],
@@ -1012,7 +1012,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对宫颈癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对宫颈癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/cesc_art01.jpg",
     "status": "manuscript"
   },
@@ -1025,7 +1025,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 宫颈癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 宫颈癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-CESC"
     ],
@@ -1042,7 +1042,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对宫颈癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对宫颈癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/cesc_art02.jpg",
     "status": "manuscript"
   },
@@ -1055,7 +1055,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma: TCGA RNA-Seq versus GSE52903 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 宫颈癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 宫颈癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE52903"
     ],
@@ -1073,7 +1073,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对宫颈癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对宫颈癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/cesc_art05.jpg",
     "status": "usable"
   },
@@ -1086,7 +1086,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 宫颈癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 宫颈癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-CESC"
     ],
@@ -1102,7 +1102,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对宫颈癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对宫颈癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/cesc_art06.jpg",
     "status": "manuscript"
   },
@@ -1115,7 +1115,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Thyroid Carcinoma: A TRIPOD-Aligned Analysis of TCGA-THCA",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 甲状腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 甲状腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-THCA"
     ],
@@ -1132,7 +1132,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对甲状腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对甲状腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/thca_art01.jpg",
     "status": "manuscript"
   },
@@ -1145,7 +1145,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Thyroid Carcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 甲状腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 甲状腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-THCA"
     ],
@@ -1162,7 +1162,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对甲状腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对甲状腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/thca_art02.jpg",
     "status": "manuscript"
   },
@@ -1175,7 +1175,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Thyroid Carcinoma: TCGA RNA-Seq versus GSE33630 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 甲状腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 甲状腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE33630"
     ],
@@ -1193,7 +1193,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对甲状腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对甲状腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/thca_art05.jpg",
     "status": "usable"
   },
@@ -1206,7 +1206,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Thyroid Carcinoma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 甲状腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 甲状腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-THCA"
     ],
@@ -1222,7 +1222,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对甲状腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对甲状腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/thca_art06.jpg",
     "status": "manuscript"
   },
@@ -1235,7 +1235,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Skin Cutaneous Melanoma: A TRIPOD-Aligned Analysis of TCGA-SKCM",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 皮肤黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 皮肤黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-SKCM"
     ],
@@ -1252,7 +1252,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对皮肤黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对皮肤黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/skcm_art01.jpg",
     "status": "manuscript"
   },
@@ -1265,7 +1265,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Skin Cutaneous Melanoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 皮肤黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 皮肤黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-SKCM"
     ],
@@ -1282,7 +1282,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对皮肤黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对皮肤黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/skcm_art02.jpg",
     "status": "manuscript"
   },
@@ -1295,7 +1295,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Skin Cutaneous Melanoma: TCGA RNA-Seq versus GSE65904 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 皮肤黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 皮肤黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE65904"
     ],
@@ -1313,7 +1313,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对皮肤黑色素瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对皮肤黑色素瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/skcm_art05.jpg",
     "status": "usable"
   },
@@ -1326,7 +1326,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Rectum Adenocarcinoma: A TRIPOD-Aligned Analysis of TCGA-READ",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 直肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 直肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-READ"
     ],
@@ -1344,7 +1344,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对直肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对直肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/read_art01.jpg",
     "status": "manuscript"
   },
@@ -1357,7 +1357,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Rectum Adenocarcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 直肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 直肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-READ"
     ],
@@ -1375,7 +1375,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对直肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对直肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/read_art02.jpg",
     "status": "manuscript"
   },
@@ -1388,7 +1388,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Rectum Adenocarcinoma: TCGA RNA-Seq versus GSE87211 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 直肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 直肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE87211"
     ],
@@ -1407,7 +1407,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对直肠腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对直肠腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/read_art05.jpg",
     "status": "usable"
   },
@@ -1420,7 +1420,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Rectum Adenocarcinoma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 直肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 直肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-READ"
     ],
@@ -1437,7 +1437,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对直肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对直肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/read_art06.jpg",
     "status": "manuscript"
   },
@@ -1450,7 +1450,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Testicular Germ Cell Tumors: A TRIPOD-Aligned Analysis of TCGA-TGCT",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 睾丸生殖细胞瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 睾丸生殖细胞瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-TGCT"
     ],
@@ -1468,7 +1468,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/tgct_art01.jpg",
     "status": "manuscript"
   },
@@ -1481,7 +1481,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Testicular Germ Cell Tumors: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 睾丸生殖细胞瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 睾丸生殖细胞瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-TGCT"
     ],
@@ -1499,7 +1499,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/tgct_art02.jpg",
     "status": "manuscript"
   },
@@ -1512,7 +1512,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Testicular Germ Cell Tumors: TCGA RNA-Seq versus GSE3218 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 睾丸生殖细胞瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 睾丸生殖细胞瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE3218"
     ],
@@ -1531,7 +1531,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/tgct_art05.jpg",
     "status": "usable"
   },
@@ -1562,7 +1562,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/crc_art01.jpg",
     "status": "manuscript"
   },
@@ -1593,7 +1593,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/crc_art02.jpg",
     "status": "manuscript"
   },
@@ -1626,7 +1626,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/crc_art03.jpg",
     "status": "manuscript"
   },
@@ -1660,7 +1660,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对结直肠癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对结直肠癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/crc_art04.jpg",
     "status": "manuscript"
   },
@@ -1690,7 +1690,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对结直肠癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对结直肠癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/crc_art05.jpg",
     "status": "manuscript"
   },
@@ -1720,7 +1720,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/crc_art06.jpg",
     "status": "manuscript"
   },
@@ -1752,7 +1752,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对结直肠癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对结直肠癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/crc_art07.jpg",
     "status": "manuscript"
   },
@@ -1765,7 +1765,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Colon Adenocarcinoma: A TRIPOD-Aligned Analysis of TCGA-COAD",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-COAD"
     ],
@@ -1783,7 +1783,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/coad_art01.jpg",
     "status": "manuscript"
   },
@@ -1796,7 +1796,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Colon Adenocarcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-COAD"
     ],
@@ -1814,7 +1814,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/coad_art02.jpg",
     "status": "manuscript"
   },
@@ -1827,7 +1827,7 @@
     "art_no": "art03",
     "title": "A Clinical--Transcriptomic Model for Recurrence-Free Survival in Colon Adenocarcinoma: A TRIPOD-Aligned GSE39582 Cohort Study",
     "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
-    "methods_detail": "按工厂 art 模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE39582"
     ],
@@ -1847,7 +1847,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/coad_art03.jpg",
     "status": "manuscript"
   },
@@ -1860,7 +1860,7 @@
     "art_no": "art04",
     "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Colon Adenocarcinoma: A Treatment-Interaction Analysis in GSE39582",
     "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
-    "methods_detail": "按工厂 art 模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE39582"
     ],
@@ -1881,7 +1881,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对结肠腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对结肠腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/coad_art04.jpg",
     "status": "manuscript"
   },
@@ -1894,7 +1894,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Colon Adenocarcinoma: TCGA RNA-Seq versus GSE39582 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE39582"
     ],
@@ -1911,7 +1911,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对结肠腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对结肠腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/coad_art05.jpg",
     "status": "manuscript"
   },
@@ -1924,7 +1924,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Colon Adenocarcinoma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-COAD"
     ],
@@ -1941,7 +1941,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/coad_art06.jpg",
     "status": "manuscript"
   },
@@ -1954,7 +1954,7 @@
     "art_no": "art07",
     "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Colon Adenocarcinoma: A TRIPOD-Aligned GSE39582 Cohort Study",
     "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
-    "methods_detail": "按工厂 art 模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 结肠腺癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE39582"
     ],
@@ -1973,7 +1973,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对结肠腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对结肠腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/coad_art07.jpg",
     "status": "manuscript"
   },
@@ -2004,7 +2004,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/lihc_art01.jpg",
     "status": "manuscript"
   },
@@ -2035,7 +2035,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/lihc_art02.jpg",
     "status": "manuscript"
   },
@@ -2068,7 +2068,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/lihc_art03.jpg",
     "status": "manuscript"
   },
@@ -2102,7 +2102,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对肝细胞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对肝细胞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/lihc_art04.jpg",
     "status": "manuscript"
   },
@@ -2132,7 +2132,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肝细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对肝细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/lihc_art05.jpg",
     "status": "manuscript"
   },
@@ -2162,7 +2162,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/lihc_art06.jpg",
     "status": "manuscript"
   },
@@ -2194,7 +2194,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对肝细胞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对肝细胞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/lihc_art07.jpg",
     "status": "manuscript"
   },
@@ -2225,7 +2225,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/luad_art01.jpg",
     "status": "manuscript"
   },
@@ -2256,7 +2256,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/luad_art02.jpg",
     "status": "manuscript"
   },
@@ -2289,7 +2289,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/luad_art03.jpg",
     "status": "manuscript"
   },
@@ -2323,7 +2323,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对肺腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对肺腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/luad_art04.jpg",
     "status": "manuscript"
   },
@@ -2353,7 +2353,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肺腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对肺腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/luad_art05.jpg",
     "status": "manuscript"
   },
@@ -2383,7 +2383,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/luad_art06.jpg",
     "status": "manuscript"
   },
@@ -2415,7 +2415,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对肺腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对肺腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/luad_art07.jpg",
     "status": "manuscript"
   },
@@ -2446,7 +2446,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/lusc_art01.jpg",
     "status": "manuscript"
   },
@@ -2477,7 +2477,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/lusc_art02.jpg",
     "status": "manuscript"
   },
@@ -2510,7 +2510,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/lusc_art03.jpg",
     "status": "manuscript"
   },
@@ -2544,7 +2544,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对肺鳞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对肺鳞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/lusc_art04.jpg",
     "status": "manuscript"
   },
@@ -2574,7 +2574,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肺鳞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对肺鳞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/lusc_art05.jpg",
     "status": "manuscript"
   },
@@ -2604,7 +2604,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/lusc_art06.jpg",
     "status": "manuscript"
   },
@@ -2636,7 +2636,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对肺鳞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对肺鳞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/lusc_art07.jpg",
     "status": "manuscript"
   },
@@ -2649,7 +2649,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Kidney Renal Papillary Cell Carcinoma: A TRIPOD-Aligned Analysis of TCGA-KIRP",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 肾乳头状细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 肾乳头状细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-KIRP"
     ],
@@ -2667,7 +2667,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肾乳头状细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对肾乳头状细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/kirp_art01.jpg",
     "status": "manuscript"
   },
@@ -2680,7 +2680,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Kidney Renal Papillary Cell Carcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 肾乳头状细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 肾乳头状细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-KIRP"
     ],
@@ -2698,7 +2698,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肾乳头状细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肾乳头状细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/kirp_art02.jpg",
     "status": "manuscript"
   },
@@ -2711,7 +2711,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Kidney Renal Papillary Cell Carcinoma: TCGA RNA-Seq versus GSE2748 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 肾乳头状细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 肾乳头状细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE2748"
     ],
@@ -2730,7 +2730,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对肾乳头状细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对肾乳头状细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/kirp_art05.jpg",
     "status": "usable"
   },
@@ -2743,7 +2743,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Kidney Renal Papillary Cell Carcinoma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 肾乳头状细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 肾乳头状细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-KIRP"
     ],
@@ -2760,7 +2760,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肾乳头状细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肾乳头状细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/kirp_art06.jpg",
     "status": "manuscript"
   },
@@ -2773,7 +2773,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Kidney Chromophobe: A TRIPOD-Aligned Analysis of TCGA-KICH",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 肾嫌色细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 肾嫌色细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-KICH"
     ],
@@ -2791,7 +2791,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肾嫌色细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对肾嫌色细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/kich_art01.jpg",
     "status": "manuscript"
   },
@@ -2804,7 +2804,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Kidney Chromophobe: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 肾嫌色细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 肾嫌色细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-KICH"
     ],
@@ -2822,7 +2822,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肾嫌色细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肾嫌色细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/kich_art02.jpg",
     "status": "manuscript"
   },
@@ -2835,7 +2835,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Kidney Chromophobe: TCGA RNA-Seq versus GSE15641 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 肾嫌色细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 肾嫌色细胞癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE15641"
     ],
@@ -2854,7 +2854,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对肾嫌色细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对肾嫌色细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/kich_art05.jpg",
     "status": "usable"
   },
@@ -2885,7 +2885,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/kirc_art01.jpg",
     "status": "manuscript"
   },
@@ -2916,7 +2916,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/kirc_art02.jpg",
     "status": "manuscript"
   },
@@ -2949,7 +2949,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/kirc_art03.jpg",
     "status": "manuscript"
   },
@@ -2983,7 +2983,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对肾透明细胞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对肾透明细胞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/kirc_art04.jpg",
     "status": "manuscript"
   },
@@ -3013,7 +3013,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肾透明细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对肾透明细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/kirc_art05.jpg",
     "status": "manuscript"
   },
@@ -3043,7 +3043,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/kirc_art06.jpg",
     "status": "manuscript"
   },
@@ -3075,7 +3075,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对肾透明细胞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对肾透明细胞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/kirc_art07.jpg",
     "status": "manuscript"
   },
@@ -3106,7 +3106,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/stad_art01.jpg",
     "status": "manuscript"
   },
@@ -3137,7 +3137,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/stad_art02.jpg",
     "status": "manuscript"
   },
@@ -3170,7 +3170,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/stad_art03.jpg",
     "status": "manuscript"
   },
@@ -3204,7 +3204,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对胃腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对胃腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/stad_art04.jpg",
     "status": "manuscript"
   },
@@ -3234,7 +3234,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对胃腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对胃腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/stad_art05.jpg",
     "status": "manuscript"
   },
@@ -3264,7 +3264,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/stad_art06.jpg",
     "status": "manuscript"
   },
@@ -3296,7 +3296,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对胃腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对胃腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/stad_art07.jpg",
     "status": "manuscript"
   },
@@ -3309,7 +3309,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Cholangiocarcinoma: A TRIPOD-Aligned Analysis of TCGA-CHOL",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 胆管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 胆管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-CHOL"
     ],
@@ -3327,7 +3327,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对胆管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对胆管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/chol_art01.jpg",
     "status": "manuscript"
   },
@@ -3340,7 +3340,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Cholangiocarcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 胆管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 胆管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-CHOL"
     ],
@@ -3358,7 +3358,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对胆管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对胆管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/chol_art02.jpg",
     "status": "manuscript"
   },
@@ -3371,7 +3371,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Cholangiocarcinoma: TCGA RNA-Seq versus GSE26566 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 胆管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 胆管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE26566"
     ],
@@ -3390,7 +3390,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对胆管癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对胆管癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/chol_art05.jpg",
     "status": "usable"
   },
@@ -3421,7 +3421,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/paad_art01.jpg",
     "status": "manuscript"
   },
@@ -3452,7 +3452,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/paad_art02.jpg",
     "status": "manuscript"
   },
@@ -3485,7 +3485,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/paad_art03.jpg",
     "status": "manuscript"
   },
@@ -3519,7 +3519,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对胰腺腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对胰腺腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/paad_art04.jpg",
     "status": "manuscript"
   },
@@ -3549,7 +3549,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对胰腺腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对胰腺腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/paad_art05.jpg",
     "status": "manuscript"
   },
@@ -3579,7 +3579,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。工厂状态：完稿。",
+    "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/paad_art06.jpg",
     "status": "manuscript"
   },
@@ -3611,7 +3611,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对胰腺腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对胰腺腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/paad_art07.jpg",
     "status": "manuscript"
   },
@@ -3624,7 +3624,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Glioblastoma Multiforme: TCGA RNA-Seq versus GSE13041 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 胶质母细胞瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 胶质母细胞瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE13041"
     ],
@@ -3642,7 +3642,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对胶质母细胞瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对胶质母细胞瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/gbm_art05.jpg",
     "status": "usable"
   },
@@ -3655,7 +3655,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Bladder Urothelial Carcinoma: A TRIPOD-Aligned Analysis of TCGA-BLCA",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-BLCA"
     ],
@@ -3673,7 +3673,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/blca_art01.jpg",
     "status": "manuscript"
   },
@@ -3686,7 +3686,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Bladder Urothelial Carcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-BLCA"
     ],
@@ -3704,7 +3704,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/blca_art02.jpg",
     "status": "manuscript"
   },
@@ -3717,7 +3717,7 @@
     "art_no": "art03",
     "title": "A Clinical--Transcriptomic Model for Recurrence-Free Survival in Bladder Urothelial Carcinoma: A TRIPOD-Aligned GSE13507 Cohort Study",
     "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
-    "methods_detail": "按工厂 art 模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE13507"
     ],
@@ -3737,7 +3737,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/blca_art03.jpg",
     "status": "manuscript"
   },
@@ -3750,7 +3750,7 @@
     "art_no": "art04",
     "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Bladder Urothelial Carcinoma: A Treatment-Interaction Analysis in GSE32894",
     "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
-    "methods_detail": "按工厂 art 模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE32894"
     ],
@@ -3771,7 +3771,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对膀胱尿路上皮癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对膀胱尿路上皮癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/blca_art04.jpg",
     "status": "manuscript"
   },
@@ -3784,7 +3784,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Bladder Urothelial Carcinoma: TCGA RNA-Seq versus GSE32894 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE32894"
     ],
@@ -3801,7 +3801,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：完稿。",
+    "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/blca_art05.jpg",
     "status": "manuscript"
   },
@@ -3814,7 +3814,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Bladder Urothelial Carcinoma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-BLCA"
     ],
@@ -3831,7 +3831,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/blca_art06.jpg",
     "status": "manuscript"
   },
@@ -3844,7 +3844,7 @@
     "art_no": "art07",
     "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Bladder Urothelial Carcinoma: A TRIPOD-Aligned GSE13507 Cohort Study",
     "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
-    "methods_detail": "按工厂 art 模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 膀胱尿路上皮癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE13507"
     ],
@@ -3863,7 +3863,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对膀胱尿路上皮癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对膀胱尿路上皮癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/blca_art07.jpg",
     "status": "manuscript"
   },
@@ -3876,7 +3876,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Uveal Melanoma: A TRIPOD-Aligned Analysis of TCGA-UVM",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 葡萄膜黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 葡萄膜黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-UVM"
     ],
@@ -3893,7 +3893,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/uvm_art01.jpg",
     "status": "manuscript"
   },
@@ -3906,7 +3906,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Uveal Melanoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 葡萄膜黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 葡萄膜黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-UVM"
     ],
@@ -3923,7 +3923,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/uvm_art02.jpg",
     "status": "manuscript"
   },
@@ -3936,7 +3936,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Uveal Melanoma: TCGA RNA-Seq versus GSE22138 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 葡萄膜黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 葡萄膜黑色素瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE22138"
     ],
@@ -3954,7 +3954,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/uvm_art05.jpg",
     "status": "usable"
   },
@@ -3967,7 +3967,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Mesothelioma: A TRIPOD-Aligned Analysis of TCGA-MESO",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 间皮瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 间皮瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-MESO"
     ],
@@ -3985,7 +3985,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对间皮瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对间皮瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/meso_art01.jpg",
     "status": "manuscript"
   },
@@ -3998,7 +3998,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Mesothelioma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 间皮瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 间皮瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-MESO"
     ],
@@ -4016,7 +4016,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对间皮瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对间皮瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/meso_art02.jpg",
     "status": "manuscript"
   },
@@ -4029,7 +4029,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Mesothelioma: TCGA RNA-Seq versus GSE2549 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 间皮瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 间皮瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE2549"
     ],
@@ -4048,7 +4048,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对间皮瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对间皮瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/meso_art05.jpg",
     "status": "usable"
   },
@@ -4061,7 +4061,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Mesothelioma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 间皮瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 间皮瘤 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-MESO"
     ],
@@ -4078,7 +4078,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对间皮瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对间皮瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/meso_art06.jpg",
     "status": "manuscript"
   },
@@ -4091,7 +4091,7 @@
     "art_no": "art01",
     "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Esophageal Carcinoma: A TRIPOD-Aligned Analysis of TCGA-ESCA",
     "direction": "临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证",
-    "methods_detail": "按工厂 art 模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-ESCA"
     ],
@@ -4109,7 +4109,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。工厂状态：完稿。",
+    "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/esca_art01.jpg",
     "status": "manuscript"
   },
@@ -4122,7 +4122,7 @@
     "art_no": "art02",
     "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Esophageal Carcinoma: Integrating Somatic Mutations, Tumor Mutational Burden, and MMR Status",
     "direction": "临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-ESCA"
     ],
@@ -4140,7 +4140,7 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/esca_art02.jpg",
     "status": "manuscript"
   },
@@ -4153,7 +4153,7 @@
     "art_no": "art03",
     "title": "A Clinical--Transcriptomic Model for Recurrence-Free Survival in Esophageal Carcinoma: A TRIPOD-Aligned GSE53625 Cohort Study",
     "direction": "临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）",
-    "methods_detail": "按工厂 art 模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE53625"
     ],
@@ -4173,7 +4173,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。工厂状态：完稿。",
+    "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/esca_art03.jpg",
     "status": "manuscript"
   },
@@ -4186,7 +4186,7 @@
     "art_no": "art04",
     "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Esophageal Carcinoma: A Treatment-Interaction Analysis in GSE53625",
     "direction": "转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）",
-    "methods_detail": "按工厂 art 模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE53625"
     ],
@@ -4207,7 +4207,7 @@
       "依赖复发/化疗信息完整性",
       "可能阴性结果需降档"
     ],
-    "intro": "本研究针对食管癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。工厂状态：完稿。",
+    "intro": "本研究针对食管癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/esca_art04.jpg",
     "status": "manuscript"
   },
@@ -4220,7 +4220,7 @@
     "art_no": "art05",
     "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Esophageal Carcinoma: TCGA RNA-Seq versus GSE53625 Microarray",
     "direction": "分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层",
-    "methods_detail": "按工厂 art 模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE53625"
     ],
@@ -4239,7 +4239,7 @@
     "risk_tags": [
       "缺主图或数据不完整，投稿前复核"
     ],
-    "intro": "本研究针对食管癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。工厂状态：可用。",
+    "intro": "本研究针对食管癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/esca_art05.jpg",
     "status": "usable"
   },
@@ -4252,7 +4252,7 @@
     "art_no": "art06",
     "title": "A Clinical--Immune--Genomic Prognostic Model for Esophageal Carcinoma Overall Survival: Integrating IFN-$gamma$ Signature, Tumor Mutational Burden, and MMR Status in TCGA",
     "direction": "临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型",
-    "methods_detail": "按工厂 art 模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "TCGA-ESCA"
     ],
@@ -4269,7 +4269,7 @@
     "journal_stretch": "jtm",
     "feasibility": "green",
     "risk_tags": [],
-    "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。工厂状态：完稿。",
+    "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/esca_art06.jpg",
     "status": "manuscript"
   },
@@ -4282,7 +4282,7 @@
     "art_no": "art07",
     "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Esophageal Carcinoma: A TRIPOD-Aligned GSE53625 Cohort Study",
     "direction": "II/III期亚组中的临床+转录组无复发生存建模与亚组分层",
-    "methods_detail": "按工厂 art 模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+    "methods_detail": "基于标准分析模板在 食管癌 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
     "datasets": [
       "GSE53625"
     ],
@@ -4301,7 +4301,7 @@
     "risk_tags": [
       "依赖复发/化疗信息完整性"
     ],
-    "intro": "本研究针对食管癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。工厂状态：完稿。",
+    "intro": "本研究针对食管癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/esca_art07.jpg",
     "status": "manuscript"
   }

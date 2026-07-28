@@ -53,7 +53,7 @@ function feasibilityTag(f) {
 }
 
 function statusTag(s) {
-  if (s === "manuscript") return `<span class="tag ok">完稿</span>`;
+  if (s === "manuscript") return `<span class="tag ok">成稿</span>`;
   if (s === "usable") return `<span class="tag yellow">可用</span>`;
   if (s === "data_ready") return `<span class="tag muted">数据就绪</span>`;
   return s ? `<span class="tag muted">${escapeXml(s)}</span>` : "";
@@ -123,7 +123,7 @@ function renderNav() {
     ["methods", "写法百科"],
     ["journals", "期刊情报"],
     ["examples", "范文拆解"],
-    ["cancers", "病症货架"],
+    ["cancers", "癌种选题"],
   ];
   return map
     .map(
@@ -142,7 +142,7 @@ function renderHowDone(h) {
       <dt>数据</dt><dd>${h.data || "—"}</dd>
       <dt>怎么做</dt><dd>${h.pipeline || "—"}</dd>
       <dt>图表</dt><dd>${h.figures || "—"}</dd>
-      <dt>工厂对应</dt><dd>${h.factory_match || "—"}</dd>
+      <dt>写法对应</dt><dd>${h.factory_match || "—"}</dd>
     </dl>`;
 }
 
@@ -174,26 +174,26 @@ function renderHome() {
   const nonOa = journals.filter((j) => j.non_oa_possible).length;
   const done = papers.filter((p) => p.status === "manuscript").length;
   const usable = papers.filter((p) => p.status === "usable").length;
-  const ft = meta.factory_totals || {};
-  const factoryDone = ft["完稿"] != null ? ft["完稿"] : done;
-  const factoryTotal = ft.articles != null ? ft.articles : papers.length;
+  const ft = meta.catalog_totals || meta.factory_totals || {};
+  const readyN = ft.ready != null ? ft.ready : ft["完稿"] != null ? ft["完稿"] : done;
+  const catalogTotal = ft.articles != null ? ft.articles : papers.length;
   return `
   <section class="hero">
     <div>
-      <h1>写法选刊 · 病症选题<br/>决策台</h1>
+      <h1>写法选刊 · 病种选题<br/>参考台</h1>
       <p>先看这类写法能匹配几区，再核对期刊是否 SCIE / 非 OA / 预警，最后按癌种挑选可投题目。</p>
     </div>
     <div class="hero-stats">
       <div class="stat"><b>${methods.length}</b><span>写法模板</span></div>
-      <div class="stat"><b>${factoryDone}/${factoryTotal}</b><span>全厂完稿</span></div>
-      <div class="stat"><b>${done}+${usable}</b><span>货架可投</span></div>
-      <div class="stat"><b>${cancers.length}</b><span>癌种货架</span></div>
+      <div class="stat"><b>${readyN}</b><span>成稿选题</span></div>
+      <div class="stat"><b>${done + usable}</b><span>本站收录</span></div>
+      <div class="stat"><b>${cancers.length}</b><span>覆盖癌种</span></div>
     </div>
   </section>
 
   <div class="panel">
     <h2>三步决策</h2>
-    <p class="sub">对应你要的核心路径：写法质量 → 期刊约束 → 病症选题；范文拆解帮助对齐「别人怎么发的」。</p>
+    <p class="sub">对应核心路径：写法质量 → 期刊约束 → 病种选题；范文拆解帮助对齐「别人怎么发的」。</p>
     <div class="grid">
       <button class="card" type="button" data-nav="methods">
         <h3>1. 写法百科</h3>
@@ -205,11 +205,11 @@ function renderHome() {
       </button>
       <button class="card" type="button" data-nav="examples">
         <h3>2.5 范文拆解</h3>
-        <p>2025–2026（及写法模板）范文：数据、流水线、图表、与工厂写法对应。</p>
+        <p>2025–2026（及写法模板）范文：数据、分析流程、图表结构、与本站写法模板对照。</p>
       </button>
       <button class="card" type="button" data-nav="cancers">
-        <h3>3. 病症货架</h3>
-        <p>按癌种浏览题目、图形摘要占位、数据/分析/目标刊。</p>
+        <h3>3. 癌种选题</h3>
+        <p>按癌种浏览题目、图形摘要、数据/分析/目标刊。</p>
       </button>
     </div>
   </div>
@@ -223,7 +223,7 @@ function renderMethods() {
   return `
   <div class="panel">
     <h2>写法百科</h2>
-    <p class="sub">公开组学预后/分型生产线。点进卡片看分区要求与期刊角色。</p>
+    <p class="sub">公开组学预后/分型研究路线。点进卡片看分区要求与期刊角色。</p>
     <div class="grid">
       ${state.data.methods
         .map((m) => {
@@ -283,7 +283,7 @@ function renderMethodDetail(id) {
   </div>
   <div class="panel">
     <h2>相关范文（${relatedEx.length}）</h2>
-    <p class="sub">看同行怎么做同一类写法；注意「工厂对应」里的差异点。</p>
+    <p class="sub">看同行怎么做同一类写法；注意「写法对应」里的差异点。</p>
     ${
       relatedEx.length
         ? `<div style="display:grid;gap:12px">${relatedEx.map(exampleCard).join("")}</div>`
@@ -375,14 +375,14 @@ function renderJournalDetail(id) {
       <dt>中科院</dt><dd>${j.cas_major}${j.cas_minor ? "；" + j.cas_minor : ""}</dd>
       <dt>投稿周期</dt><dd>${j.review_cycle}</dd>
       <dt>版面费</dt><dd>${j.apc_usd_range}</dd>
-      <dt>工厂角色</dt><dd>${j.role_in_factory}</dd>
+      <dt>选刊角色</dt><dd>${j.role_in_factory}</dd>
       <dt>官网</dt><dd><a href="${j.official_url}" target="_blank" rel="noopener">${j.official_url}</a></dd>
       <dt>预警说明</dt><dd>${j.warning_note || "无"}</dd>
     </dl>
   </div>
   <div class="panel">
     <h2>范文拆解（${exs.length}）</h2>
-    <p class="sub">这篇怎么做的：数据 → 流水线 → 图表 → 与工厂写法对应。</p>
+    <p class="sub">这篇怎么做的：数据 → 分析流程 → 图表 → 与本站写法模板对照。</p>
     ${
       exs.length
         ? `<div style="display:grid;gap:12px">${exs.map(exampleCard).join("")}</div>`
@@ -413,7 +413,7 @@ function renderExamples() {
   return `
   <div class="panel">
     <h2>范文拆解</h2>
-    <p class="sub">2025–2026 为主（个别写法模板参考略早）。每篇拆成：数据 / 怎么做 / 图表 / 工厂对应。</p>
+    <p class="sub">2025–2026 为主（个别写法模板参考略早）。每篇拆成：数据 / 怎么做 / 图表 / 写法对应。</p>
     <div class="filters">
       <select id="filter-method-ex">
         <option value="">全部写法</option>
@@ -460,8 +460,8 @@ function renderCancers() {
 
   return `
   <div class="panel">
-    <h2>病症货架</h2>
-    <p class="sub">按癌种展开选题：题目、图形摘要、病症/数据/分析/写法/分区质量/目标刊。货架为标准实体瘤完稿+可用；全厂完稿见首页统计。</p>
+    <h2>癌种选题</h2>
+    <p class="sub">按癌种展开选题：题目、图形摘要、病种/数据/分析/写法/分区质量/目标刊。</p>
     <div class="filters" style="margin-bottom:10px">
       <button type="button" data-filter-cancer="" style="border:1px solid var(--line);border-radius:999px;padding:8px 12px;background:${
         !cancer ? "var(--accent)" : "#fff"
@@ -517,7 +517,7 @@ function renderPaperDetail(id) {
     .filter(Boolean);
 
   return `
-  <button class="detail-back" type="button" data-nav="cancers">← 返回病症货架</button>
+  <button class="detail-back" type="button" data-nav="cancers">← 返回癌种选题</button>
   <div class="panel">
     <div class="ga">${gaSvg(p)}</div>
     <div class="meta-row">

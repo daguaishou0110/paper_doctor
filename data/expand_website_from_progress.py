@@ -219,6 +219,10 @@ def main() -> None:
             risk_tags.append("缺主图或数据不完整，投稿前复核")
 
         serial += 1
+        intro = (
+            f"本研究针对{cancer_zh}，采用「{meta['writing_style']}」路线。"
+            f"核心方向：{base.get('direction') or meta['direction']}。"
+        )
         paper = {
             "id": pid,
             "serial": serial,
@@ -229,7 +233,7 @@ def main() -> None:
             "title": title,
             "direction": base.get("direction") or meta["direction"],
             "methods_detail": base.get("methods_detail")
-            or f"按工厂 art 模板在 {cancer_zh} 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
+            or f"基于标准分析模板在 {cancer_zh} 队列完成分析与稿件；细节见 manuscript.tex / analysis_summary.json。",
             "datasets": base.get("datasets") or extract_datasets(article, title) or [tcga],
             "disease": cancer_zh,
             "analysis_style": meta["analysis_style"],
@@ -240,11 +244,7 @@ def main() -> None:
             "journal_stretch": base.get("journal_stretch", meta["journal_stretch"]),
             "feasibility": "green" if overall == "完稿" else "yellow",
             "risk_tags": risk_tags,
-            "intro": (
-                f"本研究针对{cancer_zh}，采用「{meta['writing_style']}」路线。"
-                f"核心方向：{base.get('direction') or meta['direction']}。"
-                f"工厂状态：{overall}。"
-            ),
+            "intro": intro,
             "graphical_abstract": f"assets/ga/{pid}.jpg",
             "status": status,
         }
@@ -279,7 +279,7 @@ def main() -> None:
         if cid not in cancers_used:
             continue
         c = cancers_used[cid]
-        c["notes"] = f"完稿 {c['done_count']} / 货架 {c['paper_count']}"
+        c["notes"] = f"成稿 {c['done_count']} / 收录 {c['paper_count']}"
         cancers.append(c)
 
     # Deduplicate paper ids (colon vs crc both art01…) — keep first by core preference
@@ -302,16 +302,15 @@ def main() -> None:
     meta_path = DATA / "meta.json"
     meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
     meta["last_updated"] = str(date.today())
-    meta["factory_totals"] = {
+    meta["catalog_totals"] = {
         "articles": len(rows),
-        "完稿": factory.get("完稿", 0),
-        "可用": factory.get("可用", 0),
-        "失败稿": factory.get("失败稿", 0),
-        "代码就绪": factory.get("代码就绪", 0),
+        "ready": factory.get("完稿", 0),
+        "usable": factory.get("可用", 0),
     }
+    meta.pop("factory_totals", None)
     meta["manuscript_note"] = (
-        f"全厂进度：完稿 {factory.get('完稿', 0)} / 可用 {factory.get('可用', 0)} / 共 {len(rows)} 篇子项目。"
-        f"决策台货架收录标准实体瘤完稿+可用共 {len(uniq)} 篇、{len(cancers)} 个癌种（不含特殊队列如 CPTAC/HIV/ALCHEMIST）。"
+        f"本站收录公开组学预后/分型方向的成稿与可用选题（标准实体瘤），"
+        f"当前约 {len(uniq)} 篇、{len(cancers)} 个癌种，便于按写法匹配期刊分区与投稿策略。"
     )
     meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
