@@ -13,6 +13,8 @@ GA_DIR = Path(__file__).resolve().parents[1] / "assets" / "ga"
 
 CANCER_DIR = {
     "crc": "结直肠癌",
+    "coad": "结肠腺癌",
+    "read": "直肠腺癌",
     "brca": "乳腺癌",
     "stad": "胃腺癌",
     "luad": "肺腺癌",
@@ -24,6 +26,20 @@ CANCER_DIR = {
     "blca": "膀胱尿路上皮癌",
     "esca": "食管癌",
     "ov": "卵巢浆液性癌",
+    "cesc": "宫颈癌",
+    "ucec": "子宫内膜癌",
+    "ucs": "子宫癌肉瘤",
+    "prad": "前列腺癌",
+    "skcm": "皮肤黑色素瘤",
+    "gbm": "胶质母细胞瘤",
+    "thca": "甲状腺癌",
+    "kirp": "肾乳头状细胞癌",
+    "kich": "肾嫌色细胞癌",
+    "chol": "胆管癌",
+    "meso": "间皮瘤",
+    "lgg": "低级别胶质瘤",
+    "tgct": "睾丸生殖细胞瘤",
+    "uvm": "葡萄膜黑色素瘤",
 }
 
 # CRC uses non-standard article folder names for art05/art07

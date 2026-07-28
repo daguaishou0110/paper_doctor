@@ -5,8 +5,12 @@
     "name_en": "Colorectal Cancer",
     "tcga": "TCGA-COAD/READ",
     "paper_count": 7,
-    "specialty_journals": ["bmc_gastro"],
-    "notes": "模板癌种，写法最完整"
+    "specialty_journals": [
+      "bmc_gastro"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "brca",
@@ -14,8 +18,12 @@
     "name_en": "Breast Invasive Carcinoma",
     "tcga": "TCGA-BRCA",
     "paper_count": 7,
-    "specialty_journals": ["breast_cancer_tokyo"],
-    "notes": ""
+    "specialty_journals": [
+      "breast_cancer_tokyo"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "stad",
@@ -23,8 +31,12 @@
     "name_en": "Stomach Adenocarcinoma",
     "tcga": "TCGA-STAD",
     "paper_count": 7,
-    "specialty_journals": ["bmc_gastro"],
-    "notes": ""
+    "specialty_journals": [
+      "bmc_gastro"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "luad",
@@ -32,8 +44,12 @@
     "name_en": "Lung Adenocarcinoma",
     "tcga": "TCGA-LUAD",
     "paper_count": 7,
-    "specialty_journals": ["thoracic_cancer"],
-    "notes": ""
+    "specialty_journals": [
+      "thoracic_cancer"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "lusc",
@@ -41,8 +57,12 @@
     "name_en": "Lung Squamous Cell Carcinoma",
     "tcga": "TCGA-LUSC",
     "paper_count": 7,
-    "specialty_journals": ["thoracic_cancer"],
-    "notes": ""
+    "specialty_journals": [
+      "thoracic_cancer"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "lihc",
@@ -50,8 +70,12 @@
     "name_en": "Hepatocellular Carcinoma",
     "tcga": "TCGA-LIHC",
     "paper_count": 7,
-    "specialty_journals": ["hepatology_research"],
-    "notes": ""
+    "specialty_journals": [
+      "hepatology_research"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "paad",
@@ -59,8 +83,12 @@
     "name_en": "Pancreatic Adenocarcinoma",
     "tcga": "TCGA-PAAD",
     "paper_count": 7,
-    "specialty_journals": ["bmc_gastro"],
-    "notes": ""
+    "specialty_journals": [
+      "bmc_gastro"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "hnsc",
@@ -68,8 +96,12 @@
     "name_en": "Head and Neck Squamous Cell Carcinoma",
     "tcga": "TCGA-HNSC",
     "paper_count": 7,
-    "specialty_journals": ["head_neck"],
-    "notes": ""
+    "specialty_journals": [
+      "head_neck"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "kirc",
@@ -77,7 +109,240 @@
     "name_en": "Clear Cell Renal Cell Carcinoma",
     "tcga": "TCGA-KIRC",
     "paper_count": 7,
-    "specialty_journals": ["bmc_urology"],
-    "notes": "art07 题目曾误写胰腺，投稿前须核对"
+    "specialty_journals": [
+      "bmc_urology"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
+  },
+  {
+    "id": "blca",
+    "name_zh": "膀胱尿路上皮癌",
+    "name_en": "Bladder Urothelial Carcinoma",
+    "tcga": "TCGA-BLCA",
+    "paper_count": 7,
+    "specialty_journals": [
+      "bmc_urology"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
+  },
+  {
+    "id": "esca",
+    "name_zh": "食管癌",
+    "name_en": "Esophageal Carcinoma",
+    "tcga": "TCGA-ESCA",
+    "paper_count": 7,
+    "specialty_journals": [
+      "bmc_gastro"
+    ],
+    "notes": "完稿 6 / 货架 7",
+    "done_count": 6,
+    "usable_count": 1
+  },
+  {
+    "id": "ov",
+    "name_zh": "卵巢浆液性癌",
+    "name_en": "Ovarian Serous Cystadenocarcinoma",
+    "tcga": "TCGA-OV",
+    "paper_count": 4,
+    "specialty_journals": [],
+    "notes": "完稿 3 / 货架 4",
+    "done_count": 3,
+    "usable_count": 1
+  },
+  {
+    "id": "coad",
+    "name_zh": "结肠腺癌",
+    "name_en": "Colon Adenocarcinoma",
+    "tcga": "TCGA-COAD",
+    "paper_count": 7,
+    "specialty_journals": [
+      "bmc_gastro"
+    ],
+    "notes": "完稿 7 / 货架 7",
+    "done_count": 7,
+    "usable_count": 0
+  },
+  {
+    "id": "cesc",
+    "name_zh": "宫颈癌",
+    "name_en": "Cervical Squamous Cell Carcinoma",
+    "tcga": "TCGA-CESC",
+    "paper_count": 4,
+    "specialty_journals": [],
+    "notes": "完稿 3 / 货架 4",
+    "done_count": 3,
+    "usable_count": 1
+  },
+  {
+    "id": "kirp",
+    "name_zh": "肾乳头状细胞癌",
+    "name_en": "Kidney Renal Papillary Cell Carcinoma",
+    "tcga": "TCGA-KIRP",
+    "paper_count": 4,
+    "specialty_journals": [
+      "bmc_urology"
+    ],
+    "notes": "完稿 3 / 货架 4",
+    "done_count": 3,
+    "usable_count": 1
+  },
+  {
+    "id": "meso",
+    "name_zh": "间皮瘤",
+    "name_en": "Mesothelioma",
+    "tcga": "TCGA-MESO",
+    "paper_count": 4,
+    "specialty_journals": [
+      "thoracic_cancer"
+    ],
+    "notes": "完稿 3 / 货架 4",
+    "done_count": 3,
+    "usable_count": 1
+  },
+  {
+    "id": "read",
+    "name_zh": "直肠腺癌",
+    "name_en": "Rectum Adenocarcinoma",
+    "tcga": "TCGA-READ",
+    "paper_count": 4,
+    "specialty_journals": [
+      "bmc_gastro"
+    ],
+    "notes": "完稿 3 / 货架 4",
+    "done_count": 3,
+    "usable_count": 1
+  },
+  {
+    "id": "thca",
+    "name_zh": "甲状腺癌",
+    "name_en": "Thyroid Carcinoma",
+    "tcga": "TCGA-THCA",
+    "paper_count": 4,
+    "specialty_journals": [],
+    "notes": "完稿 3 / 货架 4",
+    "done_count": 3,
+    "usable_count": 1
+  },
+  {
+    "id": "ucec",
+    "name_zh": "子宫内膜癌",
+    "name_en": "Uterine Corpus Endometrial Carcinoma",
+    "tcga": "TCGA-UCEC",
+    "paper_count": 4,
+    "specialty_journals": [],
+    "notes": "完稿 3 / 货架 4",
+    "done_count": 3,
+    "usable_count": 1
+  },
+  {
+    "id": "ucs",
+    "name_zh": "子宫癌肉瘤",
+    "name_en": "Uterine Carcinosarcoma",
+    "tcga": "TCGA-UCS",
+    "paper_count": 4,
+    "specialty_journals": [],
+    "notes": "完稿 3 / 货架 4",
+    "done_count": 3,
+    "usable_count": 1
+  },
+  {
+    "id": "chol",
+    "name_zh": "胆管癌",
+    "name_en": "Cholangiocarcinoma",
+    "tcga": "TCGA-CHOL",
+    "paper_count": 3,
+    "specialty_journals": [
+      "bmc_gastro"
+    ],
+    "notes": "完稿 2 / 货架 3",
+    "done_count": 2,
+    "usable_count": 1
+  },
+  {
+    "id": "kich",
+    "name_zh": "肾嫌色细胞癌",
+    "name_en": "Kidney Chromophobe",
+    "tcga": "TCGA-KICH",
+    "paper_count": 3,
+    "specialty_journals": [
+      "bmc_urology"
+    ],
+    "notes": "完稿 2 / 货架 3",
+    "done_count": 2,
+    "usable_count": 1
+  },
+  {
+    "id": "lgg",
+    "name_zh": "低级别胶质瘤",
+    "name_en": "Brain Lower Grade Glioma",
+    "tcga": "TCGA-LGG",
+    "paper_count": 3,
+    "specialty_journals": [],
+    "notes": "完稿 2 / 货架 3",
+    "done_count": 2,
+    "usable_count": 1
+  },
+  {
+    "id": "prad",
+    "name_zh": "前列腺癌",
+    "name_en": "Prostate Adenocarcinoma",
+    "tcga": "TCGA-PRAD",
+    "paper_count": 3,
+    "specialty_journals": [
+      "bmc_urology"
+    ],
+    "notes": "完稿 2 / 货架 3",
+    "done_count": 2,
+    "usable_count": 1
+  },
+  {
+    "id": "skcm",
+    "name_zh": "皮肤黑色素瘤",
+    "name_en": "Skin Cutaneous Melanoma",
+    "tcga": "TCGA-SKCM",
+    "paper_count": 3,
+    "specialty_journals": [],
+    "notes": "完稿 2 / 货架 3",
+    "done_count": 2,
+    "usable_count": 1
+  },
+  {
+    "id": "tgct",
+    "name_zh": "睾丸生殖细胞瘤",
+    "name_en": "Testicular Germ Cell Tumors",
+    "tcga": "TCGA-TGCT",
+    "paper_count": 3,
+    "specialty_journals": [
+      "bmc_urology"
+    ],
+    "notes": "完稿 2 / 货架 3",
+    "done_count": 2,
+    "usable_count": 1
+  },
+  {
+    "id": "uvm",
+    "name_zh": "葡萄膜黑色素瘤",
+    "name_en": "Uveal Melanoma",
+    "tcga": "TCGA-UVM",
+    "paper_count": 3,
+    "specialty_journals": [],
+    "notes": "完稿 2 / 货架 3",
+    "done_count": 2,
+    "usable_count": 1
+  },
+  {
+    "id": "gbm",
+    "name_zh": "胶质母细胞瘤",
+    "name_en": "Glioblastoma Multiforme",
+    "tcga": "TCGA-GBM",
+    "paper_count": 1,
+    "specialty_journals": [],
+    "notes": "完稿 0 / 货架 1",
+    "done_count": 0,
+    "usable_count": 1
   }
 ]

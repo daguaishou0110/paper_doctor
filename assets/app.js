@@ -54,6 +54,7 @@ function feasibilityTag(f) {
 
 function statusTag(s) {
   if (s === "manuscript") return `<span class="tag ok">完稿</span>`;
+  if (s === "usable") return `<span class="tag yellow">可用</span>`;
   if (s === "data_ready") return `<span class="tag muted">数据就绪</span>`;
   return s ? `<span class="tag muted">${escapeXml(s)}</span>` : "";
 }
@@ -172,6 +173,10 @@ function renderHome() {
   const { papers, methods, journals, cancers, meta } = state.data;
   const nonOa = journals.filter((j) => j.non_oa_possible).length;
   const done = papers.filter((p) => p.status === "manuscript").length;
+  const usable = papers.filter((p) => p.status === "usable").length;
+  const ft = meta.factory_totals || {};
+  const factoryDone = ft["完稿"] != null ? ft["完稿"] : done;
+  const factoryTotal = ft.articles != null ? ft.articles : papers.length;
   return `
   <section class="hero">
     <div>
@@ -180,7 +185,8 @@ function renderHome() {
     </div>
     <div class="hero-stats">
       <div class="stat"><b>${methods.length}</b><span>写法模板</span></div>
-      <div class="stat"><b>${done}/${papers.length}</b><span>完稿选题</span></div>
+      <div class="stat"><b>${factoryDone}/${factoryTotal}</b><span>全厂完稿</span></div>
+      <div class="stat"><b>${done}+${usable}</b><span>货架可投</span></div>
       <div class="stat"><b>${cancers.length}</b><span>癌种货架</span></div>
     </div>
   </section>
@@ -208,7 +214,9 @@ function renderHome() {
     </div>
   </div>
 
-  <div class="disclaimer">${meta.partition_disclaimer}<br/>${meta.warning_source}</div>`;
+  <div class="disclaimer">${meta.partition_disclaimer}<br/>${meta.warning_source}${
+    meta.manuscript_note ? `<br/>${meta.manuscript_note}` : ""
+  }</div>`;
 }
 
 function renderMethods() {
@@ -453,7 +461,7 @@ function renderCancers() {
   return `
   <div class="panel">
     <h2>病症货架</h2>
-    <p class="sub">按癌种展开选题：题目、Nature 风格图形摘要、病症/数据/分析/写法/分区质量/目标刊。核心 9 癌种 63 篇均为完稿。</p>
+    <p class="sub">按癌种展开选题：题目、图形摘要、病症/数据/分析/写法/分区质量/目标刊。货架为标准实体瘤完稿+可用；全厂完稿见首页统计。</p>
     <div class="filters" style="margin-bottom:10px">
       <button type="button" data-filter-cancer="" style="border:1px solid var(--line);border-radius:999px;padding:8px 12px;background:${
         !cancer ? "var(--accent)" : "#fff"
