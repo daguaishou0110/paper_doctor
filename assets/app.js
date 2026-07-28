@@ -61,18 +61,21 @@ function statusTag(s) {
 }
 
 function gaImagePath(paper) {
-  return `./assets/ga/${paper.id}.jpg`;
+  const v = (state.data.meta && (state.data.meta.last_updated || state.data.meta.version)) || "1";
+  // root-absolute path avoids broken relative resolution; cache-bust after GA refreshes
+  return `assets/ga/${paper.id}.jpg?v=${encodeURIComponent(v)}`;
 }
 
 function gaSvg(paper) {
   const m = methodById(paper.method_id);
   const label = m ? m.name_zh : paper.method_id;
   const ds = (paper.datasets || []).slice(0, 2).join(" · ") || "公开组学";
-  // Prefer Nature-style generated PNG; fall back to SVG placeholder
+  const src = gaImagePath(paper);
+  // Prefer Nature-style GA; retry once on error before SVG fallback (slow CDN / cold start)
   return `
-  <img class="ga-img" src="${gaImagePath(paper)}" alt="${escapeAttr(paper.cancer_zh)} graphical abstract"
-    loading="lazy"
-    onerror="this.style.display='none';this.nextElementSibling.style.display='grid';" />
+  <img class="ga-img" src="${src}" alt="${escapeAttr(paper.cancer_zh)} graphical abstract"
+    loading="lazy" decoding="async"
+    onerror="window.__gaImgRetry&&window.__gaImgRetry(this)" />
   <div class="ga-fallback" style="display:none;width:100%;height:100%;place-items:center">
   <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="图形摘要占位">
     <rect width="640" height="360" fill="#f7fbfb"/>
@@ -92,6 +95,20 @@ function gaSvg(paper) {
   </svg>
   </div>`;
 }
+
+window.__gaImgRetry = function (img) {
+  const n = Number(img.dataset.retry || 0);
+  if (n < 1) {
+    img.dataset.retry = "1";
+    const u = new URL(img.src, location.href);
+    u.searchParams.set("r", String(Date.now()));
+    img.src = u.pathname + "?" + u.searchParams.toString();
+    return;
+  }
+  img.style.display = "none";
+  const fb = img.nextElementSibling;
+  if (fb) fb.style.display = "grid";
+};
 
 function escapeXml(s) {
   return String(s)
