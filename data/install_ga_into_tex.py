@@ -21,6 +21,9 @@ CANCER_DIR = {
     "paad": "胰腺腺癌",
     "hnsc": "头颈鳞癌",
     "kirc": "肾透明细胞癌",
+    "blca": "膀胱尿路上皮癌",
+    "esca": "食管癌",
+    "ov": "卵巢浆液性癌",
 }
 
 # CRC uses non-standard article folder names for art05/art07
@@ -30,13 +33,13 @@ CRC_SPECIAL = {
 }
 
 CAPTIONS = {
-    "art01": "Graphical abstract: schematic clinical--transcriptomic OS workflow; inset metrics/plots are from this article's locked analysis.",
-    "art02": "Graphical abstract: schematic clinical--genomic OS workflow; inset evidence is from this article's analysis outputs.",
-    "art03": "Graphical abstract: schematic RFS workflow; inset evidence is from this article's analysis outputs.",
-    "art04": "Graphical abstract: schematic risk $\\times$ chemotherapy interaction workflow; inset evidence is from this article's analysis outputs.",
-    "art05": "Graphical abstract: schematic cross-platform subtyping workflow; inset evidence is from this article's analysis outputs.",
-    "art06": "Graphical abstract: schematic immune--genomic OS workflow; inset evidence is from this article's analysis outputs.",
-    "art07": "Graphical abstract: schematic stage II/III subgroup RFS workflow; inset evidence is from this article's analysis outputs.",
+    "art01": "Graphical abstract: Nature-style schematic of the clinical--transcriptomic OS modelling workflow.",
+    "art02": "Graphical abstract: Nature-style schematic of the clinical--genomic OS modelling workflow.",
+    "art03": "Graphical abstract: Nature-style schematic of the clinical--transcriptomic RFS modelling workflow.",
+    "art04": "Graphical abstract: Nature-style schematic of the risk-stratified adjuvant chemotherapy benefit workflow.",
+    "art05": "Graphical abstract: Nature-style schematic of the cross-platform molecular subtyping validation workflow.",
+    "art06": "Graphical abstract: Nature-style schematic of the immune--genomic OS modelling workflow.",
+    "art07": "Graphical abstract: Nature-style schematic of the stage II/III subgroup RFS modelling workflow.",
 }
 
 
@@ -99,10 +102,14 @@ def patch_tex(tex_path: Path, method_id: str) -> bool:
 
 
 def main() -> None:
-    ok = fail = 0
+    ok = fail = skip = 0
     for ga in sorted(GA_DIR.glob("*_art0*.jpg")):
         pid = ga.stem  # crc_art01
         cancer_id, method_id = pid.split("_", 1)
+        if cancer_id not in CANCER_DIR:
+            print("SKIP_UNKNOWN", pid)
+            skip += 1
+            continue
         article = find_article_dir(cancer_id, method_id)
         if article is None:
             print("NO_ARTICLE", pid)
@@ -113,7 +120,7 @@ def main() -> None:
         patched = patch_tex(tex, method_id)
         print("OK" if patched else "IMG_ONLY", pid, "→", article.name, "patched" if patched else "tex_not_patched")
         ok += 1
-    print(f"done ok={ok} fail={fail}")
+    print(f"done ok={ok} fail={fail} skip={skip}")
 
 
 if __name__ == "__main__":
