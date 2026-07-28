@@ -43,6 +43,21 @@ CANCER_MAP = {
     "睾丸生殖细胞瘤": ("tgct", "Testicular Germ Cell Tumors", "TCGA-TGCT", ["bmc_urology"]),
     "葡萄膜黑色素瘤": ("uvm", "Uveal Melanoma", "TCGA-UVM", []),
     "子宫癌肉瘤": ("ucs", "Uterine Carcinosarcoma", "TCGA-UCS", []),
+    # additional solid / soft-tissue cohorts on the decision desk
+    "骨肉瘤": ("os", "Osteosarcoma", "TARGET-OS", []),
+    "软组织肉瘤": ("sarc", "Soft Tissue Sarcoma", "TCGA-SARC", []),
+    "神经母细胞瘤": ("nbl", "Neuroblastoma", "TARGET-NBL", []),
+    "嗜铬细胞瘤": ("pcpg", "Pheochromocytoma and Paraganglioma", "TCGA-PCPG", []),
+    "肾上腺皮质癌": ("acc", "Adrenocortical Carcinoma", "TCGA-ACC", []),
+    "胸腺瘤": ("thym", "Thymoma", "TCGA-THYM", []),
+    "横纹肌肉瘤": ("rms", "Rhabdomyosarcoma", "TARGET-RMS", []),
+    "横纹肌样瘤": ("rt", "Rhabdoid Tumor", "TARGET-RT", []),
+    "肾母细胞瘤": ("wt", "Wilms Tumor", "TARGET-WT", []),
+    "肾透明细胞肉瘤": ("ccsk", "Clear Cell Sarcoma of the Kidney", "TARGET-CCSK", []),
+    "转移性乳腺癌": ("mbrca", "Metastatic Breast Cancer", "METABRIC/GEO", ["breast_cancer_tokyo"]),
+    "转移性前列腺癌": ("mprad", "Metastatic Prostate Cancer", "GEO/SU2C", ["bmc_urology"]),
+    "弥漫大B细胞淋巴瘤": ("dlbc", "Diffuse Large B-Cell Lymphoma", "TCGA-DLBC", []),
+    "急性髓系白血病": ("aml", "Acute Myeloid Leukemia", "TCGA-LAML", []),
 }
 
 METHOD_META = {
