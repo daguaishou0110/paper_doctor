@@ -4338,7 +4338,7 @@
     ],
     "intro": "本研究针对结直肠癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/crc_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "brca_art08",
@@ -4373,7 +4373,7 @@
     ],
     "intro": "本研究针对乳腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/brca_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "stad_art08",
@@ -4408,7 +4408,7 @@
     ],
     "intro": "本研究针对胃腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/stad_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "luad_art08",
@@ -4443,7 +4443,7 @@
     ],
     "intro": "本研究针对肺腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/luad_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "lusc_art08",
@@ -4478,7 +4478,7 @@
     ],
     "intro": "本研究针对肺鳞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/lusc_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "lihc_art08",
@@ -4513,7 +4513,7 @@
     ],
     "intro": "本研究针对肝细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/lihc_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "paad_art08",
@@ -4548,7 +4548,7 @@
     ],
     "intro": "本研究针对胰腺腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/paad_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "hnsc_art08",
@@ -4583,7 +4583,7 @@
     ],
     "intro": "本研究针对头颈鳞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/hnsc_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "kirc_art08",
@@ -4618,7 +4618,7 @@
     ],
     "intro": "本研究针对肾透明细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/kirc_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "blca_art08",
@@ -4653,7 +4653,7 @@
     ],
     "intro": "本研究针对膀胱尿路上皮癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/blca_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "esca_art08",
@@ -4688,7 +4688,7 @@
     ],
     "intro": "本研究针对食管癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/esca_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "ov_art08",
@@ -4722,7 +4722,7 @@
     ],
     "intro": "本研究针对卵巢浆液性癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/ov_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "coad_art08",
@@ -4757,7 +4757,7 @@
     ],
     "intro": "本研究针对结肠腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/coad_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "cesc_art08",
@@ -4791,7 +4791,7 @@
     ],
     "intro": "本研究针对宫颈癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/cesc_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "kirp_art08",
@@ -4826,7 +4826,7 @@
     ],
     "intro": "本研究针对肾乳头状细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/kirp_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "meso_art08",
@@ -4896,7 +4896,7 @@
     ],
     "intro": "本研究针对直肠腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/read_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "thca_art08",
@@ -4930,7 +4930,7 @@
     ],
     "intro": "本研究针对甲状腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/thca_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "ucec_art08",
@@ -4964,7 +4964,7 @@
     ],
     "intro": "本研究针对子宫内膜癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/ucec_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "ucs_art08",
@@ -5102,7 +5102,7 @@
     ],
     "intro": "本研究针对低级别胶质瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/lgg_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "prad_art08",
@@ -5137,7 +5137,7 @@
     ],
     "intro": "本研究针对前列腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/prad_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "skcm_art08",
@@ -5206,7 +5206,7 @@
     ],
     "intro": "本研究针对睾丸生殖细胞瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/tgct_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "uvm_art08",
@@ -5240,7 +5240,7 @@
     ],
     "intro": "本研究针对葡萄膜黑色素瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。目标投稿质量：JCR Q2 / 中科院医学约 3 区。",
     "graphical_abstract": "assets/ga/uvm_art08.jpg",
-    "status": "code_ready"
+    "status": "manuscript"
   },
   {
     "id": "gbm_art08",
