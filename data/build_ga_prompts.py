@@ -51,6 +51,20 @@ CANCER_VISUAL = {
     "lgg": ("Brain Lower Grade Glioma", "subtle abstract brain icon"),
     "tgct": ("Testicular Germ Cell Tumors", "subtle abstract testis icon"),
     "uvm": ("Uveal Melanoma", "subtle abstract eye icon"),
+    "os": ("Osteosarcoma", "subtle abstract bone icon"),
+    "sarc": ("Soft Tissue Sarcoma", "subtle abstract soft-tissue icon"),
+    "nbl": ("Neuroblastoma", "subtle abstract neural crest icon"),
+    "pcpg": ("Pheochromocytoma / Paraganglioma", "subtle abstract adrenal icon"),
+    "acc": ("Adrenocortical Carcinoma", "subtle abstract adrenal cortex icon"),
+    "thym": ("Thymoma", "subtle abstract thymus icon"),
+    "rms": ("Rhabdomyosarcoma", "subtle abstract muscle icon"),
+    "rt": ("Rhabdoid Tumor", "subtle abstract pediatric tumor icon"),
+    "wt": ("Wilms Tumor", "subtle abstract kidney icon"),
+    "ccsk": ("Clear Cell Sarcoma of the Kidney", "subtle abstract kidney icon"),
+    "mbrca": ("Metastatic Breast Cancer", "subtle abstract breast tissue icon"),
+    "mprad": ("Metastatic Prostate Cancer", "subtle abstract prostate icon"),
+    "dlbc": ("Diffuse Large B-Cell Lymphoma", "subtle abstract lymph node icon"),
+    "aml": ("Acute Myeloid Leukemia", "subtle abstract blood cell icon"),
 }
 
 METHOD_SCENE = {
