@@ -56,7 +56,8 @@
       "DCA",
       "森林图/系数图"
     ],
-    "graphical_abstract_prompt": "Scientific graphical abstract, clean flat vector, clinical covariates plus transcriptomic heatmap feeding into a Cox survival model, Kaplan-Meier curves and ROC badge, white background, journal style, no photorealism, labels: Cohort → Feature selection → Model → Validation"
+    "graphical_abstract_prompt": "Scientific graphical abstract, clean flat vector, clinical covariates plus transcriptomic heatmap feeding into a Cox survival model, Kaplan-Meier curves and ROC badge, white background, journal style, no photorealism, labels: Cohort → Feature selection → Model → Validation",
+    "line": "oncology"
   },
   {
     "id": "art02",
@@ -111,7 +112,8 @@
       "校准",
       "DCA"
     ],
-    "graphical_abstract_prompt": "Scientific graphical abstract, flat vector, somatic mutations TMB MMR icons merging with clinical stage into survival model, clean white background, journal graphical abstract style"
+    "graphical_abstract_prompt": "Scientific graphical abstract, flat vector, somatic mutations TMB MMR icons merging with clinical stage into survival model, clean white background, journal graphical abstract style",
+    "line": "oncology"
   },
   {
     "id": "art03",
@@ -165,7 +167,8 @@
       "校准",
       "DCA"
     ],
-    "graphical_abstract_prompt": "Scientific graphical abstract, recurrence-free survival focus, clinical plus transcriptomic inputs, RFS Kaplan-Meier, clean vector journal style"
+    "graphical_abstract_prompt": "Scientific graphical abstract, recurrence-free survival focus, clinical plus transcriptomic inputs, RFS Kaplan-Meier, clean vector journal style",
+    "line": "oncology"
   },
   {
     "id": "art04",
@@ -219,7 +222,8 @@
       "风险评分分布",
       "亚组 HR"
     ],
-    "graphical_abstract_prompt": "Scientific graphical abstract, 2x2 grid high/low risk with or without chemotherapy, interaction arrow, Kaplan-Meier panels, clean vector style"
+    "graphical_abstract_prompt": "Scientific graphical abstract, 2x2 grid high/low risk with or without chemotherapy, interaction arrow, Kaplan-Meier panels, clean vector style",
+    "line": "oncology"
   },
   {
     "id": "art05",
@@ -270,7 +274,8 @@
       "亚型 KM",
       "PCA/批次图"
     ],
-    "graphical_abstract_prompt": "Scientific graphical abstract, RNA-seq versus microarray platforms, subtype consensus arrows, kappa badge, survival curves by subtype, clean vector"
+    "graphical_abstract_prompt": "Scientific graphical abstract, RNA-seq versus microarray platforms, subtype consensus arrows, kappa badge, survival curves by subtype, clean vector",
+    "line": "oncology"
   },
   {
     "id": "art06",
@@ -325,7 +330,8 @@
       "KM",
       "DCA"
     ],
-    "graphical_abstract_prompt": "Scientific graphical abstract, IFN-gamma immune signature plus TMB MMR icons into integrated survival model, clean journal vector style"
+    "graphical_abstract_prompt": "Scientific graphical abstract, IFN-gamma immune signature plus TMB MMR icons into integrated survival model, clean journal vector style",
+    "line": "oncology"
   },
   {
     "id": "art07",
@@ -376,7 +382,8 @@
       "ROC",
       "分期分层图"
     ],
-    "graphical_abstract_prompt": "Scientific graphical abstract, stage II III subgroup filter, clinical transcriptomic RFS model, clean vector journal style"
+    "graphical_abstract_prompt": "Scientific graphical abstract, stage II III subgroup filter, clinical transcriptomic RFS model, clean vector journal style",
+    "line": "oncology"
   },
   {
     "id": "art08",
@@ -438,6 +445,224 @@
       "DCA",
       "SHAP/特征重要性"
     ],
-    "graphical_abstract_prompt": "Formal Nature journal graphical abstract, multi-model ML survival: Cox RSF boosting icons competing then locked best model with SHAP bars, clinical+transcriptomic inputs, white schematic, no fake AUC numbers"
+    "graphical_abstract_prompt": "Formal Nature journal graphical abstract, multi-model ML survival: Cox RSF boosting icons competing then locked best model with SHAP bars, clinical+transcriptomic inputs, white schematic, no fake AUC numbers",
+    "line": "oncology"
+  },
+  {
+    "id": "epi01",
+    "slug": "exposure-disease-association-rf",
+    "line": "epi",
+    "name_zh": "暴露–疾病关联 + RF 增量鉴别",
+    "name_en": "Exposure–Disease Association with Incremental RF Discrimination",
+    "summary": "公开队列中评估城市/环境暴露与疾病结局的关联，并用随机森林量化相对临床基线的增量鉴别价值。",
+    "endpoint": "横断面患病 / 鉴别 AUC",
+    "data_types": [
+      "survey",
+      "city_environment",
+      "clinical"
+    ],
+    "analysis_pipeline": [
+      "CHARLS（或同类）基线纳排与结局定义",
+      "城市级暴露（RUI/PM/NDVI 等）按居住城市匹配",
+      "调查加权 logistic：连续 + 分位 + 趋势",
+      "限制性立方样条（RCS）看剂量–反应",
+      "预设亚组与交互检验",
+      "递增随机森林：人口学 → 临床 → +暴露 → +环境 → 全模型，比较验证集 AUC"
+    ],
+    "reporting_standard": "STROBE（横断面）",
+    "quality_band": {
+      "jcr": "Q2–Q3",
+      "cas": "中科院医学/公卫相关约 3–4 区",
+      "note": "横断面+自报结局主推 BMC Musculoskeletal Disorders / BMC Public Health；有纵向发病证据可冲更高公卫刊。"
+    },
+    "hard_requirements": [
+      "明确结局操作化定义与排除流程（STROBE 流程图）",
+      "报告调查加权 OR、分位趋势与 RCS 非线性检验",
+      "机器学习仅作增量鉴别，不作即时临床预测工具宣传",
+      "讨论中限制因果表述，承认城市级暴露与自报偏倚"
+    ],
+    "reject_risks": [
+      "把关联写成因果或干预有效",
+      "AUC 增量很小却夸大预测价值",
+      "个体拆分导致同城泄漏、无城市外推说明",
+      "同模板多结局题目雷同被视作系列灌水"
+    ],
+    "journal_roles": {
+      "primary": [
+        "bmc_msk",
+        "bmc_public_health"
+      ],
+      "backup": [
+        "clinical_rheumatology",
+        "frontiers_public_health",
+        "ehpm"
+      ],
+      "stretch": []
+    },
+    "sample_figure_set": [
+      "STROBE 流程图",
+      "暴露空间分布",
+      "加权 OR 森林/分位",
+      "RCS 曲线",
+      "亚组森林图",
+      "递增模型 ROC/AUC"
+    ],
+    "graphical_abstract_prompt": "Nature-style graphical abstract, CHARLS cohort icons, city-level urbanization/environment exposure feeding weighted logistic and random-forest AUC badges, white background, no fake numbers"
+  },
+  {
+    "id": "epi02",
+    "slug": "multi-exposure-comparison",
+    "line": "epi",
+    "name_zh": "多暴露比较（城镇化/污染/绿化）",
+    "name_en": "Multi-Exposure Comparison for Disease Odds",
+    "summary": "在同一队列中并排比较 RUI、空气污染与绿化等暴露对同一疾病结局的关联与相互解释。",
+    "endpoint": "横断面患病",
+    "data_types": [
+      "survey",
+      "city_environment"
+    ],
+    "analysis_pipeline": [
+      "统一纳排与结局定义",
+      "并行匹配 RUI、PM2.5/NO2、NDVI 等",
+      "单暴露与多暴露共同调整模型",
+      "比较标准化系数 / AUC 增量",
+      "讨论信息重叠与残余解释"
+    ],
+    "reporting_standard": "STROBE（横断面）",
+    "quality_band": {
+      "jcr": "Q2–Q3",
+      "cas": "中科院公卫/环境相关约 3–4 区",
+      "note": "故事偏环境健康时主推 BMC Public Health / EHPM；骨肌结局可回 BMC MSK。"
+    },
+    "hard_requirements": [
+      "预先声明主暴露与敏感性暴露",
+      "报告共线性/信息重叠，避免过度因果路径声称",
+      "至少一种暴露在调整后仍稳健，或如实报告衰减"
+    ],
+    "reject_risks": [
+      "多暴露模型不稳却强行讲机制路径",
+      "未处理城市聚集相关的相关误差"
+    ],
+    "journal_roles": {
+      "primary": [
+        "bmc_public_health",
+        "ehpm"
+      ],
+      "backup": [
+        "bmc_msk",
+        "frontiers_public_health"
+      ],
+      "stretch": []
+    },
+    "sample_figure_set": [
+      "STROBE 流程图",
+      "暴露相关矩阵/分布",
+      "单 vs 多暴露 OR 对比",
+      "增量 AUC 对比"
+    ],
+    "graphical_abstract_prompt": "Clean schematic: three exposure chips RUI PM2.5 NDVI into disease odds node with comparison bars, white Nature flat vector"
+  },
+  {
+    "id": "epi03",
+    "slug": "longitudinal-incident-risk",
+    "line": "epi",
+    "name_zh": "纵向随访发病风险",
+    "name_en": "Longitudinal Incident Risk with City Exposure",
+    "summary": "利用 CHARLS 随访波次评估基线暴露与新发疾病风险，报告 HR/IRR 与时间顺序。",
+    "endpoint": "新发疾病 / 随访风险",
+    "data_types": [
+      "survey_longitudinal",
+      "city_environment"
+    ],
+    "analysis_pipeline": [
+      "排除基线已患，定义随访新发",
+      "基线暴露匹配",
+      "调查加权 Cox 或离散时间模型",
+      "竞争风险/失访敏感性（按数据可得性）",
+      "可选时间更新暴露"
+    ],
+    "reporting_standard": "STROBE（队列）",
+    "quality_band": {
+      "jcr": "Q1–Q2（有扎实随访时可冲）",
+      "cas": "中科院公卫约 2–3 区（视随访质量）",
+      "note": "有清晰时间顺序后可冲更高公卫刊；随访定义不稳则降回横断面档。"
+    },
+    "hard_requirements": [
+      "写清随访起止、删失与新发判定",
+      "基线排除已患",
+      "限制反向因果讨论"
+    ],
+    "reject_risks": [
+      "随访波次定义含糊",
+      "把横断面结果包装成发病研究"
+    ],
+    "journal_roles": {
+      "primary": [
+        "bmc_public_health"
+      ],
+      "backup": [
+        "frontiers_public_health",
+        "ehpm"
+      ],
+      "stretch": []
+    },
+    "sample_figure_set": [
+      "队列流程图",
+      "随访 KM/累积发病",
+      "HR 森林图",
+      "亚组交互"
+    ],
+    "graphical_abstract_prompt": "Longitudinal CHARLS waves timeline, baseline city exposure to incident disease hazard, Nature flat vector, no fake HR numbers"
+  },
+  {
+    "id": "epi04",
+    "slug": "effect-modification-subgroups",
+    "line": "epi",
+    "name_zh": "效应修饰 / 亚组交互",
+    "name_en": "Effect Modification and Subgroup Interaction",
+    "summary": "以年龄、城乡、教育等为修饰因子，系统报告暴露–疾病关联的异质性与交互。",
+    "endpoint": "横断面患病（交互）",
+    "data_types": [
+      "survey",
+      "city_environment"
+    ],
+    "analysis_pipeline": [
+      "主效应模型确认关联方向",
+      "预设亚组分层 OR",
+      "乘积交互项与交互 p 值",
+      "探索性结果降调表述"
+    ],
+    "reporting_standard": "STROBE（横断面）",
+    "quality_band": {
+      "jcr": "Q2–Q3",
+      "cas": "中科院医学/公卫约 3–4 区",
+      "note": "适合作为 epi01 的姊妹篇或补充分析主文；单独投稿需交互结果足够清晰。"
+    },
+    "hard_requirements": [
+      "区分预设与探索性亚组",
+      "报告交互 p 值与分层 CI",
+      "避免多重比较过度解读"
+    ],
+    "reject_risks": [
+      "事后挖亚组当主要发现",
+      "样本量不足的交互硬解释机制"
+    ],
+    "journal_roles": {
+      "primary": [
+        "bmc_public_health",
+        "bmc_msk"
+      ],
+      "backup": [
+        "clinical_rheumatology",
+        "frontiers_public_health"
+      ],
+      "stretch": []
+    },
+    "sample_figure_set": [
+      "主效应 OR",
+      "分层森林图",
+      "交互示意"
+    ],
+    "graphical_abstract_prompt": "Subgroup forest schematic age education urban-rural modifying exposure-disease link, Nature flat vector"
   }
 ]

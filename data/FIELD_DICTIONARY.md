@@ -1,6 +1,26 @@
-# 字段字典（写法 × 期刊 × 论文）
+## 0. 产品线 `line`
 
-> 网站数据模型的唯一说明。所有 JSON 必须遵守本字典。分区数据需标注口径年份，正式投稿前复核。
+| 取值 | 说明 |
+|------|------|
+| `oncology` | 肿瘤公开组学预后/分型（写法 `art01–art08`，实体=`cancers.json`） |
+| `epi` | 公卫队列流行病学（写法 `epi01–epi04`，实体=`diseases.json`） |
+
+字段出现在：`methods.json`、`papers.json`、`journals.json`（可选）、`examples.json`（可选）、`meta.lines`。
+
+## 0b. 公卫病种 `diseases.json`
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| id | string | 如 `skoa` |
+| name_zh / name_en | string | 中英文名 |
+| category | string | 骨肌 / 心血管 / 代谢 等 |
+| paper_count | number | 选题篇数 |
+| specialty_journals | string[] | 专科备投刊 id |
+| notes | string | 结局定义备注 |
+
+公卫线 `papers.json` 仍复用 `cancer_id`/`cancer_zh` 方便前端，同时写 `disease_id`、`line:"epi"`、`exposure`。
+
+---
 
 ## 1. 写法 `methods.json`
 

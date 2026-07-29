@@ -28,7 +28,8 @@
     "risk_tags": [],
     "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/brca_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "brca_art02",
@@ -59,7 +60,8 @@
     "risk_tags": [],
     "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/brca_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "brca_art03",
@@ -92,7 +94,8 @@
     ],
     "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/brca_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "brca_art04",
@@ -126,7 +129,8 @@
     ],
     "intro": "本研究针对乳腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/brca_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "brca_art05",
@@ -156,7 +160,8 @@
     "risk_tags": [],
     "intro": "本研究针对乳腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/brca_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "brca_art06",
@@ -186,7 +191,8 @@
     "risk_tags": [],
     "intro": "本研究针对乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/brca_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "brca_art07",
@@ -218,7 +224,8 @@
     ],
     "intro": "本研究针对乳腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/brca_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "brca_art08",
@@ -250,7 +257,8 @@
     "risk_tags": [],
     "intro": "本研究针对乳腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/brca_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lgg_art01",
@@ -280,7 +288,8 @@
     "risk_tags": [],
     "intro": "本研究针对低级别胶质瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/lgg_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lgg_art02",
@@ -310,7 +319,8 @@
     "risk_tags": [],
     "intro": "本研究针对低级别胶质瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/lgg_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lgg_art03",
@@ -343,7 +353,8 @@
     ],
     "intro": "本研究针对低级别胶质瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/lgg_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "lgg_art04",
@@ -377,7 +388,8 @@
     ],
     "intro": "本研究针对低级别胶质瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/lgg_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "lgg_art05",
@@ -408,7 +420,8 @@
     ],
     "intro": "本研究针对低级别胶质瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/lgg_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "lgg_art06",
@@ -439,7 +452,8 @@
     ],
     "intro": "本研究针对低级别胶质瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/lgg_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "lgg_art07",
@@ -471,7 +485,8 @@
     ],
     "intro": "本研究针对低级别胶质瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/lgg_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "lgg_art08",
@@ -502,7 +517,8 @@
     "risk_tags": [],
     "intro": "本研究针对低级别胶质瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/lgg_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "prad_art01",
@@ -533,7 +549,8 @@
     "risk_tags": [],
     "intro": "本研究针对前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/prad_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "prad_art02",
@@ -564,7 +581,8 @@
     "risk_tags": [],
     "intro": "本研究针对前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/prad_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "prad_art03",
@@ -598,7 +616,8 @@
     ],
     "intro": "本研究针对前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/prad_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "prad_art04",
@@ -633,7 +652,8 @@
     ],
     "intro": "本研究针对前列腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/prad_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "prad_art05",
@@ -665,7 +685,8 @@
     ],
     "intro": "本研究针对前列腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/prad_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "prad_art06",
@@ -697,7 +718,8 @@
     ],
     "intro": "本研究针对前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/prad_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "prad_art07",
@@ -730,7 +752,8 @@
     ],
     "intro": "本研究针对前列腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/prad_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "prad_art08",
@@ -762,7 +785,8 @@
     "risk_tags": [],
     "intro": "本研究针对前列腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/prad_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ov_art01",
@@ -792,7 +816,8 @@
     "risk_tags": [],
     "intro": "本研究针对卵巢浆液性癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/ov_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ov_art02",
@@ -822,7 +847,8 @@
     "risk_tags": [],
     "intro": "本研究针对卵巢浆液性癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/ov_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ov_art03",
@@ -855,7 +881,8 @@
     ],
     "intro": "本研究针对卵巢浆液性癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/ov_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ov_art04",
@@ -889,7 +916,8 @@
     ],
     "intro": "本研究针对卵巢浆液性癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/ov_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ov_art05",
@@ -920,7 +948,8 @@
     ],
     "intro": "本研究针对卵巢浆液性癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/ov_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ov_art06",
@@ -949,7 +978,8 @@
     "risk_tags": [],
     "intro": "本研究针对卵巢浆液性癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/ov_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ov_art07",
@@ -981,7 +1011,8 @@
     ],
     "intro": "本研究针对卵巢浆液性癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/ov_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ov_art08",
@@ -1012,7 +1043,8 @@
     "risk_tags": [],
     "intro": "本研究针对卵巢浆液性癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/ov_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "pcpg_art01",
@@ -1044,7 +1076,8 @@
     ],
     "intro": "本研究针对嗜铬细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/pcpg_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "pcpg_art02",
@@ -1076,7 +1109,8 @@
     ],
     "intro": "本研究针对嗜铬细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/pcpg_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "pcpg_art03",
@@ -1109,7 +1143,8 @@
     ],
     "intro": "本研究针对嗜铬细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/pcpg_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "pcpg_art04",
@@ -1143,7 +1178,8 @@
     ],
     "intro": "本研究针对嗜铬细胞瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/pcpg_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "pcpg_art05",
@@ -1174,7 +1210,8 @@
     ],
     "intro": "本研究针对嗜铬细胞瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/pcpg_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "pcpg_art06",
@@ -1205,7 +1242,8 @@
     ],
     "intro": "本研究针对嗜铬细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/pcpg_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "pcpg_art07",
@@ -1237,7 +1275,8 @@
     ],
     "intro": "本研究针对嗜铬细胞瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/pcpg_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "hnsc_art01",
@@ -1268,7 +1307,8 @@
     "risk_tags": [],
     "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/hnsc_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "hnsc_art02",
@@ -1299,7 +1339,8 @@
     "risk_tags": [],
     "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/hnsc_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "hnsc_art03",
@@ -1332,7 +1373,8 @@
     ],
     "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/hnsc_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "hnsc_art04",
@@ -1366,7 +1408,8 @@
     ],
     "intro": "本研究针对头颈鳞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/hnsc_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "hnsc_art05",
@@ -1396,7 +1439,8 @@
     "risk_tags": [],
     "intro": "本研究针对头颈鳞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/hnsc_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "hnsc_art06",
@@ -1426,7 +1470,8 @@
     "risk_tags": [],
     "intro": "本研究针对头颈鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/hnsc_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "hnsc_art07",
@@ -1458,7 +1503,8 @@
     ],
     "intro": "本研究针对头颈鳞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/hnsc_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "hnsc_art08",
@@ -1490,7 +1536,8 @@
     "risk_tags": [],
     "intro": "本研究针对头颈鳞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/hnsc_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ucec_art01",
@@ -1520,7 +1567,8 @@
     "risk_tags": [],
     "intro": "本研究针对子宫内膜癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/ucec_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ucec_art02",
@@ -1550,7 +1598,8 @@
     "risk_tags": [],
     "intro": "本研究针对子宫内膜癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/ucec_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ucec_art03",
@@ -1583,7 +1632,8 @@
     ],
     "intro": "本研究针对子宫内膜癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/ucec_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ucec_art04",
@@ -1617,7 +1667,8 @@
     ],
     "intro": "本研究针对子宫内膜癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/ucec_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ucec_art05",
@@ -1648,7 +1699,8 @@
     ],
     "intro": "本研究针对子宫内膜癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/ucec_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ucec_art06",
@@ -1677,7 +1729,8 @@
     "risk_tags": [],
     "intro": "本研究针对子宫内膜癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/ucec_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ucec_art07",
@@ -1709,7 +1762,8 @@
     ],
     "intro": "本研究针对子宫内膜癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/ucec_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ucec_art08",
@@ -1740,7 +1794,8 @@
     "risk_tags": [],
     "intro": "本研究针对子宫内膜癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/ucec_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ucs_art01",
@@ -1770,7 +1825,8 @@
     "risk_tags": [],
     "intro": "本研究针对子宫癌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/ucs_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ucs_art02",
@@ -1800,7 +1856,8 @@
     "risk_tags": [],
     "intro": "本研究针对子宫癌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/ucs_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ucs_art03",
@@ -1833,7 +1890,8 @@
     ],
     "intro": "本研究针对子宫癌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/ucs_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ucs_art04",
@@ -1867,7 +1925,8 @@
     ],
     "intro": "本研究针对子宫癌肉瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/ucs_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ucs_art05",
@@ -1898,7 +1957,8 @@
     ],
     "intro": "本研究针对子宫癌肉瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/ucs_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ucs_art06",
@@ -1927,7 +1987,8 @@
     "risk_tags": [],
     "intro": "本研究针对子宫癌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/ucs_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ucs_art07",
@@ -1959,7 +2020,8 @@
     ],
     "intro": "本研究针对子宫癌肉瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/ucs_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ucs_art08",
@@ -1990,7 +2052,8 @@
     "risk_tags": [],
     "intro": "本研究针对子宫癌肉瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/ucs_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "cesc_art01",
@@ -2020,7 +2083,8 @@
     "risk_tags": [],
     "intro": "本研究针对宫颈癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/cesc_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "cesc_art02",
@@ -2050,7 +2114,8 @@
     "risk_tags": [],
     "intro": "本研究针对宫颈癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/cesc_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "cesc_art03",
@@ -2083,7 +2148,8 @@
     ],
     "intro": "本研究针对宫颈癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/cesc_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "cesc_art04",
@@ -2117,7 +2183,8 @@
     ],
     "intro": "本研究针对宫颈癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/cesc_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "cesc_art05",
@@ -2148,7 +2215,8 @@
     ],
     "intro": "本研究针对宫颈癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/cesc_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "cesc_art06",
@@ -2177,7 +2245,8 @@
     "risk_tags": [],
     "intro": "本研究针对宫颈癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/cesc_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "cesc_art07",
@@ -2209,7 +2278,8 @@
     ],
     "intro": "本研究针对宫颈癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/cesc_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "cesc_art08",
@@ -2240,7 +2310,8 @@
     "risk_tags": [],
     "intro": "本研究针对宫颈癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/cesc_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "dlbc_art01",
@@ -2272,7 +2343,8 @@
     ],
     "intro": "本研究针对弥漫大B细胞淋巴瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/dlbc_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "dlbc_art02",
@@ -2304,7 +2376,8 @@
     ],
     "intro": "本研究针对弥漫大B细胞淋巴瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/dlbc_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "dlbc_art03",
@@ -2337,7 +2410,8 @@
     ],
     "intro": "本研究针对弥漫大B细胞淋巴瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/dlbc_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "dlbc_art04",
@@ -2371,7 +2445,8 @@
     ],
     "intro": "本研究针对弥漫大B细胞淋巴瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/dlbc_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "dlbc_art05",
@@ -2402,7 +2477,8 @@
     ],
     "intro": "本研究针对弥漫大B细胞淋巴瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/dlbc_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "dlbc_art06",
@@ -2433,7 +2509,8 @@
     ],
     "intro": "本研究针对弥漫大B细胞淋巴瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/dlbc_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "dlbc_art07",
@@ -2465,7 +2542,8 @@
     ],
     "intro": "本研究针对弥漫大B细胞淋巴瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/dlbc_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "aml_art01",
@@ -2497,7 +2575,8 @@
     ],
     "intro": "本研究针对急性髓系白血病，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/aml_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "aml_art02",
@@ -2529,7 +2608,8 @@
     ],
     "intro": "本研究针对急性髓系白血病，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/aml_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "aml_art03",
@@ -2562,7 +2642,8 @@
     ],
     "intro": "本研究针对急性髓系白血病，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/aml_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "aml_art04",
@@ -2596,7 +2677,8 @@
     ],
     "intro": "本研究针对急性髓系白血病，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/aml_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "aml_art05",
@@ -2627,7 +2709,8 @@
     ],
     "intro": "本研究针对急性髓系白血病，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/aml_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "aml_art06",
@@ -2658,7 +2741,8 @@
     ],
     "intro": "本研究针对急性髓系白血病，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/aml_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "aml_art07",
@@ -2690,7 +2774,8 @@
     ],
     "intro": "本研究针对急性髓系白血病，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/aml_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rt_art01",
@@ -2722,7 +2807,8 @@
     ],
     "intro": "本研究针对横纹肌样瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/rt_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rt_art02",
@@ -2754,7 +2840,8 @@
     ],
     "intro": "本研究针对横纹肌样瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/rt_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rt_art03",
@@ -2787,7 +2874,8 @@
     ],
     "intro": "本研究针对横纹肌样瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/rt_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rt_art04",
@@ -2821,7 +2909,8 @@
     ],
     "intro": "本研究针对横纹肌样瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/rt_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rt_art05",
@@ -2852,7 +2941,8 @@
     ],
     "intro": "本研究针对横纹肌样瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/rt_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rt_art06",
@@ -2883,7 +2973,8 @@
     ],
     "intro": "本研究针对横纹肌样瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/rt_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rt_art07",
@@ -2915,7 +3006,8 @@
     ],
     "intro": "本研究针对横纹肌样瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/rt_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rms_art01",
@@ -2947,7 +3039,8 @@
     ],
     "intro": "本研究针对横纹肌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/rms_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rms_art02",
@@ -2979,7 +3072,8 @@
     ],
     "intro": "本研究针对横纹肌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/rms_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rms_art03",
@@ -3012,7 +3106,8 @@
     ],
     "intro": "本研究针对横纹肌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/rms_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rms_art04",
@@ -3046,7 +3141,8 @@
     ],
     "intro": "本研究针对横纹肌肉瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/rms_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rms_art05",
@@ -3077,7 +3173,8 @@
     ],
     "intro": "本研究针对横纹肌肉瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/rms_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rms_art06",
@@ -3108,7 +3205,8 @@
     ],
     "intro": "本研究针对横纹肌肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/rms_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "rms_art07",
@@ -3140,7 +3238,8 @@
     ],
     "intro": "本研究针对横纹肌肉瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/rms_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thca_art01",
@@ -3170,7 +3269,8 @@
     "risk_tags": [],
     "intro": "本研究针对甲状腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/thca_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "thca_art02",
@@ -3200,7 +3300,8 @@
     "risk_tags": [],
     "intro": "本研究针对甲状腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/thca_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "thca_art03",
@@ -3233,7 +3334,8 @@
     ],
     "intro": "本研究针对甲状腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/thca_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thca_art04",
@@ -3267,7 +3369,8 @@
     ],
     "intro": "本研究针对甲状腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/thca_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thca_art05",
@@ -3298,7 +3401,8 @@
     ],
     "intro": "本研究针对甲状腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/thca_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thca_art06",
@@ -3327,7 +3431,8 @@
     "risk_tags": [],
     "intro": "本研究针对甲状腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/thca_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "thca_art07",
@@ -3359,7 +3464,8 @@
     ],
     "intro": "本研究针对甲状腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/thca_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thca_art08",
@@ -3390,7 +3496,8 @@
     "risk_tags": [],
     "intro": "本研究针对甲状腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/thca_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "skcm_art01",
@@ -3420,7 +3527,8 @@
     "risk_tags": [],
     "intro": "本研究针对皮肤黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/skcm_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "skcm_art02",
@@ -3450,7 +3558,8 @@
     "risk_tags": [],
     "intro": "本研究针对皮肤黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/skcm_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "skcm_art03",
@@ -3483,7 +3592,8 @@
     ],
     "intro": "本研究针对皮肤黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/skcm_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "skcm_art04",
@@ -3517,7 +3627,8 @@
     ],
     "intro": "本研究针对皮肤黑色素瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/skcm_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "skcm_art05",
@@ -3548,7 +3659,8 @@
     ],
     "intro": "本研究针对皮肤黑色素瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/skcm_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "skcm_art06",
@@ -3579,7 +3691,8 @@
     ],
     "intro": "本研究针对皮肤黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/skcm_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "skcm_art07",
@@ -3611,7 +3724,8 @@
     ],
     "intro": "本研究针对皮肤黑色素瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/skcm_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "skcm_art08",
@@ -3642,7 +3756,8 @@
     "risk_tags": [],
     "intro": "本研究针对皮肤黑色素瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/skcm_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "read_art01",
@@ -3673,7 +3788,8 @@
     "risk_tags": [],
     "intro": "本研究针对直肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/read_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "read_art02",
@@ -3704,7 +3820,8 @@
     "risk_tags": [],
     "intro": "本研究针对直肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/read_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "read_art03",
@@ -3738,7 +3855,8 @@
     ],
     "intro": "本研究针对直肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/read_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "read_art04",
@@ -3773,7 +3891,8 @@
     ],
     "intro": "本研究针对直肠腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/read_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "read_art05",
@@ -3805,7 +3924,8 @@
     ],
     "intro": "本研究针对直肠腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/read_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "read_art06",
@@ -3835,7 +3955,8 @@
     "risk_tags": [],
     "intro": "本研究针对直肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/read_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "read_art07",
@@ -3868,7 +3989,8 @@
     ],
     "intro": "本研究针对直肠腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/read_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "read_art08",
@@ -3900,7 +4022,8 @@
     "risk_tags": [],
     "intro": "本研究针对直肠腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/read_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "tgct_art01",
@@ -3931,7 +4054,8 @@
     "risk_tags": [],
     "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/tgct_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "tgct_art02",
@@ -3962,7 +4086,8 @@
     "risk_tags": [],
     "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/tgct_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "tgct_art03",
@@ -3996,7 +4121,8 @@
     ],
     "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/tgct_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "tgct_art04",
@@ -4031,7 +4157,8 @@
     ],
     "intro": "本研究针对睾丸生殖细胞瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/tgct_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "tgct_art05",
@@ -4063,7 +4190,8 @@
     ],
     "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/tgct_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "tgct_art06",
@@ -4095,7 +4223,8 @@
     ],
     "intro": "本研究针对睾丸生殖细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/tgct_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "tgct_art07",
@@ -4128,7 +4257,8 @@
     ],
     "intro": "本研究针对睾丸生殖细胞瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/tgct_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "tgct_art08",
@@ -4160,7 +4290,8 @@
     "risk_tags": [],
     "intro": "本研究针对睾丸生殖细胞瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/tgct_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "nbl_art01",
@@ -4192,7 +4323,8 @@
     ],
     "intro": "本研究针对神经母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/nbl_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "nbl_art02",
@@ -4224,7 +4356,8 @@
     ],
     "intro": "本研究针对神经母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/nbl_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "nbl_art03",
@@ -4257,7 +4390,8 @@
     ],
     "intro": "本研究针对神经母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/nbl_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "nbl_art04",
@@ -4291,7 +4425,8 @@
     ],
     "intro": "本研究针对神经母细胞瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/nbl_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "nbl_art05",
@@ -4322,7 +4457,8 @@
     ],
     "intro": "本研究针对神经母细胞瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/nbl_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "nbl_art06",
@@ -4353,7 +4489,8 @@
     ],
     "intro": "本研究针对神经母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/nbl_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "nbl_art07",
@@ -4385,7 +4522,8 @@
     ],
     "intro": "本研究针对神经母细胞瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/nbl_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "crc_art01",
@@ -4416,7 +4554,8 @@
     "risk_tags": [],
     "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/crc_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "crc_art02",
@@ -4447,7 +4586,8 @@
     "risk_tags": [],
     "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/crc_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "crc_art03",
@@ -4480,7 +4620,8 @@
     ],
     "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/crc_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "crc_art04",
@@ -4514,7 +4655,8 @@
     ],
     "intro": "本研究针对结直肠癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/crc_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "crc_art05",
@@ -4544,7 +4686,8 @@
     "risk_tags": [],
     "intro": "本研究针对结直肠癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/crc_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "crc_art06",
@@ -4574,7 +4717,8 @@
     "risk_tags": [],
     "intro": "本研究针对结直肠癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/crc_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "crc_art07",
@@ -4606,7 +4750,8 @@
     ],
     "intro": "本研究针对结直肠癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/crc_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "crc_art08",
@@ -4638,7 +4783,8 @@
     "risk_tags": [],
     "intro": "本研究针对结直肠癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/crc_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "coad_art01",
@@ -4669,7 +4815,8 @@
     "risk_tags": [],
     "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/coad_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "coad_art02",
@@ -4700,7 +4847,8 @@
     "risk_tags": [],
     "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/coad_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "coad_art03",
@@ -4733,7 +4881,8 @@
     ],
     "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/coad_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "coad_art04",
@@ -4767,7 +4916,8 @@
     ],
     "intro": "本研究针对结肠腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/coad_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "coad_art05",
@@ -4797,7 +4947,8 @@
     "risk_tags": [],
     "intro": "本研究针对结肠腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/coad_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "coad_art06",
@@ -4827,7 +4978,8 @@
     "risk_tags": [],
     "intro": "本研究针对结肠腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/coad_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "coad_art07",
@@ -4859,7 +5011,8 @@
     ],
     "intro": "本研究针对结肠腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/coad_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "coad_art08",
@@ -4891,7 +5044,8 @@
     "risk_tags": [],
     "intro": "本研究针对结肠腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/coad_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lihc_art01",
@@ -4922,7 +5076,8 @@
     "risk_tags": [],
     "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/lihc_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lihc_art02",
@@ -4953,7 +5108,8 @@
     "risk_tags": [],
     "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/lihc_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lihc_art03",
@@ -4986,7 +5142,8 @@
     ],
     "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/lihc_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lihc_art04",
@@ -5020,7 +5177,8 @@
     ],
     "intro": "本研究针对肝细胞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/lihc_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lihc_art05",
@@ -5050,7 +5208,8 @@
     "risk_tags": [],
     "intro": "本研究针对肝细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/lihc_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lihc_art06",
@@ -5080,7 +5239,8 @@
     "risk_tags": [],
     "intro": "本研究针对肝细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/lihc_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lihc_art07",
@@ -5112,7 +5272,8 @@
     ],
     "intro": "本研究针对肝细胞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/lihc_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lihc_art08",
@@ -5144,7 +5305,8 @@
     "risk_tags": [],
     "intro": "本研究针对肝细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/lihc_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "luad_art01",
@@ -5175,7 +5337,8 @@
     "risk_tags": [],
     "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/luad_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "luad_art02",
@@ -5206,7 +5369,8 @@
     "risk_tags": [],
     "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/luad_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "luad_art03",
@@ -5239,7 +5403,8 @@
     ],
     "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/luad_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "luad_art04",
@@ -5273,7 +5438,8 @@
     ],
     "intro": "本研究针对肺腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/luad_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "luad_art05",
@@ -5303,7 +5469,8 @@
     "risk_tags": [],
     "intro": "本研究针对肺腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/luad_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "luad_art06",
@@ -5333,7 +5500,8 @@
     "risk_tags": [],
     "intro": "本研究针对肺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/luad_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "luad_art07",
@@ -5365,7 +5533,8 @@
     ],
     "intro": "本研究针对肺腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/luad_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "luad_art08",
@@ -5397,7 +5566,8 @@
     "risk_tags": [],
     "intro": "本研究针对肺腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/luad_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lusc_art01",
@@ -5428,7 +5598,8 @@
     "risk_tags": [],
     "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/lusc_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lusc_art02",
@@ -5459,7 +5630,8 @@
     "risk_tags": [],
     "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/lusc_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lusc_art03",
@@ -5492,7 +5664,8 @@
     ],
     "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/lusc_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lusc_art04",
@@ -5526,7 +5699,8 @@
     ],
     "intro": "本研究针对肺鳞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/lusc_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lusc_art05",
@@ -5556,7 +5730,8 @@
     "risk_tags": [],
     "intro": "本研究针对肺鳞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/lusc_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lusc_art06",
@@ -5586,7 +5761,8 @@
     "risk_tags": [],
     "intro": "本研究针对肺鳞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/lusc_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lusc_art07",
@@ -5618,7 +5794,8 @@
     ],
     "intro": "本研究针对肺鳞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/lusc_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "lusc_art08",
@@ -5650,7 +5827,8 @@
     "risk_tags": [],
     "intro": "本研究针对肺鳞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/lusc_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "acc_art01",
@@ -5682,7 +5860,8 @@
     ],
     "intro": "本研究针对肾上腺皮质癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/acc_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "acc_art02",
@@ -5714,7 +5893,8 @@
     ],
     "intro": "本研究针对肾上腺皮质癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/acc_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "acc_art03",
@@ -5747,7 +5927,8 @@
     ],
     "intro": "本研究针对肾上腺皮质癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/acc_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "acc_art04",
@@ -5781,7 +5962,8 @@
     ],
     "intro": "本研究针对肾上腺皮质癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/acc_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "acc_art05",
@@ -5812,7 +5994,8 @@
     ],
     "intro": "本研究针对肾上腺皮质癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/acc_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "acc_art06",
@@ -5843,7 +6026,8 @@
     ],
     "intro": "本研究针对肾上腺皮质癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/acc_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "acc_art07",
@@ -5875,7 +6059,8 @@
     ],
     "intro": "本研究针对肾上腺皮质癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/acc_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kirp_art01",
@@ -5906,7 +6091,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾乳头状细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/kirp_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kirp_art02",
@@ -5937,7 +6123,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾乳头状细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/kirp_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kirp_art03",
@@ -5971,7 +6158,8 @@
     ],
     "intro": "本研究针对肾乳头状细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/kirp_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kirp_art04",
@@ -6006,7 +6194,8 @@
     ],
     "intro": "本研究针对肾乳头状细胞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/kirp_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kirp_art05",
@@ -6038,7 +6227,8 @@
     ],
     "intro": "本研究针对肾乳头状细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/kirp_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kirp_art06",
@@ -6068,7 +6258,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾乳头状细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/kirp_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kirp_art07",
@@ -6101,7 +6292,8 @@
     ],
     "intro": "本研究针对肾乳头状细胞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/kirp_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kirp_art08",
@@ -6133,7 +6325,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾乳头状细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/kirp_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kich_art01",
@@ -6164,7 +6357,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾嫌色细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/kich_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kich_art02",
@@ -6195,7 +6389,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾嫌色细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/kich_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kich_art03",
@@ -6229,7 +6424,8 @@
     ],
     "intro": "本研究针对肾嫌色细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/kich_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kich_art04",
@@ -6264,7 +6460,8 @@
     ],
     "intro": "本研究针对肾嫌色细胞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/kich_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kich_art05",
@@ -6296,7 +6493,8 @@
     ],
     "intro": "本研究针对肾嫌色细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/kich_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kich_art06",
@@ -6328,7 +6526,8 @@
     ],
     "intro": "本研究针对肾嫌色细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/kich_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kich_art07",
@@ -6361,7 +6560,8 @@
     ],
     "intro": "本研究针对肾嫌色细胞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/kich_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kich_art08",
@@ -6393,7 +6593,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾嫌色细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/kich_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "wt_art01",
@@ -6425,7 +6626,8 @@
     ],
     "intro": "本研究针对肾母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/wt_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "wt_art02",
@@ -6457,7 +6659,8 @@
     ],
     "intro": "本研究针对肾母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/wt_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "wt_art03",
@@ -6490,7 +6693,8 @@
     ],
     "intro": "本研究针对肾母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/wt_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "wt_art04",
@@ -6524,7 +6728,8 @@
     ],
     "intro": "本研究针对肾母细胞瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/wt_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "wt_art05",
@@ -6555,7 +6760,8 @@
     ],
     "intro": "本研究针对肾母细胞瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/wt_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "wt_art06",
@@ -6586,7 +6792,8 @@
     ],
     "intro": "本研究针对肾母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/wt_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "wt_art07",
@@ -6618,7 +6825,8 @@
     ],
     "intro": "本研究针对肾母细胞瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/wt_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "kirc_art01",
@@ -6649,7 +6857,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/kirc_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kirc_art02",
@@ -6680,7 +6889,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/kirc_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kirc_art03",
@@ -6713,7 +6923,8 @@
     ],
     "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/kirc_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kirc_art04",
@@ -6747,7 +6958,8 @@
     ],
     "intro": "本研究针对肾透明细胞癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/kirc_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kirc_art05",
@@ -6777,7 +6989,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾透明细胞癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/kirc_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kirc_art06",
@@ -6807,7 +7020,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾透明细胞癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/kirc_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kirc_art07",
@@ -6839,7 +7053,8 @@
     ],
     "intro": "本研究针对肾透明细胞癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/kirc_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "kirc_art08",
@@ -6871,7 +7086,8 @@
     "risk_tags": [],
     "intro": "本研究针对肾透明细胞癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/kirc_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "ccsk_art01",
@@ -6903,7 +7119,8 @@
     ],
     "intro": "本研究针对肾透明细胞肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/ccsk_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ccsk_art02",
@@ -6935,7 +7152,8 @@
     ],
     "intro": "本研究针对肾透明细胞肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/ccsk_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ccsk_art03",
@@ -6968,7 +7186,8 @@
     ],
     "intro": "本研究针对肾透明细胞肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/ccsk_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ccsk_art04",
@@ -7002,7 +7221,8 @@
     ],
     "intro": "本研究针对肾透明细胞肉瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/ccsk_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ccsk_art05",
@@ -7033,7 +7253,8 @@
     ],
     "intro": "本研究针对肾透明细胞肉瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/ccsk_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ccsk_art06",
@@ -7064,7 +7285,8 @@
     ],
     "intro": "本研究针对肾透明细胞肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/ccsk_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "ccsk_art07",
@@ -7096,7 +7318,8 @@
     ],
     "intro": "本研究针对肾透明细胞肉瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/ccsk_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "stad_art01",
@@ -7127,7 +7350,8 @@
     "risk_tags": [],
     "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/stad_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "stad_art02",
@@ -7158,7 +7382,8 @@
     "risk_tags": [],
     "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/stad_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "stad_art03",
@@ -7191,7 +7416,8 @@
     ],
     "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/stad_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "stad_art04",
@@ -7225,7 +7451,8 @@
     ],
     "intro": "本研究针对胃腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/stad_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "stad_art05",
@@ -7255,7 +7482,8 @@
     "risk_tags": [],
     "intro": "本研究针对胃腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/stad_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "stad_art06",
@@ -7285,7 +7513,8 @@
     "risk_tags": [],
     "intro": "本研究针对胃腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/stad_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "stad_art07",
@@ -7317,7 +7546,8 @@
     ],
     "intro": "本研究针对胃腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/stad_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "stad_art08",
@@ -7349,7 +7579,8 @@
     "risk_tags": [],
     "intro": "本研究针对胃腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/stad_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "chol_art01",
@@ -7380,7 +7611,8 @@
     "risk_tags": [],
     "intro": "本研究针对胆管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/chol_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "chol_art02",
@@ -7411,7 +7643,8 @@
     "risk_tags": [],
     "intro": "本研究针对胆管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/chol_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "chol_art03",
@@ -7445,7 +7678,8 @@
     ],
     "intro": "本研究针对胆管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/chol_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "chol_art04",
@@ -7480,7 +7714,8 @@
     ],
     "intro": "本研究针对胆管癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/chol_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "chol_art05",
@@ -7512,7 +7747,8 @@
     ],
     "intro": "本研究针对胆管癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/chol_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "chol_art06",
@@ -7544,7 +7780,8 @@
     ],
     "intro": "本研究针对胆管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/chol_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "chol_art07",
@@ -7577,7 +7814,8 @@
     ],
     "intro": "本研究针对胆管癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/chol_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "chol_art08",
@@ -7609,7 +7847,8 @@
     "risk_tags": [],
     "intro": "本研究针对胆管癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/chol_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "paad_art01",
@@ -7640,7 +7879,8 @@
     "risk_tags": [],
     "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/paad_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "paad_art02",
@@ -7671,7 +7911,8 @@
     "risk_tags": [],
     "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、肿瘤突变负荷（TMB）与错配修复（MMR）状态构建OS预后模型。",
     "graphical_abstract": "assets/ga/paad_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "paad_art03",
@@ -7704,7 +7945,8 @@
     ],
     "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/paad_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "paad_art04",
@@ -7738,7 +7980,8 @@
     ],
     "intro": "本研究针对胰腺腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/paad_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "paad_art05",
@@ -7768,7 +8011,8 @@
     "risk_tags": [],
     "intro": "本研究针对胰腺腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在RNA-seq与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/paad_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "paad_art06",
@@ -7798,7 +8042,8 @@
     "risk_tags": [],
     "intro": "本研究针对胰腺腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名（如IFN-γ）、TMB与MMR状态的整合OS预后模型。",
     "graphical_abstract": "assets/ga/paad_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "paad_art07",
@@ -7830,7 +8075,8 @@
     ],
     "intro": "本研究针对胰腺腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/paad_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "paad_art08",
@@ -7862,7 +8108,8 @@
     "risk_tags": [],
     "intro": "本研究针对胰腺腺癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/paad_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "gbm_art01",
@@ -7894,7 +8141,8 @@
     ],
     "intro": "本研究针对胶质母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/gbm_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "gbm_art02",
@@ -7926,7 +8174,8 @@
     ],
     "intro": "本研究针对胶质母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/gbm_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "gbm_art03",
@@ -7959,7 +8208,8 @@
     ],
     "intro": "本研究针对胶质母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/gbm_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "gbm_art04",
@@ -7993,7 +8243,8 @@
     ],
     "intro": "本研究针对胶质母细胞瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/gbm_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "gbm_art05",
@@ -8024,7 +8275,8 @@
     ],
     "intro": "本研究针对胶质母细胞瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/gbm_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "gbm_art06",
@@ -8055,7 +8307,8 @@
     ],
     "intro": "本研究针对胶质母细胞瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/gbm_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "gbm_art07",
@@ -8087,7 +8340,8 @@
     ],
     "intro": "本研究针对胶质母细胞瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/gbm_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "gbm_art08",
@@ -8118,7 +8372,8 @@
     "risk_tags": [],
     "intro": "本研究针对胶质母细胞瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/gbm_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "thym_art01",
@@ -8150,7 +8405,8 @@
     ],
     "intro": "本研究针对胸腺瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/thym_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thym_art02",
@@ -8182,7 +8438,8 @@
     ],
     "intro": "本研究针对胸腺瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/thym_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thym_art03",
@@ -8215,7 +8472,8 @@
     ],
     "intro": "本研究针对胸腺瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/thym_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thym_art04",
@@ -8249,7 +8507,8 @@
     ],
     "intro": "本研究针对胸腺瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/thym_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thym_art05",
@@ -8280,7 +8539,8 @@
     ],
     "intro": "本研究针对胸腺瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/thym_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thym_art06",
@@ -8311,7 +8571,8 @@
     ],
     "intro": "本研究针对胸腺瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/thym_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "thym_art07",
@@ -8343,7 +8604,8 @@
     ],
     "intro": "本研究针对胸腺瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/thym_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "blca_art01",
@@ -8374,7 +8636,8 @@
     "risk_tags": [],
     "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/blca_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "blca_art02",
@@ -8405,7 +8668,8 @@
     "risk_tags": [],
     "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/blca_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "blca_art03",
@@ -8438,7 +8702,8 @@
     ],
     "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/blca_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "blca_art04",
@@ -8472,7 +8737,8 @@
     ],
     "intro": "本研究针对膀胱尿路上皮癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/blca_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "blca_art05",
@@ -8502,7 +8768,8 @@
     "risk_tags": [],
     "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/blca_art05.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "blca_art06",
@@ -8532,7 +8799,8 @@
     "risk_tags": [],
     "intro": "本研究针对膀胱尿路上皮癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/blca_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "blca_art07",
@@ -8564,7 +8832,8 @@
     ],
     "intro": "本研究针对膀胱尿路上皮癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/blca_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "blca_art08",
@@ -8596,7 +8865,8 @@
     "risk_tags": [],
     "intro": "本研究针对膀胱尿路上皮癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/blca_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "uvm_art01",
@@ -8626,7 +8896,8 @@
     "risk_tags": [],
     "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/uvm_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "uvm_art02",
@@ -8656,7 +8927,8 @@
     "risk_tags": [],
     "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/uvm_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "uvm_art03",
@@ -8689,7 +8961,8 @@
     ],
     "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/uvm_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "uvm_art04",
@@ -8723,7 +8996,8 @@
     ],
     "intro": "本研究针对葡萄膜黑色素瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/uvm_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "uvm_art05",
@@ -8754,7 +9028,8 @@
     ],
     "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/uvm_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "uvm_art06",
@@ -8785,7 +9060,8 @@
     ],
     "intro": "本研究针对葡萄膜黑色素瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/uvm_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "uvm_art07",
@@ -8817,7 +9093,8 @@
     ],
     "intro": "本研究针对葡萄膜黑色素瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/uvm_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "uvm_art08",
@@ -8848,7 +9125,8 @@
     "risk_tags": [],
     "intro": "本研究针对葡萄膜黑色素瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/uvm_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "mbrca_art01",
@@ -8881,7 +9159,8 @@
     ],
     "intro": "本研究针对转移性乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/mbrca_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mbrca_art02",
@@ -8914,7 +9193,8 @@
     ],
     "intro": "本研究针对转移性乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/mbrca_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mbrca_art03",
@@ -8948,7 +9228,8 @@
     ],
     "intro": "本研究针对转移性乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/mbrca_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mbrca_art04",
@@ -8982,7 +9263,8 @@
     ],
     "intro": "本研究针对转移性乳腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/mbrca_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "mbrca_art05",
@@ -9014,7 +9296,8 @@
     ],
     "intro": "本研究针对转移性乳腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/mbrca_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mbrca_art06",
@@ -9046,7 +9329,8 @@
     ],
     "intro": "本研究针对转移性乳腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/mbrca_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mbrca_art07",
@@ -9078,7 +9362,8 @@
     ],
     "intro": "本研究针对转移性乳腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/mbrca_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "mprad_art01",
@@ -9111,7 +9396,8 @@
     ],
     "intro": "本研究针对转移性前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/mprad_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mprad_art02",
@@ -9144,7 +9430,8 @@
     ],
     "intro": "本研究针对转移性前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/mprad_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mprad_art03",
@@ -9178,7 +9465,8 @@
     ],
     "intro": "本研究针对转移性前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/mprad_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mprad_art04",
@@ -9213,7 +9501,8 @@
     ],
     "intro": "本研究针对转移性前列腺癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/mprad_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mprad_art05",
@@ -9245,7 +9534,8 @@
     ],
     "intro": "本研究针对转移性前列腺癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/mprad_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mprad_art06",
@@ -9277,7 +9567,8 @@
     ],
     "intro": "本研究针对转移性前列腺癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/mprad_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "mprad_art07",
@@ -9310,7 +9601,8 @@
     ],
     "intro": "本研究针对转移性前列腺癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/mprad_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "sarc_art01",
@@ -9342,7 +9634,8 @@
     ],
     "intro": "本研究针对软组织肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/sarc_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "sarc_art02",
@@ -9374,7 +9667,8 @@
     ],
     "intro": "本研究针对软组织肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/sarc_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "sarc_art03",
@@ -9407,7 +9701,8 @@
     ],
     "intro": "本研究针对软组织肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/sarc_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "sarc_art04",
@@ -9441,7 +9736,8 @@
     ],
     "intro": "本研究针对软组织肉瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/sarc_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "sarc_art05",
@@ -9472,7 +9768,8 @@
     ],
     "intro": "本研究针对软组织肉瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/sarc_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "sarc_art06",
@@ -9503,7 +9800,8 @@
     ],
     "intro": "本研究针对软组织肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/sarc_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "sarc_art07",
@@ -9535,7 +9833,8 @@
     ],
     "intro": "本研究针对软组织肉瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/sarc_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "meso_art01",
@@ -9566,7 +9865,8 @@
     "risk_tags": [],
     "intro": "本研究针对间皮瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/meso_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "meso_art02",
@@ -9597,7 +9897,8 @@
     "risk_tags": [],
     "intro": "本研究针对间皮瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/meso_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "meso_art03",
@@ -9631,7 +9932,8 @@
     ],
     "intro": "本研究针对间皮瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/meso_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "meso_art04",
@@ -9666,7 +9968,8 @@
     ],
     "intro": "本研究针对间皮瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/meso_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "meso_art05",
@@ -9698,7 +10001,8 @@
     ],
     "intro": "本研究针对间皮瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/meso_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "meso_art06",
@@ -9728,7 +10032,8 @@
     "risk_tags": [],
     "intro": "本研究针对间皮瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/meso_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "meso_art07",
@@ -9761,7 +10066,8 @@
     ],
     "intro": "本研究针对间皮瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/meso_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "meso_art08",
@@ -9793,7 +10099,8 @@
     "risk_tags": [],
     "intro": "本研究针对间皮瘤，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/meso_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "esca_art01",
@@ -9824,7 +10131,8 @@
     "risk_tags": [],
     "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/esca_art01.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "esca_art02",
@@ -9855,7 +10163,8 @@
     "risk_tags": [],
     "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/esca_art02.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "esca_art03",
@@ -9888,7 +10197,8 @@
     ],
     "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/esca_art03.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "esca_art04",
@@ -9922,7 +10232,8 @@
     ],
     "intro": "本研究针对食管癌，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/esca_art04.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "esca_art05",
@@ -9954,7 +10265,8 @@
     ],
     "intro": "本研究针对食管癌，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/esca_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "esca_art06",
@@ -9984,7 +10296,8 @@
     "risk_tags": [],
     "intro": "本研究针对食管癌，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/esca_art06.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "esca_art07",
@@ -10016,7 +10329,8 @@
     ],
     "intro": "本研究针对食管癌，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/esca_art07.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "esca_art08",
@@ -10048,7 +10362,8 @@
     "risk_tags": [],
     "intro": "本研究针对食管癌，采用「多模型机器学习预后建模（临床+转录组OS）」路线。核心方向：临床联合转录组，比较多种机器学习生存模型（惩罚Cox / 随机生存森林 / 梯度提升生存），报告判别、校准与可解释性，并做内部与外部验证。",
     "graphical_abstract": "assets/ga/esca_art08.jpg",
-    "status": "manuscript"
+    "status": "manuscript",
+    "line": "oncology"
   },
   {
     "id": "os_art01",
@@ -10080,7 +10395,8 @@
     ],
     "intro": "本研究针对骨肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组构建总生存（OS）预后模型，并做跨队列/外部验证。",
     "graphical_abstract": "assets/ga/os_art01.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "os_art02",
@@ -10112,7 +10428,8 @@
     ],
     "intro": "本研究针对骨肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合体细胞突变、TMB 与 MMR 状态构建 OS 预后模型。",
     "graphical_abstract": "assets/ga/os_art02.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "os_art03",
@@ -10145,7 +10462,8 @@
     ],
     "intro": "本研究针对骨肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合转录组预测无复发生存/无病生存（RFS/DFS）。",
     "graphical_abstract": "assets/ga/os_art03.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "os_art04",
@@ -10179,7 +10497,8 @@
     ],
     "intro": "本研究针对骨肉瘤，采用「预后生存建模（风险评分与辅助化疗治疗交互分析）」路线。核心方向：转录组风险评分与辅助化疗获益的治疗交互分析（II/III期）。",
     "graphical_abstract": "assets/ga/os_art04.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "os_art05",
@@ -10210,7 +10529,8 @@
     ],
     "intro": "本研究针对骨肉瘤，采用「公开组学跨平台分子分型验证」路线。核心方向：分子共识分型在 RNA-seq 与芯片平台间的跨平台一致性验证及预后分层。",
     "graphical_abstract": "assets/ga/os_art05.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "os_art06",
@@ -10241,7 +10561,8 @@
     ],
     "intro": "本研究针对骨肉瘤，采用「公开组学标志物挖掘与预后生存建模」路线。核心方向：临床特征联合免疫相关签名、TMB 与 MMR 状态的整合 OS 预后模型。",
     "graphical_abstract": "assets/ga/os_art06.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
   },
   {
     "id": "os_art07",
@@ -10273,6 +10594,442 @@
     ],
     "intro": "本研究针对骨肉瘤，采用「预后生存建模（分期亚组RFS）」路线。核心方向：II/III期亚组中的临床+转录组无复发生存建模与亚组分层。",
     "graphical_abstract": "assets/ga/os_art07.jpg",
-    "status": "usable"
+    "status": "usable",
+    "line": "oncology"
+  },
+  {
+    "id": "skoa_epi01",
+    "serial": 9001,
+    "line": "epi",
+    "cancer_id": "skoa",
+    "cancer_zh": "症状性膝骨关节炎",
+    "disease_id": "skoa",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Association and Discriminative Value of the Radical Urbanization Index for Symptomatic Knee Osteoarthritis among Middle-aged and Older Adults in China: A CHARLS-Based Cross-Sectional Study",
+    "direction": "城市激进城镇化指数（RUI）与症状性膝骨关节炎关联，并评估相对临床特征的增量鉴别价值",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报关节炎且膝痛。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "症状性膝骨关节炎",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院医学约 3–4 区",
+    "journal_primary": "bmc_msk",
+    "journals_backup": [
+      "bmc_public_health",
+      "clinical_rheumatology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "自报结局"
+    ],
+    "intro": "公卫线选题：针对症状性膝骨关节炎，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/skoa_epi01.jpg",
+    "status": "manuscript",
+    "exposure": "RUI",
+    "category": "骨肌"
+  },
+  {
+    "id": "skoa_epi02",
+    "serial": 9002,
+    "line": "epi",
+    "cancer_id": "skoa",
+    "cancer_zh": "症状性膝骨关节炎",
+    "disease_id": "skoa",
+    "method_id": "epi02",
+    "art_no": "epi02",
+    "title": "Radical Urbanization, Air Pollution, and Greenness in Relation to Symptomatic Knee Osteoarthritis: A Multi-Exposure CHARLS Analysis",
+    "direction": "同一队列中比较 RUI、空气污染与绿化对 sKOA 的关联及信息重叠",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 多暴露单模型与共同调整模型对比。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI+PM2.5+NDVI"
+    ],
+    "disease": "症状性膝骨关节炎",
+    "analysis_style": "多暴露 OR 对比 + 增量 AUC",
+    "writing_style": "多暴露比较（城镇化/污染/绿化）",
+    "quality_target": "JCR Q2–Q3 / 公卫约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "bmc_msk",
+      "ehpm"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "暴露共线性"
+    ],
+    "intro": "公卫线选题：针对症状性膝骨关节炎，采用「多暴露比较（城镇化/污染/绿化）」路线。核心暴露：RUI+PM2.5+NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/skoa_epi02.jpg",
+    "status": "usable",
+    "exposure": "RUI+PM2.5+NDVI",
+    "category": "骨肌"
+  },
+  {
+    "id": "lbp_epi01",
+    "serial": 9003,
+    "line": "epi",
+    "cancer_id": "lbp",
+    "cancer_zh": "慢性腰痛",
+    "disease_id": "lbp",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Radical Urbanization Index and Chronic Low Back Pain among Middle-aged and Older Chinese Adults: Evidence from CHARLS",
+    "direction": "RUI 与慢性腰痛患病关联及临床增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：慢性腰痛操作化定义。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "慢性腰痛",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_msk",
+    "journals_backup": [
+      "bmc_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "疼痛自报"
+    ],
+    "intro": "公卫线选题：针对慢性腰痛，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/lbp_epi01.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "骨肌"
+  },
+  {
+    "id": "htn_epi01",
+    "serial": 9004,
+    "line": "epi",
+    "cancer_id": "htn",
+    "cancer_zh": "高血压",
+    "disease_id": "htn",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "City-Level Radical Urbanization and Hypertension among Middle-aged and Older Adults in China: A CHARLS Cross-Sectional Study",
+    "direction": "RUI 与高血压患病关联，量化相对个体危险因素的增量信息",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报高血压或血压阈值。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "高血压",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2 / 公卫约 3 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对高血压，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/htn_epi01.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "心血管"
+  },
+  {
+    "id": "dm_epi01",
+    "serial": 9005,
+    "line": "epi",
+    "cancer_id": "dm",
+    "cancer_zh": "糖尿病",
+    "disease_id": "dm",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Long-term City-Level PM2.5 Exposure and Diabetes Mellitus in Middle-aged and Older Chinese Adults: A CHARLS-Based Analysis",
+    "direction": "城市年均值 PM2.5 与糖尿病患病关联及 RF 增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 主暴露改为 PM2.5。",
+    "datasets": [
+      "CHARLS-2011",
+      "PM2.5"
+    ],
+    "disease": "糖尿病",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "城市级暴露"
+    ],
+    "intro": "公卫线选题：针对糖尿病，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：PM2.5。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/dm_epi01.jpg",
+    "status": "usable",
+    "exposure": "PM2.5",
+    "category": "代谢"
+  },
+  {
+    "id": "depression_epi01",
+    "serial": 9006,
+    "line": "epi",
+    "cancer_id": "depression",
+    "cancer_zh": "抑郁症状",
+    "disease_id": "depression",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Residential Greenness and Depressive Symptoms in Middle-aged and Older Adults: A CHARLS Cross-Sectional Study",
+    "direction": "城市/区域绿化（NDVI）与抑郁症状关联及增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：CESD 阈值定义抑郁症状。",
+    "datasets": [
+      "CHARLS-2011",
+      "NDVI"
+    ],
+    "disease": "抑郁症状",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "量表阈值敏感"
+    ],
+    "intro": "公卫线选题：针对抑郁症状，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/depression_epi01.jpg",
+    "status": "usable",
+    "exposure": "NDVI",
+    "category": "精神心理"
+  },
+  {
+    "id": "lung_epi01",
+    "serial": 9007,
+    "line": "epi",
+    "cancer_id": "lung",
+    "cancer_zh": "慢性肺病",
+    "disease_id": "lung",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Radical Urbanization Index and Chronic Lung Disease among Middle-aged and Older Adults in China: Insights from CHARLS",
+    "direction": "RUI 与慢性肺病关联；对照既往 RUI–肺病文献并评估环境协变量解释",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报慢性肺病。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "慢性肺病",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "ehpm",
+    "journals_backup": [
+      "bmc_public_health",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "自报肺病"
+    ],
+    "intro": "公卫线选题：针对慢性肺病，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/lung_epi01.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "呼吸"
+  },
+  {
+    "id": "sleep_epi01",
+    "serial": 9008,
+    "line": "epi",
+    "cancer_id": "sleep",
+    "cancer_zh": "睡眠障碍",
+    "disease_id": "sleep",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Urban Expansion Quality and Sleep Disturbance in Aging Chinese Adults: A CHARLS Analysis Using the Radical Urbanization Index",
+    "direction": "RUI 与睡眠障碍关联及相对生活方式因素的增量信息",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：睡眠时长/质量条目定义。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "睡眠障碍",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "结局定义需统一",
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对睡眠障碍，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/sleep_epi01.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "精神心理"
+  },
+  {
+    "id": "heart_epi02",
+    "serial": 9009,
+    "line": "epi",
+    "cancer_id": "heart",
+    "cancer_zh": "心脏病",
+    "disease_id": "heart",
+    "method_id": "epi02",
+    "art_no": "epi02",
+    "title": "Comparing Urbanization Quality, Air Pollution, and Greenness in Relation to Heart Disease: A Multi-Exposure CHARLS Study",
+    "direction": "多暴露并排比较与心脏病患病关联",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 多暴露比较框架。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI+PM2.5+NDVI"
+    ],
+    "disease": "心脏病",
+    "analysis_style": "多暴露 OR 对比",
+    "writing_style": "多暴露比较（城镇化/污染/绿化）",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对心脏病，采用「多暴露比较（城镇化/污染/绿化）」路线。核心暴露：RUI+PM2.5+NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/heart_epi02.jpg",
+    "status": "usable",
+    "exposure": "RUI+PM2.5+NDVI",
+    "category": "心血管"
+  },
+  {
+    "id": "htn_epi04",
+    "serial": 9010,
+    "line": "epi",
+    "cancer_id": "htn",
+    "cancer_zh": "高血压",
+    "disease_id": "htn",
+    "method_id": "epi04",
+    "art_no": "epi04",
+    "title": "Age and Urban–Rural Heterogeneity in the Association between Radical Urbanization and Hypertension: A CHARLS Subgroup Analysis",
+    "direction": "年龄与城乡对 RUI–高血压关联的效应修饰",
+    "methods_detail": "在 epi01 主效应基础上做预设亚组与乘积交互；探索性结果降调。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "高血压",
+    "analysis_style": "分层 OR + 交互检验",
+    "writing_style": "效应修饰 / 亚组交互",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "交互探索性",
+      "多重比较"
+    ],
+    "intro": "公卫线选题：针对高血压，采用「效应修饰 / 亚组交互」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/htn_epi04.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "心血管"
+  },
+  {
+    "id": "dm_epi03",
+    "serial": 9011,
+    "line": "epi",
+    "cancer_id": "dm",
+    "cancer_zh": "糖尿病",
+    "disease_id": "dm",
+    "method_id": "epi03",
+    "art_no": "epi03",
+    "title": "Baseline Radical Urbanization Index and Incident Diabetes in CHARLS: A Longitudinal Cohort Analysis",
+    "direction": "基线 RUI 与随访新发糖尿病风险（需排除基线已患）",
+    "methods_detail": "排除基线糖尿病；定义随访新发；加权 Cox/离散时间模型；报告删失与随访定义。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "糖尿病",
+    "analysis_style": "纵向发病 HR",
+    "writing_style": "纵向随访发病风险",
+    "quality_target": "JCR Q1–Q2（随访扎实可冲）",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "随访定义需核对",
+      "需多波次清洗"
+    ],
+    "intro": "公卫线选题：针对糖尿病，采用「纵向随访发病风险」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/dm_epi03.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "代谢"
+  },
+  {
+    "id": "obesity_epi01",
+    "serial": 9012,
+    "line": "epi",
+    "cancer_id": "obesity",
+    "cancer_zh": "肥胖",
+    "disease_id": "obesity",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Radical Urbanization and Obesity among Middle-aged and Older Adults in China: Association and Incremental Discrimination in CHARLS",
+    "direction": "RUI 与肥胖关联及相对行为/人口学因素的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：BMI 阈值或自报肥胖。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "肥胖",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对肥胖，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/obesity_epi01.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "代谢"
   }
 ]

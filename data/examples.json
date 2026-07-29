@@ -148,5 +148,21 @@
     },
     "journal_id": "peerj",
     "journal_name": "PeerJ"
+  },
+  {
+    "title": "Association and Discriminative Value of the Radical Urbanization Index for Symptomatic Knee Osteoarthritis among Middle-aged and Older Adults in China: A CHARLS-Based Cross-Sectional Study",
+    "year": 2026,
+    "doi": "",
+    "method_id": "epi01",
+    "line": "epi",
+    "how_done": {
+      "summary": "CHARLS 基线匹配城市 RUI，加权 logistic + RCS + 亚组，再用递增随机森林看 AUC 增量。",
+      "data": "CHARLS 2011 基线 n=8022；城市建成区与夜间灯光构建 RUI；城市年均值环境协变量。",
+      "pipeline": "sKOA=自报关节炎+膝痛 → 加权 logistic（连续/分位）→ RCS → 亚组 → RF：人口学/临床/临床+RUI/环境/全模型比较验证 AUC。",
+      "figures": "流程图、RUI 分布、OR/分位、RCS、亚组森林、递增 ROC。",
+      "factory_match": "本站公卫线 epi01 范文；横断面 STROBE，不做因果承诺。"
+    },
+    "journal_id": "bmc_msk",
+    "journal_name": "BMC Musculoskeletal Disorders"
   }
 ]

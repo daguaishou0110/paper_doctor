@@ -2,6 +2,7 @@ const state = {
   view: "home",
   selected: null,
   filters: {
+    line: "oncology", // oncology | epi
     cancer: "",
     method: "",
     nonOaOnly: false,
@@ -13,6 +14,7 @@ const state = {
     methods: [],
     journals: [],
     cancers: [],
+    diseases: [],
     papers: [],
     examples: [],
   },
@@ -22,15 +24,42 @@ const $ = (sel) => document.querySelector(sel);
 
 async function loadData() {
   const base = "./data/";
-  const [meta, methods, journals, cancers, papers, examples] = await Promise.all([
+  const [meta, methods, journals, cancers, diseases, papers, examples] = await Promise.all([
     fetch(base + "meta.json").then((r) => r.json()),
     fetch(base + "methods.json").then((r) => r.json()),
     fetch(base + "journals.json").then((r) => r.json()),
     fetch(base + "cancers.json").then((r) => r.json()),
+    fetch(base + "diseases.json").then((r) => r.json()).catch(() => []),
     fetch(base + "papers.json").then((r) => r.json()),
     fetch(base + "examples.json").then((r) => r.json()),
   ]);
-  state.data = { meta, methods, journals, cancers, papers, examples };
+  state.data = { meta, methods, journals, cancers, diseases, papers, examples };
+}
+
+function paperLine(p) {
+  return p.line || (String(p.method_id || "").startsWith("epi") ? "epi" : "oncology");
+}
+function methodLine(m) {
+  return m.line || (String(m.id || "").startsWith("epi") ? "epi" : "oncology");
+}
+function journalLine(j) {
+  return j.line || (String(j.id || "").includes("public") || j.id === "bmc_msk" || j.id === "ehpm" || j.id === "clinical_rheumatology" ? "epi" : "oncology");
+}
+function methodsForLine(line) {
+  return state.data.methods.filter((m) => methodLine(m) === line);
+}
+function papersForLine(line) {
+  return state.data.papers.filter((p) => paperLine(p) === line);
+}
+function entitiesForLine(line) {
+  return line === "epi" ? state.data.diseases || [] : state.data.cancers;
+}
+function lineLabel(line) {
+  if (line === "epi") return "公卫队列";
+  return "肿瘤组学";
+}
+function entityLabel(line) {
+  return line === "epi" ? "病种" : "癌种";
 }
 
 function journalById(id) {
@@ -130,18 +159,30 @@ function navActive(id) {
   if (v === id) return true;
   if (id === "methods" && v === "method") return true;
   if (id === "journals" && v === "journal") return true;
-  if (id === "cancers" && v === "paper") return true;
+  if (id === "cancers" && (v === "paper" || v === "cancers")) return true;
   if (id === "examples" && v === "examples") return true;
   return false;
 }
 
+function renderLineSwitch(compact = false) {
+  const line = state.filters.line;
+  const mk = (id, label) =>
+    `<button type="button" class="chip-btn ${line === id ? "active" : ""}" data-filter-line="${id}" style="border:1px solid var(--line);border-radius:999px;padding:${
+      compact ? "6px 10px" : "8px 14px"
+    };background:${line === id ? "var(--accent)" : "#fff"};color:${
+      line === id ? "#fff" : "var(--ink-soft)"
+    };cursor:pointer;font:inherit;font-size:.9rem">${label}</button>`;
+  return `<div class="filters" style="margin:0 0 ${compact ? "0" : "12px"}">${mk("oncology", "肿瘤组学")}${mk("epi", "公卫队列")}</div>`;
+}
+
 function renderNav() {
+  const topics = state.filters.line === "epi" ? "病种选题" : "癌种选题";
   const map = [
     ["home", "首页"],
     ["methods", "写法百科"],
     ["journals", "期刊情报"],
     ["examples", "范文拆解"],
-    ["cancers", "癌种选题"],
+    ["cancers", topics],
   ];
   return map
     .map(
@@ -188,30 +229,51 @@ function exampleCard(e) {
 }
 
 function renderHome() {
-  const { papers, methods, journals, cancers, meta } = state.data;
+  const { papers, methods, journals, cancers, diseases, meta } = state.data;
   const nonOa = journals.filter((j) => j.non_oa_possible).length;
-  const done = papers.filter((p) => p.status === "manuscript").length;
-  const usable = papers.filter((p) => p.status === "usable").length;
+  const onco = papersForLine("oncology");
+  const epi = papersForLine("epi");
+  const oncoDone = onco.filter((p) => p.status === "manuscript").length;
+  const oncoUsable = onco.filter((p) => p.status === "usable").length;
+  const epiDone = epi.filter((p) => p.status === "manuscript").length;
+  const epiUsable = epi.filter((p) => p.status === "usable").length;
   const ft = meta.catalog_totals || meta.factory_totals || {};
-  const readyN = ft.ready != null ? ft.ready : ft["完稿"] != null ? ft["完稿"] : done;
-  const catalogTotal = ft.articles != null ? ft.articles : papers.length;
+  const readyN = ft.ready != null ? ft.ready : oncoDone;
   return `
   <section class="hero">
     <div>
       <h1>写法选刊 · 病种选题<br/>参考台</h1>
-      <p>先看这类写法能匹配几区，再核对期刊是否 SCIE / 非 OA / 预警，最后按癌种挑选可投题目。</p>
+      <p>双产品线：肿瘤公开组学预后/分型，与公开队列公卫流行病学（CHARLS 类暴露–疾病）。先选写法与分区，再挑可投题目。</p>
     </div>
     <div class="hero-stats">
       <div class="stat"><b>${methods.length}</b><span>写法模板</span></div>
-      <div class="stat"><b>${readyN}</b><span>成稿选题</span></div>
-      <div class="stat"><b>${done + usable}</b><span>本站收录</span></div>
-      <div class="stat"><b>${cancers.length}</b><span>覆盖癌种</span></div>
+      <div class="stat"><b>${readyN + epiDone}</b><span>成稿选题</span></div>
+      <div class="stat"><b>${oncoDone + oncoUsable + epiDone + epiUsable}</b><span>本站收录</span></div>
+      <div class="stat"><b>${(cancers || []).length + (diseases || []).length}</b><span>病种覆盖</span></div>
     </div>
   </section>
 
   <div class="panel">
+    <h2>选择产品线</h2>
+    <p class="sub">肿瘤线与公卫线写法、期刊、选题相互独立，避免混投。</p>
+    <div class="grid">
+      <button class="card" type="button" data-set-line="oncology">
+        <div class="meta-row"><span class="tag ok">肿瘤组学</span><span class="tag muted">art01–art08</span></div>
+        <h3>公开组学 · 预后/分型</h3>
+        <p>TCGA/GEO 路线。成稿 ${oncoDone} · 可用 ${oncoUsable} · 癌种 ${(cancers || []).length}。</p>
+      </button>
+      <button class="card" type="button" data-set-line="epi">
+        <div class="meta-row"><span class="tag ok">公卫队列</span><span class="tag muted">epi01–epi04</span></div>
+        <h3>CHARLS 类 · 暴露–疾病</h3>
+        <p>横断面/纵向流行病学。成稿 ${epiDone} · 可用 ${epiUsable} · 病种 ${(diseases || []).length}。</p>
+      </button>
+    </div>
+  </div>
+
+  <div class="panel">
     <h2>三步决策</h2>
-    <p class="sub">对应核心路径：写法质量 → 期刊约束 → 病种选题；范文拆解帮助对齐「别人怎么发的」。</p>
+    <p class="sub">当前线：<strong>${lineLabel(state.filters.line)}</strong>。路径：写法质量 → 期刊约束 → ${entityLabel(state.filters.line)}选题。</p>
+    ${renderLineSwitch()}
     <div class="grid">
       <button class="card" type="button" data-nav="methods">
         <h3>1. 写法百科</h3>
@@ -223,29 +285,36 @@ function renderHome() {
       </button>
       <button class="card" type="button" data-nav="examples">
         <h3>2.5 范文拆解</h3>
-        <p>2025–2026（及写法模板）范文：数据、分析流程、图表结构、与本站写法模板对照。</p>
+        <p>范文：数据、分析流程、图表结构、与本站写法模板对照。</p>
       </button>
       <button class="card" type="button" data-nav="cancers">
-        <h3>3. 癌种选题</h3>
-        <p>按癌种浏览题目、图形摘要、数据/分析/目标刊。</p>
+        <h3>3. ${entityLabel(state.filters.line)}选题</h3>
+        <p>按${entityLabel(state.filters.line)}浏览题目、图形摘要、数据/分析/目标刊。</p>
       </button>
     </div>
   </div>
 
   <div class="disclaimer">${meta.partition_disclaimer}<br/>${meta.warning_source}${
     meta.manuscript_note ? `<br/>${meta.manuscript_note}` : ""
-  }</div>`;
+  }${meta.product_scope ? `<br/>${meta.product_scope}` : ""}</div>`;
 }
 
 function renderMethods() {
+  const line = state.filters.line;
+  const list = methodsForLine(line);
   return `
   <div class="panel">
-    <h2>写法百科</h2>
-    <p class="sub">公开组学预后/分型研究路线。点进卡片看分区要求与期刊角色。</p>
+    <h2>写法百科 · ${lineLabel(line)}</h2>
+    <p class="sub">${
+      line === "epi"
+        ? "公开队列流行病学路线（CHARLS 类）：暴露–疾病关联、多暴露比较、纵向发病、亚组交互。"
+        : "公开组学预后/分型研究路线。点进卡片看分区要求与期刊角色。"
+    }</p>
+    ${renderLineSwitch()}
     <div class="grid">
-      ${state.data.methods
+      ${list
         .map((m) => {
-          const n = state.data.papers.filter((p) => p.method_id === m.id).length;
+          const n = papersForLine(line).filter((p) => p.method_id === m.id).length;
           return `
         <button class="card" type="button" data-open-method="${m.id}">
           <div class="meta-row">
@@ -311,8 +380,14 @@ function renderMethodDetail(id) {
 }
 
 function renderJournals() {
-  const { nonOaOnly, scieOnly, q } = state.filters;
+  const { nonOaOnly, scieOnly, q, line } = state.filters;
   let list = [...state.data.journals];
+  // Soft prefer current line journals first, but still show all SCIE pool
+  list.sort((a, b) => {
+    const al = journalLine(a) === line ? 0 : 1;
+    const bl = journalLine(b) === line ? 0 : 1;
+    return al - bl || a.name.localeCompare(b.name);
+  });
   if (scieOnly) list = list.filter((j) => j.scie);
   if (nonOaOnly) list = list.filter((j) => j.non_oa_possible);
   if (q) {
@@ -327,7 +402,8 @@ function renderJournals() {
   return `
   <div class="panel">
     <h2>期刊情报</h2>
-    <p class="sub">核对 SCIE、OA/非 OA、周期、JCR、中科院、预警；点进期刊可看 2025 前后范文拆解。</p>
+    <p class="sub">核对 SCIE、OA/非 OA、周期、JCR、中科院、预警。当前线 <strong>${lineLabel(line)}</strong> 相关刊会排在前面。</p>
+    ${renderLineSwitch()}
     <div class="filters">
       <input type="search" id="journal-q" placeholder="搜索刊名/学科…" value="${escapeAttr(state.filters.q)}" />
       <label class="chip"><input type="checkbox" id="scie-only" ${scieOnly ? "checked" : ""}/> 仅 SCIE</label>
@@ -338,9 +414,11 @@ function renderJournals() {
         list.length
           ? list
               .map((j) => {
+                const jl = journalLine(j);
                 return `
         <button class="card" type="button" data-open-journal="${j.id}">
           <div class="meta-row">
+            <span class="tag muted">${lineLabel(jl)}</span>
             ${j.scie ? '<span class="tag ok">SCIE</span>' : '<span class="tag danger">非 SCIE</span>'}
             <span class="tag muted">${j.oa_type}</span>
             ${j.non_oa_possible ? '<span class="tag ok">可非OA</span>' : '<span class="tag warn">需APC</span>'}
@@ -426,16 +504,23 @@ function renderJournalDetail(id) {
 
 function renderExamples() {
   const method = state.filters.method;
-  let list = [...state.data.examples];
+  const line = state.filters.line;
+  let list = [...state.data.examples].filter((e) => {
+    const mid = e.method_id || "";
+    const eline = e.line || (mid.startsWith("epi") ? "epi" : "oncology");
+    return eline === line;
+  });
   if (method) list = list.filter((e) => e.method_id === method);
+  const methods = methodsForLine(line);
   return `
   <div class="panel">
-    <h2>范文拆解</h2>
-    <p class="sub">2025–2026 为主（个别写法模板参考略早）。每篇拆成：数据 / 怎么做 / 图表 / 写法对应。</p>
+    <h2>范文拆解 · ${lineLabel(line)}</h2>
+    <p class="sub">按产品线查看范文：数据 / 怎么做 / 图表 / 写法对应。</p>
+    ${renderLineSwitch()}
     <div class="filters">
       <select id="filter-method-ex">
         <option value="">全部写法</option>
-        ${state.data.methods
+        ${methods
           .map(
             (m) =>
               `<option value="${m.id}" ${method === m.id ? "selected" : ""}>${m.id} · ${m.name_zh}</option>`
@@ -447,56 +532,64 @@ function renderExamples() {
     ${
       list.length
         ? `<div style="display:grid;gap:12px">${list.map(exampleCard).join("")}</div>`
-        : `<div class="empty">没有符合筛选的范文</div>`
+        : `<div class="empty">该产品线范文待补。</div>`
     }
   </div>`;
 }
 
 function renderCancers() {
-  const { cancer, method, q } = state.filters;
-  let list = [...state.data.papers];
-  if (cancer) list = list.filter((p) => p.cancer_id === cancer);
+  const { cancer, method, q, line } = state.filters;
+  const entities = entitiesForLine(line);
+  let list = papersForLine(line);
+  if (cancer) list = list.filter((p) => p.cancer_id === cancer || p.disease_id === cancer);
   if (method) list = list.filter((p) => p.method_id === method);
   if (q) {
     const qq = q.toLowerCase();
     list = list.filter(
       (p) =>
         p.title.toLowerCase().includes(qq) ||
-        p.direction.includes(q) ||
-        p.cancer_zh.includes(q)
+        (p.direction || "").includes(q) ||
+        (p.cancer_zh || "").includes(q) ||
+        (p.disease || "").includes(q) ||
+        (p.exposure || "").toLowerCase().includes(qq)
     );
   }
 
-  const cancerTabs = state.data.cancers
+  const methods = methodsForLine(line);
+  const entityTabs = entities
     .map(
       (c) =>
         `<button type="button" class="chip-btn ${cancer === c.id ? "active" : ""}" data-filter-cancer="${c.id}" style="border:1px solid var(--line);border-radius:999px;padding:8px 12px;background:${
           cancer === c.id ? "var(--accent)" : "#fff"
-        };color:${cancer === c.id ? "#fff" : "var(--ink-soft)"};cursor:pointer;font:inherit;font-size:.9rem">${c.name_zh}</button>`
+        };color:${cancer === c.id ? "#fff" : "var(--ink-soft)"};cursor:pointer;font:inherit;font-size:.9rem">${c.name_zh}${
+          c.paper_count != null ? ` (${c.paper_count})` : ""
+        }</button>`
     )
     .join("");
 
   return `
   <div class="panel">
-    <h2>癌种选题</h2>
-    <p class="sub">按癌种展开选题：题目、图形摘要、病种/数据/分析/写法/分区质量/目标刊。</p>
+    <h2>${entityLabel(line)}选题 · ${lineLabel(line)}</h2>
+    <p class="sub">按${entityLabel(line)}展开选题：题目、图形摘要、数据/分析/写法/分区质量/目标刊。</p>
+    ${renderLineSwitch()}
     <div class="filters" style="margin-bottom:10px">
       <button type="button" data-filter-cancer="" style="border:1px solid var(--line);border-radius:999px;padding:8px 12px;background:${
         !cancer ? "var(--accent)" : "#fff"
       };color:${!cancer ? "#fff" : "var(--ink-soft)"};cursor:pointer;font:inherit;font-size:.9rem">全部</button>
-      ${cancerTabs}
+      ${entityTabs}
     </div>
     <div class="filters">
       <select id="filter-method">
         <option value="">全部写法</option>
-        ${state.data.methods
+        ${methods
           .map(
             (m) =>
               `<option value="${m.id}" ${method === m.id ? "selected" : ""}>${m.id} · ${m.name_zh}</option>`
           )
           .join("")}
       </select>
-      <input type="search" id="paper-q" placeholder="搜索题目/方向…" value="${escapeAttr(q)}" />
+      <input type="search" id="paper-q" placeholder="搜索题目/方向/暴露…" value="${escapeAttr(q)}" />
+      <span class="tag muted">${list.length} 篇</span>
     </div>
     <div class="grid">
       ${
@@ -512,6 +605,7 @@ function renderCancers() {
             ${feasibilityTag(p.feasibility)}
             <span class="tag muted">${p.cancer_zh}</span>
             <span class="tag">${p.method_id}</span>
+            ${p.exposure ? `<span class="tag muted">${escapeXml(p.exposure)}</span>` : ""}
           </div>
           <h3 style="font-size:.98rem">${p.title}</h3>
           <p>${p.analysis_style}<br/>目标：${j ? j.name : p.journal_primary} · ${p.quality_target}</p>
@@ -533,23 +627,26 @@ function renderPaperDetail(id) {
   const backups = (p.journals_backup || [])
     .map((jid) => journalById(jid))
     .filter(Boolean);
+  const line = paperLine(p);
 
   return `
-  <button class="detail-back" type="button" data-nav="cancers">← 返回癌种选题</button>
+  <button class="detail-back" type="button" data-nav="cancers">← 返回${entityLabel(line)}选题</button>
   <div class="panel">
     <div class="ga">${gaSvg(p)}</div>
     <div class="meta-row">
+      <span class="tag">${lineLabel(line)}</span>
       ${statusTag(p.status)}
       ${feasibilityTag(p.feasibility)}
       <span class="tag muted">${p.cancer_zh}</span>
       <span class="tag">${p.method_id}</span>
+      ${p.exposure ? `<span class="tag muted">${escapeXml(p.exposure)}</span>` : ""}
       ${(p.risk_tags || []).map((t) => `<span class="tag warn">${t}</span>`).join("")}
     </div>
     <h2 class="detail-title">${p.title}</h2>
     <p class="sub">${p.intro}</p>
     <dl class="kv">
       <dt>研究病症</dt><dd>${p.disease}</dd>
-      <dt>使用数据</dt><dd>${(p.datasets || []).join(" · ") || "见方法说明 / TCGA+GEO"}</dd>
+      <dt>使用数据</dt><dd>${(p.datasets || []).join(" · ") || "见方法说明"}</dd>
       <dt>分析方式</dt><dd>${p.analysis_style}</dd>
       <dt>写法</dt><dd><button class="tag" type="button" data-open-method="${p.method_id}">${m ? m.name_zh : p.writing_style}</button></dd>
       <dt>可达质量</dt><dd>${p.quality_target}</dd>
@@ -608,14 +705,40 @@ function bindUi() {
       setView(target);
     });
   });
+  document.querySelectorAll("[data-set-line]").forEach((el) => {
+    el.addEventListener("click", () => {
+      state.filters.line = el.getAttribute("data-set-line");
+      state.filters.cancer = "";
+      state.filters.method = "";
+      setView("cancers");
+    });
+  });
+  document.querySelectorAll("[data-filter-line]").forEach((el) => {
+    el.addEventListener("click", () => {
+      state.filters.line = el.getAttribute("data-filter-line");
+      state.filters.cancer = "";
+      state.filters.method = "";
+      setView(state.view === "home" ? "home" : state.view);
+    });
+  });
   document.querySelectorAll("[data-open-method]").forEach((el) => {
-    el.addEventListener("click", () => setView("method", el.getAttribute("data-open-method")));
+    el.addEventListener("click", () => {
+      const mid = el.getAttribute("data-open-method");
+      const m = methodById(mid);
+      if (m) state.filters.line = methodLine(m);
+      setView("method", mid);
+    });
   });
   document.querySelectorAll("[data-open-journal]").forEach((el) => {
     el.addEventListener("click", () => setView("journal", el.getAttribute("data-open-journal")));
   });
   document.querySelectorAll("[data-open-paper]").forEach((el) => {
-    el.addEventListener("click", () => setView("paper", el.getAttribute("data-open-paper")));
+    el.addEventListener("click", () => {
+      const pid = el.getAttribute("data-open-paper");
+      const p = paperById(pid);
+      if (p) state.filters.line = paperLine(p);
+      setView("paper", pid);
+    });
   });
   document.querySelectorAll("[data-filter-cancer]").forEach((el) => {
     el.addEventListener("click", () => {

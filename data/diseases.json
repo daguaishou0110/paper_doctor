@@ -1,0 +1,160 @@
+[
+  {
+    "id": "skoa",
+    "name_zh": "症状性膝骨关节炎",
+    "name_en": "Symptomatic Knee Osteoarthritis",
+    "category": "骨肌",
+    "specialty_journals": [
+      "bmc_msk",
+      "clinical_rheumatology"
+    ],
+    "notes": "CHARLS 自报关节炎+膝痛定义",
+    "paper_count": 2,
+    "done_count": 1,
+    "usable_count": 1
+  },
+  {
+    "id": "lbp",
+    "name_zh": "慢性腰痛",
+    "name_en": "Chronic Low Back Pain",
+    "category": "骨肌",
+    "specialty_journals": [
+      "bmc_msk"
+    ],
+    "notes": "问卷疼痛部位/时长定义",
+    "paper_count": 1,
+    "done_count": 0,
+    "usable_count": 1
+  },
+  {
+    "id": "fracture",
+    "name_zh": "骨折史",
+    "name_en": "Fracture History",
+    "category": "骨肌",
+    "specialty_journals": [
+      "bmc_msk"
+    ],
+    "notes": "自报骨折史",
+    "paper_count": 0,
+    "done_count": 0,
+    "usable_count": 0
+  },
+  {
+    "id": "htn",
+    "name_zh": "高血压",
+    "name_en": "Hypertension",
+    "category": "心血管",
+    "specialty_journals": [
+      "bmc_public_health"
+    ],
+    "notes": "自报诊断或血压阈值",
+    "paper_count": 2,
+    "done_count": 0,
+    "usable_count": 2
+  },
+  {
+    "id": "dm",
+    "name_zh": "糖尿病",
+    "name_en": "Diabetes",
+    "category": "代谢",
+    "specialty_journals": [
+      "bmc_public_health"
+    ],
+    "notes": "自报诊断或血糖/用药",
+    "paper_count": 2,
+    "done_count": 0,
+    "usable_count": 2
+  },
+  {
+    "id": "depression",
+    "name_zh": "抑郁症状",
+    "name_en": "Depressive Symptoms",
+    "category": "精神心理",
+    "specialty_journals": [
+      "bmc_public_health"
+    ],
+    "notes": "CESD 阈值",
+    "paper_count": 1,
+    "done_count": 0,
+    "usable_count": 1
+  },
+  {
+    "id": "sleep",
+    "name_zh": "睡眠障碍",
+    "name_en": "Sleep Disturbance",
+    "category": "精神心理",
+    "specialty_journals": [
+      "bmc_public_health"
+    ],
+    "notes": "睡眠时长/质量条目",
+    "paper_count": 1,
+    "done_count": 0,
+    "usable_count": 1
+  },
+  {
+    "id": "lung",
+    "name_zh": "慢性肺病",
+    "name_en": "Chronic Lung Disease",
+    "category": "呼吸",
+    "specialty_journals": [
+      "bmc_public_health",
+      "ehpm"
+    ],
+    "notes": "自报慢阻肺/慢支等",
+    "paper_count": 1,
+    "done_count": 0,
+    "usable_count": 1
+  },
+  {
+    "id": "stroke",
+    "name_zh": "卒中史",
+    "name_en": "Stroke History",
+    "category": "心血管",
+    "specialty_journals": [
+      "bmc_public_health"
+    ],
+    "notes": "自报卒中",
+    "paper_count": 0,
+    "done_count": 0,
+    "usable_count": 0
+  },
+  {
+    "id": "heart",
+    "name_zh": "心脏病",
+    "name_en": "Heart Disease",
+    "category": "心血管",
+    "specialty_journals": [
+      "bmc_public_health"
+    ],
+    "notes": "自报心脏病",
+    "paper_count": 1,
+    "done_count": 0,
+    "usable_count": 1
+  },
+  {
+    "id": "obesity",
+    "name_zh": "肥胖",
+    "name_en": "Obesity",
+    "category": "代谢",
+    "specialty_journals": [
+      "bmc_public_health"
+    ],
+    "notes": "BMI≥28 或自报",
+    "paper_count": 1,
+    "done_count": 0,
+    "usable_count": 1
+  },
+  {
+    "id": "memory",
+    "name_zh": "主观记忆下降",
+    "name_en": "Subjective Memory Decline",
+    "category": "认知老化",
+    "specialty_journals": [
+      "bmc_public_health"
+    ],
+    "notes": "认知相关自报条目",
+    "paper_count": 0,
+    "done_count": 0,
+    "usable_count": 0
+  }
+]
