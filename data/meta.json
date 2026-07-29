@@ -1,11 +1,11 @@
 {
-  "version": "20260729b",
+  "version": "20260729c",
   "last_updated": "2026-07-29",
   "partition_disclaimer": "本站期刊分区为约 2025 年中科院升级版与近年 JCR 常用口径，便于选题；正式投稿前务必在 LetPub / 中科院分区表 / JCR 官方复核当年分区。同一期刊大小类可能不一致。",
   "warning_source": "预警标记参考中科院期刊分区表国际期刊预警名单及公开讨论口径；非法律意见，以官方最新名单为准。",
   "examples_note": "范文以 2025–2026 公开组学预后/分型文为主；个别写法模板参考可略早。Cancers/PeerJ 有运营占位条，可按癌种替换为最新命中 DOI。",
   "product_scope": "双产品线：①公开组学肿瘤预后/分型；②公开队列公卫流行病学（CHARLS 类暴露–疾病）。",
-  "manuscript_note": "肿瘤线约 322 篇选题；公卫线已上架 12 篇（成稿 1 / 可用 11）。分区投稿前请复核当年口径。",
+  "manuscript_note": "肿瘤线约 322 篇选题；公卫线已上架 12 篇（成稿 3 / 可用 9）。公卫成稿中 htn_epi01、dm_epi03 结果表待 CHARLS 复跑填入。分区投稿前请复核当年口径。",
   "catalog_totals": {
     "articles": 525,
     "ready": 177,
@@ -28,8 +28,8 @@
   },
   "epi_totals": {
     "articles": 12,
-    "ready": 1,
-    "usable": 11,
+    "ready": 3,
+    "usable": 9,
     "diseases": 12,
     "methods": 4
   }

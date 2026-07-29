@@ -10735,11 +10735,12 @@
     "journal_stretch": null,
     "feasibility": "green",
     "risk_tags": [
-      "横断面"
+      "横断面",
+      "结果占位符待CHARLS出数写入"
     ],
-    "intro": "公卫线选题：针对高血压，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "intro": "公卫线成稿包已齐（正文+分析脚本+GA）。针对高血压，写法epi01。主结果数字为占位符，需本地 CHARLS 合并后写入方可正式投稿。",
     "graphical_abstract": "assets/ga/htn_epi01.jpg",
-    "status": "usable",
+    "status": "manuscript",
     "exposure": "RUI",
     "category": "心血管"
   },
@@ -10989,11 +10990,12 @@
     "feasibility": "yellow",
     "risk_tags": [
       "随访定义需核对",
-      "需多波次清洗"
+      "需多波次清洗",
+      "结果占位符待CHARLS出数写入"
     ],
-    "intro": "公卫线选题：针对糖尿病，采用「纵向随访发病风险」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "intro": "公卫线成稿包已齐（正文+分析脚本+GA）。针对糖尿病，写法epi03。主结果数字为占位符，需本地 CHARLS 合并后写入方可正式投稿。",
     "graphical_abstract": "assets/ga/dm_epi03.jpg",
-    "status": "usable",
+    "status": "manuscript",
     "exposure": "RUI",
     "category": "代谢"
   },

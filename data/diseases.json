@@ -49,8 +49,8 @@
     ],
     "notes": "自报诊断或血压阈值",
     "paper_count": 2,
-    "done_count": 0,
-    "usable_count": 2
+    "done_count": 1,
+    "usable_count": 1
   },
   {
     "id": "dm",
@@ -62,8 +62,8 @@
     ],
     "notes": "自报诊断或血糖/用药",
     "paper_count": 2,
-    "done_count": 0,
-    "usable_count": 2
+    "done_count": 1,
+    "usable_count": 1
   },
   {
     "id": "depression",
