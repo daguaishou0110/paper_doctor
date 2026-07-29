@@ -11367,5 +11367,1126 @@
     "exposure": "RUI",
     "category": "代谢",
     "title_prev": "Radical Urbanization and Obesity among Middle-aged and Older Adults in China: Association and Incremental Discrimination in CHARLS"
+  },
+  {
+    "id": "fracture_epi01",
+    "serial": 9013,
+    "line": "epi",
+    "cancer_id": "fracture",
+    "cancer_zh": "骨折史",
+    "disease_id": "fracture",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Association of radical urbanization index (RUI) and fracture history in CHARLS with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "RUI 与骨折史关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报骨折史。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "骨折史",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_msk",
+    "journals_backup": [
+      "bmc_public_health",
+      "clinical_rheumatology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "自报骨折"
+    ],
+    "intro": "公卫线选题：针对骨折史，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/fracture_epi01.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "骨肌",
+    "title_prev": "CHARLS topic card: RUI and 骨折史 (epi01)"
+  },
+  {
+    "id": "stroke_epi01",
+    "serial": 9014,
+    "line": "epi",
+    "cancer_id": "stroke",
+    "cancer_zh": "卒中史",
+    "disease_id": "stroke",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Stroke history and radical urbanization index (RUI): CHARLS evidence with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "RUI 与卒中史关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报卒中。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "卒中史",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "自报卒中"
+    ],
+    "intro": "公卫线选题：针对卒中史，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/stroke_epi01.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "心血管",
+    "title_prev": "CHARLS topic card: RUI and 卒中史 (epi01)"
+  },
+  {
+    "id": "memory_epi01",
+    "serial": 9015,
+    "line": "epi",
+    "cancer_id": "memory",
+    "cancer_zh": "主观记忆下降",
+    "disease_id": "memory",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Subjective memory decline and NDVI: CHARLS evidence with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "NDVI 与主观记忆下降关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：认知相关自报条目。主暴露：NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "NDVI"
+    ],
+    "disease": "主观记忆下降",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "结局定义需统一",
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对主观记忆下降，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/memory_epi01.jpg",
+    "status": "usable",
+    "exposure": "NDVI",
+    "category": "认知老化",
+    "title_prev": "CHARLS topic card: NDVI and 主观记忆下降 (epi01)"
+  },
+  {
+    "id": "heart_epi01",
+    "serial": 9016,
+    "line": "epi",
+    "cancer_id": "heart",
+    "cancer_zh": "心脏病",
+    "disease_id": "heart",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "CHARLS insights on radical urbanization index (RUI) in relation to heart disease with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "RUI 与心脏病关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报心脏病。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "心脏病",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对心脏病，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/heart_epi01.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "心血管",
+    "title_prev": "CHARLS topic card: RUI and 心脏病 (epi01)"
+  },
+  {
+    "id": "stroke_epi02",
+    "serial": 9017,
+    "line": "epi",
+    "cancer_id": "stroke",
+    "cancer_zh": "卒中史",
+    "disease_id": "stroke",
+    "method_id": "epi02",
+    "art_no": "epi02",
+    "title": "Stroke history and RUI + PM2.5 + NDVI: CHARLS evidence via side-by-side multi-exposure regression contrasts",
+    "direction": "同一队列比较 RUI/污染/绿化对卒中史的关联及信息重叠",
+    "methods_detail": "同一纳排与结局定义下并排比较 RUI、PM2.5、NDVI；单暴露与共同调整模型；报告信息重叠与残余解释；STROBE。 结局：自报卒中。主暴露：RUI+PM2.5+NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI+PM2.5+NDVI"
+    ],
+    "disease": "卒中史",
+    "analysis_style": "多暴露 OR 对比 + 增量 AUC",
+    "writing_style": "多暴露比较（城镇化/污染/绿化）",
+    "quality_target": "JCR Q2–Q3 / 公卫或环境约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "暴露共线性"
+    ],
+    "intro": "公卫线选题：针对卒中史，采用「多暴露比较（城镇化/污染/绿化）」路线。核心暴露：RUI+PM2.5+NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/stroke_epi02.jpg",
+    "status": "usable",
+    "exposure": "RUI+PM2.5+NDVI",
+    "category": "心血管",
+    "title_prev": "CHARLS topic card: RUI+PM2.5+NDVI and 卒中史 (epi02)"
+  },
+  {
+    "id": "fracture_epi02",
+    "serial": 9018,
+    "line": "epi",
+    "cancer_id": "fracture",
+    "cancer_zh": "骨折史",
+    "disease_id": "fracture",
+    "method_id": "epi02",
+    "art_no": "epi02",
+    "title": "Revisiting fracture history through RUI + PM2.5 + NDVI via side-by-side multi-exposure regression contrasts",
+    "direction": "同一队列比较 RUI/污染/绿化对骨折史的关联及信息重叠",
+    "methods_detail": "同一纳排与结局定义下并排比较 RUI、PM2.5、NDVI；单暴露与共同调整模型；报告信息重叠与残余解释；STROBE。 结局：自报骨折史。主暴露：RUI+PM2.5+NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI+PM2.5+NDVI"
+    ],
+    "disease": "骨折史",
+    "analysis_style": "多暴露 OR 对比 + 增量 AUC",
+    "writing_style": "多暴露比较（城镇化/污染/绿化）",
+    "quality_target": "JCR Q2–Q3 / 公卫或环境约 3–4 区",
+    "journal_primary": "bmc_msk",
+    "journals_backup": [
+      "bmc_public_health",
+      "clinical_rheumatology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对骨折史，采用「多暴露比较（城镇化/污染/绿化）」路线。核心暴露：RUI+PM2.5+NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/fracture_epi02.jpg",
+    "status": "usable",
+    "exposure": "RUI+PM2.5+NDVI",
+    "category": "骨肌",
+    "title_prev": "CHARLS topic card: RUI+PM2.5+NDVI and 骨折史 (epi02)"
+  },
+  {
+    "id": "obesity_epi02",
+    "serial": 9019,
+    "line": "epi",
+    "cancer_id": "obesity",
+    "cancer_zh": "肥胖",
+    "disease_id": "obesity",
+    "method_id": "epi02",
+    "art_no": "epi02",
+    "title": "Exposure patterning of RUI + PM2.5 + NDVI and obesity in CHARLS via side-by-side multi-exposure regression contrasts",
+    "direction": "同一队列比较 RUI/污染/绿化对肥胖的关联及信息重叠",
+    "methods_detail": "同一纳排与结局定义下并排比较 RUI、PM2.5、NDVI；单暴露与共同调整模型；报告信息重叠与残余解释；STROBE。 结局：BMI 阈值或自报。主暴露：RUI+PM2.5+NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI+PM2.5+NDVI"
+    ],
+    "disease": "肥胖",
+    "analysis_style": "多暴露 OR 对比 + 增量 AUC",
+    "writing_style": "多暴露比较（城镇化/污染/绿化）",
+    "quality_target": "JCR Q2–Q3 / 公卫或环境约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对肥胖，采用「多暴露比较（城镇化/污染/绿化）」路线。核心暴露：RUI+PM2.5+NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/obesity_epi02.jpg",
+    "status": "usable",
+    "exposure": "RUI+PM2.5+NDVI",
+    "category": "代谢",
+    "title_prev": "CHARLS topic card: RUI+PM2.5+NDVI and 肥胖 (epi02)"
+  },
+  {
+    "id": "depression_epi02",
+    "serial": 9020,
+    "line": "epi",
+    "cancer_id": "depression",
+    "cancer_zh": "抑郁症状",
+    "disease_id": "depression",
+    "method_id": "epi02",
+    "art_no": "epi02",
+    "title": "Association of RUI + PM2.5 + NDVI and depressive symptoms in CHARLS via side-by-side multi-exposure regression contrasts",
+    "direction": "同一队列比较 RUI/污染/绿化对抑郁症状的关联及信息重叠",
+    "methods_detail": "同一纳排与结局定义下并排比较 RUI、PM2.5、NDVI；单暴露与共同调整模型；报告信息重叠与残余解释；STROBE。 结局：CESD 阈值。主暴露：RUI+PM2.5+NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI+PM2.5+NDVI"
+    ],
+    "disease": "抑郁症状",
+    "analysis_style": "多暴露 OR 对比 + 增量 AUC",
+    "writing_style": "多暴露比较（城镇化/污染/绿化）",
+    "quality_target": "JCR Q2–Q3 / 公卫或环境约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对抑郁症状，采用「多暴露比较（城镇化/污染/绿化）」路线。核心暴露：RUI+PM2.5+NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/depression_epi02.jpg",
+    "status": "usable",
+    "exposure": "RUI+PM2.5+NDVI",
+    "category": "精神心理",
+    "title_prev": "CHARLS topic card: RUI+PM2.5+NDVI and 抑郁症状 (epi02)"
+  },
+  {
+    "id": "lung_epi02",
+    "serial": 9021,
+    "line": "epi",
+    "cancer_id": "lung",
+    "cancer_zh": "慢性肺病",
+    "disease_id": "lung",
+    "method_id": "epi02",
+    "art_no": "epi02",
+    "title": "Revisiting chronic lung disease through RUI + PM2.5 + NDVI via side-by-side multi-exposure regression contrasts",
+    "direction": "同一队列比较 RUI/污染/绿化对慢性肺病的关联及信息重叠",
+    "methods_detail": "同一纳排与结局定义下并排比较 RUI、PM2.5、NDVI；单暴露与共同调整模型；报告信息重叠与残余解释；STROBE。 结局：自报慢性肺病。主暴露：RUI+PM2.5+NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI+PM2.5+NDVI"
+    ],
+    "disease": "慢性肺病",
+    "analysis_style": "多暴露 OR 对比 + 增量 AUC",
+    "writing_style": "多暴露比较（城镇化/污染/绿化）",
+    "quality_target": "JCR Q2–Q3 / 公卫或环境约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对慢性肺病，采用「多暴露比较（城镇化/污染/绿化）」路线。核心暴露：RUI+PM2.5+NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/lung_epi02.jpg",
+    "status": "usable",
+    "exposure": "RUI+PM2.5+NDVI",
+    "category": "呼吸",
+    "title_prev": "CHARLS topic card: RUI+PM2.5+NDVI and 慢性肺病 (epi02)"
+  },
+  {
+    "id": "sleep_epi02",
+    "serial": 9022,
+    "line": "epi",
+    "cancer_id": "sleep",
+    "cancer_zh": "睡眠障碍",
+    "disease_id": "sleep",
+    "method_id": "epi02",
+    "art_no": "epi02",
+    "title": "Sleep disturbance and RUI + PM2.5 + NDVI: CHARLS evidence via side-by-side multi-exposure regression contrasts",
+    "direction": "同一队列比较 RUI/污染/绿化对睡眠障碍的关联及信息重叠",
+    "methods_detail": "同一纳排与结局定义下并排比较 RUI、PM2.5、NDVI；单暴露与共同调整模型；报告信息重叠与残余解释；STROBE。 结局：睡眠时长/质量条目。主暴露：RUI+PM2.5+NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI+PM2.5+NDVI"
+    ],
+    "disease": "睡眠障碍",
+    "analysis_style": "多暴露 OR 对比 + 增量 AUC",
+    "writing_style": "多暴露比较（城镇化/污染/绿化）",
+    "quality_target": "JCR Q2–Q3 / 公卫或环境约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "结局定义需统一"
+    ],
+    "intro": "公卫线选题：针对睡眠障碍，采用「多暴露比较（城镇化/污染/绿化）」路线。核心暴露：RUI+PM2.5+NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/sleep_epi02.jpg",
+    "status": "usable",
+    "exposure": "RUI+PM2.5+NDVI",
+    "category": "精神心理",
+    "title_prev": "CHARLS topic card: RUI+PM2.5+NDVI and 睡眠障碍 (epi02)"
+  },
+  {
+    "id": "lbp_epi02",
+    "serial": 9023,
+    "line": "epi",
+    "cancer_id": "lbp",
+    "cancer_zh": "慢性腰痛",
+    "disease_id": "lbp",
+    "method_id": "epi02",
+    "art_no": "epi02",
+    "title": "Chronic low back pain and RUI + PM2.5 + NDVI: CHARLS evidence via side-by-side multi-exposure regression contrasts",
+    "direction": "同一队列比较 RUI/污染/绿化对慢性腰痛的关联及信息重叠",
+    "methods_detail": "同一纳排与结局定义下并排比较 RUI、PM2.5、NDVI；单暴露与共同调整模型；报告信息重叠与残余解释；STROBE。 结局：慢性腰痛操作化定义。主暴露：RUI+PM2.5+NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI+PM2.5+NDVI"
+    ],
+    "disease": "慢性腰痛",
+    "analysis_style": "多暴露 OR 对比 + 增量 AUC",
+    "writing_style": "多暴露比较（城镇化/污染/绿化）",
+    "quality_target": "JCR Q2–Q3 / 公卫或环境约 3–4 区",
+    "journal_primary": "bmc_msk",
+    "journals_backup": [
+      "bmc_public_health",
+      "clinical_rheumatology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "疼痛自报"
+    ],
+    "intro": "公卫线选题：针对慢性腰痛，采用「多暴露比较（城镇化/污染/绿化）」路线。核心暴露：RUI+PM2.5+NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/lbp_epi02.jpg",
+    "status": "usable",
+    "exposure": "RUI+PM2.5+NDVI",
+    "category": "骨肌",
+    "title_prev": "CHARLS topic card: RUI+PM2.5+NDVI and 慢性腰痛 (epi02)"
+  },
+  {
+    "id": "htn_epi01_pm25",
+    "serial": 9024,
+    "line": "epi",
+    "cancer_id": "htn",
+    "cancer_zh": "高血压",
+    "disease_id": "htn",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Association of PM2.5 and hypertension in CHARLS with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "PM2.5 与高血压关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报诊断或血压阈值。主暴露：PM2.5。",
+    "datasets": [
+      "CHARLS-2011",
+      "PM2.5"
+    ],
+    "disease": "高血压",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "城市级暴露"
+    ],
+    "intro": "公卫线选题：针对高血压，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：PM2.5。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/htn_epi01_pm25.jpg",
+    "status": "usable",
+    "exposure": "PM2.5",
+    "category": "心血管",
+    "title_prev": "CHARLS topic card: PM2.5 and 高血压 (epi01)"
+  },
+  {
+    "id": "htn_epi01_ndvi",
+    "serial": 9025,
+    "line": "epi",
+    "cancer_id": "htn",
+    "cancer_zh": "高血压",
+    "disease_id": "htn",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Association of NDVI and hypertension in CHARLS with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "NDVI 与高血压关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报诊断或血压阈值。主暴露：NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "NDVI"
+    ],
+    "disease": "高血压",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对高血压，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/htn_epi01_ndvi.jpg",
+    "status": "usable",
+    "exposure": "NDVI",
+    "category": "心血管",
+    "title_prev": "CHARLS topic card: NDVI and 高血压 (epi01)"
+  },
+  {
+    "id": "dm_epi01_rui",
+    "serial": 9026,
+    "line": "epi",
+    "cancer_id": "dm",
+    "cancer_zh": "糖尿病",
+    "disease_id": "dm",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Multi-exposure contrasts for radical urbanization index (RUI) and diabetes in CHARLS with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "RUI 与糖尿病关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报诊断或血糖/用药。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "糖尿病",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对糖尿病，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/dm_epi01_rui.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "代谢",
+    "title_prev": "CHARLS topic card: RUI and 糖尿病 (epi01)"
+  },
+  {
+    "id": "dm_epi01_ndvi",
+    "serial": 9027,
+    "line": "epi",
+    "cancer_id": "dm",
+    "cancer_zh": "糖尿病",
+    "disease_id": "dm",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Incremental identification of NDVI and diabetes in CHARLS with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "NDVI 与糖尿病关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报诊断或血糖/用药。主暴露：NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "NDVI"
+    ],
+    "disease": "糖尿病",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对糖尿病，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/dm_epi01_ndvi.jpg",
+    "status": "usable",
+    "exposure": "NDVI",
+    "category": "代谢",
+    "title_prev": "CHARLS topic card: NDVI and 糖尿病 (epi01)"
+  },
+  {
+    "id": "depression_epi01_rui",
+    "serial": 9028,
+    "line": "epi",
+    "cancer_id": "depression",
+    "cancer_zh": "抑郁症状",
+    "disease_id": "depression",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Place-based signals for radical urbanization index (RUI) and depressive symptoms in CHARLS with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "RUI 与抑郁症状关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：CESD 阈值。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "抑郁症状",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "量表阈值敏感"
+    ],
+    "intro": "公卫线选题：针对抑郁症状，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/depression_epi01_rui.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "精神心理",
+    "title_prev": "CHARLS topic card: RUI and 抑郁症状 (epi01)"
+  },
+  {
+    "id": "sleep_epi01_ndvi",
+    "serial": 9029,
+    "line": "epi",
+    "cancer_id": "sleep",
+    "cancer_zh": "睡眠障碍",
+    "disease_id": "sleep",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Sleep disturbance and NDVI: CHARLS evidence with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "NDVI 与睡眠障碍关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：睡眠时长/质量条目。主暴露：NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "NDVI"
+    ],
+    "disease": "睡眠障碍",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "结局定义需统一"
+    ],
+    "intro": "公卫线选题：针对睡眠障碍，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/sleep_epi01_ndvi.jpg",
+    "status": "usable",
+    "exposure": "NDVI",
+    "category": "精神心理",
+    "title_prev": "CHARLS topic card: NDVI and 睡眠障碍 (epi01)"
+  },
+  {
+    "id": "lung_epi01_pm25",
+    "serial": 9030,
+    "line": "epi",
+    "cancer_id": "lung",
+    "cancer_zh": "慢性肺病",
+    "disease_id": "lung",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Chronic lung disease and PM2.5: CHARLS evidence with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "PM2.5 与慢性肺病关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报慢性肺病。主暴露：PM2.5。",
+    "datasets": [
+      "CHARLS-2011",
+      "PM2.5"
+    ],
+    "disease": "慢性肺病",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面",
+      "城市级暴露"
+    ],
+    "intro": "公卫线选题：针对慢性肺病，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：PM2.5。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/lung_epi01_pm25.jpg",
+    "status": "usable",
+    "exposure": "PM2.5",
+    "category": "呼吸",
+    "title_prev": "CHARLS topic card: PM2.5 and 慢性肺病 (epi01)"
+  },
+  {
+    "id": "obesity_epi01_pm25",
+    "serial": 9031,
+    "line": "epi",
+    "cancer_id": "obesity",
+    "cancer_zh": "肥胖",
+    "disease_id": "obesity",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Revisiting obesity through PM2.5 with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "PM2.5 与肥胖关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：BMI 阈值或自报。主暴露：PM2.5。",
+    "datasets": [
+      "CHARLS-2011",
+      "PM2.5"
+    ],
+    "disease": "肥胖",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对肥胖，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：PM2.5。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/obesity_epi01_pm25.jpg",
+    "status": "usable",
+    "exposure": "PM2.5",
+    "category": "代谢",
+    "title_prev": "CHARLS topic card: PM2.5 and 肥胖 (epi01)"
+  },
+  {
+    "id": "skoa_epi01_pm25",
+    "serial": 9032,
+    "line": "epi",
+    "cancer_id": "skoa",
+    "cancer_zh": "症状性膝骨关节炎",
+    "disease_id": "skoa",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Symptomatic knee osteoarthritis and PM2.5: CHARLS evidence with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "PM2.5 与症状性膝骨关节炎关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：自报关节炎+膝痛。主暴露：PM2.5。",
+    "datasets": [
+      "CHARLS-2011",
+      "PM2.5"
+    ],
+    "disease": "症状性膝骨关节炎",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_msk",
+    "journals_backup": [
+      "bmc_public_health",
+      "ehpm"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对症状性膝骨关节炎，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：PM2.5。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/skoa_epi01_pm25.jpg",
+    "status": "usable",
+    "exposure": "PM2.5",
+    "category": "骨肌",
+    "title_prev": "CHARLS topic card: PM2.5 and 症状性膝骨关节炎 (epi01)"
+  },
+  {
+    "id": "lbp_epi01_ndvi",
+    "serial": 9033,
+    "line": "epi",
+    "cancer_id": "lbp",
+    "cancer_zh": "慢性腰痛",
+    "disease_id": "lbp",
+    "method_id": "epi01",
+    "art_no": "epi01",
+    "title": "Urban-form correlates of NDVI and chronic low back pain in CHARLS with weighted logistic modeling and random-forest incremental AUC",
+    "direction": "NDVI 与慢性腰痛关联，并评估相对个体特征的增量鉴别",
+    "methods_detail": "CHARLS 基线纳排；城市级暴露按居住城市匹配；调查加权 logistic（连续+分位+趋势）；RCS；预设亚组；递增随机森林比较验证集 AUC；按 STROBE 报告。 结局：慢性腰痛操作化定义。主暴露：NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "NDVI"
+    ],
+    "disease": "慢性腰痛",
+    "analysis_style": "加权 logistic + RCS + RF 增量 AUC",
+    "writing_style": "暴露–疾病关联 + RF 增量鉴别",
+    "quality_target": "JCR Q2–Q3 / 中科院公卫或医学约 3–4 区",
+    "journal_primary": "bmc_msk",
+    "journals_backup": [
+      "bmc_public_health",
+      "clinical_rheumatology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "green",
+    "risk_tags": [
+      "横断面"
+    ],
+    "intro": "公卫线选题：针对慢性腰痛，采用「暴露–疾病关联 + RF 增量鉴别」路线。核心暴露：NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/lbp_epi01_ndvi.jpg",
+    "status": "usable",
+    "exposure": "NDVI",
+    "category": "骨肌",
+    "title_prev": "CHARLS topic card: NDVI and 慢性腰痛 (epi01)"
+  },
+  {
+    "id": "stroke_epi03",
+    "serial": 9034,
+    "line": "epi",
+    "cancer_id": "stroke",
+    "cancer_zh": "卒中史",
+    "disease_id": "stroke",
+    "method_id": "epi03",
+    "art_no": "epi03",
+    "title": "Incremental identification of radical urbanization index (RUI) and stroke history in CHARLS in a baseline-exposure to incident-disease survival design",
+    "direction": "基线 RUI 与随访新发卒中史风险（排除基线已患）",
+    "methods_detail": "排除基线已患；定义随访新发；基线暴露匹配；加权 Cox/离散时间模型；报告删失与随访定义；STROBE（队列）。 结局：自报卒中。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011+",
+      "RUI"
+    ],
+    "disease": "卒中史",
+    "analysis_style": "纵向发病 HR",
+    "writing_style": "纵向随访发病风险",
+    "quality_target": "JCR Q1–Q2（随访扎实可冲）",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "随访定义需核对",
+      "需多波次清洗"
+    ],
+    "intro": "公卫线选题：针对卒中史，采用「纵向随访发病风险」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/stroke_epi03.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "心血管",
+    "title_prev": "CHARLS topic card: RUI and 卒中史 (epi03)"
+  },
+  {
+    "id": "htn_epi03",
+    "serial": 9035,
+    "line": "epi",
+    "cancer_id": "htn",
+    "cancer_zh": "高血压",
+    "disease_id": "htn",
+    "method_id": "epi03",
+    "art_no": "epi03",
+    "title": "Hypertension and radical urbanization index (RUI): CHARLS evidence in a baseline-exposure to incident-disease survival design",
+    "direction": "基线 RUI 与随访新发高血压风险（排除基线已患）",
+    "methods_detail": "排除基线已患；定义随访新发；基线暴露匹配；加权 Cox/离散时间模型；报告删失与随访定义；STROBE（队列）。 结局：自报诊断或血压阈值。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011+",
+      "RUI"
+    ],
+    "disease": "高血压",
+    "analysis_style": "纵向发病 HR",
+    "writing_style": "纵向随访发病风险",
+    "quality_target": "JCR Q1–Q2（随访扎实可冲）",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "随访定义需核对"
+    ],
+    "intro": "公卫线选题：针对高血压，采用「纵向随访发病风险」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/htn_epi03.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "心血管",
+    "title_prev": "CHARLS topic card: RUI and 高血压 (epi03)"
+  },
+  {
+    "id": "heart_epi03",
+    "serial": 9036,
+    "line": "epi",
+    "cancer_id": "heart",
+    "cancer_zh": "心脏病",
+    "disease_id": "heart",
+    "method_id": "epi03",
+    "art_no": "epi03",
+    "title": "Heart disease and radical urbanization index (RUI): CHARLS evidence in a baseline-exposure to incident-disease survival design",
+    "direction": "基线 RUI 与随访新发心脏病风险（排除基线已患）",
+    "methods_detail": "排除基线已患；定义随访新发；基线暴露匹配；加权 Cox/离散时间模型；报告删失与随访定义；STROBE（队列）。 结局：自报心脏病。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011+",
+      "RUI"
+    ],
+    "disease": "心脏病",
+    "analysis_style": "纵向发病 HR",
+    "writing_style": "纵向随访发病风险",
+    "quality_target": "JCR Q1–Q2（随访扎实可冲）",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "随访定义需核对"
+    ],
+    "intro": "公卫线选题：针对心脏病，采用「纵向随访发病风险」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/heart_epi03.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "心血管",
+    "title_prev": "CHARLS topic card: RUI and 心脏病 (epi03)"
+  },
+  {
+    "id": "lung_epi03",
+    "serial": 9037,
+    "line": "epi",
+    "cancer_id": "lung",
+    "cancer_zh": "慢性肺病",
+    "disease_id": "lung",
+    "method_id": "epi03",
+    "art_no": "epi03",
+    "title": "Prospective signals of PM2.5 and chronic lung disease in CHARLS in a baseline-exposure to incident-disease survival design",
+    "direction": "基线 PM2.5 与随访新发慢性肺病风险（排除基线已患）",
+    "methods_detail": "排除基线已患；定义随访新发；基线暴露匹配；加权 Cox/离散时间模型；报告删失与随访定义；STROBE（队列）。 结局：自报慢性肺病。主暴露：PM2.5。",
+    "datasets": [
+      "CHARLS-2011+",
+      "PM2.5"
+    ],
+    "disease": "慢性肺病",
+    "analysis_style": "纵向发病 HR",
+    "writing_style": "纵向随访发病风险",
+    "quality_target": "JCR Q1–Q2（随访扎实可冲）",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "ehpm",
+      "frontiers_public_health"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "随访定义需核对"
+    ],
+    "intro": "公卫线选题：针对慢性肺病，采用「纵向随访发病风险」路线。核心暴露：PM2.5。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/lung_epi03.jpg",
+    "status": "usable",
+    "exposure": "PM2.5",
+    "category": "呼吸",
+    "title_prev": "CHARLS topic card: PM2.5 and 慢性肺病 (epi03)"
+  },
+  {
+    "id": "depression_epi04",
+    "serial": 9038,
+    "line": "epi",
+    "cancer_id": "depression",
+    "cancer_zh": "抑郁症状",
+    "disease_id": "depression",
+    "method_id": "epi04",
+    "art_no": "epi04",
+    "title": "Revisiting depressive symptoms through radical urbanization index (RUI) through prespecified subgroup and interaction analyses",
+    "direction": "年龄/城乡等对 RUI–抑郁症状 关联的效应修饰",
+    "methods_detail": "主效应确认后做预设亚组与乘积交互；区分预设与探索性结果；STROBE。 结局：CESD 阈值。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "抑郁症状",
+    "analysis_style": "分层 OR + 交互检验",
+    "writing_style": "效应修饰 / 亚组交互",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "frontiers_public_health",
+      "ehpm"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "交互探索性"
+    ],
+    "intro": "公卫线选题：针对抑郁症状，采用「效应修饰 / 亚组交互」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/depression_epi04.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "精神心理",
+    "title_prev": "CHARLS topic card: RUI and 抑郁症状 (epi04)"
+  },
+  {
+    "id": "skoa_epi04",
+    "serial": 9039,
+    "line": "epi",
+    "cancer_id": "skoa",
+    "cancer_zh": "症状性膝骨关节炎",
+    "disease_id": "skoa",
+    "method_id": "epi04",
+    "art_no": "epi04",
+    "title": "Linking radical urbanization index (RUI) and symptomatic knee osteoarthritis in CHARLS through prespecified subgroup and interaction analyses",
+    "direction": "年龄/城乡等对 RUI–症状性膝骨关节炎 关联的效应修饰",
+    "methods_detail": "主效应确认后做预设亚组与乘积交互；区分预设与探索性结果；STROBE。 结局：自报关节炎+膝痛。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "症状性膝骨关节炎",
+    "analysis_style": "分层 OR + 交互检验",
+    "writing_style": "效应修饰 / 亚组交互",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_msk",
+    "journals_backup": [
+      "bmc_public_health",
+      "clinical_rheumatology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "交互探索性",
+      "多重比较"
+    ],
+    "intro": "公卫线选题：针对症状性膝骨关节炎，采用「效应修饰 / 亚组交互」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/skoa_epi04.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "骨肌",
+    "title_prev": "CHARLS topic card: RUI and 症状性膝骨关节炎 (epi04)"
+  },
+  {
+    "id": "memory_epi04",
+    "serial": 9040,
+    "line": "epi",
+    "cancer_id": "memory",
+    "cancer_zh": "主观记忆下降",
+    "disease_id": "memory",
+    "method_id": "epi04",
+    "art_no": "epi04",
+    "title": "Revisiting subjective memory decline through NDVI through prespecified subgroup and interaction analyses",
+    "direction": "年龄/城乡等对 NDVI–主观记忆下降 关联的效应修饰",
+    "methods_detail": "主效应确认后做预设亚组与乘积交互；区分预设与探索性结果；STROBE。 结局：认知相关自报条目。主暴露：NDVI。",
+    "datasets": [
+      "CHARLS-2011",
+      "NDVI"
+    ],
+    "disease": "主观记忆下降",
+    "analysis_style": "分层 OR + 交互检验",
+    "writing_style": "效应修饰 / 亚组交互",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "frontiers_public_health",
+      "ehpm"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "交互探索性",
+      "结局定义需统一"
+    ],
+    "intro": "公卫线选题：针对主观记忆下降，采用「效应修饰 / 亚组交互」路线。核心暴露：NDVI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/memory_epi04.jpg",
+    "status": "usable",
+    "exposure": "NDVI",
+    "category": "认知老化",
+    "title_prev": "CHARLS topic card: NDVI and 主观记忆下降 (epi04)"
+  },
+  {
+    "id": "obesity_epi04",
+    "serial": 9041,
+    "line": "epi",
+    "cancer_id": "obesity",
+    "cancer_zh": "肥胖",
+    "disease_id": "obesity",
+    "method_id": "epi04",
+    "art_no": "epi04",
+    "title": "Revisiting obesity through radical urbanization index (RUI) through prespecified subgroup and interaction analyses",
+    "direction": "年龄/城乡等对 RUI–肥胖 关联的效应修饰",
+    "methods_detail": "主效应确认后做预设亚组与乘积交互；区分预设与探索性结果；STROBE。 结局：BMI 阈值或自报。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "肥胖",
+    "analysis_style": "分层 OR + 交互检验",
+    "writing_style": "效应修饰 / 亚组交互",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_public_health",
+    "journals_backup": [
+      "frontiers_public_health",
+      "ehpm"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "交互探索性"
+    ],
+    "intro": "公卫线选题：针对肥胖，采用「效应修饰 / 亚组交互」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/obesity_epi04.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "代谢",
+    "title_prev": "CHARLS topic card: RUI and 肥胖 (epi04)"
+  },
+  {
+    "id": "fracture_epi04",
+    "serial": 9042,
+    "line": "epi",
+    "cancer_id": "fracture",
+    "cancer_zh": "骨折史",
+    "disease_id": "fracture",
+    "method_id": "epi04",
+    "art_no": "epi04",
+    "title": "Fracture history and radical urbanization index (RUI): CHARLS evidence through prespecified subgroup and interaction analyses",
+    "direction": "年龄/城乡等对 RUI–骨折史 关联的效应修饰",
+    "methods_detail": "主效应确认后做预设亚组与乘积交互；区分预设与探索性结果；STROBE。 结局：自报骨折史。主暴露：RUI。",
+    "datasets": [
+      "CHARLS-2011",
+      "RUI"
+    ],
+    "disease": "骨折史",
+    "analysis_style": "分层 OR + 交互检验",
+    "writing_style": "效应修饰 / 亚组交互",
+    "quality_target": "JCR Q2–Q3",
+    "journal_primary": "bmc_msk",
+    "journals_backup": [
+      "bmc_public_health",
+      "clinical_rheumatology"
+    ],
+    "journal_stretch": null,
+    "feasibility": "yellow",
+    "risk_tags": [
+      "交互探索性"
+    ],
+    "intro": "公卫线选题：针对骨折史，采用「效应修饰 / 亚组交互」路线。核心暴露：RUI。公开 CHARLS 队列可复用同一分析管线批量扩展。",
+    "graphical_abstract": "assets/ga/fracture_epi04.jpg",
+    "status": "usable",
+    "exposure": "RUI",
+    "category": "骨肌",
+    "title_prev": "CHARLS topic card: RUI and 骨折史 (epi04)"
   }
 ]

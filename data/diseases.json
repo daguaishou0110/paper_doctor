@@ -8,10 +8,10 @@
       "bmc_msk",
       "clinical_rheumatology"
     ],
-    "notes": "CHARLS 自报关节炎+膝痛定义",
-    "paper_count": 2,
+    "notes": "自报关节炎+膝痛",
+    "paper_count": 4,
     "done_count": 1,
-    "usable_count": 1
+    "usable_count": 3
   },
   {
     "id": "lbp",
@@ -21,10 +21,10 @@
     "specialty_journals": [
       "bmc_msk"
     ],
-    "notes": "问卷疼痛部位/时长定义",
-    "paper_count": 1,
+    "notes": "慢性腰痛操作化定义",
+    "paper_count": 3,
     "done_count": 0,
-    "usable_count": 1
+    "usable_count": 3
   },
   {
     "id": "fracture",
@@ -35,9 +35,9 @@
       "bmc_msk"
     ],
     "notes": "自报骨折史",
-    "paper_count": 0,
+    "paper_count": 3,
     "done_count": 0,
-    "usable_count": 0
+    "usable_count": 3
   },
   {
     "id": "htn",
@@ -48,9 +48,9 @@
       "bmc_public_health"
     ],
     "notes": "自报诊断或血压阈值",
-    "paper_count": 2,
+    "paper_count": 5,
     "done_count": 1,
-    "usable_count": 1
+    "usable_count": 4
   },
   {
     "id": "dm",
@@ -61,9 +61,9 @@
       "bmc_public_health"
     ],
     "notes": "自报诊断或血糖/用药",
-    "paper_count": 2,
+    "paper_count": 4,
     "done_count": 1,
-    "usable_count": 1
+    "usable_count": 3
   },
   {
     "id": "depression",
@@ -74,9 +74,9 @@
       "bmc_public_health"
     ],
     "notes": "CESD 阈值",
-    "paper_count": 1,
+    "paper_count": 4,
     "done_count": 0,
-    "usable_count": 1
+    "usable_count": 4
   },
   {
     "id": "sleep",
@@ -87,9 +87,9 @@
       "bmc_public_health"
     ],
     "notes": "睡眠时长/质量条目",
-    "paper_count": 1,
+    "paper_count": 3,
     "done_count": 0,
-    "usable_count": 1
+    "usable_count": 3
   },
   {
     "id": "lung",
@@ -100,10 +100,10 @@
       "bmc_public_health",
       "ehpm"
     ],
-    "notes": "自报慢阻肺/慢支等",
-    "paper_count": 1,
+    "notes": "自报慢性肺病",
+    "paper_count": 4,
     "done_count": 0,
-    "usable_count": 1
+    "usable_count": 4
   },
   {
     "id": "stroke",
@@ -114,9 +114,9 @@
       "bmc_public_health"
     ],
     "notes": "自报卒中",
-    "paper_count": 0,
+    "paper_count": 3,
     "done_count": 0,
-    "usable_count": 0
+    "usable_count": 3
   },
   {
     "id": "heart",
@@ -127,9 +127,9 @@
       "bmc_public_health"
     ],
     "notes": "自报心脏病",
-    "paper_count": 1,
+    "paper_count": 3,
     "done_count": 0,
-    "usable_count": 1
+    "usable_count": 3
   },
   {
     "id": "obesity",
@@ -139,10 +139,10 @@
     "specialty_journals": [
       "bmc_public_health"
     ],
-    "notes": "BMI≥28 或自报",
-    "paper_count": 1,
+    "notes": "BMI 阈值或自报",
+    "paper_count": 4,
     "done_count": 0,
-    "usable_count": 1
+    "usable_count": 4
   },
   {
     "id": "memory",
@@ -153,8 +153,8 @@
       "bmc_public_health"
     ],
     "notes": "认知相关自报条目",
-    "paper_count": 0,
+    "paper_count": 2,
     "done_count": 0,
-    "usable_count": 0
+    "usable_count": 2
   }
 ]
