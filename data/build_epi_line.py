@@ -643,8 +643,16 @@ def main() -> None:
     papers = load("papers.json")
     for p in papers:
         p.setdefault("line", "oncology")
+    # Preserve hand-curated epi manuscript status / intros when rebuilding cards
+    prev_epi = {p["id"]: p for p in papers if p.get("line") == "epi"}
     papers = [p for p in papers if p.get("line") != "epi"]
     epi_papers = build_epi_papers()
+    for p in epi_papers:
+        old = prev_epi.get(p["id"])
+        if old and old.get("status") == "manuscript":
+            p["status"] = "manuscript"
+            p["risk_tags"] = old.get("risk_tags") or p.get("risk_tags")
+            p["intro"] = old.get("intro") or p.get("intro")
     papers.extend(epi_papers)
 
     diseases = []
