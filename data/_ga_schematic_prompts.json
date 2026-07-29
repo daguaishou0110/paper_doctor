@@ -1,0 +1,222 @@
+[
+  {
+    "id": "prad_art03",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Prostate Adenocarcinoma, subtle abstract prostate icon. Theme: Clinical–Transcriptomic RFS Schematic. icons for clinical factors, transcriptomic signature card, and a blank recurrence-free survival badge — no KM lines. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "prad_art04",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Prostate Adenocarcinoma, subtle abstract prostate icon. Theme: Risk × Chemotherapy Interaction Schematic. empty 2×2 conceptual matrix labeled High/Low risk and Chemo yes/no with a center interaction arrow — no survival curves inside the quadrants. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "prad_art06",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Prostate Adenocarcinoma, subtle abstract prostate icon. Theme: Immune–Genomic Prognosis Schematic. immune cell icons, IFN-γ badge, TMB/MMR badges flowing into an integrated model node and blank OS badge — no data plots. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "prad_art07",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Prostate Adenocarcinoma, subtle abstract prostate icon. Theme: Stage subgroup RFS. stage funnel clinical+omics icons blank subgroup RFS badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "ov_art03",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Ovarian Serous Cystadenocarcinoma, subtle abstract ovary icon. Theme: Clinical–Transcriptomic RFS Schematic. icons for clinical factors, transcriptomic signature card, and a blank recurrence-free survival badge — no KM lines. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "ov_art04",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Ovarian Serous Cystadenocarcinoma, subtle abstract ovary icon. Theme: Risk × Chemotherapy Interaction Schematic. empty 2×2 conceptual matrix labeled High/Low risk and Chemo yes/no with a center interaction arrow — no survival curves inside the quadrants. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "ov_art07",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Ovarian Serous Cystadenocarcinoma, subtle abstract ovary icon. Theme: Stage subgroup RFS. stage funnel clinical+omics icons blank subgroup RFS badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "ucec_art01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Uterine Corpus Endometrial Carcinoma, subtle abstract uterus icon. Theme: Clinical–Transcriptomic OS Schematic. three icon panels only: (1) clinical clipboard icon + abstract transcriptomic grid icon without numbers, (2) Cox model node icon, (3) blank survival-analysis badge and blank validation badge — no plotted curves. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "ucec_art02",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Uterine Corpus Endometrial Carcinoma, subtle abstract uterus icon. Theme: Clinical–Genomic OS Schematic. three icon panels: DNA helix icon, TMB/MMR badge icons, clinical stage icon merging into a model node, then a blank outcome badge — no mutation lollipop with fake gene names or fake counts. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "ucec_art03",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Uterine Corpus Endometrial Carcinoma, subtle abstract uterus icon. Theme: Clinical–Transcriptomic RFS Schematic. icons for clinical factors, transcriptomic signature card, and a blank recurrence-free survival badge — no KM lines. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "ucec_art04",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Uterine Corpus Endometrial Carcinoma, subtle abstract uterus icon. Theme: Risk × Chemotherapy Interaction Schematic. empty 2×2 conceptual matrix labeled High/Low risk and Chemo yes/no with a center interaction arrow — no survival curves inside the quadrants. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "ucec_art05",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Uterine Corpus Endometrial Carcinoma, subtle abstract uterus icon. Theme: Cross-Platform Subtyping Schematic. RNA-seq platform icon versus microarray platform icon arrows into subtype badge icons A/B/C and an agreement badge — no real heatmaps or survival curves. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "ucec_art06",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Uterine Corpus Endometrial Carcinoma, subtle abstract uterus icon. Theme: Immune–Genomic Prognosis Schematic. immune cell icons, IFN-γ badge, TMB/MMR badges flowing into an integrated model node and blank OS badge — no data plots. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "ucec_art07",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Uterine Corpus Endometrial Carcinoma, subtle abstract uterus icon. Theme: Stage subgroup RFS. stage funnel clinical+omics icons blank subgroup RFS badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "cesc_art01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Cervical Squamous Cell Carcinoma, subtle abstract cervix icon. Theme: Clinical–Transcriptomic OS Schematic. three icon panels only: (1) clinical clipboard icon + abstract transcriptomic grid icon without numbers, (2) Cox model node icon, (3) blank survival-analysis badge and blank validation badge — no plotted curves. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "cesc_art02",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Cervical Squamous Cell Carcinoma, subtle abstract cervix icon. Theme: Clinical–Genomic OS Schematic. three icon panels: DNA helix icon, TMB/MMR badge icons, clinical stage icon merging into a model node, then a blank outcome badge — no mutation lollipop with fake gene names or fake counts. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "cesc_art03",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Cervical Squamous Cell Carcinoma, subtle abstract cervix icon. Theme: Clinical–Transcriptomic RFS Schematic. icons for clinical factors, transcriptomic signature card, and a blank recurrence-free survival badge — no KM lines. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "cesc_art04",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Cervical Squamous Cell Carcinoma, subtle abstract cervix icon. Theme: Risk × Chemotherapy Interaction Schematic. empty 2×2 conceptual matrix labeled High/Low risk and Chemo yes/no with a center interaction arrow — no survival curves inside the quadrants. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "cesc_art05",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Cervical Squamous Cell Carcinoma, subtle abstract cervix icon. Theme: Cross-Platform Subtyping Schematic. RNA-seq platform icon versus microarray platform icon arrows into subtype badge icons A/B/C and an agreement badge — no real heatmaps or survival curves. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "cesc_art06",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Cervical Squamous Cell Carcinoma, subtle abstract cervix icon. Theme: Immune–Genomic Prognosis Schematic. immune cell icons, IFN-γ badge, TMB/MMR badges flowing into an integrated model node and blank OS badge — no data plots. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "cesc_art07",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Cervical Squamous Cell Carcinoma, subtle abstract cervix icon. Theme: Stage subgroup RFS. stage funnel clinical+omics icons blank subgroup RFS badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "luad_art04",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Lung Adenocarcinoma, subtle abstract lung icon. Theme: Risk × Chemotherapy Interaction Schematic. empty 2×2 conceptual matrix labeled High/Low risk and Chemo yes/no with a center interaction arrow — no survival curves inside the quadrants. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "luad_art07",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Lung Adenocarcinoma, subtle abstract lung icon. Theme: Stage subgroup RFS. stage funnel clinical+omics icons blank subgroup RFS badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "stad_art04",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Gastric Adenocarcinoma, subtle abstract stomach icon. Theme: Risk × Chemotherapy Interaction Schematic. empty 2×2 conceptual matrix labeled High/Low risk and Chemo yes/no with a center interaction arrow — no survival curves inside the quadrants. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "gbm_art01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Glioblastoma Multiforme, subtle abstract brain icon. Theme: Clinical–Transcriptomic OS Schematic. three icon panels only: (1) clinical clipboard icon + abstract transcriptomic grid icon without numbers, (2) Cox model node icon, (3) blank survival-analysis badge and blank validation badge — no plotted curves. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "gbm_art02",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Glioblastoma Multiforme, subtle abstract brain icon. Theme: Clinical–Genomic OS Schematic. three icon panels: DNA helix icon, TMB/MMR badge icons, clinical stage icon merging into a model node, then a blank outcome badge — no mutation lollipop with fake gene names or fake counts. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "gbm_art03",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Glioblastoma Multiforme, subtle abstract brain icon. Theme: Clinical–Transcriptomic RFS Schematic. icons for clinical factors, transcriptomic signature card, and a blank recurrence-free survival badge — no KM lines. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "gbm_art04",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Glioblastoma Multiforme, subtle abstract brain icon. Theme: Risk × Chemotherapy Interaction Schematic. empty 2×2 conceptual matrix labeled High/Low risk and Chemo yes/no with a center interaction arrow — no survival curves inside the quadrants. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "gbm_art05",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Glioblastoma Multiforme, subtle abstract brain icon. Theme: Cross-Platform Subtyping Schematic. RNA-seq platform icon versus microarray platform icon arrows into subtype badge icons A/B/C and an agreement badge — no real heatmaps or survival curves. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "gbm_art06",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Glioblastoma Multiforme, subtle abstract brain icon. Theme: Immune–Genomic Prognosis Schematic. immune cell icons, IFN-γ badge, TMB/MMR badges flowing into an integrated model node and blank OS badge — no data plots. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "gbm_art07",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Glioblastoma Multiforme, subtle abstract brain icon. Theme: Stage subgroup RFS. stage funnel clinical+omics icons blank subgroup RFS badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "blca_art01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Bladder Urothelial Carcinoma, subtle abstract bladder icon. Theme: Clinical–Transcriptomic OS Schematic. three icon panels only: (1) clinical clipboard icon + abstract transcriptomic grid icon without numbers, (2) Cox model node icon, (3) blank survival-analysis badge and blank validation badge — no plotted curves. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "blca_art02",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Bladder Urothelial Carcinoma, subtle abstract bladder icon. Theme: Clinical–Genomic OS Schematic. three icon panels: DNA helix icon, TMB/MMR badge icons, clinical stage icon merging into a model node, then a blank outcome badge — no mutation lollipop with fake gene names or fake counts. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "blca_art03",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Bladder Urothelial Carcinoma, subtle abstract bladder icon. Theme: Clinical–Transcriptomic RFS Schematic. icons for clinical factors, transcriptomic signature card, and a blank recurrence-free survival badge — no KM lines. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "blca_art04",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Bladder Urothelial Carcinoma, subtle abstract bladder icon. Theme: Risk × Chemotherapy Interaction Schematic. empty 2×2 conceptual matrix labeled High/Low risk and Chemo yes/no with a center interaction arrow — no survival curves inside the quadrants. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "blca_art05",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Bladder Urothelial Carcinoma, subtle abstract bladder icon. Theme: Cross-Platform Subtyping Schematic. RNA-seq platform icon versus microarray platform icon arrows into subtype badge icons A/B/C and an agreement badge — no real heatmaps or survival curves. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "blca_art06",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Bladder Urothelial Carcinoma, subtle abstract bladder icon. Theme: Immune–Genomic Prognosis Schematic. immune cell icons, IFN-γ badge, TMB/MMR badges flowing into an integrated model node and blank OS badge — no data plots. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "blca_art07",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Bladder Urothelial Carcinoma, subtle abstract bladder icon. Theme: Stage subgroup RFS. stage funnel clinical+omics icons blank subgroup RFS badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "esca_art01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Esophageal Carcinoma, subtle abstract esophagus icon. Theme: Clinical–Transcriptomic OS Schematic. three icon panels only: (1) clinical clipboard icon + abstract transcriptomic grid icon without numbers, (2) Cox model node icon, (3) blank survival-analysis badge and blank validation badge — no plotted curves. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "esca_art02",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Esophageal Carcinoma, subtle abstract esophagus icon. Theme: Clinical–Genomic OS Schematic. three icon panels: DNA helix icon, TMB/MMR badge icons, clinical stage icon merging into a model node, then a blank outcome badge — no mutation lollipop with fake gene names or fake counts. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "esca_art03",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Esophageal Carcinoma, subtle abstract esophagus icon. Theme: Clinical–Transcriptomic RFS Schematic. icons for clinical factors, transcriptomic signature card, and a blank recurrence-free survival badge — no KM lines. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "esca_art04",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Esophageal Carcinoma, subtle abstract esophagus icon. Theme: Risk × Chemotherapy Interaction Schematic. empty 2×2 conceptual matrix labeled High/Low risk and Chemo yes/no with a center interaction arrow — no survival curves inside the quadrants. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "esca_art05",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Esophageal Carcinoma, subtle abstract esophagus icon. Theme: Cross-Platform Subtyping Schematic. RNA-seq platform icon versus microarray platform icon arrows into subtype badge icons A/B/C and an agreement badge — no real heatmaps or survival curves. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "esca_art06",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Esophageal Carcinoma, subtle abstract esophagus icon. Theme: Immune–Genomic Prognosis Schematic. immune cell icons, IFN-γ badge, TMB/MMR badges flowing into an integrated model node and blank OS badge — no data plots. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "esca_art07",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. Esophageal Carcinoma, subtle abstract esophagus icon. Theme: Stage subgroup RFS. stage funnel clinical+omics icons blank subgroup RFS badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "skoa_epi01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. 症状性膝骨关节炎, tiny disease icon. Theme: Exposure-disease association. CHARLS cohort icons, city exposure chip into weighted logistic node and blank RF AUC badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "skoa_epi02",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. 症状性膝骨关节炎, tiny disease icon. Theme: Multi-exposure comparison. three exposure chips RUI PM2.5 NDVI into disease odds comparison node. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "lbp_epi01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. 慢性腰痛, tiny disease icon. Theme: Exposure-disease association. CHARLS cohort icons, city exposure chip into weighted logistic node and blank RF AUC badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "dm_epi01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. 糖尿病, tiny disease icon. Theme: Exposure-disease association. CHARLS cohort icons, city exposure chip into weighted logistic node and blank RF AUC badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "depression_epi01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. 抑郁症状, tiny disease icon. Theme: Exposure-disease association. CHARLS cohort icons, city exposure chip into weighted logistic node and blank RF AUC badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "lung_epi01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. 慢性肺病, tiny disease icon. Theme: Exposure-disease association. CHARLS cohort icons, city exposure chip into weighted logistic node and blank RF AUC badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "sleep_epi01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. 睡眠障碍, tiny disease icon. Theme: Exposure-disease association. CHARLS cohort icons, city exposure chip into weighted logistic node and blank RF AUC badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "heart_epi02",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. 心脏病, tiny disease icon. Theme: Multi-exposure comparison. three exposure chips RUI PM2.5 NDVI into disease odds comparison node. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "htn_epi04",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. 高血压, tiny disease icon. Theme: Effect modification. subgroup forest schematic age education urban-rural modifying exposure-disease link. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  },
+  {
+    "id": "obesity_epi01",
+    "prompt": "Beautiful Nature journal graphical abstract, 16:9, white background, elegant flat vector scientific illustration, navy teal coral. 肥胖, tiny disease icon. Theme: Exposure-disease association. CHARLS cohort icons, city exposure chip into weighted logistic node and blank RF AUC badge. No fake KM/ROC/numbers, no watermark, no empty gray evidence box, no Cohort-Lock-Model-Check schematic boxes."
+  }
+]

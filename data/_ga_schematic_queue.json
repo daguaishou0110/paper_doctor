@@ -1,0 +1,452 @@
+[
+  {
+    "id": "prad_art03",
+    "cancer_id": "prad",
+    "cancer_zh": "前列腺癌",
+    "method_id": "art03",
+    "line": "oncology",
+    "title": "A Clinical--Transcriptomic Model for Recurrence-Free Survival in Prostate Adenocarcinoma: A TRIPOD-Aligned GSE21034 Coho"
+  },
+  {
+    "id": "prad_art04",
+    "cancer_id": "prad",
+    "cancer_zh": "前列腺癌",
+    "method_id": "art04",
+    "line": "oncology",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Prostate Adenocarcinoma: A Treatment-Interac"
+  },
+  {
+    "id": "prad_art06",
+    "cancer_id": "prad",
+    "cancer_zh": "前列腺癌",
+    "method_id": "art06",
+    "line": "oncology",
+    "title": "A Clinical--Immune--Genomic Prognostic Model for Prostate Adenocarcinoma Overall Survival: Integrating IFN-$gamma$ Signa"
+  },
+  {
+    "id": "prad_art07",
+    "cancer_id": "prad",
+    "cancer_zh": "前列腺癌",
+    "method_id": "art07",
+    "line": "oncology",
+    "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Prostate Adenocarcinoma: A TRIPOD-Aligned "
+  },
+  {
+    "id": "ov_art03",
+    "cancer_id": "ov",
+    "cancer_zh": "卵巢浆液性癌",
+    "method_id": "art03",
+    "line": "oncology",
+    "title": "A Clinical--Transcriptomic Model for Recurrence-Free Survival in Ovarian Serous Cystadenocarcinoma: A TRIPOD-Aligned GSE"
+  },
+  {
+    "id": "ov_art04",
+    "cancer_id": "ov",
+    "cancer_zh": "卵巢浆液性癌",
+    "method_id": "art04",
+    "line": "oncology",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Ovarian Serous Cystadenocarcinoma: A Treatme"
+  },
+  {
+    "id": "ov_art07",
+    "cancer_id": "ov",
+    "cancer_zh": "卵巢浆液性癌",
+    "method_id": "art07",
+    "line": "oncology",
+    "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Ovarian Serous Cystadenocarcinoma: A TRIPO"
+  },
+  {
+    "id": "ucec_art01",
+    "cancer_id": "ucec",
+    "cancer_zh": "子宫内膜癌",
+    "method_id": "art01",
+    "line": "oncology",
+    "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Uterine Corpus Endometrial Ca"
+  },
+  {
+    "id": "ucec_art02",
+    "cancer_id": "ucec",
+    "cancer_zh": "子宫内膜癌",
+    "method_id": "art02",
+    "line": "oncology",
+    "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Uterine Corpus Endometrial Carcinoma"
+  },
+  {
+    "id": "ucec_art03",
+    "cancer_id": "ucec",
+    "cancer_zh": "子宫内膜癌",
+    "method_id": "art03",
+    "line": "oncology",
+    "title": "A Clinical--Transcriptomic Model for Recurrence-Free Survival in Uterine Corpus Endometrial Carcinoma: A TRIPOD-Aligned "
+  },
+  {
+    "id": "ucec_art04",
+    "cancer_id": "ucec",
+    "cancer_zh": "子宫内膜癌",
+    "method_id": "art04",
+    "line": "oncology",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Uterine Corpus Endometrial Carcinoma: A Trea"
+  },
+  {
+    "id": "ucec_art05",
+    "cancer_id": "ucec",
+    "cancer_zh": "子宫内膜癌",
+    "method_id": "art05",
+    "line": "oncology",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Uterine Corpus Endometrial Carcinoma: TCGA RNA-Seq versus G"
+  },
+  {
+    "id": "ucec_art06",
+    "cancer_id": "ucec",
+    "cancer_zh": "子宫内膜癌",
+    "method_id": "art06",
+    "line": "oncology",
+    "title": "A Clinical--Immune--Genomic Prognostic Model for Uterine Corpus Endometrial Carcinoma Overall Survival: Integrating IFN-"
+  },
+  {
+    "id": "ucec_art07",
+    "cancer_id": "ucec",
+    "cancer_zh": "子宫内膜癌",
+    "method_id": "art07",
+    "line": "oncology",
+    "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Uterine Corpus Endometrial Carcinoma: A TR"
+  },
+  {
+    "id": "cesc_art01",
+    "cancer_id": "cesc",
+    "cancer_zh": "宫颈癌",
+    "method_id": "art01",
+    "line": "oncology",
+    "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Cervical Squamous Cell Carcin"
+  },
+  {
+    "id": "cesc_art02",
+    "cancer_id": "cesc",
+    "cancer_zh": "宫颈癌",
+    "method_id": "art02",
+    "line": "oncology",
+    "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Cervical Squamous Cell Carcinoma and"
+  },
+  {
+    "id": "cesc_art03",
+    "cancer_id": "cesc",
+    "cancer_zh": "宫颈癌",
+    "method_id": "art03",
+    "line": "oncology",
+    "title": "A Clinical--Transcriptomic Model for Recurrence-Free Survival in Cervical Squamous Cell Carcinoma and Endocervical Adeno"
+  },
+  {
+    "id": "cesc_art04",
+    "cancer_id": "cesc",
+    "cancer_zh": "宫颈癌",
+    "method_id": "art04",
+    "line": "oncology",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Cervical Squamous Cell Carcinoma and Endocer"
+  },
+  {
+    "id": "cesc_art05",
+    "cancer_id": "cesc",
+    "cancer_zh": "宫颈癌",
+    "method_id": "art05",
+    "line": "oncology",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Cervical Squamous Cell Carcinoma and Endocervical Adenocarc"
+  },
+  {
+    "id": "cesc_art06",
+    "cancer_id": "cesc",
+    "cancer_zh": "宫颈癌",
+    "method_id": "art06",
+    "line": "oncology",
+    "title": "A Clinical--Immune--Genomic Prognostic Model for Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma Overal"
+  },
+  {
+    "id": "cesc_art07",
+    "cancer_id": "cesc",
+    "cancer_zh": "宫颈癌",
+    "method_id": "art07",
+    "line": "oncology",
+    "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Cervical Squamous Cell Carcinoma and Endoc"
+  },
+  {
+    "id": "luad_art04",
+    "cancer_id": "luad",
+    "cancer_zh": "肺腺癌",
+    "method_id": "art04",
+    "line": "oncology",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Lung Adenocarcinoma: A Treatment-Interaction"
+  },
+  {
+    "id": "luad_art07",
+    "cancer_id": "luad",
+    "cancer_zh": "肺腺癌",
+    "method_id": "art07",
+    "line": "oncology",
+    "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Lung Adenocarcinoma: A TRIPOD-Aligned GSE3"
+  },
+  {
+    "id": "stad_art04",
+    "cancer_id": "stad",
+    "cancer_zh": "胃腺癌",
+    "method_id": "art04",
+    "line": "oncology",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Stomach Adenocarcinoma: A Treatment-Interact"
+  },
+  {
+    "id": "gbm_art01",
+    "cancer_id": "gbm",
+    "cancer_zh": "胶质母细胞瘤",
+    "method_id": "art01",
+    "line": "oncology",
+    "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Glioblastoma Multiforme: A TR"
+  },
+  {
+    "id": "gbm_art02",
+    "cancer_id": "gbm",
+    "cancer_zh": "胶质母细胞瘤",
+    "method_id": "art02",
+    "line": "oncology",
+    "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Glioblastoma Multiforme: Integrating"
+  },
+  {
+    "id": "gbm_art03",
+    "cancer_id": "gbm",
+    "cancer_zh": "胶质母细胞瘤",
+    "method_id": "art03",
+    "line": "oncology",
+    "title": "A Clinical--Transcriptomic Model for Recurrence-Free Survival in Glioblastoma Multiforme: A TRIPOD-Aligned GSE16011 Coho"
+  },
+  {
+    "id": "gbm_art04",
+    "cancer_id": "gbm",
+    "cancer_zh": "胶质母细胞瘤",
+    "method_id": "art04",
+    "line": "oncology",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Glioblastoma Multiforme: A Treatment-Interac"
+  },
+  {
+    "id": "gbm_art05",
+    "cancer_id": "gbm",
+    "cancer_zh": "胶质母细胞瘤",
+    "method_id": "art05",
+    "line": "oncology",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Glioblastoma Multiforme: TCGA RNA-Seq versus GSE13041 Micro"
+  },
+  {
+    "id": "gbm_art06",
+    "cancer_id": "gbm",
+    "cancer_zh": "胶质母细胞瘤",
+    "method_id": "art06",
+    "line": "oncology",
+    "title": "A Clinical--Immune--Genomic Prognostic Model for Glioblastoma Multiforme Overall Survival: Integrating IFN-$gamma$ Signa"
+  },
+  {
+    "id": "gbm_art07",
+    "cancer_id": "gbm",
+    "cancer_zh": "胶质母细胞瘤",
+    "method_id": "art07",
+    "line": "oncology",
+    "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Glioblastoma Multiforme: A TRIPOD-Aligned "
+  },
+  {
+    "id": "blca_art01",
+    "cancer_id": "blca",
+    "cancer_zh": "膀胱尿路上皮癌",
+    "method_id": "art01",
+    "line": "oncology",
+    "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Bladder Urothelial Carcinoma:"
+  },
+  {
+    "id": "blca_art02",
+    "cancer_id": "blca",
+    "cancer_zh": "膀胱尿路上皮癌",
+    "method_id": "art02",
+    "line": "oncology",
+    "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Bladder Urothelial Carcinoma: Integr"
+  },
+  {
+    "id": "blca_art03",
+    "cancer_id": "blca",
+    "cancer_zh": "膀胱尿路上皮癌",
+    "method_id": "art03",
+    "line": "oncology",
+    "title": "A Clinical--Transcriptomic Model for Recurrence-Free Survival in Bladder Urothelial Carcinoma: A TRIPOD-Aligned GSE13507"
+  },
+  {
+    "id": "blca_art04",
+    "cancer_id": "blca",
+    "cancer_zh": "膀胱尿路上皮癌",
+    "method_id": "art04",
+    "line": "oncology",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Bladder Urothelial Carcinoma: A Treatment-In"
+  },
+  {
+    "id": "blca_art05",
+    "cancer_id": "blca",
+    "cancer_zh": "膀胱尿路上皮癌",
+    "method_id": "art05",
+    "line": "oncology",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Bladder Urothelial Carcinoma: TCGA RNA-Seq versus GSE32894 "
+  },
+  {
+    "id": "blca_art06",
+    "cancer_id": "blca",
+    "cancer_zh": "膀胱尿路上皮癌",
+    "method_id": "art06",
+    "line": "oncology",
+    "title": "A Clinical--Immune--Genomic Prognostic Model for Bladder Urothelial Carcinoma Overall Survival: Integrating IFN-$gamma$ "
+  },
+  {
+    "id": "blca_art07",
+    "cancer_id": "blca",
+    "cancer_zh": "膀胱尿路上皮癌",
+    "method_id": "art07",
+    "line": "oncology",
+    "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Bladder Urothelial Carcinoma: A TRIPOD-Ali"
+  },
+  {
+    "id": "esca_art01",
+    "cancer_id": "esca",
+    "cancer_zh": "食管癌",
+    "method_id": "art01",
+    "line": "oncology",
+    "title": "Development and Cross-Cohort Validation of a Clinical--Transcriptomic Prognostic Model for Esophageal Carcinoma: A TRIPO"
+  },
+  {
+    "id": "esca_art02",
+    "cancer_id": "esca",
+    "cancer_zh": "食管癌",
+    "method_id": "art02",
+    "line": "oncology",
+    "title": "Development and Cross-Cohort Validation of a Clinical--Genomic Prognostic Model for Esophageal Carcinoma: Integrating So"
+  },
+  {
+    "id": "esca_art03",
+    "cancer_id": "esca",
+    "cancer_zh": "食管癌",
+    "method_id": "art03",
+    "line": "oncology",
+    "title": "A Clinical--Transcriptomic Model for Recurrence-Free Survival in Esophageal Carcinoma: A TRIPOD-Aligned GSE53625 Cohort "
+  },
+  {
+    "id": "esca_art04",
+    "cancer_id": "esca",
+    "cancer_zh": "食管癌",
+    "method_id": "art04",
+    "line": "oncology",
+    "title": "Transcriptomic Risk Score and Adjuvant Chemotherapy Benefit in Stage II/III Esophageal Carcinoma: A Treatment-Interactio"
+  },
+  {
+    "id": "esca_art05",
+    "cancer_id": "esca",
+    "cancer_zh": "食管癌",
+    "method_id": "art05",
+    "line": "oncology",
+    "title": "Cross-Platform Validation of Consensus Molecular Subtypes in Esophageal Carcinoma: TCGA RNA-Seq versus GSE53625 Microarr"
+  },
+  {
+    "id": "esca_art06",
+    "cancer_id": "esca",
+    "cancer_zh": "食管癌",
+    "method_id": "art06",
+    "line": "oncology",
+    "title": "A Clinical--Immune--Genomic Prognostic Model for Esophageal Carcinoma Overall Survival: Integrating IFN-$gamma$ Signatur"
+  },
+  {
+    "id": "esca_art07",
+    "cancer_id": "esca",
+    "cancer_zh": "食管癌",
+    "method_id": "art07",
+    "line": "oncology",
+    "title": "Clinical--Transcriptomic Modeling of Recurrence-Free Survival in Stage II/III Esophageal Carcinoma: A TRIPOD-Aligned GSE"
+  },
+  {
+    "id": "skoa_epi01",
+    "cancer_id": "skoa",
+    "cancer_zh": "症状性膝骨关节炎",
+    "method_id": "epi01",
+    "line": "epi",
+    "title": "Association and Discriminative Value of the Radical Urbanization Index for Symptomatic Knee Osteoarthritis among Middle-",
+    "missing": true
+  },
+  {
+    "id": "skoa_epi02",
+    "cancer_id": "skoa",
+    "cancer_zh": "症状性膝骨关节炎",
+    "method_id": "epi02",
+    "line": "epi",
+    "title": "Radical Urbanization, Air Pollution, and Greenness in Relation to Symptomatic Knee Osteoarthritis: A Multi-Exposure CHAR",
+    "missing": true
+  },
+  {
+    "id": "lbp_epi01",
+    "cancer_id": "lbp",
+    "cancer_zh": "慢性腰痛",
+    "method_id": "epi01",
+    "line": "epi",
+    "title": "Radical Urbanization Index and Chronic Low Back Pain among Middle-aged and Older Chinese Adults: Evidence from CHARLS",
+    "missing": true
+  },
+  {
+    "id": "dm_epi01",
+    "cancer_id": "dm",
+    "cancer_zh": "糖尿病",
+    "method_id": "epi01",
+    "line": "epi",
+    "title": "Long-term City-Level PM2.5 Exposure and Diabetes Mellitus in Middle-aged and Older Chinese Adults: A CHARLS-Based Analys",
+    "missing": true
+  },
+  {
+    "id": "depression_epi01",
+    "cancer_id": "depression",
+    "cancer_zh": "抑郁症状",
+    "method_id": "epi01",
+    "line": "epi",
+    "title": "Residential Greenness and Depressive Symptoms in Middle-aged and Older Adults: A CHARLS Cross-Sectional Study",
+    "missing": true
+  },
+  {
+    "id": "lung_epi01",
+    "cancer_id": "lung",
+    "cancer_zh": "慢性肺病",
+    "method_id": "epi01",
+    "line": "epi",
+    "title": "Radical Urbanization Index and Chronic Lung Disease among Middle-aged and Older Adults in China: Insights from CHARLS",
+    "missing": true
+  },
+  {
+    "id": "sleep_epi01",
+    "cancer_id": "sleep",
+    "cancer_zh": "睡眠障碍",
+    "method_id": "epi01",
+    "line": "epi",
+    "title": "Urban Expansion Quality and Sleep Disturbance in Aging Chinese Adults: A CHARLS Analysis Using the Radical Urbanization ",
+    "missing": true
+  },
+  {
+    "id": "heart_epi02",
+    "cancer_id": "heart",
+    "cancer_zh": "心脏病",
+    "method_id": "epi02",
+    "line": "epi",
+    "title": "Comparing Urbanization Quality, Air Pollution, and Greenness in Relation to Heart Disease: A Multi-Exposure CHARLS Study",
+    "missing": true
+  },
+  {
+    "id": "htn_epi04",
+    "cancer_id": "htn",
+    "cancer_zh": "高血压",
+    "method_id": "epi04",
+    "line": "epi",
+    "title": "Age and Urban–Rural Heterogeneity in the Association between Radical Urbanization and Hypertension: A CHARLS Subgroup An",
+    "missing": true
+  },
+  {
+    "id": "obesity_epi01",
+    "cancer_id": "obesity",
+    "cancer_zh": "肥胖",
+    "method_id": "epi01",
+    "line": "epi",
+    "title": "Radical Urbanization and Obesity among Middle-aged and Older Adults in China: Association and Incremental Discrimination",
+    "missing": true
+  }
+]
