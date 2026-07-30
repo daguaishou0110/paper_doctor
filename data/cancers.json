@@ -138,9 +138,9 @@
     "specialty_journals": [
       "bmc_gastro"
     ],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "ov",
@@ -149,9 +149,33 @@
     "tcga": "TCGA-OV",
     "paper_count": 8,
     "specialty_journals": [],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
+  },
+  {
+    "id": "cesc",
+    "name_zh": "宫颈癌",
+    "name_en": "Cervical Squamous Cell Carcinoma",
+    "tcga": "TCGA-CESC",
+    "paper_count": 8,
+    "specialty_journals": [],
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
+  },
+  {
+    "id": "chol",
+    "name_zh": "胆管癌",
+    "name_en": "Cholangiocarcinoma",
+    "tcga": "TCGA-CHOL",
+    "paper_count": 8,
+    "specialty_journals": [
+      "bmc_gastro"
+    ],
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "coad",
@@ -167,39 +191,15 @@
     "usable_count": 0
   },
   {
-    "id": "cesc",
-    "name_zh": "宫颈癌",
-    "name_en": "Cervical Squamous Cell Carcinoma",
-    "tcga": "TCGA-CESC",
-    "paper_count": 8,
-    "specialty_journals": [],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
-  },
-  {
-    "id": "chol",
-    "name_zh": "胆管癌",
-    "name_en": "Cholangiocarcinoma",
-    "tcga": "TCGA-CHOL",
-    "paper_count": 8,
-    "specialty_journals": [
-      "bmc_gastro"
-    ],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
-  },
-  {
     "id": "gbm",
     "name_zh": "胶质母细胞瘤",
     "name_en": "Glioblastoma Multiforme",
     "tcga": "TCGA-GBM",
     "paper_count": 8,
     "specialty_journals": [],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "kich",
@@ -210,9 +210,9 @@
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "kirp",
@@ -223,9 +223,9 @@
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "lgg",
@@ -234,9 +234,9 @@
     "tcga": "TCGA-LGG",
     "paper_count": 8,
     "specialty_journals": [],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "meso",
@@ -247,9 +247,9 @@
     "specialty_journals": [
       "thoracic_cancer"
     ],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "prad",
@@ -260,9 +260,9 @@
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "read",
@@ -273,9 +273,9 @@
     "specialty_journals": [
       "bmc_gastro"
     ],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "skcm",
@@ -284,9 +284,9 @@
     "tcga": "TCGA-SKCM",
     "paper_count": 8,
     "specialty_journals": [],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "tgct",
@@ -297,9 +297,9 @@
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "thca",
@@ -308,9 +308,9 @@
     "tcga": "TCGA-THCA",
     "paper_count": 8,
     "specialty_journals": [],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "ucec",
@@ -319,9 +319,9 @@
     "tcga": "TCGA-UCEC",
     "paper_count": 8,
     "specialty_journals": [],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "ucs",
@@ -330,9 +330,9 @@
     "tcga": "TCGA-UCS",
     "paper_count": 8,
     "specialty_journals": [],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "uvm",
@@ -341,9 +341,9 @@
     "tcga": "TCGA-UVM",
     "paper_count": 8,
     "specialty_journals": [],
-    "notes": "成稿 7 / 收录 8",
-    "done_count": 7,
-    "usable_count": 1
+    "notes": "成稿 8 / 收录 8",
+    "done_count": 8,
+    "usable_count": 0
   },
   {
     "id": "acc",
@@ -352,9 +352,9 @@
     "tcga": "TCGA-ACC",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "aml",
@@ -363,9 +363,9 @@
     "tcga": "TCGA-LAML",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "ccsk",
@@ -374,9 +374,9 @@
     "tcga": "TARGET-CCSK",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "dlbc",
@@ -385,9 +385,9 @@
     "tcga": "TCGA-DLBC",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "mbrca",
@@ -398,9 +398,9 @@
     "specialty_journals": [
       "breast_cancer_tokyo"
     ],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "mprad",
@@ -411,9 +411,9 @@
     "specialty_journals": [
       "bmc_urology"
     ],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "nbl",
@@ -422,9 +422,9 @@
     "tcga": "TARGET-NBL",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "os",
@@ -433,9 +433,9 @@
     "tcga": "TARGET-OS",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "pcpg",
@@ -444,9 +444,9 @@
     "tcga": "TCGA-PCPG",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "rms",
@@ -455,9 +455,9 @@
     "tcga": "TARGET-RMS",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "rt",
@@ -466,9 +466,9 @@
     "tcga": "TARGET-RT",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "sarc",
@@ -477,9 +477,9 @@
     "tcga": "TCGA-SARC",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "thym",
@@ -488,9 +488,9 @@
     "tcga": "TCGA-THYM",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   },
   {
     "id": "wt",
@@ -499,8 +499,8 @@
     "tcga": "TARGET-WT",
     "paper_count": 7,
     "specialty_journals": [],
-    "notes": "成稿 6 / 收录 7",
-    "done_count": 6,
-    "usable_count": 1
+    "notes": "成稿 7 / 收录 7",
+    "done_count": 7,
+    "usable_count": 0
   }
 ]
