@@ -5,11 +5,11 @@
   "warning_source": "预警标记参考中科院期刊分区表国际期刊预警名单及公开讨论口径；非法律意见，以官方最新名单为准。",
   "examples_note": "范文以 2025–2026 公开组学预后/分型文为主；个别写法模板参考可略早。Cancers/PeerJ 有运营占位条，可按癌种替换为最新命中 DOI。",
   "product_scope": "双产品线：①公开组学肿瘤预后/分型；②公开队列公卫流行病学（CHARLS 类暴露–疾病）。",
-  "manuscript_note": "肿瘤线约 322 篇选题；公卫线已上架 42 篇（成稿 3 / 可用 39）。分区投稿前请复核当年口径。",
+  "manuscript_note": "肿瘤线成稿 291 / 可用 31；公卫线成稿 3 / 可用 39（CHARLS用户组审核中）。",
   "catalog_totals": {
-    "articles": 525,
-    "ready": 177,
-    "usable": 272
+    "articles": 322,
+    "ready": 291,
+    "usable": 31
   },
   "ga_ai_batch": "133_complete",
   "lines": {
@@ -29,9 +29,7 @@
   "epi_totals": {
     "articles": 42,
     "ready": 3,
-    "usable": 39,
-    "diseases": 12,
-    "methods": 4
+    "usable": 39
   },
   "ga_schematic_refresh": "55_complete",
   "title_note": "英文题已做全局去重（334篇总量不变）；旧题在 title_prev。成稿投刊前请与正文标题对齐。"

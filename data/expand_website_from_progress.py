@@ -221,27 +221,42 @@ def main() -> None:
             continue
 
         article = ROOT / cancer_zh / r["dir"]
-        title = extract_title(article / "manuscript" / "manuscript.tex")
+        tex_title = extract_title(article / "manuscript" / "manuscript.tex")
+        base = old_by_id.get(f"{cid}_{mid}", {})
+        # Prefer previously curated unique English titles over homogenizing tex defaults
+        title = base.get("title") or tex_title
         if not title:
             title = f"{en}: {METHOD_META[mid]['analysis_style']}"
 
         meta = METHOD_META[mid]
         pid = f"{cid}_{mid}"
         # Prefer hand-curated journal fields from original 63 when available
-        base = old_by_id.get(pid, {})
         backups = list(base.get("journals_backup") or meta["journals_backup"])
         for s in specialty:
             if s not in backups:
                 backups.append(s)
 
         status = STATUS_MAP.get(overall, "data_ready")
-        risk_tags = []
-        if mid in {"art03", "art04", "art07"}:
+        risk_tags = list(base.get("risk_tags") or [])
+        if mid in {"art03", "art04", "art07"} and "依赖复发/化疗信息完整性" not in risk_tags:
             risk_tags.append("依赖复发/化疗信息完整性")
-        if mid == "art04":
+        if mid == "art04" and "可能阴性结果需降档" not in risk_tags:
             risk_tags.append("可能阴性结果需降档")
         if overall == "可用":
-            risk_tags.append("缺主图或数据不完整，投稿前复核")
+            if "缺主图或数据不完整，投稿前复核" not in risk_tags:
+                risk_tags.append("缺主图或数据不完整，投稿前复核")
+            # honest annotation from factory upgrade
+            summary = article / "data" / "processed" / "analysis_summary.json"
+            if summary.exists():
+                try:
+                    sj = json.loads(summary.read_text(encoding="utf-8"))
+                    for t in sj.get("risk_tags") or []:
+                        if t not in risk_tags:
+                            risk_tags.append(t)
+                except Exception:
+                    pass
+        else:
+            risk_tags = [t for t in risk_tags if "缺主图" not in t]
 
         serial += 1
         intro = (
@@ -251,6 +266,7 @@ def main() -> None:
         paper = {
             "id": pid,
             "serial": serial,
+            "line": "oncology",
             "cancer_id": cid,
             "cancer_zh": cancer_zh,
             "method_id": mid,
@@ -273,6 +289,8 @@ def main() -> None:
             "graphical_abstract": f"assets/ga/{pid}.jpg",
             "status": status,
         }
+        if base.get("title_prev"):
+            paper["title_prev"] = base["title_prev"]
         papers.append(paper)
 
         if cid not in cancers_used:
@@ -321,21 +339,39 @@ def main() -> None:
     for i, p in enumerate(uniq, 1):
         p["serial"] = i
 
+    # Preserve public-health (epi) shelf cards — oncology expand must not wipe them
+    epi_keep = [p for p in old_papers if p.get("line") == "epi"]
+    onco_ids = {p["id"] for p in uniq}
+    for p in epi_keep:
+        if p["id"] not in onco_ids:
+            uniq.append(p)
+    for i, p in enumerate(uniq, 1):
+        p["serial"] = i
+
     (DATA / "papers.json").write_text(json.dumps(uniq, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (DATA / "cancers.json").write_text(json.dumps(cancers, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     meta_path = DATA / "meta.json"
     meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
     meta["last_updated"] = str(date.today())
+    onco = [p for p in uniq if p.get("line") != "epi"]
+    epi = [p for p in uniq if p.get("line") == "epi"]
     meta["catalog_totals"] = {
-        "articles": len(rows),
-        "ready": factory.get("完稿", 0),
-        "usable": factory.get("可用", 0),
+        "articles": len(onco),
+        "ready": sum(1 for p in onco if p.get("status") == "manuscript"),
+        "usable": sum(1 for p in onco if p.get("status") == "usable"),
+    }
+    meta["epi_totals"] = {
+        "articles": len(epi),
+        "ready": sum(1 for p in epi if p.get("status") == "manuscript"),
+        "usable": sum(1 for p in epi if p.get("status") == "usable"),
     }
     meta.pop("factory_totals", None)
     meta["manuscript_note"] = (
-        f"本站收录公开组学预后/分型方向的成稿与可用选题（标准实体瘤），"
-        f"当前约 {len(uniq)} 篇、{len(cancers)} 个癌种，便于按写法匹配期刊分区与投稿策略。"
+        f"肿瘤线约 {len(onco)} 篇选题（成稿 {meta['catalog_totals']['ready']} / "
+        f"可用 {meta['catalog_totals']['usable']}）；"
+        f"公卫线已上架 {len(epi)} 篇（成稿 {meta['epi_totals']['ready']} / "
+        f"可用 {meta['epi_totals']['usable']}）。分区投稿前请复核当年口径。"
     )
     meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -344,6 +380,8 @@ def main() -> None:
             {
                 "factory": dict(factory),
                 "shelf_papers": len(uniq),
+                "shelf_oncology": len(onco),
+                "shelf_epi": len(epi),
                 "shelf_cancers": len(cancers),
                 "manuscript_on_shelf": sum(1 for p in uniq if p["status"] == "manuscript"),
                 "cancer_ids": [c["id"] for c in cancers],

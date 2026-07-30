@@ -14,10 +14,14 @@
 
 ## 跑数
 
-1. 将 CHARLS 用户下载的基线/随访与城市暴露表放到各篇 `data/`（勿提交隐私与未授权数据）。
-2. 运行对应 `code/run_analysis.py`（或 R 脚本）生成 `results/*.csv|json`。
-3. 用 `code/fill_results_into_manuscript.py`（若有）把占位符替换进正文。
+1. 将 CHARLS 用户下载的基线/随访与城市暴露表放到各篇 `data/`（gitignore 已就绪）：
+   - `charls_baseline.csv`（或 `.dta`）
+   - `charls_followup.csv`（epi03/04）
+   - `city_rui_env_2011.csv` / `city_exposure.csv` / `city_pm25.csv`
+2. 共享管线在仓库根目录 `公卫队列/_lib/epi_pipeline.py`；本目录 `htn_epi01`/`dm_epi03` 的 `run_analysis.py` 会调用它。
+3. 批量：`python tools/run_epi_green_batch.py`（无微数据时只写空模板，**不**改 `status=manuscript`）。
+4. 仅当 `results/metrics.json` 中 `_data_ready=true` 且有 `N_TOTAL` 后，再标成稿。
 
 ## 站点
 
-`website/data/build_epi_line.py` 维护选题卡；成稿状态在 `papers.json` 的 `status=manuscript`。
+`website/data/build_epi_line.py` / `expand_epi_catalog.py` 维护选题卡；成稿状态在 `papers.json` 的 `status=manuscript`。
